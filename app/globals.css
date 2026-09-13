@@ -593,7 +593,6 @@ a { color: inherit; }
 }
 .event-more {
   border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
 }
 .event-more summary {
   display: flex;
