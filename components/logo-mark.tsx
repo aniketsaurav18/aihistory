@@ -1,0 +1,19 @@
+type LogoMarkProps = {
+  className?: string;
+};
+
+export default function LogoMark({ className }: LogoMarkProps) {
+  return (
+    <svg className={className} viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="32" cy="32" r="31" fill="#191917" />
+      <path
+        fill="#f3f0e8"
+        d="M11.5 46 24.7 17h7.8L45 46h-7.8l-2.6-6.8H22.3L19.5 46h-8Zm13.4-13.6H32l-3.5-9.3-3.6 9.3Z"
+      />
+      <path d="M50 16v32" stroke="#d6ff3f" strokeWidth="2" />
+      <circle cx="50" cy="18" r="3" fill="#d6ff3f" />
+      <circle cx="50" cy="32" r="3" fill="#d6ff3f" />
+      <circle cx="50" cy="46" r="3" fill="#d6ff3f" />
+    </svg>
+  );
+}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LogoMark from "@/components/logo-mark";
 
 type SiteHeaderProps = {
   eventCount: number;
@@ -9,7 +10,7 @@ export default function SiteHeader({ eventCount, current = "archive" }: SiteHead
   return (
     <nav className="topbar" aria-label="Primary navigation">
       <Link className="wordmark" href={current === "archive" ? "#top" : "/"} aria-label="AI History home">
-        <span className="wordmark-mark" aria-hidden="true">A</span>
+        <LogoMark className="wordmark-mark" />
         <span>AI History</span>
       </Link>
 

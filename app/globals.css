@@ -74,16 +74,10 @@ a { color: inherit; }
 }
 
 .wordmark-mark {
-  display: grid;
-  place-items: center;
-  width: 28px;
-  height: 28px;
-  background: var(--ink);
-  color: var(--paper);
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 19px;
-  border-radius: 50%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
 }
 
 .live-status,
