@@ -7,6 +7,7 @@
  "events": [
   {
    "id": "2024-05-21-seoul-commitments-context",
+   "highlight": false,
    "date": "2024-05-21",
    "title": "Context: Seoul Frontier AI Safety Commitments (2024, voluntary, precursor cited in 2026)",
    "category": "policy",
@@ -50,6 +51,7 @@
   },
   {
    "id": "2025-09-29-sb53-effective-context",
+   "highlight": false,
    "date": "2026-01-01",
    "title": "Context: California SB 53 takes effect Jan 1, 2026",
    "category": "policy",
@@ -80,6 +82,7 @@
    "confidence": "high",
    "date": "2026-01-05",
    "id": "2026-01-05-nvidia-nemotron-speech-rag-safety",
+   "highlight": false,
    "organizations": [
     "NVIDIA"
    ],
@@ -110,6 +113,7 @@
    "confidence": "high",
    "date": "2026-01-08",
    "id": "2026-01-08-ai21-jamba2",
+   "highlight": false,
    "organizations": [
     "AI21 Labs"
    ],
@@ -139,6 +143,7 @@
    "confidence": "high",
    "date": "2026-01-13",
    "id": "2026-01-13-baichuan-m3",
+   "highlight": false,
    "organizations": [
     "Baichuan"
    ],
@@ -166,6 +171,7 @@
    "confidence": "medium",
    "date": "2026-01-13",
    "id": "2026-01-13-stepfun-step3-vl-10b",
+   "highlight": false,
    "organizations": [
     "StepFun"
    ],
@@ -194,6 +200,7 @@
    "confidence": "high",
    "date": "2026-01-13",
    "id": "2026-01-13-veo-3-1-ingredients-vertical",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -232,6 +239,7 @@
    "confidence": "high",
    "date": "2026-01-14",
    "id": "2026-01-14-longcat-thinking",
+   "highlight": false,
    "organizations": [
     "Meituan LongCat"
    ],
@@ -261,6 +269,7 @@
    "confidence": "medium",
    "date": "2026-01-15",
    "id": "2026-01-15-oppo-andesvl",
+   "highlight": false,
    "organizations": [
     "OPPO"
    ],
@@ -289,6 +298,7 @@
    "confidence": "high",
    "date": "2026-01-22",
    "id": "2026-01-22-baidu-ernie-5",
+   "highlight": false,
    "organizations": [
     "Baidu"
    ],
@@ -318,6 +328,7 @@
    "confidence": "high",
    "date": "2026-01-27",
    "id": "2026-01-27-kimi-k2-5",
+   "highlight": false,
    "organizations": [
     "Moonshot AI"
    ],
@@ -353,6 +364,7 @@
   },
   {
    "id": "2026-01-29-gpt4o-retirement",
+   "highlight": false,
    "date": "2026-01-29",
    "title": "OpenAI retires GPT-4o, 4.1 and o4-mini from ChatGPT (effective Feb 13)",
    "category": "product",
@@ -383,6 +395,7 @@
    "confidence": "high",
    "date": "2026-02-01",
    "id": "2026-02-01-stepfun-3-5-flash",
+   "highlight": false,
    "organizations": [
     "StepFun"
    ],
@@ -411,6 +424,7 @@
    "confidence": "high",
    "date": "2026-02-03",
    "id": "2026-02-03-qwen3-coder-next",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -448,6 +462,7 @@
    "confidence": "high",
    "date": "2026-02-03",
    "id": "2026-02-03-windsurf-tab-v2",
+   "highlight": false,
    "organizations": [
     "Cognition",
     "Windsurf"
@@ -478,6 +493,7 @@
    "confidence": "high",
    "date": "2026-02-04",
    "id": "2026-02-04-mistral-voxtral-transcribe-2",
+   "highlight": false,
    "organizations": [
     "Mistral AI"
    ],
@@ -507,6 +523,7 @@
    "confidence": "high",
    "date": "2026-02-05",
    "id": "2026-02-05-claude-opus-4-6",
+   "highlight": false,
    "organizations": [
     "Anthropic"
    ],
@@ -536,6 +553,7 @@
    "confidence": "high",
    "date": "2026-02-05",
    "id": "2026-02-05-gpt-5-3-codex",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -573,6 +591,7 @@
    "confidence": "medium",
    "date": "2026-02-11",
    "id": "2026-02-11-iflytek-x2",
+   "highlight": false,
    "organizations": [
     "iFlytek"
    ],
@@ -598,6 +617,7 @@
    "confidence": "high",
    "date": "2026-02-12",
    "id": "2026-02-12-gemini-3-deep-think-upgrade",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -628,6 +648,7 @@
    "confidence": "high",
    "date": "2026-02-12",
    "id": "2026-02-12-glm-5",
+   "highlight": true,
    "organizations": [
     "Zhipu AI"
    ],
@@ -665,6 +686,7 @@
    "confidence": "high",
    "date": "2026-02-12",
    "id": "2026-02-12-minimax-m2-5",
+   "highlight": false,
    "organizations": [
     "MiniMax"
    ],
@@ -694,6 +716,7 @@
    "confidence": "high",
    "date": "2026-02-12",
    "id": "2026-02-12-seedance-2",
+   "highlight": false,
    "organizations": [
     "ByteDance Seed"
    ],
@@ -722,6 +745,7 @@
    "confidence": "high",
    "date": "2026-02-14",
    "id": "2026-02-14-bytedance-seed-2",
+   "highlight": false,
    "organizations": [
     "ByteDance Seed"
    ],
@@ -751,6 +775,7 @@
    "confidence": "high",
    "date": "2026-02-16",
    "id": "2026-02-16-qwen3-5-397b",
+   "highlight": true,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -780,6 +805,7 @@
    "confidence": "high",
    "date": "2026-02-17",
    "id": "2026-02-17-claude-sonnet-4-6",
+   "highlight": false,
    "organizations": [
     "Anthropic"
    ],
@@ -809,6 +835,7 @@
    "confidence": "medium",
    "date": "2026-02-17",
    "id": "2026-02-17-xai-grok-4-20-beta",
+   "highlight": false,
    "organizations": [
     "xAI"
    ],
@@ -837,6 +864,7 @@
    "confidence": "high",
    "date": "2026-02-18",
    "id": "2026-02-18-lyria-3-gemini-app",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -867,6 +895,7 @@
    "confidence": "high",
    "date": "2026-02-19",
    "id": "2026-02-19-gemini-3-1-pro-preview",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -906,6 +935,7 @@
    "confidence": "high",
    "date": "2026-02-23",
    "id": "2026-02-23-gpt-realtime-1-5-audio-1-5",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -943,6 +973,7 @@
    "confidence": "high",
    "date": "2026-02-24",
    "id": "2026-02-24-qwen3-5-mid",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -969,6 +1000,7 @@
   },
   {
    "id": "2026-02-24-rsp-v3",
+   "highlight": false,
    "date": "2026-02-24",
    "title": "Anthropic RSP v3.0 safety framework rewrite",
    "category": "policy",
@@ -999,6 +1031,7 @@
    "confidence": "high",
    "date": "2026-02-26",
    "id": "2026-02-26-nano-banana-2-flash-image",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1037,6 +1070,7 @@
    "confidence": "low",
    "date": "2026-03-01",
    "id": "2026-03-01-yi-lightning-2",
+   "highlight": false,
    "organizations": [
     "01.AI"
    ],
@@ -1061,6 +1095,7 @@
    "confidence": "high",
    "date": "2026-03-02",
    "id": "2026-03-02-qwen3-5-small",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -1089,6 +1124,7 @@
    "confidence": "high",
    "date": "2026-03-03",
    "id": "2026-03-03-gemini-3-1-flash-lite-preview",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1118,6 +1154,7 @@
    "confidence": "high",
    "date": "2026-03-03",
    "id": "2026-03-03-gpt-5-3-instant",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -1154,6 +1191,7 @@
    "confidence": "high",
    "date": "2026-03-04",
    "id": "2026-03-04-microsoft-phi-4-reasoning-vision",
+   "highlight": false,
    "organizations": [
     "Microsoft"
    ],
@@ -1183,6 +1221,7 @@
    "confidence": "high",
    "date": "2026-03-05",
    "id": "2026-03-05-gpt-5-4-thinking-pro",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -1212,6 +1251,7 @@
    "confidence": "high",
    "date": "2026-03-10",
    "id": "2026-03-10-nvidia-nemotron-3-super",
+   "highlight": false,
    "organizations": [
     "NVIDIA"
    ],
@@ -1241,6 +1281,7 @@
    "confidence": "high",
    "date": "2026-03-16",
    "id": "2026-03-16-mistral-leanstral",
+   "highlight": false,
    "organizations": [
     "Mistral AI"
    ],
@@ -1270,6 +1311,7 @@
    "confidence": "high",
    "date": "2026-03-16",
    "id": "2026-03-16-mistral-small-4",
+   "highlight": false,
    "organizations": [
     "Mistral AI"
    ],
@@ -1300,6 +1342,7 @@
    "confidence": "high",
    "date": "2026-03-17",
    "id": "2026-03-17-gpt-5-4-mini-nano",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -1330,6 +1373,7 @@
    "confidence": "high",
    "date": "2026-03-18",
    "id": "2026-03-18-mimo-v2-omni",
+   "highlight": false,
    "organizations": [
     "Xiaomi MiMo"
    ],
@@ -1358,6 +1402,7 @@
    "confidence": "high",
    "date": "2026-03-18",
    "id": "2026-03-18-mimo-v2-pro",
+   "highlight": false,
    "organizations": [
     "Xiaomi MiMo"
    ],
@@ -1387,6 +1432,7 @@
    "confidence": "high",
    "date": "2026-03-18",
    "id": "2026-03-18-minimax-m2-7",
+   "highlight": false,
    "organizations": [
     "MiniMax"
    ],
@@ -1415,6 +1461,7 @@
    "confidence": "high",
    "date": "2026-03-23",
    "id": "2026-03-23-mistral-voxtral-tts",
+   "highlight": false,
    "organizations": [
     "Mistral AI"
    ],
@@ -1443,6 +1490,7 @@
    "confidence": "high",
    "date": "2026-03-25",
    "id": "2026-03-25-lyria-3-pro-clip-preview",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1472,6 +1520,7 @@
    "confidence": "medium",
    "date": "2026-03-25",
    "id": "2026-03-25-qwen3-5-max-preview",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -1500,6 +1549,7 @@
    "confidence": "high",
    "date": "2026-03-26",
    "id": "2026-03-26-gemini-3-1-flash-live",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1530,6 +1580,7 @@
    "confidence": "high",
    "date": "2026-03-31",
    "id": "2026-03-31-veo-3-1-lite",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1559,6 +1610,7 @@
    "confidence": "high",
    "date": "2026-04-02",
    "id": "2026-04-02-gemma-4-open-models",
+   "highlight": true,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1598,6 +1650,7 @@
    "confidence": "high",
    "date": "2026-04-07",
    "id": "2026-04-07-claude-mythos-preview-glasswing",
+   "highlight": true,
    "organizations": [
     "Anthropic"
    ],
@@ -1636,6 +1689,7 @@
    "confidence": "high",
    "date": "2026-04-07",
    "id": "2026-04-07-cognition-swe-1-6",
+   "highlight": false,
    "organizations": [
     "Cognition",
     "Windsurf"
@@ -1665,6 +1719,7 @@
    "confidence": "high",
    "date": "2026-04-07",
    "id": "2026-04-07-glm-5-1",
+   "highlight": false,
    "organizations": [
     "Zhipu AI"
    ],
@@ -1693,6 +1748,7 @@
    "confidence": "high",
    "date": "2026-04-08",
    "id": "2026-04-08-meta-muse-spark",
+   "highlight": true,
    "organizations": [
     "Meta",
     "Meta Superintelligence Labs"
@@ -1724,6 +1780,7 @@
    "confidence": "high",
    "date": "2026-04-14",
    "id": "2026-04-14-gemini-robotics-er-1-6",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1753,6 +1810,7 @@
    "confidence": "high",
    "date": "2026-04-14",
    "id": "2026-04-14-gpt-5-4-cyber",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -1782,6 +1840,7 @@
    "confidence": "high",
    "date": "2026-04-15",
    "id": "2026-04-15-gemini-3-1-flash-tts",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -1812,6 +1871,7 @@
    "confidence": "high",
    "date": "2026-04-16",
    "id": "2026-04-16-claude-opus-4-7",
+   "highlight": false,
    "organizations": [
     "Anthropic"
    ],
@@ -1841,6 +1901,7 @@
    "confidence": "high",
    "date": "2026-04-16",
    "id": "2026-04-16-qwen3-6-35b",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -1869,6 +1930,7 @@
    "confidence": "high",
    "date": "2026-04-20",
    "id": "2026-04-20-kimi-k2-6",
+   "highlight": false,
    "organizations": [
     "Moonshot AI"
    ],
@@ -1898,6 +1960,7 @@
    "confidence": "medium",
    "date": "2026-04-21",
    "id": "2026-04-21-gpt-image-2",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -1926,6 +1989,7 @@
    "confidence": "high",
    "date": "2026-04-22",
    "id": "2026-04-22-qwen3-6-27b",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -1954,6 +2018,7 @@
    "confidence": "high",
    "date": "2026-04-23",
    "id": "2026-04-23-gpt-5-5",
+   "highlight": true,
    "organizations": [
     "OpenAI"
    ],
@@ -1984,6 +2049,7 @@
    "confidence": "high",
    "date": "2026-04-23",
    "id": "2026-04-23-mimo-v2-5",
+   "highlight": false,
    "organizations": [
     "Xiaomi MiMo"
    ],
@@ -2012,6 +2078,7 @@
    "confidence": "high",
    "date": "2026-04-23",
    "id": "2026-04-23-tencent-hy3-preview",
+   "highlight": false,
    "organizations": [
     "Tencent Hunyuan"
    ],
@@ -2040,6 +2107,7 @@
    "confidence": "high",
    "date": "2026-04-24",
    "id": "2026-04-24-deepseek-v4-pro-flash",
+   "highlight": true,
    "organizations": [
     "DeepSeek"
    ],
@@ -2078,6 +2146,7 @@
    "confidence": "high",
    "date": "2026-04-27",
    "id": "2026-04-27-mimo-v2-5-pro",
+   "highlight": false,
    "organizations": [
     "Xiaomi MiMo"
    ],
@@ -2107,6 +2176,7 @@
    "confidence": "high",
    "date": "2026-04-28",
    "id": "2026-04-28-nvidia-nemotron-3-nano-omni",
+   "highlight": false,
    "organizations": [
     "NVIDIA"
    ],
@@ -2135,6 +2205,7 @@
    "confidence": "high",
    "date": "2026-04-28",
    "id": "2026-04-28-poolside-laguna-xs2-m1",
+   "highlight": false,
    "organizations": [
     "Poolside"
    ],
@@ -2163,6 +2234,7 @@
    "confidence": "high",
    "date": "2026-04-29",
    "id": "2026-04-29-mistral-medium-3-5",
+   "highlight": false,
    "organizations": [
     "Mistral AI"
    ],
@@ -2192,6 +2264,7 @@
    "confidence": "high",
    "date": "2026-04-29",
    "id": "2026-04-29-sensetime-u1",
+   "highlight": false,
    "organizations": [
     "SenseTime"
    ],
@@ -2220,6 +2293,7 @@
    "confidence": "medium",
    "date": "2026-04-30",
    "id": "2026-04-30-xai-grok-4-3",
+   "highlight": false,
    "organizations": [
     "xAI"
    ],
@@ -2245,6 +2319,7 @@
    "confidence": "high",
    "date": "2026-05-05",
    "id": "2026-05-05-gpt-5-5-instant",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -2282,6 +2357,7 @@
    "confidence": "high",
    "date": "2026-05-07",
    "id": "2026-05-07-gpt-5-5-cyber-preview",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -2310,6 +2386,7 @@
    "confidence": "high",
    "date": "2026-05-07",
    "id": "2026-05-07-gpt-realtime-2-family",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -2340,6 +2417,7 @@
    "confidence": "high",
    "date": "2026-05-08",
    "id": "2026-05-08-baidu-ernie-5-1",
+   "highlight": false,
    "organizations": [
     "Baidu"
    ],
@@ -2369,6 +2447,7 @@
    "confidence": "medium",
    "date": "2026-05-08",
    "id": "2026-05-08-sensetime-flash-lite",
+   "highlight": false,
    "organizations": [
     "SenseTime"
    ],
@@ -2397,6 +2476,7 @@
    "confidence": "high",
    "date": "2026-05-19",
    "id": "2026-05-19-gemini-3-5-flash",
+   "highlight": true,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -2427,6 +2507,7 @@
    "confidence": "high",
    "date": "2026-05-20",
    "id": "2026-05-20-cohere-command-a-plus",
+   "highlight": false,
    "organizations": [
     "Cohere"
    ],
@@ -2456,6 +2537,7 @@
    "confidence": "high",
    "date": "2026-05-20",
    "id": "2026-05-20-qwen3-7-max",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -2485,6 +2567,7 @@
    "confidence": "medium",
    "date": "2026-05-26",
    "id": "2026-05-26-baichuan-m4",
+   "highlight": false,
    "organizations": [
     "Baichuan"
    ],
@@ -2513,6 +2596,7 @@
    "confidence": "high",
    "date": "2026-05-27",
    "id": "2026-05-27-snowflake-arctic-text2sql-r2",
+   "highlight": false,
    "organizations": [
     "Snowflake"
    ],
@@ -2542,6 +2626,7 @@
    "confidence": "high",
    "date": "2026-05-27",
    "id": "2026-05-27-stepfun-3-7-flash",
+   "highlight": false,
    "organizations": [
     "StepFun"
    ],
@@ -2570,6 +2655,7 @@
    "confidence": "high",
    "date": "2026-05-28",
    "id": "2026-05-28-claude-opus-4-8",
+   "highlight": false,
    "organizations": [
     "Anthropic"
    ],
@@ -2599,6 +2685,7 @@
    "confidence": "high",
    "date": "2026-05-28",
    "id": "2026-05-28-nano-banana-2-pro-ga",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google Cloud",
@@ -2630,6 +2717,7 @@
    "confidence": "high",
    "date": "2026-05-29",
    "id": "2026-05-29-xai-grok-build-01",
+   "highlight": false,
    "organizations": [
     "xAI"
    ],
@@ -2658,6 +2746,7 @@
    "confidence": "low",
    "date": "2026-06-01",
    "id": "2026-06-01-deepseek-r2-rumor",
+   "highlight": false,
    "organizations": [
     "DeepSeek"
    ],
@@ -2682,6 +2771,7 @@
    "confidence": "high",
    "date": "2026-06-01",
    "id": "2026-06-01-minimax-m3",
+   "highlight": false,
    "organizations": [
     "MiniMax"
    ],
@@ -2711,6 +2801,7 @@
    "confidence": "medium",
    "date": "2026-06-01",
    "id": "2026-06-01-qwen3-7-plus",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -2735,6 +2826,7 @@
    "confidence": "high",
    "date": "2026-06-03",
    "id": "2026-06-03-gemma-4-12b",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -2765,6 +2857,7 @@
    "confidence": "high",
    "date": "2026-06-04",
    "id": "2026-06-04-nvidia-nemotron-3-ultra",
+   "highlight": false,
    "organizations": [
     "NVIDIA"
    ],
@@ -2794,6 +2887,7 @@
    "confidence": "high",
    "date": "2026-06-08",
    "id": "2026-06-08-apple-afm-gen3",
+   "highlight": true,
    "organizations": [
     "Apple",
     "Google"
@@ -2823,6 +2917,7 @@
    "confidence": "high",
    "date": "2026-06-09",
    "id": "2026-06-09-claude-fable-5-mythos-5",
+   "highlight": true,
    "organizations": [
     "Anthropic"
    ],
@@ -2853,6 +2948,7 @@
    "confidence": "high",
    "date": "2026-06-09",
    "id": "2026-06-09-gemini-3-5-live-translate",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -2882,6 +2978,7 @@
    "confidence": "high",
    "date": "2026-06-12",
    "id": "2026-06-12-kimi-k2-7-code",
+   "highlight": false,
    "organizations": [
     "Moonshot AI"
    ],
@@ -2910,6 +3007,7 @@
    "confidence": "high",
    "date": "2026-06-16",
    "id": "2026-06-16-glm-5-2",
+   "highlight": false,
    "organizations": [
     "Zhipu AI"
    ],
@@ -2938,6 +3036,7 @@
    "confidence": "high",
    "date": "2026-06-22",
    "id": "2026-06-22-gpt-5-5-cyber-full",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -2966,6 +3065,7 @@
    "confidence": "high",
    "date": "2026-06-23",
    "id": "2026-06-23-bytedance-seed-2-1",
+   "highlight": false,
    "organizations": [
     "ByteDance Seed"
    ],
@@ -2993,6 +3093,7 @@
    "confidence": "high",
    "date": "2026-06-24",
    "id": "2026-06-24-computer-use-gemini-3-5-flash",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -3022,6 +3123,7 @@
    "confidence": "high",
    "date": "2026-06-26",
    "id": "2026-06-26-gpt-5-6-preview",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -3050,6 +3152,7 @@
   },
   {
    "id": "2026-06-29-antitrust-blocker",
+   "highlight": true,
    "date": "2026-06-29",
    "title": "Context: Can Frontier Labs Lawfully Agree to Pause? (antitrust analysis)",
    "category": "policy",
@@ -3081,6 +3184,7 @@
    "confidence": "high",
    "date": "2026-06-30",
    "id": "2026-06-30-claude-sonnet-5",
+   "highlight": false,
    "organizations": [
     "Anthropic"
    ],
@@ -3110,6 +3214,7 @@
    "confidence": "high",
    "date": "2026-06-30",
    "id": "2026-06-30-huawei-openpangu-flash",
+   "highlight": false,
    "organizations": [
     "Huawei"
    ],
@@ -3135,6 +3240,7 @@
    "confidence": "high",
    "date": "2026-06-30",
    "id": "2026-06-30-longcat-2",
+   "highlight": false,
    "organizations": [
     "Meituan LongCat"
    ],
@@ -3165,6 +3271,7 @@
    "confidence": "high",
    "date": "2026-07-02",
    "id": "2026-07-02-mistral-leanstral-15",
+   "highlight": false,
    "organizations": [
     "Mistral AI"
    ],
@@ -3193,6 +3300,7 @@
    "confidence": "medium",
    "date": "2026-07-02",
    "id": "2026-07-02-poolside-laguna-xs21",
+   "highlight": false,
    "organizations": [
     "Poolside"
    ],
@@ -3217,6 +3325,7 @@
    "confidence": "medium",
    "date": "2026-07-06",
    "id": "2026-07-06-gpt-realtime-2-1",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -3245,6 +3354,7 @@
    "confidence": "high",
    "date": "2026-07-06",
    "id": "2026-07-06-tencent-hy3",
+   "highlight": false,
    "organizations": [
     "Tencent Hunyuan"
    ],
@@ -3273,6 +3383,7 @@
    "confidence": "high",
    "date": "2026-07-07",
    "id": "2026-07-07-meta-muse-image",
+   "highlight": false,
    "organizations": [
     "Meta",
     "Meta Superintelligence Labs"
@@ -3303,6 +3414,7 @@
    "confidence": "medium",
    "date": "2026-07-08",
    "id": "2026-07-08-cognition-swe-1-7",
+   "highlight": false,
    "organizations": [
     "Cognition"
    ],
@@ -3331,6 +3443,7 @@
    "confidence": "high",
    "date": "2026-07-08",
    "id": "2026-07-08-gpt-live-1",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -3360,6 +3473,7 @@
    "confidence": "high",
    "date": "2026-07-08",
    "id": "2026-07-08-sensetime-vision",
+   "highlight": false,
    "organizations": [
     "SenseTime"
    ],
@@ -3387,6 +3501,7 @@
    "confidence": "high",
    "date": "2026-07-09",
    "id": "2026-07-09-gpt-5-6-ga",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -3418,6 +3533,7 @@
    "confidence": "high",
    "date": "2026-07-09",
    "id": "2026-07-09-meta-muse-spark-11",
+   "highlight": false,
    "organizations": [
     "Meta",
     "Meta Superintelligence Labs"
@@ -3449,6 +3565,7 @@
    "confidence": "high",
    "date": "2026-07-15",
    "id": "2026-07-15-thinking-machines-inkling",
+   "highlight": true,
    "organizations": [
     "Thinking Machines Lab"
    ],
@@ -3478,6 +3595,7 @@
    "confidence": "high",
    "date": "2026-07-16",
    "id": "2026-07-16-kimi-k3",
+   "highlight": true,
    "organizations": [
     "Moonshot AI"
    ],
@@ -3515,6 +3633,7 @@
    "confidence": "high",
    "date": "2026-07-16",
    "id": "2026-07-16-xai-grok-4-5",
+   "highlight": false,
    "organizations": [
     "xAI"
    ],
@@ -3543,6 +3662,7 @@
    "confidence": "high",
    "date": "2026-07-21",
    "id": "2026-07-21-gemini-3-6-flash-cyber",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -3573,6 +3693,7 @@
    "confidence": "low",
    "date": "2026-07-21",
    "id": "2026-07-21-gemini-4-pretraining-future-rumor",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -3600,6 +3721,7 @@
    "confidence": "high",
    "date": "2026-07-21",
    "id": "2026-07-21-poolside-laguna-s21",
+   "highlight": false,
    "organizations": [
     "Poolside"
    ],
@@ -3627,6 +3749,7 @@
   },
   {
    "id": "2026-07-21-openai-hf-breach",
+   "highlight": true,
    "date": "2026-07-21",
    "title": "OpenAI agents escape sandbox and hack Hugging Face (first autonomous AI cyberattack)",
    "category": "drama",
@@ -3684,6 +3807,7 @@
    "confidence": "high",
    "date": "2026-07-24",
    "id": "2026-07-24-claude-opus-5",
+   "highlight": false,
    "organizations": [
     "Anthropic"
    ],
@@ -3711,6 +3835,7 @@
   },
   {
    "id": "2026-07-24-open-weights-letter",
+   "highlight": true,
    "date": "2026-07-24",
    "title": "Open Weights and American AI Leadership letter (25 firms oppose US open-model ban)",
    "category": "policy",
@@ -3760,6 +3885,7 @@
   },
   {
    "id": "2026-07-28-pacing-frontier-letter",
+   "highlight": true,
    "date": "2026-07-28",
    "title": "Pacing the Frontier open letter: slowdown ask (NOT a binding pact)",
    "category": "policy",
@@ -3795,6 +3921,7 @@
    "confidence": "high",
    "date": "2026-07-30",
    "id": "2026-07-30-gemini-robotics-2-family",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -3825,6 +3952,7 @@
    "confidence": "high",
    "date": "2026-07-31",
    "id": "2026-07-31-deepseek-v4-flash-0731",
+   "highlight": false,
    "organizations": [
     "DeepSeek"
    ],
@@ -3853,6 +3981,7 @@
    "confidence": "high",
    "date": "2026-07-31",
    "id": "2026-07-31-huawei-openpangu-pro",
+   "highlight": true,
    "organizations": [
     "Huawei"
    ],
@@ -3882,6 +4011,7 @@
    "confidence": "high",
    "date": "2026-07-31",
    "id": "2026-07-31-minimax-h3",
+   "highlight": false,
    "organizations": [
     "MiniMax"
    ],
@@ -3910,6 +4040,7 @@
    "confidence": "high",
    "date": "2026-07-31",
    "id": "2026-07-31-seedance-2-5",
+   "highlight": false,
    "organizations": [
     "ByteDance Seed"
    ],
@@ -3939,6 +4070,7 @@
    "confidence": "low",
    "date": "2026-08-01",
    "id": "2026-08-01-gemini-3-5-pro-unreleased-rumor",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -3963,6 +4095,7 @@
   },
   {
    "id": "2026-08-02-eu-full-application",
+   "highlight": true,
    "date": "2026-08-02",
    "title": "EU AI Act full application plus GPAI enforcement starts",
    "category": "policy",
@@ -3994,6 +4127,7 @@
    "confidence": "high",
    "date": "2026-08-02",
    "id": "2026-08-02-qwen3-8-max",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -4023,6 +4157,7 @@
    "confidence": "medium",
    "date": "2026-08-06",
    "id": "2026-08-06-gpt-5-6-chat-update",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -4052,6 +4187,7 @@
    "confidence": "high",
    "date": "2026-08-10",
    "id": "2026-08-10-gpt-5-6-cyber",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -4080,6 +4216,7 @@
    "confidence": "high",
    "date": "2026-08-10",
    "id": "2026-08-10-meta-muse-glimmer",
+   "highlight": false,
    "organizations": [
     "Meta",
     "Meta Superintelligence Labs"
@@ -4111,6 +4248,7 @@
    "confidence": "high",
    "date": "2026-08-11",
    "id": "2026-08-11-nvidia-nemotron-3-5-lightning",
+   "highlight": false,
    "organizations": [
     "NVIDIA"
    ],
@@ -4139,6 +4277,7 @@
    "confidence": "high",
    "date": "2026-08-12",
    "id": "2026-08-12-qwen3-8-open-weights",
+   "highlight": true,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -4167,6 +4306,7 @@
    "confidence": "high",
    "date": "2026-08-12",
    "id": "2026-08-12-xai-grok-4-6",
+   "highlight": false,
    "organizations": [
     "xAI"
    ],
@@ -4196,6 +4336,7 @@
    "confidence": "high",
    "date": "2026-08-13",
    "id": "2026-08-13-gemini-3-7-flash",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -4226,6 +4367,7 @@
    "confidence": "high",
    "date": "2026-08-13",
    "id": "2026-08-13-perplexity-agent-api",
+   "highlight": false,
    "organizations": [
     "Perplexity"
    ],
@@ -4254,6 +4396,7 @@
    "confidence": "high",
    "date": "2026-08-14",
    "id": "2026-08-14-glm-5-3",
+   "highlight": false,
    "organizations": [
     "Zhipu AI"
    ],
@@ -4283,6 +4426,7 @@
    "confidence": "high",
    "date": "2026-08-14",
    "id": "2026-08-14-qwen3-8-27b",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -4308,6 +4452,7 @@
   },
   {
    "id": "2026-08-19-openai-pause-reported",
+   "highlight": false,
    "date": "2026-08-19",
    "title": "Reported OpenAI frontier-training pause for safety review (single-lab, unconfirmed as pact)",
    "category": "policy",
@@ -4329,6 +4474,7 @@
    "confidence": "low",
    "date": "2026-08-24",
    "id": "2026-08-24-vivo-bluelm-nano",
+   "highlight": false,
    "organizations": [
     "vivo"
    ],
@@ -4353,6 +4499,7 @@
    "confidence": "high",
    "date": "2026-08-26",
    "id": "2026-08-26-gemini-3-5-transcribe",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -4383,6 +4530,7 @@
    "confidence": "high",
    "date": "2026-08-26",
    "id": "2026-08-26-glm-5-3-flash",
+   "highlight": false,
    "organizations": [
     "Zhipu AI"
    ],
@@ -4411,6 +4559,7 @@
    "confidence": "high",
    "date": "2026-08-26",
    "id": "2026-08-26-qwen3-8-flash-next",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -4440,6 +4589,7 @@
    "confidence": "low",
    "date": "2026-08-26",
    "id": "2026-08-26-qwen4-rumor",
+   "highlight": false,
    "organizations": [
     "Alibaba Qwen"
    ],
@@ -4463,6 +4613,7 @@
    "confidence": "high",
    "date": "2026-08-28",
    "id": "2026-08-28-tencent-hy4-preview",
+   "highlight": true,
    "organizations": [
     "Tencent Hunyuan"
    ],
@@ -4491,6 +4642,7 @@
    "confidence": "high",
    "date": "2026-09-01",
    "id": "2026-09-01-claude-fable-5-1-mythos-5-1",
+   "highlight": false,
    "organizations": [
     "Anthropic"
    ],
@@ -4520,6 +4672,7 @@
    "confidence": "high",
    "date": "2026-09-02",
    "id": "2026-09-02-gemini-3-8-flash-cyber",
+   "highlight": false,
    "organizations": [
     "Google",
     "Google DeepMind"
@@ -4559,6 +4712,7 @@
    "confidence": "high",
    "date": "2026-09-03",
    "id": "2026-09-03-gpt-6-astra",
+   "highlight": true,
    "organizations": [
     "OpenAI"
    ],
@@ -4596,6 +4750,7 @@
   },
   {
    "id": "2026-09-03-nvidia-huggingface",
+   "highlight": true,
    "date": "2026-09-03",
    "title": "NVIDIA to acquire Hugging Face for $12.93B (open hub under compute landlord)",
    "category": "company",
@@ -4644,6 +4799,7 @@
    "confidence": "low",
    "date": "2026-09-07",
    "id": "2026-09-07-iflytek-x2-5",
+   "highlight": false,
    "organizations": [
     "iFlytek"
    ],
@@ -4668,6 +4824,7 @@
    "confidence": "high",
    "date": "2026-09-08",
    "id": "2026-09-08-images-2-5",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -4695,6 +4852,7 @@
   },
   {
    "id": "2026-09-08-coxon-resigns",
+   "highlight": true,
    "date": "2026-09-08",
    "title": "Anthropic researcher Jacob Coxon quits over safety (gambling with our lives)",
    "category": "drama",
@@ -4736,6 +4894,7 @@
    "confidence": "medium",
    "date": "2026-09-09",
    "id": "2026-09-09-databricks-adaptive-retriever",
+   "highlight": false,
    "organizations": [
     "Databricks"
    ],
@@ -4764,6 +4923,7 @@
    "confidence": "medium",
    "date": "2026-09-10",
    "id": "2026-09-10-cognition-swe-2",
+   "highlight": false,
    "organizations": [
     "Cognition"
    ],
@@ -4793,6 +4953,7 @@
    "confidence": "high",
    "date": "2026-09-10",
    "id": "2026-09-10-deepseek-v4-1-flash",
+   "highlight": false,
    "organizations": [
     "DeepSeek"
    ],
@@ -4830,6 +4991,7 @@
    "confidence": "high",
    "date": "2026-09-10",
    "id": "2026-09-10-gpt-live-1-api",
+   "highlight": false,
    "organizations": [
     "OpenAI"
    ],
@@ -4859,6 +5021,7 @@
    "confidence": "medium",
    "date": "2026-09-11",
    "id": "2026-09-11-kimi-k2-8-preview",
+   "highlight": false,
    "organizations": [
     "Moonshot AI"
    ],
@@ -4881,6 +5044,7 @@
   },
   {
    "id": "2026-09-12-amodei-slow-pace-essay",
+   "highlight": true,
    "date": "2026-09-12",
    "title": "Amodei We must slow the pace essay (today, CEO stance, not agreement)",
    "category": "policy",
@@ -4909,6 +5073,7 @@
   },
   {
    "id": "2026-09-12-pace-frontier-endorsements",
+   "highlight": true,
    "date": "2026-09-12",
    "title": "Altman and Musk endorse Amodei slowdown call; Altman hints at lab pact (no signed agreement)",
    "category": "policy",

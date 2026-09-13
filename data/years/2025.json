@@ -6,6 +6,7 @@
  "events": [
   {
    "id": "2025-01-20-deepseek-r1",
+   "highlight": true,
    "date": "2025-01-20",
    "title": "DeepSeek-R1 open reasoning shock",
    "category": "model-release",
@@ -48,6 +49,7 @@
   },
   {
    "id": "2025-01-20-trump-revokes-eo",
+   "highlight": true,
    "date": "2025-01-20",
    "title": "Trump revokes Biden EO 14110 on Day 1",
    "category": "policy",
@@ -75,6 +77,7 @@
   },
   {
    "id": "2025-01-21-stargate-500b",
+   "highlight": true,
    "date": "2025-01-21",
    "title": "Stargate Project $500B announced at White House",
    "category": "infrastructure",
@@ -106,6 +109,7 @@
   },
   {
    "id": "2025-01-23-operator",
+   "highlight": true,
    "date": "2025-01-23",
    "title": "OpenAI Operator computer-using agent plus EO 14179",
    "category": "product",
@@ -150,6 +154,7 @@
   },
   {
    "id": "2025-01-27-nvidia-crash",
+   "highlight": true,
    "date": "2025-01-27",
    "title": "Nvidia $593B single-day crash on DeepSeek fear",
    "category": "company",
@@ -169,6 +174,7 @@
   },
   {
    "id": "2025-01-31-o3-mini",
+   "highlight": false,
    "date": "2025-01-31",
    "title": "OpenAI o3-mini cost-effective reasoning",
    "category": "model-release",
@@ -196,6 +202,7 @@
   },
   {
    "id": "2025-02-02-deep-research",
+   "highlight": true,
    "date": "2025-02-02",
    "title": "OpenAI Deep Research agent",
    "category": "product",
@@ -222,6 +229,7 @@
   },
   {
    "id": "2025-02-10-paris-summit",
+   "highlight": false,
    "date": "2025-02-10",
    "title": "Paris AI Action Summit (France plus India co-chair)",
    "category": "policy",
@@ -252,6 +260,7 @@
   },
   {
    "id": "2025-02-17-grok3",
+   "highlight": false,
    "date": "2025-02-17",
    "title": "xAI Grok 3 Beta on Colossus",
    "category": "model-release",
@@ -279,6 +288,7 @@
   },
   {
    "id": "2025-02-24-claude37",
+   "highlight": true,
    "date": "2025-02-24",
    "title": "Anthropic Claude 3.7 Sonnet plus Claude Code preview",
    "category": "model-release",
@@ -305,6 +315,7 @@
   },
   {
    "id": "2025-02-24-claude-code-launch",
+   "highlight": true,
    "date": "2025-02-24",
    "title": "Claude Code launches in limited research preview (terminal coding agent)",
    "category": "product",
@@ -350,6 +361,7 @@
   },
   {
    "id": "2025-02-27-gpt45-orion",
+   "highlight": false,
    "date": "2025-02-27",
    "title": "OpenAI GPT-4.5 Orion research preview (last non-reasoning giant)",
    "category": "model-release",
@@ -385,6 +397,7 @@
   },
   {
    "id": "2025-03-06-manus",
+   "highlight": false,
    "date": "2025-03-06",
    "title": "Manus general AI agent invite-only beta",
    "category": "product",
@@ -421,6 +434,7 @@
   },
   {
    "id": "2025-03-25-gemini25-pro",
+   "highlight": true,
    "date": "2025-03-25",
    "title": "Google Gemini 2.5 Pro experimental thinking model",
    "category": "model-release",
@@ -447,6 +461,7 @@
   },
   {
    "id": "2025-03-25-gpt4o-image-ghibli",
+   "highlight": true,
    "date": "2025-03-25",
    "title": "GPT-4o native image generation plus Ghibli viral",
    "category": "product",
@@ -474,6 +489,7 @@
   },
   {
    "id": "2025-04-05-llama4",
+   "highlight": false,
    "date": "2025-04-05",
    "title": "Meta Llama 4 Scout plus Maverick (Saturday release)",
    "category": "model-release",
@@ -510,6 +526,7 @@
   },
   {
    "id": "2025-04-14-gpt41",
+   "highlight": false,
    "date": "2025-04-14",
    "title": "OpenAI GPT-4.1, mini and nano API coding specialists",
    "category": "model-release",
@@ -538,6 +555,7 @@
   },
   {
    "id": "2025-04-16-o3-o4mini",
+   "highlight": false,
    "date": "2025-04-16",
    "title": "OpenAI o3 plus o4-mini think with images",
    "category": "model-release",
@@ -573,6 +591,7 @@
   },
   {
    "id": "2025-04-16-codex-cli",
+   "highlight": true,
    "date": "2025-04-16",
    "title": "OpenAI Codex CLI open-source terminal coding agent",
    "category": "product",
@@ -611,6 +630,7 @@
   },
   {
    "id": "2025-04-28-qwen3",
+   "highlight": true,
    "date": "2025-04-28",
    "title": "Alibaba Qwen3 family (hybrid thinking)",
    "category": "model-release",
@@ -646,6 +666,7 @@
   },
   {
    "id": "2025-05-16-codex-agent",
+   "highlight": true,
    "date": "2025-05-16",
    "title": "OpenAI Codex agent research preview (codex-1)",
    "category": "product",
@@ -681,6 +702,7 @@
   },
   {
    "id": "2025-05-19-copilot-coding-agent",
+   "highlight": true,
    "date": "2025-05-19",
    "title": "GitHub Copilot coding agent preview (assign issues to Copilot)",
    "category": "product",
@@ -718,6 +740,7 @@
   },
   {
    "id": "2025-05-19-jules-preview",
+   "highlight": true,
    "date": "2025-05-19",
    "title": "Google Jules public preview (async coding agent)",
    "category": "product",
@@ -756,6 +779,7 @@
   },
   {
    "id": "2025-05-20-veo3-flow",
+   "highlight": false,
    "date": "2025-05-20",
    "title": "Google I/O: Veo 3 plus Imagen 4 plus Flow filmmaking app",
    "category": "model-release",
@@ -793,6 +817,7 @@
   },
   {
    "id": "2025-05-21-io-65b",
+   "highlight": true,
    "date": "2025-05-21",
    "title": "OpenAI buys Jony Ive's io for $6.5B",
    "category": "company",
@@ -824,6 +849,7 @@
   },
   {
    "id": "2025-05-22-claude4-asl3",
+   "highlight": true,
    "date": "2025-05-22",
    "title": "Anthropic Claude Opus 4 plus Sonnet 4 plus ASL-3 activation",
    "category": "model-release",
@@ -860,6 +886,7 @@
   },
   {
    "id": "2025-06-04-cursor-10",
+   "highlight": true,
    "date": "2025-06-04",
    "title": "Cursor 1.0: Background Agent GA plus BugBot (Anysphere)",
    "category": "product",
@@ -889,6 +916,7 @@
   },
   {
    "id": "2025-06-12-meta-scale-143b",
+   "highlight": true,
    "date": "2025-06-12",
    "title": "Meta $14.3B into Scale AI plus hires Alexandr Wang",
    "category": "company",
@@ -926,6 +954,7 @@
   },
   {
    "id": "2025-07-09-grok4",
+   "highlight": false,
    "date": "2025-07-09",
    "title": "xAI Grok 4 plus Grok 4 Heavy",
    "category": "model-release",
@@ -954,6 +983,7 @@
   },
   {
    "id": "2025-07-11-kimi-k2",
+   "highlight": true,
    "date": "2025-07-11",
    "title": "Moonshot Kimi K2 open-weights agent model",
    "category": "model-release",
@@ -990,6 +1020,7 @@
   },
   {
    "id": "2025-07-11-windsurf-drama",
+   "highlight": true,
    "date": "2025-07-11",
    "title": "Windsurf drama: OpenAI $3B collapses, Google $2.4B hire, Cognition buys",
    "category": "company",
@@ -1030,6 +1061,7 @@
   },
   {
    "id": "2025-07-23-ai-action-plan",
+   "highlight": true,
    "date": "2025-07-23",
    "title": "White House Winning the AI Race: America's AI Action Plan plus 3 EOs",
    "category": "policy",
@@ -1066,6 +1098,7 @@
   },
   {
    "id": "2025-08-02-eu-gpai-duties",
+   "highlight": false,
    "date": "2025-08-02",
    "title": "EU AI Act GPAI duties apply plus Code of Practice",
    "category": "policy",
@@ -1102,6 +1135,7 @@
   },
   {
    "id": "2025-08-05-gpt-oss",
+   "highlight": true,
    "date": "2025-08-05",
    "title": "OpenAI gpt-oss-120b plus 20b open-weights return plus Claude Opus 4.1",
    "category": "model-release",
@@ -1145,6 +1179,7 @@
   },
   {
    "id": "2025-08-07-gpt5-launch",
+   "highlight": true,
    "date": "2025-08-07",
    "title": "OpenAI GPT-5 unified system plus backlash and personality crisis",
    "category": "model-release",
@@ -1172,6 +1207,7 @@
   },
   {
    "id": "2025-09-15-gpt5-codex",
+   "highlight": true,
    "date": "2025-09-15",
    "title": "GPT-5-Codex plus Codex upgrades",
    "category": "product",
@@ -1199,6 +1235,7 @@
   },
   {
    "id": "2025-09-29-sb53-signed",
+   "highlight": true,
    "date": "2025-09-29",
    "title": "California SB 53 signed (Transparency in Frontier AI Act)",
    "category": "policy",
@@ -1239,6 +1276,7 @@
   },
   {
    "id": "2025-09-29-sonnet45",
+   "highlight": false,
    "date": "2025-09-29",
    "title": "Anthropic Claude Sonnet 4.5 best coding and agents",
    "category": "model-release",
@@ -1266,6 +1304,7 @@
   },
   {
    "id": "2025-09-30-sora2",
+   "highlight": false,
    "date": "2025-09-30",
    "title": "OpenAI Sora 2 plus Sora social app (iOS invite-only)",
    "category": "product",
@@ -1293,6 +1332,7 @@
   },
   {
    "id": "2025-11-18-gemini3-pro",
+   "highlight": true,
    "date": "2025-11-18",
    "title": "Google Gemini 3 Pro preview path to AGI",
    "category": "model-release",
@@ -1328,6 +1368,7 @@
   },
   {
    "id": "2025-11-18-antigravity-launch",
+   "highlight": true,
    "date": "2025-11-18",
    "title": "Google Antigravity public preview (agent-first dev platform)",
    "category": "product",
@@ -1367,6 +1408,7 @@
   },
   {
    "id": "2025-11-24-opus45",
+   "highlight": false,
    "date": "2025-11-24",
    "title": "Anthropic Claude Opus 4.5",
    "category": "model-release",

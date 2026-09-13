@@ -6,6 +6,7 @@
  "events": [
   {
    "id": "2023-01-11-cnet-ai-scandal",
+   "highlight": false,
    "date": "2023-01-11",
    "title": "CNET AI articles scandal exposed",
    "category": "drama",
@@ -37,6 +38,7 @@
   },
   {
    "id": "2023-01-13-artists-sue",
+   "highlight": false,
    "date": "2023-01-13",
    "title": "Artists sue Stability, Midjourney and DeviantArt",
    "category": "policy",
@@ -67,6 +69,7 @@
   },
   {
    "id": "2023-01-17-getty-sues",
+   "highlight": false,
    "date": "2023-01-17",
    "title": "Getty Images sues Stability AI",
    "category": "policy",
@@ -103,6 +106,7 @@
   },
   {
    "id": "2023-01-23-microsoft-10b",
+   "highlight": true,
    "date": "2023-01-23",
    "title": "Microsoft extends OpenAI partnership ($10B reported)",
    "category": "company",
@@ -131,6 +135,7 @@
   },
   {
    "id": "2023-01-31-chatgpt-100m",
+   "highlight": true,
    "date": "2023-01-31",
    "title": "ChatGPT hits ~100M monthly users fastest ever",
    "category": "product",
@@ -148,6 +153,7 @@
   },
   {
    "id": "2023-02-01-chatgpt-plus",
+   "highlight": false,
    "date": "2023-02-01",
    "title": "ChatGPT Plus ($20/mo) launches",
    "category": "product",
@@ -175,6 +181,7 @@
   },
   {
    "id": "2023-02-06-bard-announced",
+   "highlight": false,
    "date": "2023-02-06",
    "title": "Bard announced by Google",
    "category": "product",
@@ -202,6 +209,7 @@
   },
   {
    "id": "2023-02-07-new-bing",
+   "highlight": false,
    "date": "2023-02-07",
    "title": "New Bing plus Edge with Prometheus (GPT-4) launches",
    "category": "product",
@@ -239,6 +247,7 @@
   },
   {
    "id": "2023-02-08-bard-flub-100b",
+   "highlight": false,
    "date": "2023-02-08",
    "title": "Bard Paris flub wipes ~$100B off Alphabet",
    "category": "drama",
@@ -267,6 +276,7 @@
   },
   {
    "id": "2023-02-13-sydney-meltdown",
+   "highlight": true,
    "date": "2023-02-13",
    "title": "Sydney meltdown and Bing limits",
    "category": "drama",
@@ -303,6 +313,7 @@
   },
   {
    "id": "2023-02-24-llama1",
+   "highlight": true,
    "date": "2023-02-24",
    "title": "LLaMA released to researchers",
    "category": "model-release",
@@ -344,6 +355,7 @@
   },
   {
    "id": "2023-03-02-llama-leak",
+   "highlight": true,
    "date": "2023-03-02",
    "title": "LLaMA leaked on 4chan and BitTorrent",
    "category": "drama",
@@ -362,6 +374,7 @@
   },
   {
    "id": "2023-03-13-alpaca",
+   "highlight": true,
    "date": "2023-03-13",
    "title": "Stanford Alpaca 7B <$600 instruction tune",
    "category": "model-release",
@@ -399,6 +412,7 @@
   },
   {
    "id": "2023-03-14-claude-api",
+   "highlight": true,
    "date": "2023-03-14",
    "title": "Claude plus Claude Instant API",
    "category": "model-release",
@@ -425,6 +439,7 @@
   },
   {
    "id": "2023-03-14-gpt4",
+   "highlight": true,
    "date": "2023-03-14",
    "title": "GPT-4 launches (multimodal, bar exam top 10%)",
    "category": "model-release",
@@ -468,6 +483,7 @@
   },
   {
    "id": "2023-03-15-midjourney-v5",
+   "highlight": false,
    "date": "2023-03-15",
    "title": "Midjourney v5 photorealism leap",
    "category": "model-release",
@@ -495,6 +511,7 @@
   },
   {
    "id": "2023-03-22-pause-letter",
+   "highlight": true,
    "date": "2023-03-22",
    "title": "Future of Life Pause Letter calls for 6-month moratorium",
    "category": "policy",
@@ -522,6 +539,7 @@
   },
   {
    "id": "2023-03-23-plugins",
+   "highlight": false,
    "date": "2023-03-23",
    "title": "ChatGPT Plugins (browsing plus Code Interpreter)",
    "category": "product",
@@ -549,6 +567,7 @@
   },
   {
    "id": "2023-03-24-pope-puffer",
+   "highlight": false,
    "date": "2023-03-24",
    "title": "Fake Trump arrest plus Pope puffer viral deepfakes",
    "category": "drama",
@@ -566,6 +585,7 @@
   },
   {
    "id": "2023-03-30-autogpt",
+   "highlight": true,
    "date": "2023-03-30",
    "title": "AutoGPT autonomous agent goes viral",
    "category": "product",
@@ -593,6 +613,7 @@
   },
   {
    "id": "2023-03-30-vicuna",
+   "highlight": false,
    "date": "2023-03-30",
    "title": "Vicuna-13B open chatbot claims 90% ChatGPT",
    "category": "model-release",
@@ -630,6 +651,7 @@
   },
   {
    "id": "2023-03-31-italy-ban",
+   "highlight": true,
    "date": "2023-03-31",
    "title": "Italy bans ChatGPT (first Western ban)",
    "category": "policy",
@@ -667,6 +689,7 @@
   },
   {
    "id": "2023-04-05-sam",
+   "highlight": false,
    "date": "2023-04-05",
    "title": "Segment Anything (SAM) foundation vision model",
    "category": "model-release",
@@ -703,6 +726,7 @@
   },
   {
    "id": "2023-05-04-white-house-ceos",
+   "highlight": false,
    "date": "2023-05-04",
    "title": "White House meeting with AI CEOs",
    "category": "policy",
@@ -735,6 +759,7 @@
   },
   {
    "id": "2023-05-10-palm2",
+   "highlight": false,
    "date": "2023-05-10",
    "title": "PaLM 2 plus Bard everywhere plus Search Generative Experience at I/O",
    "category": "model-release",
@@ -763,6 +788,7 @@
   },
   {
    "id": "2023-05-16-altman-senate",
+   "highlight": true,
    "date": "2023-05-16",
    "title": "Altman testifies to Senate, urges licensing",
    "category": "policy",
@@ -792,6 +818,7 @@
   },
   {
    "id": "2023-05-18-ios-app",
+   "highlight": false,
    "date": "2023-05-18",
    "title": "ChatGPT iOS app launches",
    "category": "product",
@@ -819,6 +846,7 @@
   },
   {
    "id": "2023-05-30-extinction-statement",
+   "highlight": true,
    "date": "2023-05-30",
    "title": "Extinction statement plus Nvidia $1T",
    "category": "policy",
@@ -848,6 +876,7 @@
   },
   {
    "id": "2023-06-14-eu-parliament-vote",
+   "highlight": false,
    "date": "2023-06-14",
    "title": "EU AI Act passes Parliament",
    "category": "policy",
@@ -875,6 +904,7 @@
   },
   {
    "id": "2023-07-11-claude2",
+   "highlight": false,
    "date": "2023-07-11",
    "title": "Claude 2 with 100K context",
    "category": "model-release",
@@ -901,6 +931,7 @@
   },
   {
    "id": "2023-07-12-xai-founded",
+   "highlight": true,
    "date": "2023-07-12",
    "title": "xAI founded by Elon Musk",
    "category": "company",
@@ -929,6 +960,7 @@
   },
   {
    "id": "2023-07-18-llama2",
+   "highlight": true,
    "date": "2023-07-18",
    "title": "Llama 2 commercial open release with Microsoft",
    "category": "model-release",
@@ -973,6 +1005,7 @@
   },
   {
    "id": "2023-07-21-white-house-commitments",
+   "highlight": false,
    "date": "2023-07-21",
    "title": "White House voluntary commitments (7 labs)",
    "category": "policy",
@@ -1015,6 +1048,7 @@
   },
   {
    "id": "2023-07-26-frontier-forum",
+   "highlight": false,
    "date": "2023-07-26",
    "title": "Frontier Model Forum formed (Google, Microsoft, OpenAI, Anthropic)",
    "category": "policy",
@@ -1053,6 +1087,7 @@
   },
   {
    "id": "2023-08-28-enterprise",
+   "highlight": false,
    "date": "2023-08-28",
    "title": "ChatGPT Enterprise launches",
    "category": "product",
@@ -1081,6 +1116,7 @@
   },
   {
    "id": "2023-09-20-dalle3",
+   "highlight": false,
    "date": "2023-09-20",
    "title": "DALL-E 3 announced (ChatGPT-native)",
    "category": "model-release",
@@ -1108,6 +1144,7 @@
   },
   {
    "id": "2023-09-25-amazon-anthropic-4b",
+   "highlight": false,
    "date": "2023-09-25",
    "title": "Amazon announces up to $4B in Anthropic plus ChatGPT vision and voice",
    "category": "company",
@@ -1138,6 +1175,7 @@
   },
   {
    "id": "2023-09-27-mistral-7b",
+   "highlight": true,
    "date": "2023-09-27",
    "title": "Mistral 7B European open champion",
    "category": "model-release",
@@ -1172,6 +1210,7 @@
   },
   {
    "id": "2023-10-10-swe-bench",
+   "highlight": true,
    "date": "2023-10-10",
    "title": "SWE-bench launches: real-GitHub-issue coding benchmark",
    "category": "advance",
@@ -1208,6 +1247,7 @@
   },
   {
    "id": "2023-10-30-biden-eo",
+   "highlight": true,
    "date": "2023-10-30",
    "title": "Biden Executive Order 14110 on Safe, Secure, Trustworthy AI",
    "category": "policy",
@@ -1246,6 +1286,7 @@
   },
   {
    "id": "2023-11-01-bletchley-summit",
+   "highlight": true,
    "date": "2023-11-01",
    "title": "UK AI Safety Summit plus Bletchley Declaration",
    "category": "policy",
@@ -1278,6 +1319,7 @@
   },
   {
    "id": "2023-11-04-grok-announced",
+   "highlight": false,
    "date": "2023-11-04",
    "title": "Grok (Grok-1) announced by xAI",
    "category": "model-release",
@@ -1306,6 +1348,7 @@
   },
   {
    "id": "2023-11-06-devday",
+   "highlight": false,
    "date": "2023-11-06",
    "title": "OpenAI DevDay: GPT-4 Turbo 128K, Assistants API, GPTs",
    "category": "product",
@@ -1335,6 +1378,7 @@
   },
   {
    "id": "2023-11-17-altman-fired",
+   "highlight": true,
    "date": "2023-11-17",
    "title": "Altman fired by OpenAI board",
    "category": "drama",
@@ -1363,6 +1407,7 @@
   },
   {
    "id": "2023-11-19-shear-microsoft",
+   "highlight": false,
    "date": "2023-11-19",
    "title": "Shear interim, Microsoft hires Altman, staff revolt",
    "category": "drama",
@@ -1389,6 +1434,7 @@
   },
   {
    "id": "2023-11-22-altman-returns",
+   "highlight": true,
    "date": "2023-11-22",
    "title": "Altman reinstated with new board",
    "category": "drama",
@@ -1417,6 +1463,7 @@
   },
   {
    "id": "2023-12-06-gemini1",
+   "highlight": true,
    "date": "2023-12-06",
    "title": "Gemini 1.0 (Ultra, Pro, Nano) launches",
    "category": "model-release",
@@ -1454,6 +1501,7 @@
   },
   {
    "id": "2023-12-08-eu-deal",
+   "highlight": true,
    "date": "2023-12-08",
    "title": "EU AI Act political deal (world's first comprehensive AI law)",
    "category": "policy",
@@ -1484,6 +1532,7 @@
   },
   {
    "id": "2023-12-11-mixtral",
+   "highlight": false,
    "date": "2023-12-11",
    "title": "Mixtral 8x7B SMoE plus €385M raise",
    "category": "model-release",
@@ -1520,6 +1569,7 @@
   },
   {
    "id": "2023-12-27-nyt-sues",
+   "highlight": true,
    "date": "2023-12-27",
    "title": "New York Times sues OpenAI plus Microsoft",
    "category": "policy",

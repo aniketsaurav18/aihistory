@@ -2,10 +2,11 @@
  "title": "History of AI: From Attention Is All You Need to the 2026 Slowdown Debate",
  "range": "2017-06-12 to 2026-09-12",
  "created": "2026-09-12",
- "usage": "Data for webpage. Load year files 2017.json ... 2026.json. Each file has year, range, description, count, events[]. Each event has id, date (YYYY-MM-DD), title, category, organizations[], summary, significance, tags[]. Sort events by date for timeline. See note_on_slowdown_pact in 2026.json — there is NO binding lab pact as of 2026-09-12.",
+ "usage": "Data for webpage. Load year files 2017.json ... 2026.json. Each file has year, range, description, count, events[]. Each event has id, highlight, date (YYYY-MM-DD), title, category, organizations[], summary, significance, tags[]. Sort events by date for timeline. See note_on_slowdown_pact in 2026.json — there is NO binding lab pact as of 2026-09-12.",
  "schema": {
   "event": {
    "id": "string slug YYYY-MM-DD-short-name",
+   "highlight": "boolean; true when included in the curated Highlights view",
    "date": "YYYY-MM-DD",
    "title": "string",
    "category": "paper | model-release | product | company | policy | drama | advance | infrastructure",

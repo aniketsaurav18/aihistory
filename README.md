@@ -31,7 +31,7 @@ Submissions are reviewed before they are added to the archive.
 - `app/` — routes, metadata, and the global visual system
 - `components/` — the shared header and interactive timeline explorer
 - `data/years/` — the canonical year-by-year event archive
-- `data/important_events.json` — the curated Highlights dataset
+- Each yearly event has a `highlight` boolean that controls inclusion in the curated Highlights view
 - `data/sources.json` — the supplementary source index
 - `archive/legacy/` — earlier generated timeline artifacts
 - `research/` — research notes and source-verification tooling

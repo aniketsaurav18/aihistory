@@ -5,7 +5,8 @@
   "count": 39,
   "events": [
     {
-      "id": "2024-01-10-gpt-store",
+   "id": "2024-01-10-gpt-store",
+   "highlight": false,
       "date": "2024-01-10",
       "title": "OpenAI launches GPT Store",
       "category": "product",
@@ -32,7 +33,8 @@
       "verified": true
     },
     {
-      "id": "2024-02-08-gemini-advanced",
+   "id": "2024-02-08-gemini-advanced",
+   "highlight": false,
       "date": "2024-02-08",
       "title": "Gemini Ultra 1.0 plus Gemini Advanced, Bard becomes Gemini",
       "category": "model-release",
@@ -61,7 +63,8 @@
       "verified": true
     },
     {
-      "id": "2024-02-15-gemini-15-pro",
+   "id": "2024-02-15-gemini-15-pro",
+   "highlight": true,
       "date": "2024-02-15",
       "title": "Gemini 1.5 Pro preview with 1M-token context",
       "category": "model-release",
@@ -96,7 +99,8 @@
       "verified": true
     },
     {
-      "id": "2024-02-15-sora-preview",
+   "id": "2024-02-15-sora-preview",
+   "highlight": true,
       "date": "2024-02-15",
       "title": "OpenAI unveils Sora (research preview)",
       "category": "model-release",
@@ -123,7 +127,8 @@
       "verified": true
     },
     {
-      "id": "2024-02-21-gemma",
+   "id": "2024-02-21-gemma",
+   "highlight": false,
       "date": "2024-02-21",
       "title": "Gemma 2B and 7B open models",
       "category": "model-release",
@@ -158,7 +163,8 @@
       "verified": true
     },
     {
-      "id": "2024-02-22-suno-v3",
+   "id": "2024-02-22-suno-v3",
+   "highlight": false,
       "date": "2024-02-22",
       "title": "Suno v3 radio-quality AI music goes mainstream",
       "category": "product",
@@ -186,7 +192,8 @@
       "verified": true
     },
     {
-      "id": "2024-02-26-mistral-large",
+   "id": "2024-02-26-mistral-large",
+   "highlight": false,
       "date": "2024-02-26",
       "title": "Mistral Large plus Le Chat plus Microsoft Azure deal",
       "category": "model-release",
@@ -222,7 +229,8 @@
       "verified": true
     },
     {
-      "id": "2024-03-04-claude3",
+   "id": "2024-03-04-claude3",
+   "highlight": false,
       "date": "2024-03-04",
       "title": "Claude 3 family: Haiku, Sonnet, Opus",
       "category": "model-release",
@@ -251,7 +259,8 @@
       "verified": true
     },
     {
-      "id": "2024-03-12-devin",
+   "id": "2024-03-12-devin",
+   "highlight": true,
       "date": "2024-03-12",
       "title": "Devin, first AI software engineer",
       "category": "product",
@@ -279,7 +288,8 @@
       "verified": true
     },
     {
-      "id": "2024-03-17-grok1-open",
+   "id": "2024-03-17-grok1-open",
+   "highlight": false,
       "date": "2024-03-17",
       "title": "Grok-1 open-weights (314B MoE, Apache 2.0)",
       "category": "model-release",
@@ -315,7 +325,8 @@
       "verified": true
     },
     {
-      "id": "2024-04-18-llama3",
+   "id": "2024-04-18-llama3",
+   "highlight": true,
       "date": "2024-04-18",
       "title": "Meta Llama 3 8B and 70B best open models of class",
       "category": "model-release",
@@ -350,7 +361,8 @@
       "verified": true
     },
     {
-      "id": "2024-04-29-copilot-workspace",
+   "id": "2024-04-29-copilot-workspace",
+   "highlight": true,
       "date": "2024-04-29",
       "title": "GitHub Copilot Workspace technical preview (agentic dev environment)",
       "category": "product",
@@ -388,7 +400,8 @@
       "verified": true
     },
     {
-      "id": "2024-05-08-alphafold3",
+   "id": "2024-05-08-alphafold3",
+   "highlight": false,
       "date": "2024-05-08",
       "title": "AlphaFold 3 plus AlphaFold Server",
       "category": "advance",
@@ -432,7 +445,8 @@
       "verified": true
     },
     {
-      "id": "2024-05-13-gpt4o",
+   "id": "2024-05-13-gpt4o",
+   "highlight": true,
       "date": "2024-05-13",
       "title": "GPT-4o Omni natively multimodal flagship, free for all",
       "category": "model-release",
@@ -460,7 +474,8 @@
       "verified": true
     },
     {
-      "id": "2024-05-14-google-io-2024",
+   "id": "2024-05-14-google-io-2024",
+   "highlight": false,
       "date": "2024-05-14",
       "title": "Google I/O 2024: Gemini 1.5 Pro and Flash, Project Astra, Veo, AI Overviews",
       "category": "model-release",
@@ -496,7 +511,8 @@
       "verified": true
     },
     {
-      "id": "2024-05-14-ilya-departs",
+   "id": "2024-05-14-ilya-departs",
+   "highlight": true,
       "date": "2024-05-14",
       "title": "Ilya Sutskever departs OpenAI, Superalignment dissolved",
       "category": "drama",
@@ -532,7 +548,8 @@
       "verified": true
     },
     {
-      "id": "2024-05-19-sky-paused",
+   "id": "2024-05-19-sky-paused",
+   "highlight": false,
       "date": "2024-05-19",
       "title": "Sky voice paused after Scarlett Johansson accusation",
       "category": "drama",
@@ -561,7 +578,8 @@
       "verified": true
     },
     {
-      "id": "2024-05-26-xai-6b",
+   "id": "2024-05-26-xai-6b",
+   "highlight": false,
       "date": "2024-05-26",
       "title": "xAI raises $6B Series B at $24B",
       "category": "company",
@@ -589,7 +607,8 @@
       "verified": true
     },
     {
-      "id": "2024-06-10-apple-intelligence",
+   "id": "2024-06-10-apple-intelligence",
+   "highlight": true,
       "date": "2024-06-10",
       "title": "Apple Intelligence plus Siri plus ChatGPT integration at WWDC24",
       "category": "product",
@@ -618,7 +637,8 @@
       "verified": true
     },
     {
-      "id": "2024-06-19-ssi-founded",
+   "id": "2024-06-19-ssi-founded",
+   "highlight": true,
       "date": "2024-06-19",
       "title": "Safe Superintelligence Inc. (SSI) founded by Sutskever",
       "category": "company",
@@ -646,7 +666,8 @@
       "verified": true
     },
     {
-      "id": "2024-06-20-claude35-sonnet",
+   "id": "2024-06-20-claude35-sonnet",
+   "highlight": true,
       "date": "2024-06-20",
       "title": "Claude 3.5 Sonnet plus Artifacts new frontier bar",
       "category": "model-release",
@@ -673,7 +694,8 @@
       "verified": true
     },
     {
-      "id": "2024-07-18-gpt4o-mini",
+   "id": "2024-07-18-gpt4o-mini",
+   "highlight": false,
       "date": "2024-07-18",
       "title": "GPT-4o mini most cost-efficient small model",
       "category": "model-release",
@@ -700,7 +722,8 @@
       "verified": true
     },
     {
-      "id": "2024-07-23-llama31-405b",
+   "id": "2024-07-23-llama31-405b",
+   "highlight": true,
       "date": "2024-07-23",
       "title": "Llama 3.1 8B, 70B, 405B first frontier-level open model",
       "category": "model-release",
@@ -735,7 +758,8 @@
       "verified": true
     },
     {
-      "id": "2024-08-01-eu-ai-act-force",
+   "id": "2024-08-01-eu-ai-act-force",
+   "highlight": false,
       "date": "2024-08-01",
       "title": "EU AI Act enters into force",
       "category": "policy",
@@ -772,7 +796,8 @@
       "verified": true
     },
     {
-      "id": "2024-09-02-colossus-100k",
+   "id": "2024-09-02-colossus-100k",
+   "highlight": true,
       "date": "2024-09-02",
       "title": "Colossus 100K H100 online in 122 days in Memphis",
       "category": "infrastructure",
@@ -803,7 +828,8 @@
       "verified": true
     },
     {
-      "id": "2024-09-11-notebooklm-viral",
+   "id": "2024-09-11-notebooklm-viral",
+   "highlight": false,
       "date": "2024-09-11",
       "title": "NotebookLM Audio Overviews viral AI podcasts",
       "category": "product",
@@ -831,7 +857,8 @@
       "verified": true
     },
     {
-      "id": "2024-09-12-o1-preview",
+   "id": "2024-09-12-o1-preview",
+   "highlight": true,
       "date": "2024-09-12",
       "title": "o1-preview plus o1-mini first reasoning models (Strawberry)",
       "category": "model-release",
@@ -866,7 +893,8 @@
       "verified": true
     },
     {
-      "id": "2024-09-25-murati-exits",
+   "id": "2024-09-25-murati-exits",
+   "highlight": false,
       "date": "2024-09-25",
       "title": "Mira Murati exits; for-profit restructure talks confirmed",
       "category": "drama",
@@ -894,7 +922,8 @@
       "verified": true
     },
     {
-      "id": "2024-09-29-sb1047-veto",
+   "id": "2024-09-29-sb1047-veto",
+   "highlight": false,
       "date": "2024-09-29",
       "title": "Gov. Newsom vetoes California SB 1047",
       "category": "policy",
@@ -931,7 +960,8 @@
       "verified": true
     },
     {
-      "id": "2024-10-02-openai-66b",
+   "id": "2024-10-02-openai-66b",
+   "highlight": true,
       "date": "2024-10-02",
       "title": "OpenAI raises $6.6B at $157B largest VC round ever",
       "category": "company",
@@ -963,7 +993,8 @@
       "verified": true
     },
     {
-      "id": "2024-10-09-nobel-ai",
+   "id": "2024-10-09-nobel-ai",
+   "highlight": true,
       "date": "2024-10-09",
       "title": "Nobel Prize in Chemistry for AlphaFold (plus Physics for neural nets)",
       "category": "advance",
@@ -1000,7 +1031,8 @@
       "verified": true
     },
     {
-      "id": "2024-10-22-claude-computer-use",
+   "id": "2024-10-22-claude-computer-use",
+   "highlight": true,
       "date": "2024-10-22",
       "title": "Upgraded Claude 3.5 Sonnet plus Computer Use beta",
       "category": "product",
@@ -1036,7 +1068,8 @@
       "verified": true
     },
     {
-      "id": "2024-10-31-chatgpt-search",
+   "id": "2024-10-31-chatgpt-search",
+   "highlight": false,
       "date": "2024-10-31",
       "title": "ChatGPT Search (SearchGPT productization)",
       "category": "product",
@@ -1071,7 +1104,8 @@
       "verified": true
     },
     {
-      "id": "2024-11-22-amazon-8b-anthropic",
+   "id": "2024-11-22-amazon-8b-anthropic",
+   "highlight": false,
       "date": "2024-11-22",
       "title": "Amazon invests another $4B in Anthropic (total $8B)",
       "category": "company",
@@ -1109,7 +1143,8 @@
       "verified": true
     },
     {
-      "id": "2024-12-09-sora-public",
+   "id": "2024-12-09-sora-public",
+   "highlight": false,
       "date": "2024-12-09",
       "title": "Sora Turbo public launch at Sora.com",
       "category": "product",
@@ -1136,7 +1171,8 @@
       "verified": true
     },
     {
-      "id": "2024-12-09-willow",
+   "id": "2024-12-09-willow",
+   "highlight": false,
       "date": "2024-12-09",
       "title": "Willow quantum chip below-threshold breakthrough",
       "category": "advance",
@@ -1171,7 +1207,8 @@
       "verified": true
     },
     {
-      "id": "2024-12-11-gemini20-flash",
+   "id": "2024-12-11-gemini20-flash",
+   "highlight": false,
       "date": "2024-12-11",
       "title": "Gemini 2.0 Flash experimental agentic era model",
       "category": "model-release",
@@ -1197,7 +1234,8 @@
       "verified": true
     },
     {
-      "id": "2024-12-20-o3-preview",
+   "id": "2024-12-20-o3-preview",
+   "highlight": false,
       "date": "2024-12-20",
       "title": "o3 plus o3-mini preview ARC-AGI leap",
       "category": "model-release",
@@ -1225,7 +1263,8 @@
       "verified": true
     },
     {
-      "id": "2024-12-26-deepseek-v3",
+   "id": "2024-12-26-deepseek-v3",
+   "highlight": true,
       "date": "2024-12-26",
       "title": "DeepSeek-V3 671B MoE open frontier at $5.6M cost",
       "category": "model-release",

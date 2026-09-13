@@ -10,7 +10,6 @@ import y2023 from "@/data/years/2023.json";
 import y2024 from "@/data/years/2024.json";
 import y2025 from "@/data/years/2025.json";
 import y2026 from "@/data/years/2026.json";
-import importantEvents from "@/data/important_events.json";
 
 const yearFiles = [y2017, y2018, y2019, y2020, y2021, y2022, y2023, y2024, y2025, y2026];
 
@@ -25,7 +24,5 @@ export default function Home() {
     count: events.filter((event) => event.date.startsWith(String(file.year))).length,
   }));
 
-  const highlightIds = (importantEvents.events as TimelineEvent[]).map((event) => event.id);
-
-  return <TimelineExplorer events={events} years={years} highlightIds={highlightIds} />;
+  return <TimelineExplorer events={events} years={years} />;
 }

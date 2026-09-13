@@ -6,6 +6,7 @@
  "events": [
   {
    "id": "2022-01-27-instructgpt",
+   "highlight": true,
    "date": "2022-01-27",
    "title": "InstructGPT makes GPT-3 follow instructions",
    "category": "model-release",
@@ -49,6 +50,7 @@
   },
   {
    "id": "2022-02-02-alphacode",
+   "highlight": false,
    "date": "2022-02-02",
    "title": "AlphaCode reaches median human level in competitive programming",
    "category": "advance",
@@ -85,6 +87,7 @@
   },
   {
    "id": "2022-03-29-chinchilla",
+   "highlight": true,
    "date": "2022-03-29",
    "title": "Chinchilla rewrites scaling laws: smaller plus more data wins",
    "category": "paper",
@@ -119,6 +122,7 @@
   },
   {
    "id": "2022-04-04-palm",
+   "highlight": true,
    "date": "2022-04-04",
    "title": "PaLM 540B Pathways breakthrough",
    "category": "model-release",
@@ -154,6 +158,7 @@
   },
   {
    "id": "2022-04-06-dalle2",
+   "highlight": true,
    "date": "2022-04-06",
    "title": "DALL-E 2 launches text-to-image photorealism era",
    "category": "model-release",
@@ -189,6 +194,7 @@
   },
   {
    "id": "2022-04-28-flamingo",
+   "highlight": false,
    "date": "2022-04-28",
    "title": "Flamingo few-shot visual language model",
    "category": "paper",
@@ -224,6 +230,7 @@
   },
   {
    "id": "2022-05-03-opt175b",
+   "highlight": false,
    "date": "2022-05-03",
    "title": "OPT-175B Meta open-sources GPT-3-scale model",
    "category": "model-release",
@@ -267,6 +274,7 @@
   },
   {
    "id": "2022-05-12-gato",
+   "highlight": false,
    "date": "2022-05-12",
    "title": "Gato one generalist agent for 600+ tasks",
    "category": "paper",
@@ -303,6 +311,7 @@
   },
   {
    "id": "2022-05-23-imagen",
+   "highlight": false,
    "date": "2022-05-23",
    "title": "Imagen photorealistic diffusion plus T5 beats DALL-E 2",
    "category": "paper",
@@ -338,6 +347,7 @@
   },
   {
    "id": "2022-06-11-lamoine-sentience",
+   "highlight": false,
    "date": "2022-06-11",
    "title": "LaMDA sentience drama: Blake Lemoine goes public",
    "category": "drama",
@@ -375,6 +385,7 @@
   },
   {
    "id": "2022-06-21-copilot-ga",
+   "highlight": true,
    "date": "2022-06-21",
    "title": "GitHub Copilot launches commercially",
    "category": "product",
@@ -405,6 +416,7 @@
   },
   {
    "id": "2022-06-22-parti",
+   "highlight": false,
    "date": "2022-06-22",
    "title": "Parti 20B autoregressive text-to-image challenger",
    "category": "paper",
@@ -440,6 +452,7 @@
   },
   {
    "id": "2022-06-30-minerva",
+   "highlight": false,
    "date": "2022-06-30",
    "title": "Minerva solves college math with chain-of-thought",
    "category": "paper",
@@ -476,6 +489,7 @@
   },
   {
    "id": "2022-07-12-bloom",
+   "highlight": true,
    "date": "2022-07-12",
    "title": "BLOOM 176B largest open multilingual LLM released",
    "category": "model-release",
@@ -521,6 +535,7 @@
   },
   {
    "id": "2022-07-12-midjourney-beta",
+   "highlight": true,
    "date": "2022-07-12",
    "title": "Midjourney open beta on Discord goes public",
    "category": "product",
@@ -548,6 +563,7 @@
   },
   {
    "id": "2022-07-28-alphafold-200m",
+   "highlight": false,
    "date": "2022-07-28",
    "title": "AlphaFold DB expands to 200M+ proteins",
    "category": "advance",
@@ -576,6 +592,7 @@
   },
   {
    "id": "2022-08-22-stable-diffusion-public",
+   "highlight": true,
    "date": "2022-08-22",
    "title": "Stable Diffusion public release (research release Aug 10)",
    "category": "model-release",
@@ -620,6 +637,7 @@
   },
   {
    "id": "2022-08-31-state-fair-win",
+   "highlight": false,
    "date": "2022-08-31",
    "title": "Midjourney wins Colorado State Fair plus DALL-E 2 Outpainting",
    "category": "drama",
@@ -639,6 +657,7 @@
   },
   {
    "id": "2022-09-21-whisper",
+   "highlight": true,
    "date": "2022-09-21",
    "title": "Whisper open-sourced: robust multilingual speech recognition",
    "category": "model-release",
@@ -682,6 +701,7 @@
   },
   {
    "id": "2022-09-27-sparrow",
+   "highlight": false,
    "date": "2022-09-27",
    "title": "Sparrow RLHF dialogue with cited evidence",
    "category": "paper",
@@ -717,6 +737,7 @@
   },
   {
    "id": "2022-09-29-dreamfusion",
+   "highlight": false,
    "date": "2022-09-29",
    "title": "DreamFusion plus Phenaki: text-to-3D and long video",
    "category": "paper",
@@ -754,6 +775,7 @@
   },
   {
    "id": "2022-09-29-make-a-video",
+   "highlight": false,
    "date": "2022-09-29",
    "title": "Make-A-Video launches text-to-video race",
    "category": "paper",
@@ -789,6 +811,7 @@
   },
   {
    "id": "2022-10-05-alphatensor",
+   "highlight": false,
    "date": "2022-10-05",
    "title": "AlphaTensor beats 50-year Strassen record",
    "category": "paper",
@@ -825,6 +848,7 @@
   },
   {
    "id": "2022-10-17-stability-101m",
+   "highlight": false,
    "date": "2022-10-17",
    "title": "Stability AI raises $101M at $1B for open-source AI",
    "category": "company",
@@ -853,6 +877,7 @@
   },
   {
    "id": "2022-11-15-galactica-launch",
+   "highlight": false,
    "date": "2022-11-15",
    "title": "Galactica launches to organize science",
    "category": "model-release",
@@ -880,6 +905,7 @@
   },
   {
    "id": "2022-11-17-galactica-pulled",
+   "highlight": false,
    "date": "2022-11-17",
    "title": "Galactica demo pulled after 3 days",
    "category": "drama",
@@ -905,6 +931,7 @@
   },
   {
    "id": "2022-11-22-cicero",
+   "highlight": false,
    "date": "2022-11-22",
    "title": "Cicero achieves human-level Diplomacy",
    "category": "advance",
@@ -941,6 +968,7 @@
   },
   {
    "id": "2022-11-30-chatgpt-launch",
+   "highlight": true,
    "date": "2022-11-30",
    "title": "ChatGPT launches, history pivots",
    "category": "product",
@@ -968,6 +996,7 @@
   },
   {
    "id": "2022-12-05-chatgpt-1m",
+   "highlight": false,
    "date": "2022-12-05",
    "title": "ChatGPT crosses 1M users in 5 days",
    "category": "product",
@@ -995,6 +1024,7 @@
   },
   {
    "id": "2022-12-06-lensa-viral",
+   "highlight": false,
    "date": "2022-12-06",
    "title": "Lensa Magic Avatars go viral, artist backlash",
    "category": "product",
@@ -1020,6 +1050,7 @@
   },
   {
    "id": "2022-12-20-point-e",
+   "highlight": false,
    "date": "2022-12-20",
    "title": "Point-E text-to-3D in minutes",
    "category": "model-release",

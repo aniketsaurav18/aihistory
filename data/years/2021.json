@@ -6,6 +6,7 @@
  "events": [
   {
    "id": "2021-01-01-anthropic-founded",
+   "highlight": true,
    "date": "2021-01-01",
    "title": "Anthropic founded by ex-OpenAI safety team",
    "category": "company",
@@ -40,6 +41,7 @@
   },
   {
    "id": "2021-01-05-clip-dalle1",
+   "highlight": true,
    "date": "2021-01-05",
    "title": "CLIP plus DALL-E 1 announced",
    "category": "model-release",
@@ -83,6 +85,7 @@
   },
   {
    "id": "2021-01-11-switch-transformer",
+   "highlight": false,
    "date": "2021-01-11",
    "title": "Switch Transformer scales to trillion parameters",
    "category": "paper",
@@ -119,6 +122,7 @@
   },
   {
    "id": "2021-02-19-mitchell-fired",
+   "highlight": false,
    "date": "2021-02-19",
    "title": "Margaret Mitchell fired from Google Ethical AI",
    "category": "drama",
@@ -137,6 +141,7 @@
   },
   {
    "id": "2021-03-01-stochastic-parrots",
+   "highlight": true,
    "date": "2021-03-01",
    "title": "On the Dangers of Stochastic Parrots published",
    "category": "paper",
@@ -166,6 +171,7 @@
   },
   {
    "id": "2021-03-11-huggingface-40m",
+   "highlight": false,
    "date": "2021-03-11",
    "title": "Hugging Face raises $40M Series B",
    "category": "company",
@@ -190,6 +196,7 @@
   },
   {
    "id": "2021-03-21-gpt-neo",
+   "highlight": false,
    "date": "2021-03-21",
    "title": "GPT-Neo 1.3B and 2.7B released (open GPT-3 replication)",
    "category": "model-release",
@@ -225,6 +232,7 @@
   },
   {
    "id": "2021-03-25-swin-transformer",
+   "highlight": false,
    "date": "2021-03-25",
    "title": "Swin Transformer hierarchical vision backbone",
    "category": "paper",
@@ -260,6 +268,7 @@
   },
   {
    "id": "2021-04-21-eu-ai-act-proposal",
+   "highlight": true,
    "date": "2021-04-21",
    "title": "EU proposes AI Act (first comprehensive AI law)",
    "category": "policy",
@@ -295,6 +304,7 @@
   },
   {
    "id": "2021-04-29-dino",
+   "highlight": false,
    "date": "2021-04-29",
    "title": "DINO self-distillation with no labels",
    "category": "paper",
@@ -331,6 +341,7 @@
   },
   {
    "id": "2021-05-11-diffusion-beats-gans",
+   "highlight": true,
    "date": "2021-05-11",
    "title": "Diffusion Models Beat GANs on Image Synthesis",
    "category": "paper",
@@ -366,6 +377,7 @@
   },
   {
    "id": "2021-05-18-lamda-mum-tpuv4",
+   "highlight": false,
    "date": "2021-05-18",
    "title": "LaMDA plus MUM plus TPU v4 at Google I/O",
    "category": "model-release",
@@ -410,6 +422,7 @@
   },
   {
    "id": "2021-05-28-anthropic-launch",
+   "highlight": false,
    "date": "2021-05-28",
    "title": "Anthropic public launch with $124M",
    "category": "company",
@@ -436,6 +449,7 @@
   },
   {
    "id": "2021-06-01-wudao2",
+   "highlight": false,
    "date": "2021-06-01",
    "title": "WuDao 2.0 1.75T world's largest at the time",
    "category": "model-release",
@@ -473,6 +487,7 @@
   },
   {
    "id": "2021-06-09-gpt-j",
+   "highlight": false,
    "date": "2021-06-09",
    "title": "GPT-J 6B open release",
    "category": "model-release",
@@ -507,6 +522,7 @@
   },
   {
    "id": "2021-06-29-copilot-preview",
+   "highlight": true,
    "date": "2021-06-29",
    "title": "GitHub Copilot technical preview (powered by Codex)",
    "category": "product",
@@ -536,6 +552,7 @@
   },
   {
    "id": "2021-07-15-alphafold2-open",
+   "highlight": true,
    "date": "2021-07-15",
    "title": "AlphaFold 2 open-sourced plus Nature paper plus RoseTTAFold",
    "category": "model-release",
@@ -573,6 +590,7 @@
   },
   {
    "id": "2021-07-22-alphafold-db",
+   "highlight": false,
    "date": "2021-07-22",
    "title": "AlphaFold Protein Structure Database launch",
    "category": "product",
@@ -617,6 +635,7 @@
   },
   {
    "id": "2021-08-10-codex-beta",
+   "highlight": true,
    "date": "2021-08-10",
    "title": "OpenAI Codex private beta API",
    "category": "product",
@@ -653,6 +672,7 @@
   },
   {
    "id": "2021-08-19-tesla-ai-day",
+   "highlight": false,
    "date": "2021-08-19",
    "title": "Tesla AI Day: Dojo D1 chip",
    "category": "infrastructure",
@@ -680,6 +700,7 @@
   },
   {
    "id": "2021-09-03-flan",
+   "highlight": false,
    "date": "2021-09-03",
    "title": "FLAN: Finetuned Language Models Are Zero-Shot Learners",
    "category": "paper",
@@ -714,6 +735,7 @@
   },
   {
    "id": "2021-09-07-mmlu",
+   "highlight": true,
    "date": "2021-09-07",
    "title": "MMLU massive multitask language understanding benchmark",
    "category": "advance",
@@ -750,6 +772,7 @@
   },
   {
    "id": "2021-09-27-hyperclova",
+   "highlight": false,
    "date": "2021-09-27",
    "title": "HyperCLOVA 204B Korean LLM",
    "category": "model-release",
@@ -786,6 +809,7 @@
   },
   {
    "id": "2021-10-08-t0",
+   "highlight": false,
    "date": "2021-10-08",
    "title": "T0 multitask prompted training enables zero-shot generalization",
    "category": "model-release",
@@ -830,6 +854,7 @@
   },
   {
    "id": "2021-10-11-mt-nlg-530b",
+   "highlight": false,
    "date": "2021-10-11",
    "title": "Megatron-Turing NLG 530B largest dense model",
    "category": "model-release",
@@ -867,6 +892,7 @@
   },
   {
    "id": "2021-10-29-pathways",
+   "highlight": false,
    "date": "2021-10-29",
    "title": "Pathways next-generation AI architecture vision",
    "category": "paper",
@@ -902,6 +928,7 @@
   },
   {
    "id": "2021-11-11-mae",
+   "highlight": false,
    "date": "2021-11-11",
    "title": "MAE masked autoencoders are scalable vision learners",
    "category": "paper",
@@ -938,6 +965,7 @@
   },
   {
    "id": "2021-11-18-gpt3-ga",
+   "highlight": false,
    "date": "2021-11-18",
    "title": "GPT-3 API waitlist removed (general availability)",
    "category": "product",
@@ -966,6 +994,7 @@
   },
   {
    "id": "2021-12-08-gopher-retro",
+   "highlight": false,
    "date": "2021-12-08",
    "title": "Gopher 280B plus RETRO 7.5B plus ethical risks taxonomy",
    "category": "paper",
@@ -1010,6 +1039,7 @@
   },
   {
    "id": "2021-12-20-glide",
+   "highlight": false,
    "date": "2021-12-20",
    "title": "GLIDE text-guided diffusion for photorealistic generation",
    "category": "paper",

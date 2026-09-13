@@ -6,6 +6,7 @@
  "events": [
   {
    "id": "2020-01-23-scaling-laws",
+   "highlight": true,
    "date": "2020-01-23",
    "title": "Scaling Laws for Neural Language Models",
    "category": "paper",
@@ -41,6 +42,7 @@
   },
   {
    "id": "2020-01-27-meena",
+   "highlight": false,
    "date": "2020-01-27",
    "title": "Meena human-like open-domain chatbot",
    "category": "paper",
@@ -69,6 +71,7 @@
   },
   {
    "id": "2020-02-13-simclr",
+   "highlight": false,
    "date": "2020-02-13",
    "title": "SimCLR contrastive learning for vision",
    "category": "paper",
@@ -104,6 +107,7 @@
   },
   {
    "id": "2020-02-13-turing-nlg",
+   "highlight": false,
    "date": "2020-02-13",
    "title": "Turing-NLG 17B largest LM at the time",
    "category": "model-release",
@@ -141,6 +145,7 @@
   },
   {
    "id": "2020-02-17-musk-breaks-openai",
+   "highlight": false,
    "date": "2020-02-17",
    "title": "Elon Musk publicly breaks with OpenAI",
    "category": "drama",
@@ -169,6 +174,7 @@
   },
   {
    "id": "2020-03-19-nerf",
+   "highlight": false,
    "date": "2020-03-19",
    "title": "NeRF neural radiance fields for view synthesis",
    "category": "paper",
@@ -215,6 +221,7 @@
   },
   {
    "id": "2020-03-31-agent57",
+   "highlight": false,
    "date": "2020-03-31",
    "title": "Agent57 first agent to beat all 57 Atari games",
    "category": "paper",
@@ -250,6 +257,7 @@
   },
   {
    "id": "2020-04-29-blenderbot",
+   "highlight": false,
    "date": "2020-04-29",
    "title": "BlenderBot open-domain chatbot from Facebook",
    "category": "model-release",
@@ -286,6 +294,7 @@
   },
   {
    "id": "2020-04-30-jukebox",
+   "highlight": false,
    "date": "2020-04-30",
    "title": "Jukebox generative model for music with singing",
    "category": "model-release",
@@ -322,6 +331,7 @@
   },
   {
    "id": "2020-05-14-nvidia-a100",
+   "highlight": false,
    "date": "2020-05-14",
    "title": "NVIDIA A100 Ampere GPU in full production",
    "category": "infrastructure",
@@ -361,6 +371,7 @@
   },
   {
    "id": "2020-05-22-rag",
+   "highlight": true,
    "date": "2020-05-22",
    "title": "RAG retrieval-augmented generation",
    "category": "paper",
@@ -398,6 +409,7 @@
   },
   {
    "id": "2020-05-28-gpt3-paper",
+   "highlight": true,
    "date": "2020-05-28",
    "title": "GPT-3: Language Models are Few-Shot Learners",
    "category": "model-release",
@@ -433,6 +445,7 @@
   },
   {
    "id": "2020-06-11-openai-api-beta",
+   "highlight": true,
    "date": "2020-06-11",
    "title": "OpenAI API private beta (first commercial GPT-3 product)",
    "category": "product",
@@ -461,6 +474,7 @@
   },
   {
    "id": "2020-06-11-synthetic-note",
+   "highlight": false,
    "date": "2020-06-11",
    "title": "GPT-3 hype wave: AI Dungeon and copywriting demos go viral",
    "category": "product",
@@ -479,6 +493,7 @@
   },
   {
    "id": "2020-06-19-ddpm",
+   "highlight": true,
    "date": "2020-06-19",
    "title": "DDPM denoising diffusion probabilistic models",
    "category": "paper",
@@ -513,6 +528,7 @@
   },
   {
    "id": "2020-06-20-wav2vec2",
+   "highlight": false,
    "date": "2020-06-20",
    "title": "wav2vec 2.0 self-supervised speech representations",
    "category": "paper",
@@ -548,6 +564,7 @@
   },
   {
    "id": "2020-07-01-eleutherai-founded",
+   "highlight": true,
    "date": "2020-07-01",
    "title": "EleutherAI founded to replicate GPT-3 openly",
    "category": "company",
@@ -583,6 +600,7 @@
   },
   {
    "id": "2020-09-04-rlhf-summarization",
+   "highlight": true,
    "date": "2020-09-04",
    "title": "Learning to Summarize from Human Feedback (RLHF breakthrough)",
    "category": "paper",
@@ -619,6 +637,7 @@
   },
   {
    "id": "2020-09-22-microsoft-gpt3-exclusive",
+   "highlight": false,
    "date": "2020-09-22",
    "title": "Microsoft exclusively licenses GPT-3",
    "category": "company",
@@ -656,6 +675,7 @@
   },
   {
    "id": "2020-10-08-waymo-driverless",
+   "highlight": false,
    "date": "2020-10-08",
    "title": "Waymo opens fully driverless rides to public in Phoenix",
    "category": "product",
@@ -692,6 +712,7 @@
   },
   {
    "id": "2020-10-20-tesla-fsd-beta",
+   "highlight": false,
    "date": "2020-10-20",
    "title": "Tesla FSD Beta limited rollout begins",
    "category": "product",
@@ -719,6 +740,7 @@
   },
   {
    "id": "2020-10-22-vit",
+   "highlight": true,
    "date": "2020-10-22",
    "title": "Vision Transformer (ViT): An Image is Worth 16x16 Words",
    "category": "paper",
@@ -755,6 +777,7 @@
   },
   {
    "id": "2020-11-30-alphafold2-casp14",
+   "highlight": true,
    "date": "2020-11-30",
    "title": "AlphaFold 2 wins CASP14 by landslide (protein folding solved)",
    "category": "advance",
@@ -791,6 +814,7 @@
   },
   {
    "id": "2020-12-02-gebru-fired",
+   "highlight": true,
    "date": "2020-12-02",
    "title": "Timnit Gebru forced out of Google",
    "category": "drama",
@@ -837,6 +861,7 @@
   },
   {
    "id": "2020-12-07-deit",
+   "highlight": false,
    "date": "2020-12-07",
    "title": "DeiT data-efficient image Transformers",
    "category": "paper",
@@ -872,6 +897,7 @@
   },
   {
    "id": "2020-12-23-muzero-nature",
+   "highlight": false,
    "date": "2020-12-23",
    "title": "MuZero published in Nature",
    "category": "paper",
@@ -916,6 +942,7 @@
   },
   {
    "id": "2020-01-01-anthropic-stealth",
+   "highlight": false,
    "date": "2020-12-31",
    "title": "Anthropic founding team departs OpenAI (stealth, incorporated Jan 2021)",
    "category": "company",
@@ -944,6 +971,7 @@
   },
   {
    "id": "2020-12-31-the-pile",
+   "highlight": false,
    "date": "2020-12-31",
    "title": "The Pile 800GB diverse open LM dataset",
    "category": "model-release",

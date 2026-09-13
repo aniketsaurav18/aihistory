@@ -5,7 +5,8 @@
   "count": 21,
   "events": [
     {
-      "id": "2018-01-23-ulmfit",
+   "id": "2018-01-23-ulmfit",
+   "highlight": false,
       "date": "2018-01-23",
       "title": "ULMFiT enables NLP transfer learning",
       "category": "paper",
@@ -41,7 +42,8 @@
       "verified": true
     },
     {
-      "id": "2018-02-15-elmo",
+   "id": "2018-02-15-elmo",
+   "highlight": false,
       "date": "2018-02-15",
       "title": "ELMo deep contextualized word representations",
       "category": "paper",
@@ -77,7 +79,8 @@
       "verified": true
     },
     {
-      "id": "2018-02-20-malicious-use-of-ai",
+   "id": "2018-02-20-malicious-use-of-ai",
+   "highlight": false,
       "date": "2018-02-20",
       "title": "The Malicious Use of AI report",
       "category": "policy",
@@ -115,7 +118,8 @@
       "verified": true
     },
     {
-      "id": "2018-02-20-musk-leaves-openai",
+   "id": "2018-02-20-musk-leaves-openai",
+   "highlight": false,
       "date": "2018-02-20",
       "title": "Elon Musk leaves OpenAI board",
       "category": "company",
@@ -153,7 +157,8 @@
       "verified": true
     },
     {
-      "id": "2018-04-09-openai-charter",
+   "id": "2018-04-09-openai-charter",
+   "highlight": false,
       "date": "2018-04-09",
       "title": "OpenAI Charter published",
       "category": "policy",
@@ -181,7 +186,8 @@
       "verified": true
     },
     {
-      "id": "2018-04-20-glue-benchmark",
+   "id": "2018-04-20-glue-benchmark",
+   "highlight": false,
       "date": "2018-04-20",
       "title": "GLUE benchmark launches",
       "category": "advance",
@@ -226,7 +232,8 @@
       "verified": true
     },
     {
-      "id": "2018-05-08-google-duplex",
+   "id": "2018-05-08-google-duplex",
+   "highlight": false,
       "date": "2018-05-08",
       "title": "Google Duplex stuns at I/O with human-like phone calls",
       "category": "product",
@@ -254,7 +261,8 @@
       "verified": true
     },
     {
-      "id": "2018-05-21-sagan",
+   "id": "2018-05-21-sagan",
+   "highlight": false,
       "date": "2018-05-21",
       "title": "Self-Attention GAN (SAGAN)",
       "category": "paper",
@@ -282,7 +290,8 @@
       "verified": true
     },
     {
-      "id": "2018-05-25-gdpr",
+   "id": "2018-05-25-gdpr",
+   "highlight": true,
       "date": "2018-05-25",
       "title": "GDPR takes effect, reshaping AI data practices",
       "category": "policy",
@@ -318,7 +327,8 @@
       "verified": true
     },
     {
-      "id": "2018-06-11-gpt-1",
+   "id": "2018-06-11-gpt-1",
+   "highlight": true,
       "date": "2018-06-11",
       "title": "GPT-1: Improving Language Understanding by Generative Pre-Training",
       "category": "model-release",
@@ -354,7 +364,8 @@
       "verified": true
     },
     {
-      "id": "2018-06-25-openai-five",
+   "id": "2018-06-25-openai-five",
+   "highlight": false,
       "date": "2018-06-25",
       "title": "OpenAI Five 5v5 beats amateurs in Dota",
       "category": "advance",
@@ -382,7 +393,8 @@
       "verified": true
     },
     {
-      "id": "2018-07-10-universal-transformer",
+   "id": "2018-07-10-universal-transformer",
+   "highlight": false,
       "date": "2018-07-10",
       "title": "Universal Transformer recurrent-in-depth",
       "category": "paper",
@@ -411,7 +423,8 @@
       "verified": true
     },
     {
-      "id": "2018-07-30-openai-dactyl",
+   "id": "2018-07-30-openai-dactyl",
+   "highlight": false,
       "date": "2018-07-30",
       "title": "OpenAI Dactyl dexterous robot hand",
       "category": "advance",
@@ -446,7 +459,8 @@
       "verified": true
     },
     {
-      "id": "2018-08-22-openai-five-ti8-loss",
+   "id": "2018-08-22-openai-five-ti8-loss",
+   "highlight": false,
       "date": "2018-08-22",
       "title": "OpenAI Five loses at The International 2018",
       "category": "advance",
@@ -474,7 +488,8 @@
       "verified": true
     },
     {
-      "id": "2018-09-28-biggan",
+   "id": "2018-09-28-biggan",
+   "highlight": false,
       "date": "2018-09-28",
       "title": "BigGAN large-scale GAN training",
       "category": "paper",
@@ -503,7 +518,8 @@
       "verified": true
     },
     {
-      "id": "2018-10-08-waymo-note",
+   "id": "2018-10-08-waymo-note",
+   "highlight": false,
       "date": "2018-10-08",
       "title": "Waymo context: self-driving as parallel AI bet (background)",
       "category": "advance",
@@ -539,7 +555,8 @@
       "verified": true
     },
     {
-      "id": "2018-10-11-bert-paper",
+   "id": "2018-10-11-bert-paper",
+   "highlight": true,
       "date": "2018-10-11",
       "title": "BERT paper: Pre-training of Deep Bidirectional Transformers",
       "category": "paper",
@@ -573,7 +590,8 @@
       "verified": true
     },
     {
-      "id": "2018-10-31-bert-open-source",
+   "id": "2018-10-31-bert-open-source",
+   "highlight": true,
       "date": "2018-10-31",
       "title": "BERT open-source release sparks explosion",
       "category": "model-release",
@@ -608,7 +626,8 @@
       "verified": true
     },
     {
-      "id": "2018-12-02-alphafold-casp13",
+   "id": "2018-12-02-alphafold-casp13",
+   "highlight": true,
       "date": "2018-12-02",
       "title": "AlphaFold wins CASP13 protein-folding competition",
       "category": "advance",
@@ -644,7 +663,8 @@
       "verified": true
     },
     {
-      "id": "2018-12-06-alphazero-science",
+   "id": "2018-12-06-alphazero-science",
+   "highlight": false,
       "date": "2018-12-06",
       "title": "AlphaZero Science paper and chess analysis",
       "category": "paper",
@@ -679,7 +699,8 @@
       "verified": true
     },
     {
-      "id": "2018-12-12-stylegan",
+   "id": "2018-12-12-stylegan",
+   "highlight": false,
       "date": "2018-12-12",
       "title": "StyleGAN style-based generator",
       "category": "paper",

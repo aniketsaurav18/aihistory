@@ -6,6 +6,7 @@
  "events": [
   {
    "id": "2019-01-09-transformer-xl",
+   "highlight": false,
    "date": "2019-01-09",
    "title": "Transformer-XL breaks fixed context",
    "category": "paper",
@@ -42,6 +43,7 @@
   },
   {
    "id": "2019-01-24-alphastar-beats-pros",
+   "highlight": false,
    "date": "2019-01-24",
    "title": "AlphaStar beats StarCraft II pros",
    "category": "advance",
@@ -71,6 +73,7 @@
   },
   {
    "id": "2019-02-11-us-ai-initiative",
+   "highlight": false,
    "date": "2019-02-11",
    "title": "US Executive Order on Maintaining American Leadership in AI",
    "category": "policy",
@@ -107,6 +110,7 @@
   },
   {
    "id": "2019-02-14-gpt2-withheld",
+   "highlight": true,
    "date": "2019-02-14",
    "title": "GPT-2 announced but withheld as too dangerous",
    "category": "model-release",
@@ -143,6 +147,7 @@
   },
   {
    "id": "2019-03-11-openai-lp",
+   "highlight": true,
    "date": "2019-03-11",
    "title": "OpenAI creates capped-profit OpenAI LP",
    "category": "company",
@@ -170,6 +175,7 @@
   },
   {
    "id": "2019-04-08-eu-ethics",
+   "highlight": false,
    "date": "2019-04-08",
    "title": "EU Ethics Guidelines for Trustworthy AI",
    "category": "policy",
@@ -205,6 +211,7 @@
   },
   {
    "id": "2019-04-13-five-beats-og",
+   "highlight": false,
    "date": "2019-04-13",
    "title": "OpenAI Five defeats world champions OG",
    "category": "advance",
@@ -232,6 +239,7 @@
   },
   {
    "id": "2019-04-16-sparse-transformer",
+   "highlight": false,
    "date": "2019-04-16",
    "title": "Sparse Transformer for million-length sequences",
    "category": "paper",
@@ -268,6 +276,7 @@
   },
   {
    "id": "2019-04-18-five-arena",
+   "highlight": false,
    "date": "2019-04-18",
    "title": "OpenAI Five Arena beats public 99.4%",
    "category": "product",
@@ -286,6 +295,7 @@
   },
   {
    "id": "2019-05-01-talk-to-transformer",
+   "highlight": false,
    "date": "2019-05-01",
    "title": "Talk to Transformer goes viral",
    "category": "product",
@@ -315,6 +325,7 @@
   },
   {
    "id": "2019-05-20-gpt2-355m",
+   "highlight": false,
    "date": "2019-05-20",
    "title": "GPT-2 355M medium release",
    "category": "model-release",
@@ -351,6 +362,7 @@
   },
   {
    "id": "2019-06-05-grover",
+   "highlight": false,
    "date": "2019-06-05",
    "title": "GROVER neural fake news defense",
    "category": "paper",
@@ -387,6 +399,7 @@
   },
   {
    "id": "2019-06-19-xlnet",
+   "highlight": false,
    "date": "2019-06-19",
    "title": "XLNet generalized autoregressive pretraining",
    "category": "model-release",
@@ -423,6 +436,7 @@
   },
   {
    "id": "2019-07-22-microsoft-1b",
+   "highlight": true,
    "date": "2019-07-22",
    "title": "Microsoft invests $1B in OpenAI",
    "category": "company",
@@ -460,6 +474,7 @@
   },
   {
    "id": "2019-07-26-roberta",
+   "highlight": false,
    "date": "2019-07-26",
    "title": "RoBERTa robustly optimized BERT",
    "category": "paper",
@@ -497,6 +512,7 @@
   },
   {
    "id": "2019-08-20-gpt2-774m",
+   "highlight": false,
    "date": "2019-08-20",
    "title": "GPT-2 774M release plus staged-release report",
    "category": "model-release",
@@ -532,6 +548,7 @@
   },
   {
    "id": "2019-09-12-ctrl",
+   "highlight": false,
    "date": "2019-09-12",
    "title": "CTRL conditional Transformer",
    "category": "model-release",
@@ -567,6 +584,7 @@
   },
   {
    "id": "2019-09-26-albert",
+   "highlight": false,
    "date": "2019-09-26",
    "title": "ALBERT lite BERT with parameter sharing",
    "category": "paper",
@@ -603,6 +621,7 @@
   },
   {
    "id": "2019-10-02-distilbert",
+   "highlight": false,
    "date": "2019-10-02",
    "title": "DistilBERT distilled BERT",
    "category": "model-release",
@@ -638,6 +657,7 @@
   },
   {
    "id": "2019-10-23-t5",
+   "highlight": true,
    "date": "2019-10-23",
    "title": "T5 Text-to-Text Transfer Transformer and C4",
    "category": "paper",
@@ -682,6 +702,7 @@
   },
   {
    "id": "2019-10-30-alphastar-grandmaster",
+   "highlight": false,
    "date": "2019-10-30",
    "title": "AlphaStar Grandmaster level on Battle.net ladder",
    "category": "paper",
@@ -718,6 +739,7 @@
   },
   {
    "id": "2019-11-05-gpt2-full",
+   "highlight": false,
    "date": "2019-11-05",
    "title": "GPT-2 1.5B full release",
    "category": "model-release",
@@ -753,6 +775,7 @@
   },
   {
    "id": "2019-12-03-stylegan2",
+   "highlight": false,
    "date": "2019-12-03",
    "title": "StyleGAN2 improved quality and invertibility",
    "category": "paper",
@@ -788,6 +811,7 @@
   },
   {
    "id": "2019-12-13-dota-paper-retirement",
+   "highlight": false,
    "date": "2019-12-13",
    "title": "Dota large-scale RL paper plus OpenAI Five retirement",
    "category": "paper",

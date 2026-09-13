@@ -34,10 +34,9 @@ function formatDate(date: string) {
 type Props = {
   events: TimelineEvent[];
   years: YearMeta[];
-  highlightIds: string[];
 };
 
-export default function TimelineExplorer({ events, years, highlightIds }: Props) {
+export default function TimelineExplorer({ events, years }: Props) {
   const [query, setQuery] = useState("");
   const [selectedYear, setSelectedYear] = useState<number | "all">("all");
   const [selectedCategories, setSelectedCategories] = useState<Category[]>([]);
@@ -51,10 +50,10 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const viewModeStartRectRef = useRef<DOMRect | null>(null);
   const viewModeAnimationRef = useRef<Animation | null>(null);
 
-  const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
+  const highlightCount = useMemo(() => events.filter((event) => event.highlight).length, [events]);
   const modeEvents = useMemo(
-    () => (highlightsOnly ? events.filter((event) => highlights.has(event.id)) : events),
-    [events, highlights, highlightsOnly],
+    () => (highlightsOnly ? events.filter((event) => event.highlight) : events),
+    [events, highlightsOnly],
   );
   const categoryCounts = useMemo(
     () =>
@@ -247,7 +246,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
                   aria-selected={highlightsOnly}
                   onClick={() => setHighlightsOnly(true)}
                 >
-                  Highlights <span>{highlightIds.length}</span>
+                  Highlights <span>{highlightCount}</span>
                 </button>
               </div>
             </div>

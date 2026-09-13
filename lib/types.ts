@@ -20,6 +20,7 @@ export type Source = {
 
 export type TimelineEvent = {
   id: string;
+  highlight: boolean;
   date: string;
   title: string;
   category: Category;

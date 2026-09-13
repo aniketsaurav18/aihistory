@@ -5,7 +5,8 @@
   "count": 6,
   "events": [
     {
-      "id": "2017-06-12-attention-is-all-you-need",
+   "id": "2017-06-12-attention-is-all-you-need",
+   "highlight": true,
       "date": "2017-06-12",
       "title": "Attention Is All You Need introduces the Transformer",
       "category": "paper",
@@ -50,7 +51,8 @@
       "verified": true
     },
     {
-      "id": "2017-08-11-openai-dota-dendi",
+   "id": "2017-08-11-openai-dota-dendi",
+   "highlight": false,
       "date": "2017-08-11",
       "title": "OpenAI Dota 1v1 bot beats pro Dendi at The International",
       "category": "advance",
@@ -86,7 +88,8 @@
       "verified": true
     },
     {
-      "id": "2017-10-18-alphago-zero",
+   "id": "2017-10-18-alphago-zero",
+   "highlight": true,
       "date": "2017-10-18",
       "title": "AlphaGo Zero masters Go without any human data",
       "category": "paper",
@@ -123,7 +126,8 @@
       "verified": true
     },
     {
-      "id": "2017-10-27-progressive-gans",
+   "id": "2017-10-27-progressive-gans",
+   "highlight": false,
       "date": "2017-10-27",
       "title": "Progressive Growing of GANs enables 1024px faces",
       "category": "paper",
@@ -160,7 +164,8 @@
       "verified": true
     },
     {
-      "id": "2017-12-05-alphazero",
+   "id": "2017-12-05-alphazero",
+   "highlight": true,
       "date": "2017-12-05",
       "title": "AlphaZero generalizes to chess, shogi and Go with one algorithm",
       "category": "paper",
@@ -203,7 +208,8 @@
       "verified": true
     },
     {
-      "id": "2017-12-11-deepfakes-emerge",
+   "id": "2017-12-11-deepfakes-emerge",
+   "highlight": false,
       "date": "2017-12-11",
       "title": "Deepfakes emerge on Reddit",
       "category": "advance",
