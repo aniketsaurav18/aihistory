@@ -7,7 +7,6 @@ import {
   ArrowUpRight,
   Check,
   Search,
-  Sparkles,
   X,
 } from "lucide-react";
 import type { Category, TimelineEvent, YearMeta } from "@/lib/types";
@@ -46,15 +45,35 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [visibleCount, setVisibleCount] = useState(28);
 
   const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
+  const modeEvents = useMemo(
+    () => (highlightsOnly ? events.filter((event) => highlights.has(event.id)) : events),
+    [events, highlights, highlightsOnly],
+  );
   const categoryCounts = useMemo(
     () =>
       Object.fromEntries(
-        categories.map(({ value }) => [value, events.filter((event) => event.category === value).length]),
+        categories.map(({ value }) => [
+          value,
+          modeEvents.filter((event) => event.category === value).length,
+        ]),
       ) as Record<Category, number>,
-    [events],
+    [modeEvents],
+  );
+  const yearCounts = useMemo(
+    () =>
+      Object.fromEntries(
+        years.map(({ year }) => [
+          year,
+          modeEvents.filter((event) => event.date.startsWith(String(year))).length,
+        ]),
+      ) as Record<number, number>,
+    [modeEvents, years],
   );
 
-  const verifiedCount = useMemo(() => events.filter((event) => event.verified).length, [events]);
+  const verifiedCount = useMemo(
+    () => modeEvents.filter((event) => event.verified).length,
+    [modeEvents],
+  );
   const sourceCount = useMemo(
     () => events.reduce((total, event) => total + (event.sources?.length || 0), 0),
     [events],
@@ -62,10 +81,9 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
 
   const filteredEvents = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    const result = events.filter((event) => {
+    const result = modeEvents.filter((event) => {
       if (selectedYear !== "all" && Number(event.date.slice(0, 4)) !== selectedYear) return false;
       if (selectedCategories.length && !selectedCategories.includes(event.category)) return false;
-      if (highlightsOnly && !highlights.has(event.id)) return false;
       if (!needle) return true;
 
       const haystack = [
@@ -83,7 +101,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     return result.sort((a, b) =>
       sortDirection === "asc" ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date),
     );
-  }, [events, highlights, highlightsOnly, query, selectedCategories, selectedYear, sortDirection]);
+  }, [modeEvents, query, selectedCategories, selectedYear, sortDirection]);
 
   const visibleEvents = filteredEvents.slice(0, visibleCount);
   const groupedEvents = visibleEvents.reduce<Record<string, TimelineEvent[]>>((groups, event) => {
@@ -108,7 +126,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
 
   function chooseYear(year: number | "all") {
     setSelectedYear(year);
-    if (year !== "all") setHighlightsOnly(false);
     document.getElementById("timeline")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -159,14 +176,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
               )}
             </label>
             <button
-              className={`essential-toggle ${highlightsOnly ? "active" : ""}`}
-              onClick={() => setHighlightsOnly((value) => !value)}
-              aria-pressed={highlightsOnly}
-            >
-              <Sparkles size={16} />
-              {highlightsOnly ? "Essential moments" : "Full archive"}
-            </button>
-            <button
               className="sort-button"
               onClick={() => setSortDirection((value) => (value === "asc" ? "desc" : "asc"))}
               aria-label={`Sort ${sortDirection === "asc" ? "newest first" : "oldest first"}`}
@@ -174,6 +183,27 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
               {sortDirection === "asc" ? <ArrowDown size={17} /> : <ArrowUp size={17} />}
               {sortDirection === "asc" ? "Oldest" : "Newest"}
             </button>
+          </div>
+
+          <div className="view-mode-row">
+            <div className="view-tabs" role="tablist" aria-label="Choose timeline dataset">
+              <button
+                className={`view-tab ${!highlightsOnly ? "active" : ""}`}
+                role="tab"
+                aria-selected={!highlightsOnly}
+                onClick={() => setHighlightsOnly(false)}
+              >
+                All events <span>{events.length}</span>
+              </button>
+              <button
+                className={`view-tab ${highlightsOnly ? "active" : ""}`}
+                role="tab"
+                aria-selected={highlightsOnly}
+                onClick={() => setHighlightsOnly(true)}
+              >
+                Highlights <span>{highlightIds.length}</span>
+              </button>
+            </div>
           </div>
 
           <div className="category-row" aria-label="Filter by category">
@@ -202,7 +232,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
               className={`year-button ${selectedYear === "all" ? "active" : ""}`}
               onClick={() => chooseYear("all")}
             >
-              <span>All years</span><span>{events.length}</span>
+              <span>All years</span><span>{modeEvents.length}</span>
             </button>
             {[...years].reverse().map((year) => (
               <button
@@ -210,7 +240,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
                 className={`year-button ${selectedYear === year.year ? "active" : ""}`}
                 onClick={() => chooseYear(year.year)}
               >
-                <span>{year.year}</span><span>{year.count}</span>
+                <span>{year.year}</span><span>{yearCounts[year.year]}</span>
               </button>
             ))}
             <p className="index-note">Dates reflect the best available publication or announcement record.</p>

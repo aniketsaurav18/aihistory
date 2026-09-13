@@ -129,7 +129,7 @@ a { color: inherit; }
 }
 .search-row {
   display: grid;
-  grid-template-columns: minmax(280px, 1fr) auto auto;
+  grid-template-columns: minmax(280px, 1fr) auto;
   gap: 10px;
 }
 .search-box {
@@ -162,7 +162,6 @@ a { color: inherit; }
   display: grid;
   cursor: pointer;
 }
-.essential-toggle,
 .sort-button {
   height: 48px;
   background: transparent;
@@ -177,8 +176,39 @@ a { color: inherit; }
   cursor: pointer;
   white-space: nowrap;
 }
-.essential-toggle.active { background: var(--acid); border-color: var(--ink); }
-.sort-button:hover, .essential-toggle:hover { border-color: var(--ink); }
+.sort-button:hover { border-color: var(--ink); }
+
+.view-mode-row {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.view-tabs {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+.view-tab {
+  min-width: 138px;
+  height: 36px;
+  padding: 0 14px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  font: 500 10px/1 var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.view-tab:last-child { border-right: 0; }
+.view-tab span { color: var(--muted); }
+.view-tab.active { background: var(--ink); color: var(--paper); }
+.view-tab.active span { color: #aaa69c; }
 
 .category-row {
   display: flex;
@@ -552,8 +582,9 @@ footer a {
   .archive-total { font-size: 9px; }
   .filter-shell { padding: 12px 14px 10px; }
   .search-row { grid-template-columns: 1fr auto; gap: 8px; }
-  .search-box { grid-column: 1 / -1; }
-  .essential-toggle, .sort-button { height: 42px; padding-inline: 12px; }
+  .sort-button { width: 46px; height: 48px; padding: 0; font-size: 0; }
+  .view-tabs { width: 100%; }
+  .view-tab { min-width: 0; width: 100%; }
   .category-row { margin-inline: -14px; padding-inline: 14px; }
   .timeline-layout { display: block; padding: 38px 16px 80px; }
   .year-index {
