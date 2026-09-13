@@ -352,20 +352,28 @@ export default function TimelineExplorer({ events, years }: Props) {
                                     <span>Why it matters</span>
                                     <p>{event.significance}</p>
                                   </div>
-                                  <div className="event-tags" aria-label="Tags">
-                                    {event.tags.map((tag) => <span key={tag}>#{tag}</span>)}
-                                  </div>
-                                  {!!event.sources?.length && (
-                                    <div className="source-list">
-                                      <span className="source-title">Sources · {event.sources.length}</span>
-                                      {event.sources.map((source, index) => (
-                                        <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${index}`}>
-                                          <span>{source.label}</span>
-                                          <ArrowUpRight size={15} />
-                                        </a>
-                                      ))}
+                                  <details className="event-more">
+                                    <summary>
+                                      <span>View sources &amp; tags</span>
+                                      <span>{event.sources?.length ?? 0} sources · {event.tags.length} tags</span>
+                                    </summary>
+                                    <div className="event-more-content">
+                                      <div className="event-tags" aria-label="Tags">
+                                        {event.tags.map((tag) => <span key={tag}>#{tag}</span>)}
+                                      </div>
+                                      {!!event.sources?.length && (
+                                        <div className="source-list">
+                                          <span className="source-title">Sources · {event.sources.length}</span>
+                                          {event.sources.map((source, index) => (
+                                            <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${index}`}>
+                                              <span>{source.label}</span>
+                                              <ArrowUpRight size={15} />
+                                            </a>
+                                          ))}
+                                        </div>
+                                      )}
                                     </div>
-                                  )}
+                                  </details>
                                 </div>
                               </div>
                             </article>

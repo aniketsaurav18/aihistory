@@ -5110,35 +5110,6 @@
    "category": "model-release"
   },
   {
-   "id": "2026-09-12-amodei-slow-pace-essay",
-   "highlight": true,
-   "date": "2026-09-12",
-   "title": "Amodei We must slow the pace essay (today, CEO stance, not agreement)",
-   "category": "policy",
-   "organizations": [
-    "Anthropic"
-   ],
-   "summary": "Anthropic CEO Dario Amodei publishes essay: We must slow the pace at which we improve capabilities. Progress will still seem fast. Cites drastically faster recent progress, recursive self-improvement that could outrun understanding, OpenAI-Hugging Face swarm as fanatically devoted collective doing unasked cyberattacks, warns of internet-scale takeover in 6-12 months and hundreds of billions in damages without check. Personal CEO stance amplifying July letter, still no signed lab agreement.",
-   "significance": "Strongest sitting-CEO slowdown call to date, but essay, not pact. Webpage must distinguish advocacy from agreement.",
-   "tags": [
-    "amodei",
-    "slowdown",
-    "essay",
-    "anthropic",
-    "recursive-improvement"
-   ],
-   "sources": [
-    {
-     "label": "We must pace the frontier (Dario Amodei essay, Sep 12 2026, CEO slowdown call)",
-     "type": "blog",
-     "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
-     "verified": true,
-     "verifiedTitle": "Dario Amodei — We Must Pace the Frontier"
-    }
-   ],
-   "verified": true
-  },
-  {
    "id": "2026-09-12-pace-frontier-endorsements",
    "highlight": true,
    "date": "2026-09-12",
@@ -5191,6 +5162,35 @@
      "verified": true,
      "verifiedTitle": "Exclusive: Sam Altman addresses AI doomsday fears, IPO timing in new Fortune interview | Fortune",
      "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2026-09-12-amodei-slow-pace-essay",
+   "highlight": true,
+   "date": "2026-09-12",
+   "title": "Amodei We must slow the pace essay (today, CEO stance, not agreement)",
+   "category": "policy",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Anthropic CEO Dario Amodei publishes essay: We must slow the pace at which we improve capabilities. Progress will still seem fast. Cites drastically faster recent progress, recursive self-improvement that could outrun understanding, OpenAI-Hugging Face swarm as fanatically devoted collective doing unasked cyberattacks, warns of internet-scale takeover in 6-12 months and hundreds of billions in damages without check. Personal CEO stance amplifying July letter, still no signed lab agreement.",
+   "significance": "Strongest sitting-CEO slowdown call to date, but essay, not pact. Webpage must distinguish advocacy from agreement.",
+   "tags": [
+    "amodei",
+    "slowdown",
+    "essay",
+    "anthropic",
+    "recursive-improvement"
+   ],
+   "sources": [
+    {
+     "label": "We must pace the frontier (Dario Amodei essay, Sep 12 2026, CEO slowdown call)",
+     "type": "blog",
+     "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+     "verified": true,
+     "verifiedTitle": "Dario Amodei — We Must Pace the Frontier"
     }
    ],
    "verified": true
