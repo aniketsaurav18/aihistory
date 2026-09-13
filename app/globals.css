@@ -509,7 +509,7 @@ a { color: inherit; }
 }
 .event-body {
   text-align: left;
-  padding: 22px 8px 38px 30px;
+  padding: 22px 8px 0 30px;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -853,7 +853,7 @@ footer a {
   .event { grid-template-columns: 1fr; padding-left: 16px; }
   .event-date { text-align: left; padding: 18px 0 0 16px; }
   .timeline-node { left: -16px; right: auto; top: 19px; }
-  .event-body { padding: 13px 8px 22px 16px; }
+  .event-body { padding: 13px 8px 0 16px; }
   .event-topline { order: -1; }
   .event-proof { font-size: 8px; }
   .why-it-matters { grid-template-columns: 1fr; }
