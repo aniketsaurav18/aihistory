@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { track } from "@vercel/analytics";
 import {
   ArrowDown,
   ArrowUp,
@@ -45,6 +46,7 @@ export default function TimelineExplorer({ events, years }: Props) {
   const [visibleCount, setVisibleCount] = useState(28);
   const [isCompact, setIsCompact] = useState(false);
   const loadMoreRef = useRef<HTMLDivElement>(null);
+  const lastTrackedSearchRef = useRef("");
   const compactStateRef = useRef(false);
   const viewModeRef = useRef<HTMLDivElement>(null);
   const viewModeStartRectRef = useRef<DOMRect | null>(null);
@@ -114,6 +116,27 @@ export default function TimelineExplorer({ events, years }: Props) {
   useEffect(() => {
     setVisibleCount(28);
   }, [query, selectedYear, selectedCategories, highlightsOnly, sortDirection]);
+
+  useEffect(() => {
+    const searchQuery = query.trim();
+
+    if (!searchQuery) {
+      lastTrackedSearchRef.current = "";
+      return;
+    }
+
+    const timeout = window.setTimeout(() => {
+      if (lastTrackedSearchRef.current === searchQuery) return;
+
+      track("Search", {
+        query: searchQuery,
+        result_count: filteredEvents.length,
+      });
+      lastTrackedSearchRef.current = searchQuery;
+    }, 650);
+
+    return () => window.clearTimeout(timeout);
+  }, [filteredEvents.length, query]);
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -189,6 +212,10 @@ export default function TimelineExplorer({ events, years }: Props) {
   }, [filteredEvents.length, visibleCount]);
 
   function chooseYear(year: number | "all") {
+    track("Year Click", {
+      year: year === "all" ? "all" : year,
+      event_count: year === "all" ? modeEvents.length : yearCounts[year],
+    });
     setSelectedYear(year);
     document.getElementById("timeline")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -244,7 +271,10 @@ export default function TimelineExplorer({ events, years }: Props) {
                   className={`view-tab ${highlightsOnly ? "active" : ""}`}
                   role="tab"
                   aria-selected={highlightsOnly}
-                  onClick={() => setHighlightsOnly(true)}
+                  onClick={() => {
+                    track("Highlights Click", { highlight_count: highlightCount });
+                    setHighlightsOnly(true);
+                  }}
                 >
                   Highlights <span>{highlightCount}</span>
                 </button>
@@ -352,7 +382,19 @@ export default function TimelineExplorer({ events, years }: Props) {
                                     <span>Why it matters</span>
                                     <p>{event.significance}</p>
                                   </div>
-                                  <details className="event-more">
+                                  <details
+                                    className="event-more"
+                                    onToggle={(toggleEvent) => {
+                                      if (!toggleEvent.currentTarget.open) return;
+
+                                      track("Expand Sources", {
+                                        event_id: event.id,
+                                        event_title: event.title,
+                                        source_count: event.sources?.length ?? 0,
+                                        tag_count: event.tags.length,
+                                      });
+                                    }}
+                                  >
                                     <summary>
                                       <span>View sources &amp; tags</span>
                                       <span>{event.sources?.length ?? 0} sources · {event.tags.length} tags</span>
@@ -365,7 +407,20 @@ export default function TimelineExplorer({ events, years }: Props) {
                                         <div className="source-list">
                                           <span className="source-title">Sources · {event.sources.length}</span>
                                           {event.sources.map((source, index) => (
-                                            <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${index}`}>
+                                            <a
+                                              href={source.url}
+                                              target="_blank"
+                                              rel="noreferrer"
+                                              key={`${source.url}-${index}`}
+                                              onClick={() => {
+                                                track("Source Click", {
+                                                  event_id: event.id,
+                                                  event_title: event.title,
+                                                  source_label: source.label,
+                                                  source_url: source.url,
+                                                });
+                                              }}
+                                            >
                                               <span>{source.label}</span>
                                               <ArrowUpRight size={15} />
                                             </a>
