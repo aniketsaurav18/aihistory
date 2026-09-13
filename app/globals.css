@@ -59,7 +59,7 @@ a { color: inherit; }
   align-items: center;
   padding: 0 clamp(20px, 4.5vw, 72px);
   position: relative;
-  z-index: 5;
+  z-index: 20;
 }
 
 .wordmark {
