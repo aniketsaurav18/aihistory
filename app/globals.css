@@ -135,6 +135,12 @@ a { color: inherit; }
   align-items: center;
   gap: 6px;
 }
+.github-mark {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  fill: currentColor;
+}
 .topbar-link:hover,
 .topbar-link.active { border-bottom-color: var(--ink); }
 .live-tooltip {
