@@ -2,5 +2,6 @@
 out/
 node_modules/
 artifacts/
+research/
 *.log
 .DS_Store
