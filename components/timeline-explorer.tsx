@@ -43,6 +43,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [highlightsOnly, setHighlightsOnly] = useState(true);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
   const [visibleCount, setVisibleCount] = useState(28);
+  const [isCompact, setIsCompact] = useState(false);
   const loadMoreRef = useRef<HTMLDivElement>(null);
 
   const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
@@ -71,10 +72,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     [modeEvents, years],
   );
 
-  const verifiedCount = useMemo(
-    () => modeEvents.filter((event) => event.verified).length,
-    [modeEvents],
-  );
   const sourceCount = useMemo(
     () => events.reduce((total, event) => total + (event.sources?.length || 0), 0),
     [events],
@@ -115,15 +112,16 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     sortDirection === "asc" ? Number(yearA) - Number(yearB) : Number(yearB) - Number(yearA),
   );
 
-  const hasFilters =
-    query.length > 0 ||
-    selectedYear !== "all" ||
-    selectedCategories.length > 0 ||
-    !highlightsOnly;
-
   useEffect(() => {
     setVisibleCount(28);
   }, [query, selectedYear, selectedCategories, highlightsOnly, sortDirection]);
+
+  useEffect(() => {
+    const updateToolbar = () => setIsCompact(window.scrollY > 96);
+    updateToolbar();
+    window.addEventListener("scroll", updateToolbar, { passive: true });
+    return () => window.removeEventListener("scroll", updateToolbar);
+  }, []);
 
   useEffect(() => {
     const marker = loadMoreRef.current;
@@ -176,8 +174,8 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
       </nav>
 
       <section className="explorer" id="timeline">
-        <div className="filter-shell">
-          <div className="search-row">
+        <div className={`filter-shell ${isCompact ? "compact" : ""}`}>
+          <div className="toolbar-row">
             <label className="search-box">
               <Search size={18} aria-hidden="true" />
               <span className="sr-only">Search the archive</span>
@@ -193,6 +191,28 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
                 </button>
               )}
             </label>
+
+            <div className="view-mode-row">
+              <div className="view-tabs" role="tablist" aria-label="Choose timeline dataset">
+                <button
+                  className={`view-tab ${!highlightsOnly ? "active" : ""}`}
+                  role="tab"
+                  aria-selected={!highlightsOnly}
+                  onClick={() => setHighlightsOnly(false)}
+                >
+                  All events <span>{events.length}</span>
+                </button>
+                <button
+                  className={`view-tab ${highlightsOnly ? "active" : ""}`}
+                  role="tab"
+                  aria-selected={highlightsOnly}
+                  onClick={() => setHighlightsOnly(true)}
+                >
+                  Highlights <span>{highlightIds.length}</span>
+                </button>
+              </div>
+            </div>
+
             <button
               className="sort-button"
               onClick={() => setSortDirection((value) => (value === "asc" ? "desc" : "asc"))}
@@ -201,27 +221,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
               {sortDirection === "asc" ? <ArrowDown size={17} /> : <ArrowUp size={17} />}
               {sortDirection === "asc" ? "Oldest" : "Newest"}
             </button>
-          </div>
-
-          <div className="view-mode-row">
-            <div className="view-tabs" role="tablist" aria-label="Choose timeline dataset">
-              <button
-                className={`view-tab ${!highlightsOnly ? "active" : ""}`}
-                role="tab"
-                aria-selected={!highlightsOnly}
-                onClick={() => setHighlightsOnly(false)}
-              >
-                All events <span>{events.length}</span>
-              </button>
-              <button
-                className={`view-tab ${highlightsOnly ? "active" : ""}`}
-                role="tab"
-                aria-selected={highlightsOnly}
-                onClick={() => setHighlightsOnly(true)}
-              >
-                Highlights <span>{highlightIds.length}</span>
-              </button>
-            </div>
           </div>
 
           <div className="category-row" aria-label="Filter by category">
@@ -265,20 +264,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
           </aside>
 
           <div className="timeline-content">
-            <div className="results-heading">
-              <div>
-                <p className="eyebrow">A sourced history of modern AI · 2017—2026</p>
-                <h2>
-                  {selectedYear === "all" ? "All eras" : selectedYear}
-                  <span> / {filteredEvents.length} moments</span>
-                </h2>
-              </div>
-              <div className="results-meta">
-                <span>{verifiedCount} fully verified</span>
-                {hasFilters && <button className="reset-button" onClick={resetFilters}>Reset view</button>}
-              </div>
-            </div>
-
             {filteredEvents.length === 0 ? (
               <div className="empty-state">
                 <span>0 results</span>
