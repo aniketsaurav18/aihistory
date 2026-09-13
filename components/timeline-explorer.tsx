@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowDown,
   ArrowUp,
@@ -43,6 +43,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [highlightsOnly, setHighlightsOnly] = useState(true);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
   const [visibleCount, setVisibleCount] = useState(28);
+  const loadMoreRef = useRef<HTMLDivElement>(null);
 
   const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
   const modeEvents = useMemo(
@@ -123,6 +124,23 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   useEffect(() => {
     setVisibleCount(28);
   }, [query, selectedYear, selectedCategories, highlightsOnly, sortDirection]);
+
+  useEffect(() => {
+    const marker = loadMoreRef.current;
+    if (!marker || visibleCount >= filteredEvents.length) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisibleCount((count) => Math.min(count + 36, filteredEvents.length));
+        }
+      },
+      { rootMargin: "500px 0px" },
+    );
+
+    observer.observe(marker);
+    return () => observer.disconnect();
+  }, [filteredEvents.length, visibleCount]);
 
   function chooseYear(year: number | "all") {
     setSelectedYear(year);
@@ -270,13 +288,10 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
               </div>
             ) : (
               <div className="year-groups">
-                {orderedYearGroups.map(([year, yearEvents]) => {
-                  const yearMeta = years.find((item) => String(item.year) === year);
-                  return (
+                {orderedYearGroups.map(([year, yearEvents]) => (
                     <section className="year-group" key={year} aria-labelledby={`year-${year}`}>
                       <div className="year-heading">
                         <h3 id={`year-${year}`}>{year}</h3>
-                        <p>{yearMeta?.description}</p>
                       </div>
 
                       <div className="event-list">
@@ -309,43 +324,38 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
                                   ))}
                                   {event.organizations.length > 4 && <span>+{event.organizations.length - 4}</span>}
                                 </span>
-                              </div>
-
-                              <div className="event-detail">
-                                <div className="why-it-matters">
-                                  <span>Why it matters</span>
-                                  <p>{event.significance}</p>
-                                </div>
-                                <div className="event-tags" aria-label="Tags">
-                                  {event.tags.map((tag) => <span key={tag}>#{tag}</span>)}
-                                </div>
-                                {!!event.sources?.length && (
-                                  <div className="source-list">
-                                    <span className="source-title">Sources · {event.sources.length}</span>
-                                    {event.sources.map((source, index) => (
-                                      <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${index}`}>
-                                        <span>{source.label}</span>
-                                        <ArrowUpRight size={15} />
-                                      </a>
-                                    ))}
+                                <div className="event-detail">
+                                  <div className="why-it-matters">
+                                    <span>Why it matters</span>
+                                    <p>{event.significance}</p>
                                   </div>
-                                )}
+                                  <div className="event-tags" aria-label="Tags">
+                                    {event.tags.map((tag) => <span key={tag}>#{tag}</span>)}
+                                  </div>
+                                  {!!event.sources?.length && (
+                                    <div className="source-list">
+                                      <span className="source-title">Sources · {event.sources.length}</span>
+                                      {event.sources.map((source, index) => (
+                                        <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${index}`}>
+                                          <span>{source.label}</span>
+                                          <ArrowUpRight size={15} />
+                                        </a>
+                                      ))}
+                                    </div>
+                                  )}
+                                </div>
                               </div>
                             </article>
                           );
                         })}
                       </div>
                     </section>
-                  );
-                })}
+                  ))}
               </div>
             )}
 
             {visibleCount < filteredEvents.length && (
-              <button className="load-more" onClick={() => setVisibleCount((count) => count + 36)}>
-                Load the next chapter
-                <span>{filteredEvents.length - visibleCount} moments remain</span>
-              </button>
+              <div className="scroll-sentinel" ref={loadMoreRef} aria-hidden="true" />
             )}
           </div>
         </div>

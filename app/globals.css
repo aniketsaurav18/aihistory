@@ -346,21 +346,12 @@ a { color: inherit; }
 
 .year-group { padding-top: 58px; }
 .year-heading {
-  display: grid;
-  grid-template-columns: 120px minmax(0, 650px);
-  gap: 24px;
   padding-bottom: 23px;
 }
 .year-heading h3 {
   margin: 0;
   font: 500 27px/1 var(--mono);
   letter-spacing: -0.06em;
-}
-.year-heading p {
-  margin: 2px 0 0;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.55;
 }
 
 .event-list { position: relative; }
@@ -400,7 +391,7 @@ a { color: inherit; }
 }
 .event-body {
   text-align: left;
-  padding: 22px 8px 24px 30px;
+  padding: 22px 8px 38px 30px;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -459,16 +450,14 @@ a { color: inherit; }
 }
 
 .event-detail {
-  grid-column: 2;
-  margin: -4px 8px 38px 30px;
-  border: 1px solid var(--line);
-  background: var(--white);
+  margin-top: 22px;
 }
 .why-it-matters {
   display: grid;
   grid-template-columns: 120px minmax(0, 1fr);
   gap: 16px;
-  padding: 22px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 .why-it-matters > span, .source-title {
@@ -489,13 +478,13 @@ a { color: inherit; }
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 15px 22px;
+  padding: 14px 0;
   border-bottom: 1px solid var(--line);
   font: 400 9px/1 var(--mono);
   text-transform: uppercase;
   color: var(--muted);
 }
-.source-list { padding: 7px 22px 12px; }
+.source-list { padding: 7px 0 0; }
 .source-title { display: block; padding: 10px 0 8px; }
 .source-list a {
   display: flex;
@@ -511,24 +500,7 @@ a { color: inherit; }
 .source-list a:hover span { text-decoration: underline; text-underline-offset: 3px; }
 .source-list a svg { flex: 0 0 auto; }
 
-.load-more {
-  width: 100%;
-  margin-top: 55px;
-  min-height: 76px;
-  border: 1px solid var(--ink);
-  background: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 160ms ease, color 160ms ease;
-}
-.load-more span { font: 400 10px/1 var(--mono); text-transform: uppercase; color: var(--muted); }
-.load-more:hover { background: var(--ink); color: var(--paper); }
-.load-more:hover span { color: #aaa69c; }
+.scroll-sentinel { height: 1px; }
 
 .empty-state {
   text-align: center;
@@ -573,7 +545,6 @@ footer a {
 
 @media (max-width: 980px) {
   .timeline-layout { grid-template-columns: 160px minmax(0, 1fr); gap: 45px; }
-  .year-heading { grid-template-columns: 90px 1fr; }
 }
 
 @media (max-width: 720px) {
@@ -612,9 +583,7 @@ footer a {
   .year-button.active::before { display: none; }
   .results-heading { align-items: center; }
   .year-group { padding-top: 46px; }
-  .year-heading { display: block; }
   .year-heading h3 { font-size: 25px; }
-  .year-heading p { margin-top: 10px; }
   .event-list::before { left: 4px; }
   .event { grid-template-columns: 1fr; padding-left: 16px; }
   .event-date { text-align: left; padding: 18px 0 0 16px; }
@@ -622,7 +591,6 @@ footer a {
   .event-body { padding: 13px 8px 22px 16px; }
   .event-topline { order: -1; }
   .event-proof { font-size: 8px; }
-  .event-detail { grid-column: 1; margin: 0 8px 28px 16px; }
   .why-it-matters { grid-template-columns: 1fr; }
   footer { grid-template-columns: 1fr; min-height: 280px; align-items: start; }
   footer a { justify-self: start; }
