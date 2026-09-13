@@ -117,7 +117,10 @@ a { color: inherit; }
   color: var(--muted);
 }
 
-.explorer { scroll-margin-top: 0; }
+.explorer {
+  scroll-margin-top: 0;
+  overflow-anchor: none;
+}
 .filter-shell {
   position: sticky;
   top: 0;

@@ -45,6 +45,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [visibleCount, setVisibleCount] = useState(28);
   const [isCompact, setIsCompact] = useState(false);
   const loadMoreRef = useRef<HTMLDivElement>(null);
+  const compactStateRef = useRef(false);
 
   const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
   const modeEvents = useMemo(
@@ -117,8 +118,32 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   }, [query, selectedYear, selectedCategories, highlightsOnly, sortDirection]);
 
   useEffect(() => {
-    const updateToolbar = () => setIsCompact(window.scrollY > 96);
-    updateToolbar();
+    let lastScrollY = window.scrollY;
+    let transitionLockUntil = 0;
+
+    const changeToolbar = (compact: boolean) => {
+      compactStateRef.current = compact;
+      transitionLockUntil = performance.now() + 360;
+      setIsCompact(compact);
+    };
+
+    const updateToolbar = () => {
+      const scrollY = window.scrollY;
+      const scrollingUp = scrollY < lastScrollY;
+
+      if (performance.now() >= transitionLockUntil) {
+        if (!compactStateRef.current && scrollY > 72) {
+          changeToolbar(true);
+        } else if (compactStateRef.current && scrollingUp && scrollY <= 12) {
+          changeToolbar(false);
+        }
+      }
+
+      lastScrollY = scrollY;
+    };
+
+    compactStateRef.current = window.scrollY > 72;
+    setIsCompact(compactStateRef.current);
     window.addEventListener("scroll", updateToolbar, { passive: true });
     return () => window.removeEventListener("scroll", updateToolbar);
   }, []);
