@@ -9,6 +9,7 @@ import {
   Search,
   X,
 } from "lucide-react";
+import SiteHeader from "@/components/site-header";
 import type { Category, TimelineEvent, YearMeta } from "@/lib/types";
 
 const categories: { value: Category; label: string }[] = [
@@ -74,11 +75,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
         ]),
       ) as Record<number, number>,
     [modeEvents, years],
-  );
-
-  const sourceCount = useMemo(
-    () => events.reduce((total, event) => total + (event.sources?.length || 0), 0),
-    [events],
   );
 
   const filteredEvents = useMemo(() => {
@@ -214,17 +210,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
 
   return (
     <main id="top">
-      <nav className="topbar" aria-label="Primary navigation">
-        <a className="wordmark" href="#top" aria-label="Epoch home">
-          <span className="wordmark-mark" aria-hidden="true">E</span>
-          <span>Epoch</span>
-        </a>
-        <div className="topbar-meta">
-          <span className="live-dot" aria-hidden="true" />
-          Archive updated Sep 2026
-        </div>
-        <div className="archive-total">{events.length} moments · {sourceCount} sources</div>
-      </nav>
+      <SiteHeader eventCount={events.length} />
 
       <section className="explorer" id="timeline">
         <div className={`filter-shell ${isCompact ? "compact" : ""}`}>
