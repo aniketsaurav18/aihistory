@@ -19,9 +19,16 @@ export default function SiteHeader({ eventCount, current = "archive" }: SiteHead
           <span className="live-dot" aria-hidden="true" />
           Live archive
         </span>
-        <span className="live-tooltip" id="live-status-note" role="tooltip">
-          This archive keeps updating as new information arrives.
-        </span>
+        <div className="live-tooltip" id="live-status-note">
+          <span>This archive keeps updating as new information arrives.</span>
+          <a
+            href="https://github.com/aniketsaurav18/aihistory/issues/new"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Submit an event <span aria-hidden="true">↗</span>
+          </a>
+        </div>
       </div>
 
       <div className="topbar-links">

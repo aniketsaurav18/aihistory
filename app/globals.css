@@ -153,11 +153,19 @@ a { color: inherit; }
   color: var(--paper);
   font-size: 12px;
   line-height: 1.45;
-  text-align: center;
+  text-align: left;
   pointer-events: none;
   opacity: 0;
   transform: translate(-50%, -5px);
   transition: opacity 160ms ease, transform 160ms ease;
+}
+.live-tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 12px;
 }
 .live-tooltip::before {
   content: "";
@@ -168,10 +176,26 @@ a { color: inherit; }
   border-bottom-color: var(--ink);
   transform: translateX(-50%);
 }
+.live-tooltip > span { display: block; }
+.live-tooltip a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--acid);
+  color: var(--acid);
+  font: 500 10px/1 var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.live-tooltip a:hover { color: var(--paper); border-bottom-color: var(--paper); }
 .live-status-wrap:hover .live-tooltip,
 .live-status-wrap:focus-within .live-tooltip {
   opacity: 1;
   transform: translate(-50%, 0);
+  pointer-events: auto;
 }
 
 .eyebrow {
