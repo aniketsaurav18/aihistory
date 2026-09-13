@@ -13,7 +13,7 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: "AI History — A visual history of modern AI",
   description:
-    "Explore 436 defining moments in artificial intelligence, from the Transformer to the frontier-model era.",
+    "Explore 437 defining moments in artificial intelligence, from the Transformer to the frontier-model era.",
   metadataBase: new URL("https://aihistory.live"),
   openGraph: {
     title: "AI History — A visual history of modern AI",

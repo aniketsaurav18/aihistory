@@ -3,7 +3,7 @@
  "range": "2026-01-01 to 2026-09-12",
  "description": "No binding lab slowdown pact as of Sep 12 2026 (see note_on_slowdown_pact). This file now also catalogs every notable 2026 model release (Jan-Sep): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/voice+image lines; Google Gemini 3.x/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled.",
  "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-12. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns). This file records the actual slowdown-related milestones without overstating them.",
- "count": 165,
+ "count": 166,
  "events": [
   {
    "id": "2024-05-21-seoul-commitments-context",
@@ -4888,11 +4888,78 @@
      "verifiedVia": "playwright-user-chrome"
     }
    ],
-   "verified": true
-  },
-  {
-   "confidence": "medium",
-   "date": "2026-09-09",
+    "verified": true
+   },
+   {
+    "id": "2026-09-08-navier-stokes-proof-drama",
+    "highlight": true,
+    "date": "2026-09-08",
+    "title": "OpenAI claims AI solved the Navier-Stokes Millennium problem; rival mathematicians allege a scoop (blowup drama)",
+    "category": "drama",
+    "organizations": [
+     "OpenAI",
+     "NYU",
+     "Anthropic",
+     "Clay Mathematics Institute"
+    ],
+    "summary": "On Sep 8 OpenAI announced an internal AI system had solved the Navier-Stokes existence-and-smoothness Millennium problem, constructing a finite-time singularity (a finite-energy vortex with smooth forcing, establishing statements C and D of Fefferman's official formulation) with a ~166-page writeup plus Lean formalization; the company said ~10,000 agents found it in ~88 hours after a Sep 1 start prompted by rumors of solved Millennium problems, at several million dollars of compute, and that it does not intend to claim the $1M prize. Hours earlier NYU's Tristan Buckmaster and Anthropic's Levent Alpoege had posted three related results — finite-time blowup with smooth forcing for incompressible porous media, Boussinesq, and 3D Euler — built with LLMs (including OpenAI Codex) on Diego Cordoba and Luis Martinez-Zoroa's rough-forcing program, with blowup results from Aug 15 and Lean verification Aug 22. Buckmaster's accompanying statement alleged OpenAI began only after hearing of their work, described Sep 3-6 exchanges with Sebastien Bubeck including proposals that cut Alpoege from authorship and the replies 'Why would you ruin your career?' and 'If you don't want me to be nice, then I don't have to be nice,' and questioned whether their Codex drafts fed the model; OpenAI denied seeing their work, said the proofs differ (forced vs unforced Euler), admitted de-identified usage data cannot be ruled out, and Bubeck called the allegations false and inflammatory. The Clay Mathematics Institute responded Sep 10 that evaluation is deliberately unhurried under its qualifying-publication, two-year, general-acceptance rules, while Terence Tao warned the episode could chill open science.",
+    "significance": "First AI-claimed solution of a Millennium Prize problem; flashpoint over AI training-data trust, credit, and who owns unpublished work entered into AI tools.",
+    "tags": [
+     "navier-stokes",
+     "millennium-prize",
+     "openai",
+     "lean",
+     "credit-dispute",
+     "blowup",
+     "buckmaster"
+    ],
+    "sources": [
+     {
+      "label": "On the Navier-Stokes Millennium Prize Problem (OpenAI, Sep 8 2026)",
+      "type": "blog",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "verified": true,
+      "verifiedTitle": "On the Navier–Stokes Millennium Prize Problem | OpenAI",
+      "verifiedVia": "exa"
+     },
+     {
+      "label": "Tristan Buckmaster statement on the Euler/Navier-Stokes work and OpenAI discussions (NYU Courant personal page, Sep 2026)",
+      "type": "announcement",
+      "url": "https://cims.nyu.edu/~tristanb/statement",
+      "verified": true,
+      "verifiedTitle": "Today, Levent Alpöge and I have made public three results: finite-time blowup with smooth forcing",
+      "verifiedVia": "exa"
+     },
+     {
+      "label": "Blowup for the Euler Equations with Smooth Forcing (Buckmaster/Alpoege paper, Sep 2026)",
+      "type": "paper",
+      "url": "https://cims.nyu.edu/~tristanb/euler.pdf",
+      "verified": true,
+      "verifiedTitle": "BLOWUP FOR THE EULER EQUATIONS WITH SMOOTH FORCING",
+      "verifiedVia": "exa"
+     },
+     {
+      "label": "Navier-Stokes Announcement (Clay Mathematics Institute, Sep 10 2026)",
+      "type": "announcement",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "verified": true,
+      "verifiedTitle": "Navier-Stokes Announcement - Clay Mathematics Institute",
+      "verifiedVia": "exa"
+     },
+     {
+      "label": "NYU Mathematician Answers Long-Standing Questions about Fundamental Equations of Fluid Motion (NYU, Sep 11 2026)",
+      "type": "press",
+      "url": "https://www.nyu.edu/about/news-publications/news/2026/september/nyu-mathematician-answers-long-standing-questions-about-fundamen.html",
+      "verified": true,
+      "verifiedTitle": "NYU Mathematician Answers Long-Standing Questions about Fundamental Equations of Fluid Motion",
+      "verifiedVia": "exa"
+     }
+    ],
+    "verified": true
+   },
+   {
+    "confidence": "medium",
+    "date": "2026-09-09",
    "id": "2026-09-09-databricks-adaptive-retriever",
    "highlight": false,
    "organizations": [

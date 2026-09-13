@@ -4,4 +4,5 @@ node_modules/
 artifacts/
 research/
 *.log
+*.tsbuildinfo
 .DS_Store

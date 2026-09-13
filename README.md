@@ -6,7 +6,7 @@ The site is designed for fast exploration: events appear newest first, can be se
 
 ## Features
 
-- 436 documented events spanning 2017–2026
+- 437 documented events spanning 2017–2026
 - Newest-first timeline with continuous scrolling
 - Full archive and curated Highlights views
 - Search by people, laboratories, models, products, and ideas
