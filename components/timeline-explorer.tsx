@@ -92,6 +92,9 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     groups[year].push(event);
     return groups;
   }, {});
+  const orderedYearGroups = Object.entries(groupedEvents).sort(([yearA], [yearB]) =>
+    sortDirection === "asc" ? Number(yearA) - Number(yearB) : Number(yearB) - Number(yearA),
+  );
 
   const hasFilters =
     query.length > 0 ||
@@ -201,7 +204,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
             >
               <span>All years</span><span>{events.length}</span>
             </button>
-            {years.map((year) => (
+            {[...years].reverse().map((year) => (
               <button
                 key={year.year}
                 className={`year-button ${selectedYear === year.year ? "active" : ""}`}
@@ -237,7 +240,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
               </div>
             ) : (
               <div className="year-groups">
-                {Object.entries(groupedEvents).map(([year, yearEvents]) => {
+                {orderedYearGroups.map(([year, yearEvents]) => {
                   const yearMeta = years.find((item) => String(item.year) === year);
                   return (
                     <section className="year-group" key={year} aria-labelledby={`year-${year}`}>
