@@ -51,6 +51,10 @@ export default function TimelineExplorer({ events, years }: Props) {
   const viewModeAnimationRef = useRef<Animation | null>(null);
 
   const highlightCount = useMemo(() => events.filter((event) => event.highlight).length, [events]);
+  const eventOrder = useMemo(
+    () => new Map(events.map((event, index) => [event.id, index])),
+    [events],
+  );
   const modeEvents = useMemo(
     () => (highlightsOnly ? events.filter((event) => event.highlight) : events),
     [events, highlightsOnly],
@@ -95,10 +99,14 @@ export default function TimelineExplorer({ events, years }: Props) {
       return haystack.includes(needle);
     });
 
-    return result.sort((a, b) =>
-      sortDirection === "asc" ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date),
-    );
-  }, [modeEvents, query, selectedCategories, selectedYear, sortDirection]);
+    return result.sort((a, b) => {
+      const dateComparison = a.date.localeCompare(b.date);
+      const sourceOrderComparison = (eventOrder.get(a.id) ?? 0) - (eventOrder.get(b.id) ?? 0);
+      const chronologicalComparison = dateComparison || sourceOrderComparison;
+
+      return sortDirection === "asc" ? chronologicalComparison : -chronologicalComparison;
+    });
+  }, [eventOrder, modeEvents, query, selectedCategories, selectedYear, sortDirection]);
 
   const visibleEvents = filteredEvents.slice(0, visibleCount);
   const groupedEvents = visibleEvents.reduce<Record<string, TimelineEvent[]>>((groups, event) => {
