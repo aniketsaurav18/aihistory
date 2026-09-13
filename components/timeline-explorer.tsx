@@ -6,7 +6,6 @@ import {
   ArrowUp,
   ArrowUpRight,
   Check,
-  ChevronDown,
   Search,
   Sparkles,
   X,
@@ -32,11 +31,6 @@ function formatDate(date: string) {
   );
 }
 
-function sentenceExcerpt(value: string) {
-  const first = value.match(/^.*?[.!?](?:\s|$)/)?.[0]?.trim();
-  return first || value;
-}
-
 type Props = {
   events: TimelineEvent[];
   years: YearMeta[];
@@ -49,7 +43,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [selectedCategories, setSelectedCategories] = useState<Category[]>([]);
   const [highlightsOnly, setHighlightsOnly] = useState(true);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
-  const [expandedId, setExpandedId] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(28);
 
   const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
@@ -100,7 +93,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     return groups;
   }, {});
 
-  const maxYearCount = Math.max(...years.map((year) => year.count));
   const hasFilters =
     query.length > 0 ||
     selectedYear !== "all" ||
@@ -109,7 +101,6 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
 
   useEffect(() => {
     setVisibleCount(28);
-    setExpandedId(null);
   }, [query, selectedYear, selectedCategories, highlightsOnly, sortDirection]);
 
   function chooseYear(year: number | "all") {
@@ -133,7 +124,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   }
 
   return (
-    <main>
+    <main id="top">
       <nav className="topbar" aria-label="Primary navigation">
         <a className="wordmark" href="#top" aria-label="Epoch home">
           <span className="wordmark-mark" aria-hidden="true">E</span>
@@ -143,48 +134,8 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
           <span className="live-dot" aria-hidden="true" />
           Archive updated Sep 2026
         </div>
-        <a className="nav-link" href="#timeline">Explore the record <ArrowDown size={14} /></a>
+        <div className="archive-total">{events.length} moments · {sourceCount} sources</div>
       </nav>
-
-      <header className="hero" id="top">
-        <div className="hero-main">
-          <p className="eyebrow">A field guide to the machine age</p>
-          <h1>
-            The decade that<br />
-            <em>remade intelligence.</em>
-          </h1>
-          <p className="hero-copy">
-            Trace the papers, models, products, power shifts, and policy battles that moved AI
-            from a research discipline into the defining technology of our time.
-          </p>
-        </div>
-
-        <aside className="hero-aside" aria-label="Archive overview">
-          <div className="stat-grid">
-            <div><strong>{events.length}</strong><span>documented events</span></div>
-            <div><strong>{sourceCount}</strong><span>source references</span></div>
-            <div><strong>{verifiedCount}</strong><span>fully verified</span></div>
-            <div><strong>{years.length}</strong><span>years in view</span></div>
-          </div>
-          <div className="signal-chart">
-            <div className="signal-heading"><span>Volume of events</span><span>2017—26</span></div>
-            <div className="bars" aria-label="Event count by year">
-              {years.map((year) => (
-                <button
-                  key={year.year}
-                  className="bar-column"
-                  onClick={() => chooseYear(year.year)}
-                  aria-label={`Show ${year.count} events from ${year.year}`}
-                >
-                  <span className="bar-value">{year.count}</span>
-                  <span className="bar" style={{ height: `${Math.max(8, (year.count / maxYearCount) * 100)}%` }} />
-                  <span className="bar-year">{String(year.year).slice(2)}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        </aside>
-      </header>
 
       <section className="explorer" id="timeline">
         <div className="filter-shell">
@@ -265,13 +216,16 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
           <div className="timeline-content">
             <div className="results-heading">
               <div>
-                <p className="eyebrow">The record</p>
+                <p className="eyebrow">A sourced history of modern AI · 2017—2026</p>
                 <h2>
                   {selectedYear === "all" ? "All eras" : selectedYear}
                   <span> / {filteredEvents.length} moments</span>
                 </h2>
               </div>
-              {hasFilters && <button className="reset-button" onClick={resetFilters}>Reset view</button>}
+              <div className="results-meta">
+                <span>{verifiedCount} fully verified</span>
+                {hasFilters && <button className="reset-button" onClick={resetFilters}>Reset view</button>}
+              </div>
             </div>
 
             {filteredEvents.length === 0 ? (
@@ -294,19 +248,17 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
 
                       <div className="event-list">
                         {yearEvents.map((event) => {
-                          const expanded = expandedId === event.id;
                           return (
-                            <article className={`event cat-${event.category} ${expanded ? "expanded" : ""}`} key={event.id}>
+                            <article
+                              className={`event cat-${event.category}`}
+                              key={event.id}
+                              aria-labelledby={`title-${event.id}`}
+                            >
                               <div className="event-date">
                                 <span>{formatDate(event.date)}</span>
                                 <span className="timeline-node" aria-hidden="true" />
                               </div>
-                              <button
-                                className="event-body"
-                                onClick={() => setExpandedId(expanded ? null : event.id)}
-                                aria-expanded={expanded}
-                                aria-controls={`detail-${event.id}`}
-                              >
+                              <div className="event-body">
                                 <span className="event-topline">
                                   <span className="event-category">
                                     <span className="category-dot" />
@@ -314,41 +266,38 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
                                   </span>
                                   <span className="event-proof">
                                     {event.verified && <><Check size={12} /> Verified</>}
-                                    <ChevronDown size={16} className="expand-icon" />
                                   </span>
                                 </span>
-                                <strong>{event.title}</strong>
-                                <span className="event-excerpt">{expanded ? event.summary : sentenceExcerpt(event.summary)}</span>
+                                <h4 id={`title-${event.id}`}>{event.title}</h4>
+                                <p className="event-summary">{event.summary}</p>
                                 <span className="event-orgs">
                                   {event.organizations.slice(0, 4).map((organization) => (
                                     <span key={organization}>{organization}</span>
                                   ))}
                                   {event.organizations.length > 4 && <span>+{event.organizations.length - 4}</span>}
                                 </span>
-                              </button>
+                              </div>
 
-                              {expanded && (
-                                <div className="event-detail" id={`detail-${event.id}`}>
-                                  <div className="why-it-matters">
-                                    <span>Why it matters</span>
-                                    <p>{event.significance}</p>
-                                  </div>
-                                  <div className="event-tags" aria-label="Tags">
-                                    {event.tags.map((tag) => <span key={tag}>#{tag}</span>)}
-                                  </div>
-                                  {!!event.sources?.length && (
-                                    <div className="source-list">
-                                      <span className="source-title">Sources</span>
-                                      {event.sources.map((source, index) => (
-                                        <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${index}`}>
-                                          <span>{source.label}</span>
-                                          <ArrowUpRight size={15} />
-                                        </a>
-                                      ))}
-                                    </div>
-                                  )}
+                              <div className="event-detail">
+                                <div className="why-it-matters">
+                                  <span>Why it matters</span>
+                                  <p>{event.significance}</p>
                                 </div>
-                              )}
+                                <div className="event-tags" aria-label="Tags">
+                                  {event.tags.map((tag) => <span key={tag}>#{tag}</span>)}
+                                </div>
+                                {!!event.sources?.length && (
+                                  <div className="source-list">
+                                    <span className="source-title">Sources · {event.sources.length}</span>
+                                    {event.sources.map((source, index) => (
+                                      <a href={source.url} target="_blank" rel="noreferrer" key={`${source.url}-${index}`}>
+                                        <span>{source.label}</span>
+                                        <ArrowUpRight size={15} />
+                                      </a>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
                             </article>
                           );
                         })}
