@@ -42,7 +42,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [selectedYear, setSelectedYear] = useState<number | "all">("all");
   const [selectedCategories, setSelectedCategories] = useState<Category[]>([]);
   const [highlightsOnly, setHighlightsOnly] = useState(true);
-  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
   const [visibleCount, setVisibleCount] = useState(28);
 
   const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
@@ -120,7 +120,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     setSelectedYear("all");
     setSelectedCategories([]);
     setHighlightsOnly(true);
-    setSortDirection("asc");
+    setSortDirection("desc");
   }
 
   return (
