@@ -8,9 +8,9 @@ type SiteHeaderProps = {
 export default function SiteHeader({ eventCount, current = "archive" }: SiteHeaderProps) {
   return (
     <nav className="topbar" aria-label="Primary navigation">
-      <Link className="wordmark" href={current === "archive" ? "#top" : "/"} aria-label="Epoch home">
-        <span className="wordmark-mark" aria-hidden="true">E</span>
-        <span>Epoch</span>
+      <Link className="wordmark" href={current === "archive" ? "#top" : "/"} aria-label="AI History home">
+        <span className="wordmark-mark" aria-hidden="true">A</span>
+        <span>AI History</span>
       </Link>
 
       <div className="live-status-wrap">

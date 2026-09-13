@@ -4,8 +4,8 @@ import SiteHeader from "@/components/site-header";
 import archive from "@/data/index.json";
 
 export const metadata: Metadata = {
-  title: "About Epoch — A living history of modern AI",
-  description: "How Epoch selects, organizes, and updates the events in its modern AI timeline.",
+  title: "About AI History — A living history of modern AI",
+  description: "How AI History selects, organizes, and updates the events in its modern AI timeline.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
           <p className="eyebrow">About the archive</p>
           <h1>A living record of the machine age.</h1>
           <p className="about-lede">
-            Epoch traces the papers, models, products, companies, infrastructure, and policy decisions
+            AI History traces the papers, models, products, companies, infrastructure, and policy decisions
             that have shaped modern artificial intelligence since 2017.
           </p>
         </header>
@@ -35,6 +35,26 @@ export default function AboutPage() {
               Dates use the best available publication or announcement record. When launches unfold
               across several releases, the archive favors the clearest public milestone.
             </p>
+          </div>
+        </section>
+
+        <section className="about-grid" aria-label="Contribute an event">
+          <p className="about-section-label">Contribute</p>
+          <div className="about-copy">
+            <h2>Help strengthen the record.</h2>
+            <p>
+              If an important event is missing, submit it through the project&apos;s GitHub issue tracker.
+              Include the date, a clear summary, why it matters, and links to reliable primary sources
+              so it can be reviewed for the archive.
+            </p>
+            <a
+              className="about-contribute-link"
+              href="https://github.com/aniketsaurav18/aihistory/issues/new"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Submit an event on GitHub <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </section>
 

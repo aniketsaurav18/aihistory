@@ -386,7 +386,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
       </section>
 
       <footer>
-        <div className="footer-mark">Epoch</div>
+        <div className="footer-mark">AI History</div>
         <p>A living, sourced chronology of modern artificial intelligence.</p>
         <a href="#top">Back to the beginning <ArrowUp size={14} /></a>
       </footer>

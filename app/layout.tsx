@@ -11,19 +11,19 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  title: "Epoch — A visual history of modern AI",
+  title: "AI History — A visual history of modern AI",
   description:
     "Explore 436 defining moments in artificial intelligence, from the Transformer to the frontier-model era.",
-  metadataBase: new URL("https://epoch-ai-history.briny-crumb-1760.chatgpt.site"),
+  metadataBase: new URL("https://aihistory.live"),
   openGraph: {
-    title: "Epoch — A visual history of modern AI",
+    title: "AI History — A visual history of modern AI",
     description:
       "A sourced, searchable field guide to the decade that remade intelligence.",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Epoch — A visual history of modern AI",
+    title: "AI History — A visual history of modern AI",
     description:
       "A sourced, searchable field guide to the decade that remade intelligence.",
   },
