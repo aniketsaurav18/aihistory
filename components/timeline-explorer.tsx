@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowDown,
   ArrowUp,
@@ -46,6 +46,9 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [isCompact, setIsCompact] = useState(false);
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const compactStateRef = useRef(false);
+  const viewModeRef = useRef<HTMLDivElement>(null);
+  const viewModeStartRectRef = useRef<DOMRect | null>(null);
+  const viewModeAnimationRef = useRef<Animation | null>(null);
 
   const highlights = useMemo(() => new Set(highlightIds), [highlightIds]);
   const modeEvents = useMemo(
@@ -122,6 +125,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     let transitionLockUntil = 0;
 
     const changeToolbar = (compact: boolean) => {
+      viewModeStartRectRef.current = viewModeRef.current?.getBoundingClientRect() ?? null;
       compactStateRef.current = compact;
       transitionLockUntil = performance.now() + 360;
       setIsCompact(compact);
@@ -147,6 +151,30 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     window.addEventListener("scroll", updateToolbar, { passive: true });
     return () => window.removeEventListener("scroll", updateToolbar);
   }, []);
+
+  useLayoutEffect(() => {
+    const element = viewModeRef.current;
+    const startRect = viewModeStartRectRef.current;
+    viewModeStartRectRef.current = null;
+
+    if (!element || !startRect || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const endRect = element.getBoundingClientRect();
+    const deltaX = startRect.left - endRect.left;
+    const deltaY = startRect.top - endRect.top;
+
+    viewModeAnimationRef.current?.cancel();
+    viewModeAnimationRef.current = element.animate(
+      [
+        { transform: `translate(${deltaX}px, ${deltaY}px)` },
+        { transform: "translate(0, 0)" },
+      ],
+      {
+        duration: 360,
+        easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+      },
+    );
+  }, [isCompact]);
 
   useEffect(() => {
     const marker = loadMoreRef.current;
@@ -217,7 +245,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
               )}
             </label>
 
-            <div className="view-mode-row">
+            <div className="view-mode-row" ref={viewModeRef}>
               <div className="view-tabs" role="tablist" aria-label="Choose timeline dataset">
                 <button
                   className={`view-tab ${!highlightsOnly ? "active" : ""}`}
