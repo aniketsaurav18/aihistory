@@ -40,7 +40,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
   const [query, setQuery] = useState("");
   const [selectedYear, setSelectedYear] = useState<number | "all">("all");
   const [selectedCategories, setSelectedCategories] = useState<Category[]>([]);
-  const [highlightsOnly, setHighlightsOnly] = useState(true);
+  const [highlightsOnly, setHighlightsOnly] = useState(false);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
   const [visibleCount, setVisibleCount] = useState(28);
   const [isCompact, setIsCompact] = useState(false);
@@ -180,7 +180,7 @@ export default function TimelineExplorer({ events, years, highlightIds }: Props)
     setQuery("");
     setSelectedYear("all");
     setSelectedCategories([]);
-    setHighlightsOnly(true);
+    setHighlightsOnly(false);
     setSortDirection("desc");
   }
 
