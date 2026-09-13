@@ -130,6 +130,11 @@ a { color: inherit; }
   border-bottom: 1px solid transparent;
   padding: 5px 0;
 }
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
 .topbar-link:hover,
 .topbar-link.active { border-bottom-color: var(--ink); }
 .live-tooltip {
@@ -728,7 +733,8 @@ footer a {
   .topbar { height: 60px; grid-template-columns: 1fr auto auto; gap: 14px; padding-inline: 18px; }
   .live-status, .topbar-link { font-size: 9px; }
   .archive-total { display: none; }
-  .topbar-links { gap: 0; }
+  .topbar-links { gap: 14px; }
+  .github-link > span { display: none; }
   .live-tooltip { left: auto; right: -70px; transform: translateY(-5px); }
   .live-tooltip::before { left: auto; right: 92px; transform: none; }
   .live-status-wrap:hover .live-tooltip,
