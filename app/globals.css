@@ -404,6 +404,7 @@ a { color: inherit; }
   text-transform: uppercase;
   color: var(--muted);
   text-align: right;
+  white-space: nowrap;
   position: relative;
 }
 .timeline-node {

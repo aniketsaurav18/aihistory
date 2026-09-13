@@ -25,7 +25,7 @@ const categories: { value: Category; label: string }[] = [
 const categoryLabels = Object.fromEntries(categories.map((category) => [category.value, category.label]));
 
 function formatDate(date: string) {
-  return new Intl.DateTimeFormat("en", { month: "short", day: "numeric" }).format(
+  return new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric" }).format(
     new Date(`${date}T00:00:00`),
   );
 }
