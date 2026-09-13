@@ -1,0 +1,243 @@
+{
+  "year": 2017,
+  "range": "2017-06-12 to 2017-12-31",
+  "description": "The Transformer is invented at Google, founding modern generative AI. DeepMind proves tabula-rasa self-play with AlphaGo Zero and AlphaZero. OpenAI shows RL at esports scale.",
+  "count": 6,
+  "events": [
+    {
+      "id": "2017-06-12-attention-is-all-you-need",
+      "date": "2017-06-12",
+      "title": "Attention Is All You Need introduces the Transformer",
+      "category": "paper",
+      "organizations": [
+        "Google Brain",
+        "Google Research",
+        "University of Toronto"
+      ],
+      "summary": "Ashish Vaswani et al. published arXiv:1706.03762 proposing the Transformer, dispensing with recurrence and convolutions entirely and relying solely on multi-head self-attention plus positional encodings. It reached 28.4 BLEU on WMT14 English-German and 41.8 on English-French while training an order of magnitude faster due to parallelization. The 8-author paper (Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin) became the architectural foundation for GPT, BERT, ViT, CLIP, AlphaFold and every large model after it.",
+      "significance": "Year zero of the modern AI era. Every model from GPT-1 to GPT-5, Claude, Gemini and Llama is a direct descendant.",
+      "tags": [
+        "transformer",
+        "attention",
+        "google",
+        "foundation"
+      ],
+      "sources": [
+        {
+          "label": "Attention Is All You Need (arXiv 1706.03762, Vaswani et al.)",
+          "url": "https://arxiv.org/abs/1706.03762",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "[1706.03762] Attention Is All You Need"
+        },
+        {
+          "label": "Transformer — novel neural network architecture for language understanding (Google Research Blog)",
+          "url": "https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Transformer: A Novel Neural Network Architecture for Language Understanding",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "tensorflow/tensor2tensor (official Google GitHub, Transformer code)",
+          "url": "https://github.com/tensorflow/tensor2tensor",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - tensorflow/tensor2tensor: Library of deep learning models and datasets designed t",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2017-08-11-openai-dota-dendi",
+      "date": "2017-08-11",
+      "title": "OpenAI Dota 1v1 bot beats pro Dendi at The International",
+      "category": "advance",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "On stage at The International 7, OpenAI's self-play PPO bot beat top pro Danylo 'Dendi' Ishutin in a 1v1 Shadow Fiend mirror, after going undefeated against SumaiL and Arteezy backstage. The bot learned from scratch with no imitation or search, demonstrating long-horizon planning under hidden information. Elon Musk hailed it as the first AI to beat the world's best in competitive esports.",
+      "significance": "Proved large-scale RL could master complex real-time games, setting the path to OpenAI Five 5v5 in 2018-2019.",
+      "tags": [
+        "reinforcement-learning",
+        "dota",
+        "openai",
+        "games"
+      ],
+      "sources": [
+        {
+          "label": "Dota 2 bot beats top pro Dendi (OpenAI, Aug 11 2017)",
+          "url": "https://openai.com/index/dota-2/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Dota 2 | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "More on Dota 2 follow-up (OpenAI, Aug 16 2017)",
+          "url": "https://openai.com/index/more-on-dota-2/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "More on Dota 2 | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2017-10-18-alphago-zero",
+      "date": "2017-10-18",
+      "title": "AlphaGo Zero masters Go without any human data",
+      "category": "paper",
+      "organizations": [
+        "DeepMind",
+        "Google",
+        "Alphabet"
+      ],
+      "summary": "DeepMind published AlphaGo Zero in Nature (announced Oct 18, 2017), training solely by self-play from random moves with a single neural network plus MCTS, no human games or handcrafted features. After 3 days it beat the Lee Sedol version 100-0, and after 40 days beat AlphaGo Master 89-11, discovering novel joseki humans now study. It removed the ceiling of human knowledge from training.",
+      "significance": "Landmark proof that tabula-rasa superhuman learning works, generalizing later to AlphaZero and MuZero.",
+      "tags": [
+        "alphago",
+        "deepmind",
+        "self-play",
+        "go"
+      ],
+      "sources": [
+        {
+          "label": "AlphaGo Zero: Starting from scratch (DeepMind blog)",
+          "url": "https://deepmind.google/blog/alphago-zero-starting-from-scratch/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "AlphaGo Zero: Starting from scratch — Google DeepMind"
+        },
+        {
+          "label": "Mastering the game of Go without human knowledge (Nature)",
+          "url": "https://www.nature.com/articles/nature24270",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Mastering the game of Go without human knowledge | Nature",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2017-10-27-progressive-gans",
+      "date": "2017-10-27",
+      "title": "Progressive Growing of GANs enables 1024px faces",
+      "category": "paper",
+      "organizations": [
+        "NVIDIA",
+        "Aalto University"
+      ],
+      "summary": "Tero Karras et al. posted arXiv:1710.10196 introducing progressive growing where generator and discriminator start at 4x4 and fade in higher-resolution layers, stabilizing high-resolution training. It produced 1024x1024 CelebA-HQ faces of unprecedented quality and a record 8.80 Inception score on unsupervised CIFAR-10, plus minibatch-std for variation. This became the backbone for StyleGAN.",
+      "significance": "Unlocked high-fidelity image synthesis, directly leading to StyleGAN, ThisPersonDoesNotExist and the deepfake debate.",
+      "tags": [
+        "gan",
+        "vision",
+        "nvidia",
+        "synthesis"
+      ],
+      "sources": [
+        {
+          "label": "Progressive Growing of GANs (arXiv 1710.10196, Karras et al.)",
+          "url": "https://arxiv.org/abs/1710.10196",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "tkarras/progressive_growing_of_gans (official author GitHub)",
+          "url": "https://github.com/tkarras/progressive_growing_of_gans",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - tkarras/progressive_growing_of_gans: Progressive Growing of GANs for Improved Qua",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2017-12-05-alphazero",
+      "date": "2017-12-05",
+      "title": "AlphaZero generalizes to chess, shogi and Go with one algorithm",
+      "category": "paper",
+      "organizations": [
+        "DeepMind"
+      ],
+      "summary": "David Silver et al. posted arXiv:1712.01815 generalizing AlphaGo Zero into a single AlphaZero algorithm given only game rules. Within 24 hours from random play it beat Stockfish in chess and Elmo in shogi, and beat 3-day AlphaGo Zero in Go. Later published in Science on Dec 7, 2018 with GM analysis showing human-like positional sacrifices. It demonstrated a general-purpose RL algorithm could dominate multiple perfect-information domains.",
+      "significance": "Shifted the field from narrow game engines to general RL agents, forerunner of MuZero and modern planning.",
+      "tags": [
+        "alphazero",
+        "chess",
+        "deepmind",
+        "rl"
+      ],
+      "sources": [
+        {
+          "label": "Mastering Chess and Shogi by Self-Play (arXiv 1712.01815)",
+          "url": "https://arxiv.org/abs/1712.01815",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "[1712.01815] Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm"
+        },
+        {
+          "label": "AlphaZero: Shedding new light on chess, shogi, and Go (DeepMind blog)",
+          "url": "https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "AlphaZero: Shedding new light on chess, shogi, and Go — Google DeepMind",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "A general RL algorithm that masters chess, shogi, and Go through self-play (Science)",
+          "url": "https://www.science.org/doi/10.1126/science.aar6404",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play | Science",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2017-12-11-deepfakes-emerge",
+      "date": "2017-12-11",
+      "title": "Deepfakes emerge on Reddit",
+      "category": "advance",
+      "organizations": [
+        "Reddit community",
+        "Independent developers"
+      ],
+      "summary": "Reddit user 'deepfakes' began posting AI-swapped celebrity porn using open-source autoencoder-GAN face-swap code, exposed by Vice Motherboard in December 2017. It showed consumer GPUs could produce convincing fake video. This led to Reddit and GitHub bans in February 2018 and foreshadowed the Duplex, StyleGAN and GPT-2 misuse debates.",
+      "significance": "First mainstream synthetic-media panic, origin of the provenance and watermarking debate that runs to 2026.",
+      "tags": [
+        "deepfake",
+        "synthetic-media",
+        "ethics",
+        "gan"
+      ],
+      "sources": [
+        {
+          "label": "Reddit policy update on involuntary pornography (no true first-party for origin; policy response Feb 2018)",
+          "url": "https://www.reddit.com/r/announcements/comments/7vxzrb/update_on_sitewide_rules_regarding_involuntary/",
+          "type": "policy",
+          "verified": true,
+          "verifiedTitle": "Reddit - Prove your humanity",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Reddit Content Policy (no true first-party for origin; current policy)",
+          "url": "https://www.reddit.com/policies/content-policy/",
+          "type": "policy",
+          "verified": true,
+          "verifiedTitle": "Reddit - Prove your humanity",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    }
+  ]
+}

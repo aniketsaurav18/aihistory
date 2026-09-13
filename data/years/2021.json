@@ -1,0 +1,1038 @@
+{
+ "year": 2021,
+ "range": "2021-01-01 to 2021-12-31",
+ "description": "Multimodal breakthroughs with CLIP and DALL-E, Codex and Copilot invent AI coding, instruction tuning (FLAN, T0) invents the ChatGPT recipe, and AlphaFold 2 open release transforms biology.",
+ "count": 30,
+ "events": [
+  {
+   "id": "2021-01-01-anthropic-founded",
+   "date": "2021-01-01",
+   "title": "Anthropic founded by ex-OpenAI safety team",
+   "category": "company",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Seven-plus OpenAI leads incorporated Anthropic as a Public Benefit Corp in January 2021 in San Francisco to build steerable, interpretable robust systems. Stealth until $124M raise May 28, 2021 led by Jaan Tallinn, Moskovitz and Schmidt, it became OpenAI's chief alignment rival and Claude maker.",
+   "significance": "Second frontier lab; origin of Constitutional AI and the Claude lineage.",
+   "tags": [
+    "anthropic",
+    "safety",
+    "founding"
+   ],
+   "sources": [
+    {
+     "label": "Anthropic raises $124M (founding disclosure, May 28 2021)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+     "verified": true,
+     "verifiedTitle": "Anthropic raises $124 million Series A \\ Anthropic"
+    },
+    {
+     "label": "Core Views on AI Safety (founding story)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+     "verified": true,
+     "verifiedTitle": "Anthropic's core views on AI safety",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-01-05-clip-dalle1",
+   "date": "2021-01-05",
+   "title": "CLIP plus DALL-E 1 announced",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI debuted two multimodal Transformers: CLIP (400M image-text contrastive, zero-shot ResNet-50 parity) with full paper, and DALL-E (12B GPT-3 generating images from text like avocado armchair) with blog plus February paper. They proved natural-language supervision plus scale yields zero-shot vision and creative generation, birthing prompt engineering for images.",
+   "significance": "Birth of text-to-image as language modeling; CLIP becomes the evaluator for all later image work.",
+   "tags": [
+    "clip",
+    "dall-e",
+    "multimodal",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "CLIP: Connecting Text and Images (OpenAI, Jan 5 2021)",
+     "type": "blog",
+     "url": "https://openai.com/index/clip/",
+     "verified": true,
+     "verifiedTitle": "CLIP: Connecting text and images | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "DALL-E: Creating Images from Text (OpenAI, Jan 5 2021)",
+     "type": "blog",
+     "url": "https://openai.com/index/dall-e/",
+     "verified": true,
+     "verifiedTitle": "DALL·E: Creating images from text | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Learning Transferable Visual Models From Natural Language Supervision (arXiv, authors)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2103.00020",
+     "verified": true,
+     "verifiedTitle": "[2103.00020] Learning Transferable Visual Models From Natural Language Supervision"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-01-11-switch-transformer",
+   "date": "2021-01-11",
+   "title": "Switch Transformer scales to trillion parameters",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Fedus, Zoph and Shazeer simplified MoE to top-1 routing, enabling 1.6T-parameter sparse models with 7x pretraining speedup over T5 at same FLOPs. It broke the trillion-parameter barrier first and validated conditional compute, leading to GLaM and later Mixtral-style MoEs.",
+   "significance": "Sparse scaling path that returns in 2023-2024 with Mixtral and GPT-4 rumors.",
+   "tags": [
+    "moe",
+    "scale",
+    "google",
+    "sparse"
+   ],
+   "sources": [
+    {
+     "label": "Switch Transformers (arXiv 2101.03961, Fedus/Zoph/Shazeer)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2101.03961",
+     "verified": true,
+     "verifiedTitle": "[2101.03961] Switch Transformers: Scaling to Trillion Parameter Models with Simple and Eff",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Switch Transformers (JMLR published version)",
+     "type": "paper",
+     "url": "https://jmlr.org/papers/v23/21-0998.html",
+     "verified": true,
+     "verifiedTitle": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsi",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-02-19-mitchell-fired",
+   "date": "2021-02-19",
+   "title": "Margaret Mitchell fired from Google Ethical AI",
+   "category": "drama",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Co-lead Margaret Mitchell was fired after a 5-week suspension for using scripts to find evidence of discrimination against Gebru; Google cited code-of-conduct violations. It followed Jeff Dean's apology memo the same day. With Gebru gone, the Ethical AI team collapsed, prompting reorg under Marian Croak.",
+   "significance": "Second act of the Google ethics crisis; deepened mistrust between researchers and management.",
+   "tags": [
+    "ethics",
+    "google",
+    "firing",
+    "drama"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2021-03-01-stochastic-parrots",
+   "date": "2021-03-01",
+   "title": "On the Dangers of Stochastic Parrots published",
+   "category": "paper",
+   "organizations": [
+    "University of Washington",
+    "Black in AI",
+    "Google"
+   ],
+   "summary": "Bender, Gebru, McMillan-Major and Mitchell asked How big is too big on environmental cost, bias and accountability of ever-larger LMs like BERT and GPT-3. Published at FAccT after Gebru's firing, it framed the 2021 scale-vs-safety debate. Same day the US NSCAI urged massive AI funding to compete with China.",
+   "significance": "Most-cited critique of scale; intellectual anchor for 2023 pause debates.",
+   "tags": [
+    "ethics",
+    "stochastic-parrots",
+    "scale"
+   ],
+   "sources": [
+    {
+     "label": "On the Dangers of Stochastic Parrots (ACM FAccT official)",
+     "type": "paper",
+     "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+     "verified": true,
+     "verifiedTitle": "Loading https://dl.acm.org/doi/10.1145/3442188.3445922",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-03-11-huggingface-40m",
+   "date": "2021-03-11",
+   "title": "Hugging Face raises $40M Series B",
+   "category": "company",
+   "organizations": [
+    "Hugging Face"
+   ],
+   "summary": "Hugging Face announced $40M Series B to scale its Transformers Hub, datasets and tokenizers, already hosting BERT, GPT-2, ViT and CLIP. It became the GitHub of ML, later hosting BLOOM and Stable Diffusion, central to open replication.",
+   "significance": "Ecosystem shift from papers to shared weights.",
+   "tags": [
+    "huggingface",
+    "funding",
+    "hub"
+   ],
+   "sources": [
+    {
+     "label": "Hugging Face raises $40M Series B (official blog)",
+     "type": "blog",
+     "url": "https://huggingface.co/blog/hugging-face-40m",
+     "note": "HF blog migrated (404); needs replacement URL Original page removed (HTTP 404 confirmed Sep 13 2026 via user Chrome)"
+    }
+   ]
+  },
+  {
+   "id": "2021-03-21-gpt-neo",
+   "date": "2021-03-21",
+   "title": "GPT-Neo 1.3B and 2.7B released (open GPT-3 replication)",
+   "category": "model-release",
+   "organizations": [
+    "EleutherAI"
+   ],
+   "summary": "EleutherAI released GPT-Neo 1.3B and 2.7B trained on The Pile, the largest public GPT-3-style models at the time. With Colabs and Hugging Face checkpoints, it let anyone experiment with few-shot prompting. It proved open replication viable and led to GPT-J 6B in June.",
+   "significance": "First usable open GPT-3 alternative.",
+   "tags": [
+    "gpt-neo",
+    "open-source",
+    "eleutherai"
+   ],
+   "sources": [
+    {
+     "label": "GPT-Neo v1.0 pretrained models release (EleutherAI GitHub)",
+     "type": "repo",
+     "url": "https://github.com/EleutherAI/gpt-neo/releases/tag/v1.0",
+     "verified": true,
+     "verifiedTitle": "Release Release Pretrained Models · EleutherAI/gpt-neo · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "GPT-Neo 1.3B (Hugging Face, EleutherAI org)",
+     "type": "repo",
+     "url": "https://huggingface.co/EleutherAI/gpt-neo-1.3B",
+     "verified": true,
+     "verifiedTitle": "EleutherAI/gpt-neo-1.3B · Hugging Face",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-03-25-swin-transformer",
+   "date": "2021-03-25",
+   "title": "Swin Transformer hierarchical vision backbone",
+   "category": "paper",
+   "organizations": [
+    "Microsoft Research Asia"
+   ],
+   "summary": "Liu et al. computed self-attention in shifted local windows for hierarchical linear-complexity features. It hit 87.3% ImageNet-1K and 58.7 box AP on COCO, ICCV 2021 Best Paper. It became the default vision backbone, bridging ViT to dense prediction.",
+   "significance": "Vision Transformer made practical for detection and segmentation.",
+   "tags": [
+    "swin",
+    "vision",
+    "microsoft"
+   ],
+   "sources": [
+    {
+     "label": "Swin Transformer (arXiv 2103.14030, Microsoft authors)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2103.14030",
+     "verified": true,
+     "verifiedTitle": "[2103.14030] Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Swin-Transformer (official Microsoft GitHub)",
+     "type": "repo",
+     "url": "https://github.com/microsoft/Swin-Transformer",
+     "verified": true,
+     "verifiedTitle": "GitHub - microsoft/Swin-Transformer: This is an official implementation for \"Swin Transfor",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-04-21-eu-ai-act-proposal",
+   "date": "2021-04-21",
+   "title": "EU proposes AI Act (first comprehensive AI law)",
+   "category": "policy",
+   "organizations": [
+    "European Commission"
+   ],
+   "summary": "The Commission published the 108-article AI Act proposal with 4-tier risk system (unacceptable, high, limited, minimal), banning social scoring and real-time biometric ID while imposing conformity duties on high-risk hiring and medical systems. First-ever horizontal AI regulation, it started a 3-year path to 2024 adoption.",
+   "significance": "Regulatory track that becomes law in 2024 and enforced in 2025-2026.",
+   "tags": [
+    "eu",
+    "ai-act",
+    "regulation"
+   ],
+   "sources": [
+    {
+     "label": "Proposal for AI Act (European Commission, europa.eu)",
+     "type": "policy",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-laying-down-harmonised-rules-artificial-intelligence",
+     "verified": true,
+     "verifiedTitle": "Proposal for a Regulation laying down harmonised rules on artificial intelligence | Shapin",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "COM(2021)206 EUR-Lex full text",
+     "type": "policy",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206",
+     "verified": true,
+     "verifiedTitle": "EUR-Lex - 52021PC0206 - EN - EUR-Lex",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-04-29-dino",
+   "date": "2021-04-29",
+   "title": "DINO self-distillation with no labels",
+   "category": "paper",
+   "organizations": [
+    "Facebook AI",
+    "Inria"
+   ],
+   "summary": "Caron et al. trained ViTs with momentum teacher plus multi-crop self-distillation, no labels, reaching 80.1% linear ImageNet with ViT-B and revealing emergent object segmentation in attention maps. Posted April 29, ICCV 2021, it made self-supervised ViTs practical and led to DINOv2.",
+   "significance": "Showed ViTs learn objects without supervision.",
+   "tags": [
+    "dino",
+    "vision",
+    "self-supervised"
+   ],
+   "sources": [
+    {
+     "label": "DINO (arXiv 2104.14294, Caron et al.)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2104.14294",
+     "verified": true,
+     "verifiedTitle": "[2104.14294] Emerging Properties in Self-Supervised Vision Transformers",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "facebookresearch/dino (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/facebookresearch/dino",
+     "verified": true,
+     "verifiedTitle": "GitHub - facebookresearch/dino: PyTorch code for Vision Transformers training with the Sel",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-05-11-diffusion-beats-gans",
+   "date": "2021-05-11",
+   "title": "Diffusion Models Beat GANs on Image Synthesis",
+   "category": "paper",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Dhariwal and Nichol showed ADM with classifier guidance beats BigGAN-deep (FID 2.97 on ImageNet 128) while retaining coverage, even with 25 steps. With code release, it convinced the field diffusion is the path, directly enabling GLIDE and DALL-E 2.",
+   "significance": "Moment diffusion dethrones GANs after 7 years.",
+   "tags": [
+    "diffusion",
+    "gan",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "ADM paper (arXiv 2105.05233, Dhariwal/Nichol)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2105.05233",
+     "verified": true,
+     "verifiedTitle": "Diffusion Models Beat GANs on Image Synthesis",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "openai/guided-diffusion (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/openai/guided-diffusion",
+     "verified": true,
+     "verifiedTitle": "openai/guided-diffusion",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-05-18-lamda-mum-tpuv4",
+   "date": "2021-05-18",
+   "title": "LaMDA plus MUM plus TPU v4 at Google I/O",
+   "category": "model-release",
+   "organizations": [
+    "Google Research",
+    "DeepMind"
+   ],
+   "summary": "Sundar Pichai's I/O keynote unveiled LaMDA (dialogue model for sensibleness and interestingness, demoed as Pluto), MUM (multitask unified model, 1000x BERT, 75 languages, multimodal for Search), and TPU v4 pods. LaMDA foreshadowed Bard and Gemini; MUM shipped in Search Lens; TPU v4 powered PaLM scale.",
+   "significance": "Google's dialogue and search AI roadmap that ChatGPT would disrupt a year later.",
+   "tags": [
+    "lamda",
+    "mum",
+    "tpu",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "LaMDA breakthrough conversation technology (Google Blog, May 18 2021)",
+     "type": "blog",
+     "url": "https://blog.google/innovation-and-ai/products/lamda/",
+     "verified": true,
+     "verifiedTitle": "LaMDA: our breakthrough conversation technology"
+    },
+    {
+     "label": "MUM new AI milestone (Google Blog, May 18 2021)",
+     "type": "blog",
+     "url": "https://blog.google/products/search/introducing-mum/",
+     "verified": true,
+     "verifiedTitle": "MUM: A new AI milestone for understanding information",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Google I/O 2021 keynote incl. TPU v4 (Google Blog)",
+     "type": "blog",
+     "url": "https://blog.google/technology/developers/io21-helpful-google/",
+     "verified": true,
+     "verifiedTitle": "Google I/O 2021: Being helpful in moments that matter",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-05-28-anthropic-launch",
+   "date": "2021-05-28",
+   "title": "Anthropic public launch with $124M",
+   "category": "company",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Dario Amodei announced Anthropic as an AI safety and research company for steerable and interpretable large systems, with $124M led by Tallinn, Moskovitz and Schmidt. The reveal disclosed the ~15-person OpenAI exodus. It legitimized safety-focused labs and set up Claude and constitutional AI work.",
+   "significance": "Public debut of the lab that becomes OpenAI's closest rival.",
+   "tags": [
+    "anthropic",
+    "funding",
+    "safety"
+   ],
+   "sources": [
+    {
+     "label": "Anthropic raises $124M (official launch announcement)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+     "verified": true,
+     "verifiedTitle": "Anthropic raises $124 million Series A \\ Anthropic"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-06-01-wudao2",
+   "date": "2021-06-01",
+   "title": "WuDao 2.0 1.75T world's largest at the time",
+   "category": "model-release",
+   "organizations": [
+    "Beijing Academy of Artificial Intelligence",
+    "Tsinghua University"
+   ],
+   "summary": "At BAAI Conference, Tang Jie unveiled WuDao 2.0 with 1.75T MoE parameters, trained on 4.9TB bilingual text plus images, beating Switch 1.6T and 10x GPT-3. Demoed poetry, painting and image generation with near-Turing claims. It marked China's peak in the scale race before US 530B dense and PaLM.",
+   "significance": "High-water mark of US-China model rivalry in raw scale.",
+   "tags": [
+    "wudao",
+    "china",
+    "scale",
+    "moe"
+   ],
+   "sources": [
+    {
+     "label": "BAAI official site (WuDao 2.0 unveiling host)",
+     "type": "announcement",
+     "url": "https://www.baai.ac.cn/en",
+     "verified": true,
+     "verifiedTitle": "BAAI Innovation Center",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "WuDaoCorpora paper (AI Open, BAAI authors)",
+     "type": "paper",
+     "url": "https://doi.org/10.1016/j.aiopen.2021.06.001",
+     "verified": true,
+     "verifiedTitle": "WuDaoCorpora: A super large-scale Chinese corpora for pre-training language models",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-06-09-gpt-j",
+   "date": "2021-06-09",
+   "title": "GPT-J 6B open release",
+   "category": "model-release",
+   "organizations": [
+    "EleutherAI"
+   ],
+   "summary": "EleutherAI released GPT-J-6B, a 6B autoregressive LM on The Pile trained on TPU v3 pods, then the largest open GPT-3-style model. Hosted on Hugging Face, it powered open few-shot apps and fine-tunes including early instruction tunes. It cemented EleutherAI as open leader before GPT-NeoX 20B.",
+   "significance": "Workhorse open model for 2021-2022 research and startups.",
+   "tags": [
+    "gpt-j",
+    "open-source",
+    "eleutherai"
+   ],
+   "sources": [
+    {
+     "label": "GPT-J 6B (Hugging Face, EleutherAI)",
+     "type": "repo",
+     "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+     "verified": true,
+     "verifiedTitle": "EleutherAI/gpt-j-6b · Hugging Face"
+    },
+    {
+     "label": "mesh-transformer-jax (official GPT-J code, kingoflolz)",
+     "type": "repo",
+     "url": "https://github.com/kingoflolz/mesh-transformer-jax",
+     "verified": true,
+     "verifiedTitle": "GitHub - kingoflolz/mesh-transformer-jax: Model parallel transformers in JAX and Haiku · G",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-06-29-copilot-preview",
+   "date": "2021-06-29",
+   "title": "GitHub Copilot technical preview (powered by Codex)",
+   "category": "product",
+   "organizations": [
+    "GitHub",
+    "OpenAI",
+    "Microsoft"
+   ],
+   "summary": "Nat Friedman launched Copilot as a VS Code AI pair programmer suggesting lines and functions from context, powered by OpenAI Codex descendant of GPT-3 trained on public GitHub code. Testimonials claimed huge productivity; FSF called it unacceptable over licensing and insecure code. First killer LLM coding app, it previewed generative software disruption.",
+   "significance": "First mass-market LLM product; origin of AI coding lawsuits and productivity studies.",
+   "tags": [
+    "copilot",
+    "codex",
+    "coding",
+    "github"
+   ],
+   "sources": [
+    {
+     "label": "Introducing GitHub Copilot technical preview (GitHub Blog, Nat Friedman)",
+     "type": "blog",
+     "url": "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/",
+     "verified": true,
+     "verifiedTitle": "Introducing GitHub Copilot: your AI pair programmer - The GitHub Blog"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-07-15-alphafold2-open",
+   "date": "2021-07-15",
+   "title": "AlphaFold 2 open-sourced plus Nature paper plus RoseTTAFold",
+   "category": "model-release",
+   "organizations": [
+    "DeepMind",
+    "EMBL-EBI",
+    "University of Washington"
+   ],
+   "summary": "Nature published Highly accurate protein structure prediction with AlphaFold with code Apache-2.0; same day Science published RoseTTAFold achieving near-AlphaFold accuracy with open PyTorch. DeepMind's Evoformer plus IPA architecture details finally let labs run and fold locally. Dual release democratized structural biology.",
+   "significance": "Open science at its best; immediate global adoption in drug and enzyme work.",
+   "tags": [
+    "alphafold",
+    "open-source",
+    "biology",
+    "deepmind"
+   ],
+   "sources": [
+    {
+     "label": "Highly accurate protein structure prediction with AlphaFold (Nature)",
+     "type": "paper",
+     "url": "https://www.nature.com/articles/s41586-021-03819-2",
+     "verified": true,
+     "verifiedTitle": "Highly accurate protein structure prediction with AlphaFold | Nature",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "deepmind/alphafold (official GitHub, Apache-2.0)",
+     "type": "repo",
+     "url": "https://github.com/google-deepmind/alphafold",
+     "verified": true,
+     "verifiedTitle": "GitHub - google-deepmind/alphafold: Open source code for AlphaFold 2. · GitHub"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-07-22-alphafold-db",
+   "date": "2021-07-22",
+   "title": "AlphaFold Protein Structure Database launch",
+   "category": "product",
+   "organizations": [
+    "DeepMind",
+    "EMBL-EBI"
+   ],
+   "summary": "DeepMind plus EMBL-EBI launched the AlphaFold DB with 350k+ predictions including the full human proteome (98.5% coverage), freely available. Coordinators called it biology's genome moment. Expanded to 200M+ across life in 2022, it accelerated drug, enzyme and rare-disease work.",
+   "significance": "Largest open structural biology resource ever; Nobel precursor.",
+   "tags": [
+    "alphafold",
+    "database",
+    "biology"
+   ],
+   "sources": [
+    {
+     "label": "Putting the power of AlphaFold into the world's hands (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/putting-the-power-of-alphafold-into-the-worlds-hands/",
+     "verified": true,
+     "verifiedTitle": "Putting the power of AlphaFold into the world’s hands — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "AlphaFold database launch (EMBL-EBI announcement)",
+     "type": "announcement",
+     "url": "https://www.ebi.ac.uk/about/news/announcements/alphafold-database-launch/",
+     "verified": true,
+     "verifiedTitle": "DeepMind and EMBL release the most complete database of predicted 3D structures of human p",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "AlphaFold Protein Structure Database (official)",
+     "type": "database",
+     "url": "https://alphafold.ebi.ac.uk/",
+     "verified": true,
+     "verifiedTitle": "AlphaFold Protein Structure Database",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-08-10-codex-beta",
+   "date": "2021-08-10",
+   "title": "OpenAI Codex private beta API",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI released Codex (12B+ GPT-3 fine-tuned on 54M GitHub repos, proficient in 12+ languages) via private-beta API for natural-language-to-code, transpilation and explanation. Powering Copilot, it showed GPT-3's English understanding transfers to code. It set up function-calling and agent paradigms.",
+   "significance": "API that powers Copilot and all early code-LLM startups.",
+   "tags": [
+    "codex",
+    "api",
+    "coding",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI Codex private beta (OpenAI, Aug 10 2021)",
+     "type": "blog",
+     "url": "https://openai.com/index/openai-codex/",
+     "verified": true,
+     "verifiedTitle": "OpenAI Codex | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Evaluating Large Language Models Trained on Code (arXiv 2107.03374)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2107.03374",
+     "verified": true,
+     "verifiedTitle": "[2107.03374] Evaluating Large Language Models Trained on Code",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-08-19-tesla-ai-day",
+   "date": "2021-08-19",
+   "title": "Tesla AI Day: Dojo D1 chip",
+   "category": "infrastructure",
+   "organizations": [
+    "Tesla"
+   ],
+   "summary": "At AI Day, Karpathy and Musk detailed HydraNets fleet learning, auto-labeling, and Dojo D1 7nm training tile for 1.1 EFLOP ExaPOD to train video FSD. It positioned Tesla as an AI supercomputer player alongside NVIDIA and TPU and teased the humanoid bot.",
+   "significance": "Tesla's bid to be seen as an AI company, not just car company.",
+   "tags": [
+    "tesla",
+    "dojo",
+    "compute"
+   ],
+   "sources": [
+    {
+     "label": "Tesla AI Day livestream (official Tesla YouTube)",
+     "type": "video",
+     "url": "https://www.youtube.com/watch?v=j0z4FweCy4M",
+     "verified": true,
+     "verifiedTitle": "Tesla AI Day 2021 - YouTube",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-09-03-flan",
+   "date": "2021-09-03",
+   "title": "FLAN: Finetuned Language Models Are Zero-Shot Learners",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Instruction-tuning a 137B LaMDA-PT on 60+ NLP tasks phrased as instructions beat zero-shot 175B GPT-3 on 20 of 25 tasks and even few-shot on ANLI and BoolQ. Posted Sept 3, ICLR 2022, it invented instruction tuning alongside T0, directly leading to FLAN-T5, InstructGPT comparisons and the ChatGPT instruction paradigm.",
+   "significance": "Recipe breakthrough that makes ChatGPT possible: teach the model to follow instructions.",
+   "tags": [
+    "flan",
+    "instruction-tuning",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Finetuned Language Models Are Zero-Shot Learners (arXiv 2109.01652)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2109.01652",
+     "verified": true,
+     "verifiedTitle": "[2109.01652] Finetuned Language Models Are Zero-Shot Learners"
+    },
+    {
+     "label": "Introducing FLAN (Google Research Blog)",
+     "type": "blog",
+     "url": "https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html",
+     "verified": true,
+     "verifiedTitle": "Introducing FLAN: More generalizable Language Models with Instruction Fine-Tunin",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-09-07-mmlu",
+   "date": "2021-09-07",
+   "title": "MMLU massive multitask language understanding benchmark",
+   "category": "advance",
+   "organizations": [
+    "UC Berkeley",
+    "University of Chicago"
+   ],
+   "summary": "Hendrycks et al. introduced a 57-subject 4-choice test from STEM to law, showing GPT-3 at 43.9% versus 89.8% expert. It became the defining LLM knowledge benchmark for Gopher, Chinchilla, PaLM and GPT-4.",
+   "significance": "Scoreboard every frontier launch quotes through GPT-4 and Gemini.",
+   "tags": [
+    "mmlu",
+    "benchmark",
+    "evaluation"
+   ],
+   "sources": [
+    {
+     "label": "Measuring Massive Multitask Language Understanding (arXiv 2009.03300)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2009.03300",
+     "verified": true,
+     "verifiedTitle": "[2009.03300] Measuring Massive Multitask Language Understanding",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "hendrycks/test MMLU (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/hendrycks/test",
+     "verified": true,
+     "verifiedTitle": "GitHub - hendrycks/test: Measuring Massive Multitask Language Understanding | ICLR 2021 · ",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-09-27-hyperclova",
+   "date": "2021-09-27",
+   "title": "HyperCLOVA 204B Korean LLM",
+   "category": "model-release",
+   "organizations": [
+    "Naver AI Lab"
+   ],
+   "summary": "Naver detailed HyperCLOVA 204B Korean-centric model trained on 560B tokens with prompt-based tuning, rivaling GPT-3 on Korean with studio API. It exemplified sovereign LLMs alongside PanGu, WuDao and Jurassic.",
+   "significance": "Early sovereign-model proof that non-English scale works.",
+   "tags": [
+    "hyperclova",
+    "korea",
+    "sovereign",
+    "naver"
+   ],
+   "sources": [
+    {
+     "label": "HyperCLOVA paper (arXiv 2109.04650, Naver authors)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2109.04650",
+     "verified": true,
+     "verifiedTitle": "[2109.04650] What Changes Can Large-scale Language Models Bring? Intensive Study on HyperC",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Naver HyperCLOVA announcement (Naver press)",
+     "type": "press",
+     "url": "https://www.navercorp.com/promotion/pressReleasesView/30546",
+     "verified": true,
+     "verifiedTitle": "NAVER Corp.",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-10-08-t0",
+   "date": "2021-10-08",
+   "title": "T0 multitask prompted training enables zero-shot generalization",
+   "category": "model-release",
+   "organizations": [
+    "BigScience",
+    "Hugging Face"
+   ],
+   "summary": "BigScience fine-tuned T5-11B on P3 (170+ prompted datasets) to create T0, beating 16x larger GPT-3 zero-shot on 9 of 11 held-out sets with robustness to prompt wording. Posted Oct 8, ICLR 2022 Spotlight, it open-sourced instruction tuning parallel to FLAN and seeded BLOOM.",
+   "significance": "Open counterpart to FLAN; proof instruction tuning works openly.",
+   "tags": [
+    "t0",
+    "instruction-tuning",
+    "bigscience"
+   ],
+   "sources": [
+    {
+     "label": "Multitask Prompted Training Enables Zero-Shot Generalization (arXiv 2110.08207)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2110.08207",
+     "verified": true,
+     "verifiedTitle": "[2110.08207] Multitask Prompted Training Enables Zero-Shot Task Generalization",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "bigscience/T0pp (official Hugging Face)",
+     "type": "repo",
+     "url": "https://huggingface.co/bigscience/T0pp",
+     "verified": true,
+     "verifiedTitle": "bigscience/T0pp · Hugging Face",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "bigscience-workshop/t-zero (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/bigscience-workshop/t-zero",
+     "verified": true,
+     "verifiedTitle": "GitHub - bigscience-workshop/t-zero: Reproduce results and replicate training fo T0 (Multi",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-10-11-mt-nlg-530b",
+   "date": "2021-10-11",
+   "title": "Megatron-Turing NLG 530B largest dense model",
+   "category": "model-release",
+   "organizations": [
+    "Microsoft",
+    "NVIDIA"
+   ],
+   "summary": "Microsoft plus NVIDIA unveiled MT-NLG 530B, largest dense monolith at the time (3x GPT-3), trained on 270B tokens across 280 A100s per replica with 3D parallelism. It set zero and few-shot SOTA on many NLP tasks. It showcased infrastructure for trillion-scale training.",
+   "significance": "Peak dense scaling before Chinchilla shows bigger is not always better.",
+   "tags": [
+    "mt-nlg",
+    "scale",
+    "microsoft",
+    "nvidia"
+   ],
+   "sources": [
+    {
+     "label": "Training MT-NLG 530B (NVIDIA developer blog, first-party)",
+     "type": "blog",
+     "url": "https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/",
+     "verified": true,
+     "verifiedTitle": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, the World’s Largest and Mo",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Megatron-Turing NLG 530B (arXiv 2201.11990)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2201.11990",
+     "verified": true,
+     "verifiedTitle": "[2201.11990] Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-10-29-pathways",
+   "date": "2021-10-29",
+   "title": "Pathways next-generation AI architecture vision",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Jeff Dean's blog and paper proposed Pathways: a single system sparsely orchestrating many accelerators across tasks and modalities, fixing multitask and efficiency limits. It explicitly previewed sparse multimodal models realized as PaLM (April 2022, Pathways-trained 540B) and later Gemini.",
+   "significance": "Google's unified direction statement before PaLM.",
+   "tags": [
+    "pathways",
+    "google",
+    "architecture"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Pathways (Google Blog, Jeff Dean)",
+     "type": "blog",
+     "url": "https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/",
+     "verified": true,
+     "verifiedTitle": "Introducing Pathways: A next-generation AI architecture",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Pathways paper (arXiv 2203.12533)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2203.12533",
+     "verified": true,
+     "verifiedTitle": "[2203.12533] Pathways: Asynchronous Distributed Dataflow for ML",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-11-11-mae",
+   "date": "2021-11-11",
+   "title": "MAE masked autoencoders are scalable vision learners",
+   "category": "paper",
+   "organizations": [
+    "Facebook AI Research"
+   ],
+   "summary": "He et al. masked 75% of image patches and reconstructed pixels with an asymmetric encoder plus lightweight decoder, training 3x faster and letting vanilla ViT-Huge hit 87.8% ImageNet-1K. Posted Nov 11, CVPR 2022, it brought BERT-style masking to vision at scale.",
+   "significance": "Self-supervised vision standard alongside DINO.",
+   "tags": [
+    "mae",
+    "vision",
+    "self-supervised",
+    "meta"
+   ],
+   "sources": [
+    {
+     "label": "Masked Autoencoders Are Scalable Vision Learners (arXiv 2111.06377)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2111.06377",
+     "verified": true,
+     "verifiedTitle": "[2111.06377] Masked Autoencoders Are Scalable Vision Learners",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "facebookresearch/mae (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/facebookresearch/mae",
+     "verified": true,
+     "verifiedTitle": "GitHub - facebookresearch/mae: PyTorch implementation of MAE https//arxiv.org/abs/2111.063",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-11-18-gpt3-ga",
+   "date": "2021-11-18",
+   "title": "GPT-3 API waitlist removed (general availability)",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI removed the API waitlist, opening GPT-3 and Instruct-series to developers with usage tiers and safety filters. Private beta since June 2020 had tens of thousands; opening catalyzed Jasper and Copy.ai proliferation before ChatGPT. It marked LLM commercial normalization.",
+   "significance": "Start of the LLM startup Cambrian explosion.",
+   "tags": [
+    "gpt-3",
+    "api",
+    "openai",
+    "startups"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI API no waitlist / general availability (OpenAI, Nov 18 2021)",
+     "type": "blog",
+     "url": "https://openai.com/index/api-no-waitlist/",
+     "verified": true,
+     "verifiedTitle": "OpenAI’s API now available with no waitlist | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-12-08-gopher-retro",
+   "date": "2021-12-08",
+   "title": "Gopher 280B plus RETRO 7.5B plus ethical risks taxonomy",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "DeepMind's trio: Gopher 280B on MassiveText evaluated on 152 tasks showing scale helps comprehension but not logic; RETRO 7.5B retrieving 2T tokens matching Gopher with updatable memory; and a 21-risk taxonomy paper. It argued retrieval beats sheer scale and deeply analyzed bias, directly leading to Chinchilla and Sparrow.",
+   "significance": "Sets up 2022's Chinchilla correction and retrieval revival (RAG).",
+   "tags": [
+    "gopher",
+    "retro",
+    "deepmind",
+    "retrieval"
+   ],
+   "sources": [
+    {
+     "label": "Gopher paper (arXiv 2112.11446, DeepMind)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2112.11446",
+     "verified": true,
+     "verifiedTitle": "[2112.11446] Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "RETRO paper (arXiv 2112.04426, DeepMind)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2112.04426",
+     "verified": true,
+     "verifiedTitle": "[2112.04426] Improving language models by retrieving from trillions of tokens",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Language modelling at scale: Gopher, ethical considerations and retrieval (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval/",
+     "verified": true,
+     "verifiedTitle": "Language modelling at scale: Gopher, ethical considerations, and retrieval — Google DeepMi",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2021-12-20-glide",
+   "date": "2021-12-20",
+   "title": "GLIDE text-guided diffusion for photorealistic generation",
+   "category": "paper",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "GLIDE's 3.5B text-conditional diffusion with classifier-free guidance was preferred over DALL-E plus CLIP rerank 91% for photorealism and enabled inpainting and editing. Posted Dec 20, ICML 2022, with filtered small-model open weights, it proved diffusion beats autoregressive for images and was the direct prototype for DALL-E 2.",
+   "significance": "Bridge from DALL-E 1 to DALL-E 2 and Stable Diffusion.",
+   "tags": [
+    "glide",
+    "diffusion",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "GLIDE paper (arXiv 2112.10741)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2112.10741",
+     "verified": true,
+     "verifiedTitle": "[2112.10741] GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models"
+    }
+   ],
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,1192 @@
+{
+  "2021-01-01-anthropic-founded": [
+    {
+      "label": "Anthropic raises $124M (founding disclosure, May 28 2021)",
+      "type": "blog",
+      "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
+    },
+    {
+      "label": "Core Views on AI Safety (founding story)",
+      "type": "blog",
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety"
+    }
+  ],
+  "2021-01-05-clip-dalle1": [
+    {
+      "label": "CLIP: Connecting Text and Images (OpenAI, Jan 5 2021)",
+      "type": "blog",
+      "url": "https://openai.com/index/clip/"
+    },
+    {
+      "label": "DALL-E: Creating Images from Text (OpenAI, Jan 5 2021)",
+      "type": "blog",
+      "url": "https://openai.com/index/dall-e/"
+    },
+    {
+      "label": "Learning Transferable Visual Models From Natural Language Supervision (arXiv, authors)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2103.00020"
+    }
+  ],
+  "2021-01-11-switch-transformer": [
+    {
+      "label": "Switch Transformers (arXiv 2101.03961, Fedus/Zoph/Shazeer)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2101.03961"
+    },
+    {
+      "label": "Switch Transformers (JMLR published version)",
+      "type": "paper",
+      "url": "https://jmlr.org/papers/v23/21-0998.html"
+    }
+  ],
+  "2021-02-19-mitchell-fired": [],
+  "2021-03-11-huggingface-40m": [
+    {
+      "label": "Hugging Face raises $40M Series B (official blog)",
+      "type": "blog",
+      "url": "https://huggingface.co/blog/hugging-face-40m"
+    }
+  ],
+  "2021-03-21-gpt-neo": [
+    {
+      "label": "GPT-Neo v1.0 pretrained models release (EleutherAI GitHub)",
+      "type": "repo",
+      "url": "https://github.com/EleutherAI/gpt-neo/releases/tag/v1.0"
+    },
+    {
+      "label": "GPT-Neo 1.3B (Hugging Face, EleutherAI org)",
+      "type": "repo",
+      "url": "https://huggingface.co/EleutherAI/gpt-neo-1.3B"
+    }
+  ],
+  "2021-03-25-swin-transformer": [
+    {
+      "label": "Swin Transformer (arXiv 2103.14030, Microsoft authors)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2103.14030"
+    },
+    {
+      "label": "Swin-Transformer (official Microsoft GitHub)",
+      "type": "repo",
+      "url": "https://github.com/microsoft/Swin-Transformer"
+    }
+  ],
+  "2021-04-21-eu-ai-act-proposal": [
+    {
+      "label": "Proposal for AI Act (European Commission, europa.eu)",
+      "type": "policy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-laying-down-harmonised-rules-artificial-intelligence"
+    },
+    {
+      "label": "COM(2021)206 EUR-Lex full text",
+      "type": "policy",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206"
+    }
+  ],
+  "2021-04-29-dino": [
+    {
+      "label": "DINO (arXiv 2104.14294, Caron et al.)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2104.14294"
+    },
+    {
+      "label": "facebookresearch/dino (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/facebookresearch/dino"
+    }
+  ],
+  "2021-05-11-diffusion-beats-gans": [
+    {
+      "label": "Diffusion Models Beat GANs on Image Synthesis (OpenAI blog)",
+      "type": "blog",
+      "url": "https://openai.com/index/diffusion-models-beat-gans-on-image-synthesis/"
+    },
+    {
+      "label": "ADM paper (arXiv 2105.05233, Dhariwal/Nichol)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2105.05233"
+    },
+    {
+      "label": "openai/guided-diffusion (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/openai/guided-diffusion"
+    }
+  ],
+  "2021-05-18-lamda-mum-tpuv4": [
+    {
+      "label": "LaMDA breakthrough conversation technology (Google Blog, May 18 2021)",
+      "type": "blog",
+      "url": "https://blog.google/technology/ai/lamda/"
+    },
+    {
+      "label": "MUM new AI milestone (Google Blog, May 18 2021)",
+      "type": "blog",
+      "url": "https://blog.google/products/search/introducing-mum/"
+    },
+    {
+      "label": "Google I/O 2021 keynote incl. TPU v4 (Google Blog)",
+      "type": "blog",
+      "url": "https://blog.google/technology/developers/io21-helpful-google/"
+    }
+  ],
+  "2021-05-28-anthropic-launch": [
+    {
+      "label": "Anthropic raises $124M (official launch announcement)",
+      "type": "blog",
+      "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
+    }
+  ],
+  "2021-06-01-wudao2": [
+    {
+      "label": "BAAI official site (WuDao 2.0 unveiling host)",
+      "type": "announcement",
+      "url": "https://www.baai.ac.cn/en"
+    },
+    {
+      "label": "WuDao Corpora paper (arXiv, BAAI authors)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2107.03306"
+    }
+  ],
+  "2021-06-09-gpt-j": [
+    {
+      "label": "GPT-J 6B (Hugging Face, EleutherAI)",
+      "type": "repo",
+      "url": "https://huggingface.co/EleutherAI/gpt-j-6b"
+    },
+    {
+      "label": "mesh-transformer-jax (official GPT-J code, kingoflolz)",
+      "type": "repo",
+      "url": "https://github.com/kingoflolz/mesh-transformer-jax"
+    }
+  ],
+  "2021-06-29-copilot-preview": [
+    {
+      "label": "Introducing GitHub Copilot technical preview (GitHub Blog, Nat Friedman)",
+      "type": "blog",
+      "url": "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/"
+    }
+  ],
+  "2021-07-15-alphafold2-open": [
+    {
+      "label": "Highly accurate protein structure prediction with AlphaFold (Nature)",
+      "type": "paper",
+      "url": "https://www.nature.com/articles/s41586-021-03819-2"
+    },
+    {
+      "label": "deepmind/alphafold (official GitHub, Apache-2.0)",
+      "type": "repo",
+      "url": "https://github.com/deepmind/alphafold"
+    }
+  ],
+  "2021-07-22-alphafold-db": [
+    {
+      "label": "Putting the power of AlphaFold into the world's hands (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/putting-the-power-of-alphafold-into-the-worlds-hands/"
+    },
+    {
+      "label": "AlphaFold database launch (EMBL-EBI announcement)",
+      "type": "announcement",
+      "url": "https://www.ebi.ac.uk/about/news/announcements/alphafold-database-launch/"
+    },
+    {
+      "label": "AlphaFold Protein Structure Database (official)",
+      "type": "database",
+      "url": "https://alphafold.ebi.ac.uk/"
+    }
+  ],
+  "2021-08-10-codex-beta": [
+    {
+      "label": "OpenAI Codex private beta (OpenAI, Aug 10 2021)",
+      "type": "blog",
+      "url": "https://openai.com/index/openai-codex/"
+    },
+    {
+      "label": "Evaluating Large Language Models Trained on Code (arXiv 2107.03374)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2107.03374"
+    }
+  ],
+  "2021-08-19-tesla-ai-day": [
+    {
+      "label": "Tesla AI Day (official Tesla page/archive)",
+      "type": "announcement",
+      "url": "https://www.tesla.com/AIDay"
+    },
+    {
+      "label": "Tesla AI Day livestream (official Tesla YouTube)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=j0z4FweCy4M"
+    }
+  ],
+  "2021-09-03-flan": [
+    {
+      "label": "Finetuned Language Models Are Zero-Shot Learners (arXiv 2109.01652)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2109.01652"
+    },
+    {
+      "label": "Introducing FLAN (Google Research Blog)",
+      "type": "blog",
+      "url": "https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html"
+    }
+  ],
+  "2021-09-07-mmlu": [
+    {
+      "label": "Measuring Massive Multitask Language Understanding (arXiv 2009.03300)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2009.03300"
+    },
+    {
+      "label": "hendrycks/test MMLU (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/hendrycks/test"
+    }
+  ],
+  "2021-09-27-hyperclova": [
+    {
+      "label": "HyperCLOVA paper (arXiv 2109.04650, Naver authors)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2109.04650"
+    },
+    {
+      "label": "Naver HyperCLOVA announcement (Naver press)",
+      "type": "press",
+      "url": "https://www.navercorp.com/promotion/pressReleasesView/30546"
+    }
+  ],
+  "2021-10-08-t0": [
+    {
+      "label": "Multitask Prompted Training Enables Zero-Shot Generalization (arXiv 2110.08207)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2110.08207"
+    },
+    {
+      "label": "bigscience/T0pp (official Hugging Face)",
+      "type": "repo",
+      "url": "https://huggingface.co/bigscience/T0pp"
+    },
+    {
+      "label": "bigscience-workshop/t-zero (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/bigscience-workshop/t-zero"
+    }
+  ],
+  "2021-10-11-mt-nlg-530b": [
+    {
+      "label": "Training MT-NLG 530B (NVIDIA developer blog, first-party)",
+      "type": "blog",
+      "url": "https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/"
+    },
+    {
+      "label": "Megatron-Turing NLG 530B (arXiv 2201.11990)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2201.11990"
+    }
+  ],
+  "2021-10-29-pathways": [
+    {
+      "label": "Introducing Pathways (Google Blog, Jeff Dean)",
+      "type": "blog",
+      "url": "https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/"
+    },
+    {
+      "label": "Pathways paper (arXiv 2203.12533)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2203.12533"
+    }
+  ],
+  "2021-11-11-mae": [
+    {
+      "label": "Masked Autoencoders Are Scalable Vision Learners (arXiv 2111.06377)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2111.06377"
+    },
+    {
+      "label": "facebookresearch/mae (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/facebookresearch/mae"
+    }
+  ],
+  "2021-11-18-gpt3-ga": [
+    {
+      "label": "OpenAI API no waitlist / general availability (OpenAI, Nov 18 2021)",
+      "type": "blog",
+      "url": "https://openai.com/index/api-no-waitlist/"
+    }
+  ],
+  "2021-12-08-gopher-retro": [
+    {
+      "label": "Gopher paper (arXiv 2112.11446, DeepMind)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2112.11446"
+    },
+    {
+      "label": "RETRO paper (arXiv 2112.04426, DeepMind)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2112.04426"
+    },
+    {
+      "label": "Language modelling at scale: Gopher, ethical considerations and retrieval (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval/"
+    }
+  ],
+  "2021-12-20-glide": [
+    {
+      "label": "GLIDE (OpenAI blog, Dec 2021)",
+      "type": "blog",
+      "url": "https://openai.com/index/glide/"
+    },
+    {
+      "label": "GLIDE paper (arXiv 2112.10741)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2112.10741"
+    }
+  ],
+  "2022-01-27-instructgpt": [
+    {
+      "label": "Aligning language models to follow instructions (OpenAI, Jan 27 2022)",
+      "type": "blog",
+      "url": "https://openai.com/index/instruction-following/"
+    },
+    {
+      "label": "Training language models to follow instructions with human feedback (arXiv 2203.02155)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2203.02155"
+    },
+    {
+      "label": "openai/following-instructions-human-feedback (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/openai/following-instructions-human-feedback"
+    }
+  ],
+  "2022-02-02-alphacode": [
+    {
+      "label": "Competitive programming with AlphaCode (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/competitive-programming-with-alphacode/"
+    },
+    {
+      "label": "Competition-level code generation with AlphaCode (Science)",
+      "type": "paper",
+      "url": "https://www.science.org/doi/10.1126/science.abq1158"
+    }
+  ],
+  "2022-03-29-chinchilla": [
+    {
+      "label": "Training Compute-Optimal LLMs (arXiv 2203.15556, Hoffmann et al.)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2203.15556"
+    },
+    {
+      "label": "An empirical analysis of compute-optimal LLM training (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/"
+    }
+  ],
+  "2022-04-04-palm": [
+    {
+      "label": "PaLM: Scaling Language Modeling with Pathways (Google Research Blog)",
+      "type": "blog",
+      "url": "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html"
+    },
+    {
+      "label": "PaLM paper (arXiv 2204.02311)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2204.02311"
+    }
+  ],
+  "2022-04-06-dalle2": [
+    {
+      "label": "DALL-E 2 (OpenAI, Apr 6 2022)",
+      "type": "blog",
+      "url": "https://openai.com/index/dall-e-2/"
+    },
+    {
+      "label": "Hierarchical Text-Conditional Image Generation with CLIP Latents (arXiv 2204.06125)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2204.06125"
+    }
+  ],
+  "2022-04-28-flamingo": [
+    {
+      "label": "Tackling multiple tasks with a single visual language model (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/"
+    },
+    {
+      "label": "Flamingo paper (arXiv 2204.14198)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2204.14198"
+    }
+  ],
+  "2022-05-03-opt175b": [
+    {
+      "label": "OPT-175B release (Meta AI blog)",
+      "type": "blog",
+      "url": "https://ai.meta.com/blog/large-language-model-open-pretrained-transformer-opt-175b/"
+    },
+    {
+      "label": "OPT paper (arXiv 2205.01068)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2205.01068"
+    },
+    {
+      "label": "facebookresearch/metaseq (official GitHub incl. OPT)",
+      "type": "repo",
+      "url": "https://github.com/facebookresearch/metaseq"
+    }
+  ],
+  "2022-05-12-gato": [
+    {
+      "label": "A Generalist Agent (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/a-generalist-agent/"
+    },
+    {
+      "label": "Gato paper (arXiv 2205.06175)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2205.06175"
+    }
+  ],
+  "2022-05-23-imagen": [
+    {
+      "label": "Imagen (official Google Research page)",
+      "type": "announcement",
+      "url": "https://imagen.research.google/"
+    },
+    {
+      "label": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding (arXiv 2205.11487)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2205.11487"
+    },
+    {
+      "label": "Imagen (Google Research Blog)",
+      "type": "blog",
+      "url": "https://ai.googleblog.com/2022/05/imagen-text-to-image-diffusion-models.html"
+    }
+  ],
+  "2022-06-11-lamoine-sentience": [
+    {
+      "label": "LaMDA breakthrough conversation technology (Google official LaMDA page)",
+      "type": "blog",
+      "url": "https://blog.google/technology/ai/lamda/"
+    },
+    {
+      "label": "Google AI Principles (official, cited in Google response)",
+      "type": "policy",
+      "url": "https://ai.google/responsibility/principles/"
+    }
+  ],
+  "2022-06-21-copilot-ga": [
+    {
+      "label": "GitHub Copilot now available to developers (GitHub Blog, Jun 21 2022)",
+      "type": "blog",
+      "url": "https://github.blog/news-insights/product-news/github-copilot-now-available-to-developers/"
+    }
+  ],
+  "2022-06-22-parti": [
+    {
+      "label": "Parti: Scaling Autoregressive Models (Google Research Blog)",
+      "type": "blog",
+      "url": "https://ai.googleblog.com/2022/06/parti-scaling-autoregressive-models-for.html"
+    },
+    {
+      "label": "Parti paper (arXiv 2206.10789)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2206.10789"
+    },
+    {
+      "label": "Parti official demo page (Google Research)",
+      "type": "announcement",
+      "url": "https://parti.research.google/"
+    }
+  ],
+  "2022-06-30-minerva": [
+    {
+      "label": "Minerva: solving quantitative reasoning problems (Google Research Blog)",
+      "type": "blog",
+      "url": "https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html"
+    },
+    {
+      "label": "Minerva paper (arXiv 2206.14858)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2206.14858"
+    }
+  ],
+  "2022-07-12-bloom": [
+    {
+      "label": "BLOOM release (BigScience / Hugging Face official)",
+      "type": "blog",
+      "url": "https://bigscience.huggingface.co/blog/bloom"
+    },
+    {
+      "label": "bigscience/bloom 176B (official Hugging Face repo)",
+      "type": "repo",
+      "url": "https://huggingface.co/bigscience/bloom"
+    },
+    {
+      "label": "BLOOM paper (arXiv 2211.05100)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2211.05100"
+    }
+  ],
+  "2022-07-12-midjourney-beta": [
+    {
+      "label": "Midjourney Quick Start / open beta (official docs)",
+      "type": "docs",
+      "url": "https://docs.midjourney.com/docs/quick-start"
+    }
+  ],
+  "2022-07-28-alphafold-200m": [
+    {
+      "label": "AlphaFold reveals the structure of the protein universe (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/alphafold-reveals-the-structure-of-the-protein-universe/"
+    },
+    {
+      "label": "200M structures announcement (EMBL-EBI)",
+      "type": "announcement",
+      "url": "https://www.ebi.ac.uk/about/news/announcements/200-million-structures-alphafold-database/"
+    }
+  ],
+  "2022-08-22-stable-diffusion-public": [
+    {
+      "label": "Stable Diffusion Public Release (Stability AI, Aug 22 2022)",
+      "type": "blog",
+      "url": "https://stability.ai/news/stable-diffusion-public-release"
+    },
+    {
+      "label": "Stable Diffusion Launch Announcement / research release (Stability AI, Aug 10 2022)",
+      "type": "blog",
+      "url": "https://stability.ai/news/stable-diffusion-announcement"
+    },
+    {
+      "label": "CompVis/stable-diffusion-v1-4 (official Hugging Face weights)",
+      "type": "repo",
+      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4"
+    }
+  ],
+  "2022-08-31-state-fair-win": [],
+  "2022-09-21-whisper": [
+    {
+      "label": "Introducing Whisper (OpenAI, Sep 21 2022)",
+      "type": "blog",
+      "url": "https://openai.com/index/whisper/"
+    },
+    {
+      "label": "openai/whisper (official GitHub, MIT)",
+      "type": "repo",
+      "url": "https://github.com/openai/whisper"
+    },
+    {
+      "label": "Whisper paper (arXiv 2212.04356)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2212.04356"
+    }
+  ],
+  "2022-09-27-sparrow": [
+    {
+      "label": "Building safer dialogue agents / Sparrow (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/building-safer-dialogue-agents/"
+    },
+    {
+      "label": "Sparrow paper (arXiv 2209.14375)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2209.14375"
+    }
+  ],
+  "2022-09-29-dreamfusion": [
+    {
+      "label": "DreamFusion official project page (authors, Google)",
+      "type": "announcement",
+      "url": "https://dreamfusion3d.github.io/"
+    },
+    {
+      "label": "DreamFusion paper (arXiv 2209.14988)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2209.14988"
+    },
+    {
+      "label": "Phenaki official page (authors, Google)",
+      "type": "announcement",
+      "url": "https://phenaki.video/"
+    }
+  ],
+  "2022-09-29-make-a-video": [
+    {
+      "label": "Make-A-Video (Meta AI blog, Sep 29 2022)",
+      "type": "blog",
+      "url": "https://ai.meta.com/blog/generative-ai-text-to-video/"
+    },
+    {
+      "label": "Make-A-Video paper (arXiv 2209.14792)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2209.14792"
+    }
+  ],
+  "2022-10-05-alphatensor": [
+    {
+      "label": "Discovering novel algorithms with AlphaTensor (DeepMind blog)",
+      "type": "blog",
+      "url": "https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/"
+    },
+    {
+      "label": "AlphaTensor (Nature, Fawzi et al.)",
+      "type": "paper",
+      "url": "https://www.nature.com/articles/s41586-022-05172-4"
+    }
+  ],
+  "2022-10-17-stability-101m": [
+    {
+      "label": "$101M funding announcement (Stability AI official)",
+      "type": "blog",
+      "url": "https://stability.ai/news/stability-ai-announcement"
+    }
+  ],
+  "2022-11-15-galactica-launch": [
+    {
+      "label": "Galactica: a large language model for science (Meta AI blog)",
+      "type": "blog",
+      "url": "https://ai.meta.com/blog/galactica-a-large-language-model-for-science/"
+    },
+    {
+      "label": "Galactica paper (arXiv 2211.09085)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2211.09085"
+    }
+  ],
+  "2022-11-17-galactica-pulled": [
+    {
+      "label": "Galactica model page / demo status (Meta AI, demo paused Nov 17 2022)",
+      "type": "announcement",
+      "url": "https://ai.meta.com/blog/galactica-a-large-language-model-for-science/"
+    }
+  ],
+  "2022-11-22-cicero": [
+    {
+      "label": "Cicero human-level Diplomacy (Meta AI blog)",
+      "type": "blog",
+      "url": "https://ai.meta.com/blog/cicero-ai-negotiation-diplomacy-open-research/"
+    },
+    {
+      "label": "Human-level play in Diplomacy (Science)",
+      "type": "paper",
+      "url": "https://www.science.org/doi/10.1126/science.ade9097"
+    },
+    {
+      "label": "facebookresearch/diplomacy_cicero (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/facebookresearch/diplomacy_cicero"
+    }
+  ],
+  "2022-11-30-chatgpt-launch": [
+    {
+      "label": "Introducing ChatGPT (OpenAI, Nov 30 2022)",
+      "type": "blog",
+      "url": "https://openai.com/index/chatgpt/"
+    },
+    {
+      "label": "Sam Altman launch tweet (official X, Nov 30 2022)",
+      "type": "social",
+      "url": "https://x.com/sama/status/1598035411292446720"
+    }
+  ],
+  "2022-12-05-chatgpt-1m": [
+    {
+      "label": "Sam Altman 1M users tweet (official X, Dec 5 2022)",
+      "type": "social",
+      "url": "https://x.com/sama/status/1599668808285028353"
+    }
+  ],
+  "2022-12-06-lensa-viral": [
+    {
+      "label": "Lensa official site (Prisma Labs, first-party)",
+      "type": "announcement",
+      "url": "https://prisma-ai.com/lensa"
+    }
+  ],
+  "2022-12-20-point-e": [
+    {
+      "label": "Point-E: generating 3D point clouds (OpenAI, Dec 2022)",
+      "type": "blog",
+      "url": "https://openai.com/index/point-e-a-system-for-generating-3d-point-clouds-from-complex-prompts/"
+    },
+    {
+      "label": "openai/point-e (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/openai/point-e"
+    },
+    {
+      "label": "Point-E paper (arXiv 2212.08751)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2212.08751"
+    }
+  ],
+  "2023-01-11-cnet-ai-scandal": [
+    {
+      "label": "CNET AI engine disclosure (CNET first-party editor note)",
+      "type": "press",
+      "url": "https://www.cnet.com/tech/cnets-ai-generated-stories-how-we-reported-this-story-and-what-changed/"
+    },
+    {
+      "label": "CNET correction policy update (CNET first-party)",
+      "type": "policy",
+      "url": "https://www.cnet.com/culture/cnet-is-testing-an-ai-engine-heres-what-that-means/"
+    }
+  ],
+  "2023-01-13-artists-sue": [
+    {
+      "label": "Andersen v. Stability AI et al. docket (CourtListener, first-party legal doc)",
+      "type": "legal",
+      "url": "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/"
+    }
+  ],
+  "2023-01-17-getty-sues": [
+    {
+      "label": "Getty Images statement on Stability AI proceedings (Getty press, first-party)",
+      "type": "press",
+      "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-statement"
+    },
+    {
+      "label": "Getty Images v. Stability AI docket (CourtListener, first-party legal doc)",
+      "type": "legal",
+      "url": "https://www.courtlistener.com/docket/67028579/getty-images-us-inc-v-stability-ai-inc/"
+    }
+  ],
+  "2023-01-23-microsoft-10b": [
+    {
+      "label": "Microsoft and OpenAI extend partnership (Microsoft official blog)",
+      "type": "blog",
+      "url": "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/"
+    },
+    {
+      "label": "Microsoft investment announcement (OpenAI official)",
+      "type": "blog",
+      "url": "https://openai.com/index/microsoft-investment/"
+    }
+  ],
+  "2023-01-31-chatgpt-100m": [],
+  "2023-02-01-chatgpt-plus": [
+    {
+      "label": "Introducing ChatGPT Plus (OpenAI, Feb 1 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/chatgpt-plus/"
+    }
+  ],
+  "2023-02-06-bard-announced": [
+    {
+      "label": "An important next step on our AI journey / Bard (Google Blog, Sundar Pichai, Feb 6 2023)",
+      "type": "blog",
+      "url": "https://blog.google/technology/ai/bard-google-ai-search-updates/"
+    }
+  ],
+  "2023-02-07-new-bing": [
+    {
+      "label": "Reinventing search with new AI-powered Bing and Edge (Microsoft blog, Feb 7 2023)",
+      "type": "blog",
+      "url": "https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/"
+    },
+    {
+      "label": "Building the New Bing / Prometheus (Bing Search Quality blog)",
+      "type": "blog",
+      "url": "https://blogs.bing.com/search-quality-insights/february-2023/Building-the-New-Bing"
+    }
+  ],
+  "2023-02-08-bard-flub-100b": [
+    {
+      "label": "Bard announcement incl. promo materials (Google Blog, Feb 6 2023)",
+      "type": "blog",
+      "url": "https://blog.google/technology/ai/bard-google-ai-search-updates/"
+    }
+  ],
+  "2023-02-13-sydney-meltdown": [
+    {
+      "label": "The new Bing Edge - Updates to Chat, 5-turn limits (Bing blog, Feb 17 2023)",
+      "type": "blog",
+      "url": "https://blogs.bing.com/search/february-2023/The-new-Bing-Edge-%E2%80%93-Updates-to-Chat"
+    },
+    {
+      "label": "Building the New Bing / Prometheus grounding (Bing blog)",
+      "type": "blog",
+      "url": "https://blogs.bing.com/search-quality-insights/february-2023/Building-the-New-Bing"
+    }
+  ],
+  "2023-02-24-llama1": [
+    {
+      "label": "Introducing LLaMA (Meta AI blog, Feb 24 2023)",
+      "type": "blog",
+      "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/"
+    },
+    {
+      "label": "LLaMA paper (arXiv 2302.13971)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2302.13971"
+    },
+    {
+      "label": "LLaMA publication page (Meta Research)",
+      "type": "paper",
+      "url": "https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/"
+    }
+  ],
+  "2023-03-02-llama-leak": [],
+  "2023-03-13-alpaca": [
+    {
+      "label": "stanford_alpaca (Stanford CRFM official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/tatsu-lab/stanford_alpaca"
+    },
+    {
+      "label": "Alpaca announcement (Stanford CRFM blog)",
+      "type": "blog",
+      "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+    }
+  ],
+  "2023-03-14-claude-api": [
+    {
+      "label": "Introducing Claude (Anthropic, Mar 14 2023)",
+      "type": "blog",
+      "url": "https://www.anthropic.com/news/introducing-claude"
+    }
+  ],
+  "2023-03-14-gpt4": [
+    {
+      "label": "GPT-4 research (OpenAI, Mar 14 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/gpt-4-research/"
+    },
+    {
+      "label": "GPT-4 product page (OpenAI)",
+      "type": "announcement",
+      "url": "https://openai.com/index/gpt-4/"
+    },
+    {
+      "label": "GPT-4 Technical Report (arXiv 2303.08774)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2303.08774"
+    }
+  ],
+  "2023-03-15-midjourney-v5": [
+    {
+      "label": "Midjourney Model Versions incl. V5 (official docs)",
+      "type": "docs",
+      "url": "https://docs.midjourney.com/docs/models"
+    }
+  ],
+  "2023-03-22-pause-letter": [
+    {
+      "label": "Pause Giant AI Experiments (Future of Life Institute, official)",
+      "type": "policy",
+      "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+    }
+  ],
+  "2023-03-23-plugins": [
+    {
+      "label": "ChatGPT plugins (OpenAI, Mar 23 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/chatgpt-plugins/"
+    }
+  ],
+  "2023-03-24-pope-puffer": [],
+  "2023-03-30-autogpt": [
+    {
+      "label": "AutoGPT (Significant-Gravitas official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT"
+    }
+  ],
+  "2023-03-30-vicuna": [
+    {
+      "label": "Vicuna 13B open chatbot (LMSYS official blog)",
+      "type": "blog",
+      "url": "https://lmsys.org/blog/2023-03-30-vicuna/"
+    },
+    {
+      "label": "FastChat incl. Vicuna weights/code (LMSYS official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/lm-sys/FastChat"
+    }
+  ],
+  "2023-03-31-italy-ban": [
+    {
+      "label": "ChatGPT block provision (Italian Garante, official, Mar 31 2023)",
+      "type": "policy",
+      "url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9870847"
+    },
+    {
+      "label": "ChatGPT privacy and Garante compliance (OpenAI help / official response)",
+      "type": "docs",
+      "url": "https://help.openai.com/en/articles/6833453-data-controls-faq"
+    }
+  ],
+  "2023-04-05-sam": [
+    {
+      "label": "Segment Anything / SAM (Meta AI blog, Apr 5 2023)",
+      "type": "blog",
+      "url": "https://ai.meta.com/blog/segment-anything-foundation-model-ai-segmentation/"
+    },
+    {
+      "label": "facebookresearch/segment-anything (official GitHub)",
+      "type": "repo",
+      "url": "https://github.com/facebookresearch/segment-anything"
+    },
+    {
+      "label": "SAM paper (arXiv 2304.02643)",
+      "type": "paper",
+      "url": "https://arxiv.org/abs/2304.02643"
+    }
+  ],
+  "2023-05-04-white-house-ceos": [
+    {
+      "label": "Readout of White House meeting with AI CEOs (whitehouse.gov, May 4 2023)",
+      "type": "policy",
+      "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2023/05/04/readout-of-white-house-meeting-with-ceos-on-advancing-responsible-artificial-intelligence-innovation/"
+    }
+  ],
+  "2023-05-10-palm2": [
+    {
+      "label": "PaLM 2 (Google Blog, I/O May 10 2023)",
+      "type": "blog",
+      "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
+    },
+    {
+      "label": "PaLM 2 Technical Report (Google, official PDF)",
+      "type": "paper",
+      "url": "https://ai.google/static/documents/palm2techreport.pdf"
+    }
+  ],
+  "2023-05-16-altman-senate": [
+    {
+      "label": "Oversight of AI hearing (Senate Commerce Committee, official)",
+      "type": "policy",
+      "url": "https://www.commerce.senate.gov/2023/5/oversight-of-a-i-rules-for-artificial-intelligence"
+    },
+    {
+      "label": "Altman written testimony (Senate official PDF via commerce.senate.gov)",
+      "type": "policy",
+      "url": "https://www.judiciary.senate.gov/imo/media/doc/2023-05-16%20-%20Bios%20&%20Testimony%20-%20Altman.pdf"
+    }
+  ],
+  "2023-05-18-ios-app": [
+    {
+      "label": "Introducing the ChatGPT app for iOS (OpenAI, May 18 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/introducing-the-chatgpt-app-for-ios/"
+    }
+  ],
+  "2023-05-30-extinction-statement": [
+    {
+      "label": "Statement on AI Risk (Center for AI Safety, official, May 30 2023)",
+      "type": "policy",
+      "url": "https://www.safe.ai/work/statement-on-ai-risk"
+    }
+  ],
+  "2023-06-14-eu-parliament-vote": [
+    {
+      "label": "MEPs ready to negotiate AI Act (European Parliament press, Jun 14 2023)",
+      "type": "policy",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20230609IPR96212/meps-ready-to-negotiate-first-ever-rules-for-safe-and-transparent-ai"
+    }
+  ],
+  "2023-07-11-claude2": [
+    {
+      "label": "Introducing Claude 2 (Anthropic, Jul 11 2023)",
+      "type": "blog",
+      "url": "https://www.anthropic.com/news/claude-2"
+    }
+  ],
+  "2023-07-12-xai-founded": [
+    {
+      "label": "Announcing xAI formation (x.ai official, Jul 12 2023)",
+      "type": "announcement",
+      "url": "https://x.ai/news/2023-07-12-announcement"
+    }
+  ],
+  "2023-07-18-llama2": [
+    {
+      "label": "Llama 2 (Meta AI blog, Jul 18 2023)",
+      "type": "blog",
+      "url": "https://ai.meta.com/blog/llama-2/"
+    },
+    {
+      "label": "Microsoft and Meta expand AI partnership with Llama 2 on Azure (Microsoft blog)",
+      "type": "blog",
+      "url": "https://blogs.microsoft.com/blog/2023/07/18/microsoft-and-meta-expand-their-ai-partnership-with-llama-2-on-azure-and-windows/"
+    },
+    {
+      "label": "meta-llama/Llama-2 (official Hugging Face / Meta)",
+      "type": "repo",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b"
+    }
+  ],
+  "2023-07-21-white-house-commitments": [
+    {
+      "label": "FACT SHEET: Voluntary commitments (whitehouse.gov, Jul 21 2023)",
+      "type": "policy",
+      "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/"
+    },
+    {
+      "label": "Voluntary AI Commitments text (whitehouse.gov PDF)",
+      "type": "policy",
+      "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2023/07/Ensuring-Safe-Secure-and-Trustworthy-AI.pdf"
+    }
+  ],
+  "2023-07-26-frontier-forum": [
+    {
+      "label": "Frontier Model Forum (OpenAI announcement, Jul 26 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/frontier-model-forum/"
+    },
+    {
+      "label": "Frontier Model Forum (official site, founding members)",
+      "type": "announcement",
+      "url": "https://www.frontiermodelforum.org/"
+    }
+  ],
+  "2023-08-28-enterprise": [
+    {
+      "label": "Introducing ChatGPT Enterprise (OpenAI, Aug 28 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/introducing-chatgpt-enterprise/"
+    }
+  ],
+  "2023-09-20-dalle3": [
+    {
+      "label": "DALL-E 3 (OpenAI, Sep 20 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/dall-e-3/"
+    }
+  ],
+  "2023-09-25-amazon-anthropic-4b": [
+    {
+      "label": "Amazon to invest up to $4B in Anthropic (Anthropic official, Sep 25 2023)",
+      "type": "blog",
+      "url": "https://www.anthropic.com/news/amazon-to-invest-up-to-4b-in-anthropic"
+    },
+    {
+      "label": "Amazon-Anthropic strategic collaboration (Amazon press, first-party)",
+      "type": "press",
+      "url": "https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai"
+    }
+  ],
+  "2023-09-27-mistral-7b": [
+    {
+      "label": "Announcing Mistral 7B (mistral.ai, Sep 27 2023)",
+      "type": "blog",
+      "url": "https://mistral.ai/news/announcing-mistral-7b/"
+    },
+    {
+      "label": "mistralai/Mistral-7B-v0.1 (official Hugging Face)",
+      "type": "repo",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+    }
+  ],
+  "2023-10-30-biden-eo": [
+    {
+      "label": "EO 14110 Safe, Secure, Trustworthy AI (whitehouse.gov, Oct 30 2023)",
+      "type": "policy",
+      "url": "https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/"
+    },
+    {
+      "label": "EO 14110 (Federal Register, first-party)",
+      "type": "policy",
+      "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence"
+    }
+  ],
+  "2023-11-01-bletchley-summit": [
+    {
+      "label": "Bletchley Declaration (gov.uk official, Nov 1 2023)",
+      "type": "policy",
+      "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration"
+    }
+  ],
+  "2023-11-04-grok-announced": [
+    {
+      "label": "Announcing Grok (xAI official, Nov 4 2023)",
+      "type": "announcement",
+      "url": "https://x.ai/news/2023-11-04-announcing-grok"
+    }
+  ],
+  "2023-11-06-devday": [
+    {
+      "label": "New models and developer products at DevDay (OpenAI, Nov 6 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    }
+  ],
+  "2023-11-17-altman-fired": [
+    {
+      "label": "OpenAI announces leadership transition (OpenAI, Nov 17 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/openai-announces-leadership-transition/"
+    }
+  ],
+  "2023-11-19-shear-microsoft": [
+    {
+      "label": "Altman/Brockman to join Microsoft AI research team (Microsoft blog, Nov 20 2023)",
+      "type": "blog",
+      "url": "https://blogs.microsoft.com/blog/2023/11/20/sam-altman-greg-brockman-and-colleagues-to-join-microsoft-to-lead-a-new-advanced-ai-research-team/"
+    }
+  ],
+  "2023-11-22-altman-returns": [
+    {
+      "label": "Sam Altman to return as CEO (OpenAI, Nov 22 2023)",
+      "type": "blog",
+      "url": "https://openai.com/index/sam-altman-to-return-as-ceo/"
+    }
+  ],
+  "2023-12-06-gemini1": [
+    {
+      "label": "Introducing Gemini (Google Blog, Dec 6 2023)",
+      "type": "blog",
+      "url": "https://blog.google/technology/ai/google-gemini-ai/"
+    },
+    {
+      "label": "Gemini technical report (Google, official)",
+      "type": "paper",
+      "url": "https://deepmind.google/technologies/gemini/"
+    }
+  ],
+  "2023-12-08-eu-deal": [
+    {
+      "label": "AI Act: Council and Parliament strike deal (Consilium europa.eu, Dec 9 2023)",
+      "type": "policy",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/12/09/artificial-intelligence-act-council-and-parliament-strike-a-deal-on-the-first-worldwide-rules-for-ai/"
+    }
+  ],
+  "2023-12-11-mixtral": [
+    {
+      "label": "Mixtral of Experts (mistral.ai, Dec 11 2023)",
+      "type": "blog",
+      "url": "https://mistral.ai/news/mixtral-of-experts/"
+    },
+    {
+      "label": "mistralai/Mixtral-8x7B-v0.1 (official Hugging Face)",
+      "type": "repo",
+      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1"
+    }
+  ],
+  "2023-12-27-nyt-sues": [
+    {
+      "label": "NYT v. Microsoft/OpenAI statement (NYT Co. press, first-party)",
+      "type": "press",
+      "url": "https://www.nytco.com/press/new-york-times-v-microsoft-openai/"
+    },
+    {
+      "label": "NYT v. Microsoft docket (CourtListener, first-party legal doc)",
+      "type": "legal",
+      "url": "https://www.courtlistener.com/docket/68117086/the-new-york-times-company-v-microsoft-corporation/"
+    }
+  ],
+  "2021-03-01-stochastic-parrots": [
+    {
+      "label": "On the Dangers of Stochastic Parrots (ACM FAccT official)",
+      "type": "paper",
+      "url": "https://dl.acm.org/doi/10.1145/3442188.3445922"
+    }
+  ]
+}

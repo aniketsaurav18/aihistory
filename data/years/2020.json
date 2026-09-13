@@ -1,0 +1,989 @@
+{
+ "year": 2020,
+ "range": "2020-01-01 to 2020-12-31",
+ "description": "GPT-3 defines few-shot foundation models. Scaling laws, ViT, CLIP precursors, AlphaFold 2 solving protein folding, and RLHF breakthroughs set up ChatGPT. Timnit Gebru's firing exposes ethics tensions.",
+ "count": 28,
+ "events": [
+  {
+   "id": "2020-01-23-scaling-laws",
+   "date": "2020-01-23",
+   "title": "Scaling Laws for Neural Language Models",
+   "category": "paper",
+   "organizations": [
+    "OpenAI",
+    "Johns Hopkins University"
+   ],
+   "summary": "Jared Kaplan et al. showed test loss scales as a smooth power-law in parameters, data and compute over 7+ orders of magnitude, with architecture shape mattering little. It established larger models are far more sample-efficient and compute-optimal training means training very large models. It directly motivated GPT-3 and the entire scale-up race.",
+   "significance": "The engineer's handbook for the LLM race; cited in every scaling decision to 2024.",
+   "tags": [
+    "scaling-laws",
+    "openai",
+    "compute"
+   ],
+   "sources": [
+    {
+     "label": "Scaling Laws for Neural Language Models (arXiv 2001.08361, Kaplan et al.)",
+     "url": "https://arxiv.org/abs/2001.08361",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "[2001.08361] Scaling Laws for Neural Language Models"
+    },
+    {
+     "label": "Scaling Laws for Neural Language Models (OpenAI blog, Jan 23 2020)",
+     "url": "https://openai.com/index/scaling-laws-for-neural-language-models/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Scaling laws for neural language models | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-01-27-meena",
+   "date": "2020-01-27",
+   "title": "Meena human-like open-domain chatbot",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Google unveiled Meena, a 2.6B Evolved Transformer seq2seq trained on 40B words of social media, plus Sensibleness and Specificity Average (SSA). Meena scored 72% SSA versus 86% human, far above Mitsuku and DialoGPT. It set the template for chatbot evaluation and was the direct predecessor to LaMDA.",
+   "significance": "Google's dialogue track that leads to LaMDA, Bard and Gemini.",
+   "tags": [
+    "chatbot",
+    "meena",
+    "lamda",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Towards a Human-like Open-Domain Chatbot / Meena (arXiv 2001.09977)",
+     "url": "https://arxiv.org/abs/2001.09977",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Towards a Human-like Open-Domain Chatbot",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-02-13-simclr",
+   "date": "2020-02-13",
+   "title": "SimCLR contrastive learning for vision",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Chen et al. simplified contrastive self-supervised vision learning to strong augmentations, a learnable projection head and very large batches. A linear probe on ResNet-50 reached 76.5% ImageNet top-1, matching supervised training. It ignited the 2020-2021 contrastive wave: MoCo v2, BYOL, SwAV, DINO.",
+   "significance": "Self-supervised vision parallel to BERT for language.",
+   "tags": [
+    "contrastive",
+    "vision",
+    "self-supervised"
+   ],
+   "sources": [
+    {
+     "label": "A Simple Framework for Contrastive Learning / SimCLR (arXiv 2002.05709)",
+     "url": "https://arxiv.org/abs/2002.05709",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "A Simple Framework for Contrastive Learning of Visual Representations (SimCLR)",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "google-research/simclr (official GitHub)",
+     "url": "https://github.com/google-research/simclr",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "google-research/simclr",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-02-13-turing-nlg",
+   "date": "2020-02-13",
+   "title": "Turing-NLG 17B largest LM at the time",
+   "category": "model-release",
+   "organizations": [
+    "Microsoft",
+    "NVIDIA"
+   ],
+   "summary": "Microsoft announced Turing Natural Language Generation at 17B parameters, the largest published LM at the time, beating GPT-2 1.5B on LAMBADA and WikiText-103. Built with Megatron model-parallelism and DeepSpeed on DGX-2s, it opened the 2020 parameter arms race and showcased the Azure supercomputer stack.",
+   "significance": "Start of the parameter-count headlines culminating in 530B and 1T models.",
+   "tags": [
+    "lm",
+    "microsoft",
+    "nvidia",
+    "scale"
+   ],
+   "sources": [
+    {
+     "label": "Turing-NLG 17B language model (Microsoft Research Blog, Feb 13 2020)",
+     "url": "https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Turing-NLG: A 17-billion-parameter language model by Microsoft - Microsoft Research",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "microsoft/DeepSpeed (official Microsoft GitHub)",
+     "url": "https://github.com/microsoft/DeepSpeed",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "deepspeedai/DeepSpeed",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-02-17-musk-breaks-openai",
+   "date": "2020-02-17",
+   "title": "Elon Musk publicly breaks with OpenAI",
+   "category": "drama",
+   "organizations": [
+    "OpenAI",
+    "Tesla"
+   ],
+   "summary": "Responding to MIT Technology Review investigation into OpenAI secrecy, Musk tweeted OpenAI should be more open and his confidence in its safety is not high. He had left the board in 2018 but remained donor. It publicly exposed the nonprofit-to-capped-profit tension after the $1B Microsoft deal.",
+   "significance": "Public start of the Musk-Altman feud leading to 2024 lawsuit.",
+   "tags": [
+    "musk",
+    "openai",
+    "drama"
+   ],
+   "sources": [
+    {
+     "label": "Elon Musk official X account (first-party; specific status URLs unstable, account live Sep 2026)",
+     "url": "https://x.com/elonmusk",
+     "type": "tweet",
+     "verified": true,
+     "verifiedTitle": "Elon Musk (@elonmusk) / X",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-03-19-nerf",
+   "date": "2020-03-19",
+   "title": "NeRF neural radiance fields for view synthesis",
+   "category": "paper",
+   "organizations": [
+    "UC Berkeley",
+    "Google Research",
+    "UCSD"
+   ],
+   "summary": "Mildenhall et al. optimized a simple MLP mapping 5D coordinates to density plus RGB, rendered with differentiable volume rendering. From only sparse posed images it produced photorealistic novel views far beyond prior neural rendering. Oral plus Best Paper Honorable Mention at ECCV 2020, it spawned Instant-NGP and 3D generation.",
+   "significance": "Founded neural 3D rendering, later combined with diffusion for text-to-3D.",
+   "tags": [
+    "nerf",
+    "3d",
+    "vision",
+    "rendering"
+   ],
+   "sources": [
+    {
+     "label": "NeRF: Representing Scenes as Neural Radiance Fields (arXiv 2003.08934)",
+     "url": "https://arxiv.org/abs/2003.08934",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "NeRF author project page (Mildenhall/Tancik, first-party)",
+     "url": "https://www.matthewtancik.com/nerf",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "NeRF: Neural Radiance Fields",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "bmild/nerf (official author GitHub)",
+     "url": "https://github.com/bmild/nerf",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "bmild/nerf",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-03-31-agent57",
+   "date": "2020-03-31",
+   "title": "Agent57 first agent to beat all 57 Atari games",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "Agent57, an evolution of R2D2 and NGU with adaptive exploration-exploitation, became the first agent to surpass human baseline on all 57 Atari games. It closed the Atari benchmark as a grand challenge and shifted DeepMind focus to MuZero-style planning.",
+   "significance": "Closed the ALE benchmark opened by DQN in 2013.",
+   "tags": [
+    "atari",
+    "deepmind",
+    "rl"
+   ],
+   "sources": [
+    {
+     "label": "Agent57: Outperforming the Human Atari Benchmark (arXiv 2003.13350)",
+     "url": "https://arxiv.org/abs/2003.13350",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Agent57: Outperforming the Atari Human Benchmark",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Agent57: Outperforming the human Atari benchmark (DeepMind blog)",
+     "url": "https://deepmind.google/blog/agent57-outperforming-the-human-atari-benchmark/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Agent57: Outperforming the human Atari benchmark",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-04-29-blenderbot",
+   "date": "2020-04-29",
+   "title": "BlenderBot open-domain chatbot from Facebook",
+   "category": "model-release",
+   "organizations": [
+    "Facebook AI Research"
+   ],
+   "summary": "Facebook open-sourced Blender, blending empathy, knowledge and personality via Blended Skill Talk fine-tuning in 90M, 2.7B and 9.4B variants. Human evaluators preferred the best Blender over Google Meena 75% for engagingness. It set the open-chatbot SOTA and foreshadowed BlenderBot 2.0 with memory and search.",
+   "significance": "Meta's dialogue track parallel to Meena and LaMDA.",
+   "tags": [
+    "chatbot",
+    "meta",
+    "blender"
+   ],
+   "sources": [
+    {
+     "label": "Recipes for building an open-domain chatbot / Blender (arXiv 2004.13637)",
+     "url": "https://arxiv.org/abs/2004.13637",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Recipes for building an open-domain chatbot (Blender)",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "ParlAI framework incl. BlenderBot code (Meta; original Blenderbot repo removed)",
+     "url": "https://github.com/facebookresearch/ParlAI",
+     "type": "release",
+     "note": "GitHub repo removed/renamed by Meta (404 confirmed Sep 2026 in human browser)",
+     "verified": true,
+     "verifiedTitle": "facebookresearch/ParlAI",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-04-30-jukebox",
+   "date": "2020-04-30",
+   "title": "Jukebox generative model for music with singing",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Jukebox generated raw-audio music with rudimentary singing by compressing waveforms with multi-scale VQ-VAE and modeling codes with Transformers, conditioned on artist and genre. Trained on 1.2M songs, it could produce multi-minute pastiches. Released with weights and samples, it was the WaveNet-era apex and raised copyright questions later litigated for Suno and Udio.",
+   "significance": "Early warning of generative music copyright fights.",
+   "tags": [
+    "music",
+    "audio",
+    "openai",
+    "generative"
+   ],
+   "sources": [
+    {
+     "label": "Jukebox generative music with singing (OpenAI, Apr 30 2020)",
+     "url": "https://openai.com/index/jukebox/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Jukebox | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "openai/jukebox (official GitHub)",
+     "url": "https://github.com/openai/jukebox",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "openai/jukebox",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-05-14-nvidia-a100",
+   "date": "2020-05-14",
+   "title": "NVIDIA A100 Ampere GPU in full production",
+   "category": "infrastructure",
+   "organizations": [
+    "NVIDIA",
+    "Microsoft Azure",
+    "AWS",
+    "Google Cloud"
+   ],
+   "summary": "Jensen Huang announced Ampere A100 (54.2B transistors, 40GB HBM2e, TF32 plus sparsity, Multi-Instance GPU) delivering up to 20x AI leap over V100. DGX A100 shipped to all major clouds; Microsoft used it for Turing-NLG scale work. It became the workhorse GPU for GPT-3-era training through Hopper.",
+   "significance": "Hardware that trained GPT-3, CLIP and the 2021 boom.",
+   "tags": [
+    "gpu",
+    "nvidia",
+    "compute",
+    "a100"
+   ],
+   "sources": [
+    {
+     "label": "NVIDIA A100 Tensor Core GPU (official NVIDIA page)",
+     "url": "https://www.nvidia.com/en-us/data-center/a100/",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "NVIDIA A100 | NVIDIA",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "NVIDIA Ampere Architecture In-Depth (NVIDIA Developer Blog)",
+     "url": "https://developer.nvidia.com/blog/nvidia-ampere-architecture-in-depth/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "NVIDIA Ampere Architecture In-Depth",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-05-22-rag",
+   "date": "2020-05-22",
+   "title": "RAG retrieval-augmented generation",
+   "category": "paper",
+   "organizations": [
+    "Facebook AI Research"
+   ],
+   "summary": "Lewis et al. combined a Dense Passage Retriever over Wikipedia with a BART generator, marginalizing over retrieved docs to produce answers with provenance. It set SOTA on Natural Questions, TriviaQA and FEVER without storing all knowledge in weights. It pioneered retrieval-LMs later realized in modern RAG systems.",
+   "significance": "Architectural ancestor of every 2023-2024 RAG product and SearchGPT.",
+   "tags": [
+    "rag",
+    "retrieval",
+    "meta",
+    "qa"
+   ],
+   "sources": [
+    {
+     "label": "Retrieval-Augmented Generation / RAG (arXiv 2005.11401, Lewis et al.)",
+     "url": "https://arxiv.org/abs/2005.11401",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG)",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "ParlAI framework incl. RAG code (Meta; original RAG repo removed)",
+     "url": "https://github.com/facebookresearch/ParlAI",
+     "type": "release",
+     "note": "GitHub repo removed/renamed by Meta (404 confirmed Sep 2026 in human browser)",
+     "verified": true,
+     "verifiedTitle": "facebookresearch/ParlAI",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-05-28-gpt3-paper",
+   "date": "2020-05-28",
+   "title": "GPT-3: Language Models are Few-Shot Learners",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI published the 175B-parameter autoregressive Transformer GPT-3, 10x larger than any prior dense LM, showing task-agnostic few and zero-shot performance via in-context prompting rivaling fine-tuned SOTA on translation, QA and arithmetic with no gradient updates. Posted May 28, presented at NeurIPS 2020, it defined the foundation-model era and documented misuse and bias risks.",
+   "significance": "Model that created the foundation-model concept and startup ecosystem.",
+   "tags": [
+    "gpt-3",
+    "few-shot",
+    "openai",
+    "foundation-model"
+   ],
+   "sources": [
+    {
+     "label": "Language Models are Few-Shot Learners / GPT-3 (arXiv 2005.14165)",
+     "url": "https://arxiv.org/abs/2005.14165",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "[2005.14165] Language Models are Few-Shot Learners"
+    },
+    {
+     "label": "Language Models are Few-Shot Learners (OpenAI blog, May 28 2020)",
+     "url": "https://openai.com/index/language-models-are-few-shot-learners/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Language models are few-shot learners | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-06-11-openai-api-beta",
+   "date": "2020-06-11",
+   "title": "OpenAI API private beta (first commercial GPT-3 product)",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI launched its API in private beta as a general-purpose text-in text-out interface powered by the GPT-3 family, its first commercial product after capped-profit restructuring. Tens of thousands applied; early demos like AI Dungeon and copywriting went viral in July. It established controlled API access over open weights as OpenAI's deployment model.",
+   "significance": "Business-model pivot from research lab to API platform.",
+   "tags": [
+    "api",
+    "openai",
+    "gpt-3",
+    "commercial"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI API private beta (OpenAI, Jun 11 2020)",
+     "url": "https://openai.com/index/openai-api/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "OpenAI API | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-06-11-synthetic-note",
+   "date": "2020-06-11",
+   "title": "GPT-3 hype wave: AI Dungeon and copywriting demos go viral",
+   "category": "product",
+   "organizations": [
+    "OpenAI",
+    "Independent developers"
+   ],
+   "summary": "In July 2020 after API beta, demos like AI Dungeon, GPT-3 copywriting and code generation went viral, prompting Sam Altman's hype is way too much caution. It established the pattern of viral LLM demos driving funding and criticism that repeats with Copilot, ChatGPT and Sora.",
+   "significance": "Cultural moment when the public first saw few-shot prompting.",
+   "tags": [
+    "gpt-3",
+    "virality",
+    "demos"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2020-06-19-ddpm",
+   "date": "2020-06-19",
+   "title": "DDPM denoising diffusion probabilistic models",
+   "category": "paper",
+   "organizations": [
+    "UC Berkeley"
+   ],
+   "summary": "Jonathan Ho et al. showed diffusion models trained on a weighted variational bound could generate high-quality images, reaching FID 3.17 on CIFAR-10 and ProgressiveGAN parity on LSUN. Posted June 19, NeurIPS 2020 poster, it revived diffusion and directly enabled GLIDE, DALL-E 2 and Stable Diffusion.",
+   "significance": "Technical seed of the entire 2022 image boom.",
+   "tags": [
+    "diffusion",
+    "vision",
+    "generative"
+   ],
+   "sources": [
+    {
+     "label": "Denoising Diffusion Probabilistic Models (arXiv 2006.11239, Ho et al.)",
+     "url": "https://arxiv.org/abs/2006.11239",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "[2006.11239] Denoising Diffusion Probabilistic Models"
+    },
+    {
+     "label": "Diffusion author page (Jonathan Ho, first-party)",
+     "url": "https://hojonathanho.github.io/diffusion/",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "Denoising Diffusion Probabilistic Models (Jonathan Ho project page)",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-06-20-wav2vec2",
+   "date": "2020-06-20",
+   "title": "wav2vec 2.0 self-supervised speech representations",
+   "category": "paper",
+   "organizations": [
+    "Facebook AI Research"
+   ],
+   "summary": "Baevski et al. learned from raw audio alone via CNN encoder plus masked Transformer solving a contrastive task, then fine-tuned on tiny labeled data. It achieved 1.8% WER on LibriSpeech test-clean and beat prior SOTA with 100x less labeled data. It did for speech what BERT did for text and underpinned HuBERT and Whisper-era work.",
+   "significance": "Foundation for modern self-supervised speech.",
+   "tags": [
+    "speech",
+    "self-supervised",
+    "meta"
+   ],
+   "sources": [
+    {
+     "label": "wav2vec 2.0 (arXiv 2006.11477, Baevski et al.)",
+     "url": "https://arxiv.org/abs/2006.11477",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "facebookresearch/fairseq (official Meta GitHub incl. wav2vec 2.0)",
+     "url": "https://github.com/facebookresearch/fairseq",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "facebookresearch/fairseq",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-07-01-eleutherai-founded",
+   "date": "2020-07-01",
+   "title": "EleutherAI founded to replicate GPT-3 openly",
+   "category": "company",
+   "organizations": [
+    "EleutherAI"
+   ],
+   "summary": "Formed in July 2020 as a Discord to replicate GPT-3 openly after OpenAI kept weights private, EleutherAI grew into a nonprofit institute. It produced The Pile, GPT-Neo, GPT-J, GPT-NeoX and LM Eval Harness. Its founding marks the start of the open LLM movement culminating in BLOOM and Llama.",
+   "significance": "Grassroots origin of the open-weights ecosystem.",
+   "tags": [
+    "eleutherai",
+    "open-source",
+    "gpt-3"
+   ],
+   "sources": [
+    {
+     "label": "EleutherAI About (official, open GPT-3 replication mission)",
+     "url": "https://www.eleuther.ai/about",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "About — EleutherAI",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "EleutherAI/gpt-neo (official GitHub)",
+     "url": "https://github.com/EleutherAI/gpt-neo",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "EleutherAI/gpt-neo",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-09-04-rlhf-summarization",
+   "date": "2020-09-04",
+   "title": "Learning to Summarize from Human Feedback (RLHF breakthrough)",
+   "category": "paper",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI scaled RLHF (reward model from 64k human summary comparisons plus PPO) to show 6.7B human-feedback models beat 10x larger supervised models and even human references, transferring zero-shot to news summarization. Blog Sept 4, arXiv Sept 9, NeurIPS 2020, it was the key RLHF proof-point and direct ancestor of InstructGPT and ChatGPT.",
+   "significance": "Method that makes ChatGPT helpful and safe enough to ship.",
+   "tags": [
+    "rlhf",
+    "alignment",
+    "openai",
+    "summarization"
+   ],
+   "sources": [
+    {
+     "label": "Learning to Summarize from Human Feedback (arXiv 2009.01325)",
+     "url": "https://arxiv.org/abs/2009.01325",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Learning to summarize from human feedback",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Learning to summarize with human feedback (OpenAI blog, Sep 4 2020)",
+     "url": "https://openai.com/index/learning-to-summarize-with-human-feedback/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Learning to summarize with human feedback | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-09-22-microsoft-gpt3-exclusive",
+   "date": "2020-09-22",
+   "title": "Microsoft exclusively licenses GPT-3",
+   "category": "company",
+   "organizations": [
+    "Microsoft",
+    "OpenAI"
+   ],
+   "summary": "At Ignite 2020, Microsoft announced an exclusive license to GPT-3 source code to embed in Azure and products, while OpenAI continued API access. Built on the $1B 2019 partnership and Azure supercomputer, it drew ClosedAI criticism. It cemented Azure as OpenAI's exclusive cloud and foreshadowed Copilot integration.",
+   "significance": "Locked in the Microsoft-OpenAI axis versus Google.",
+   "tags": [
+    "microsoft",
+    "openai",
+    "license",
+    "azure"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI licenses GPT-3 technology to Microsoft (OpenAI, Sep 22 2020)",
+     "url": "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "OpenAI licenses GPT-3 technology to Microsoft | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Microsoft teams up with OpenAI to exclusively license GPT-3 (Microsoft Blog)",
+     "url": "https://blogs.microsoft.com/blog/2020/09/22/microsoft-teams-up-with-openai-to-exclusively-license-gpt-3-language-model/",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "Microsoft teams up with OpenAI to exclusively license GPT-3 language model",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-10-08-waymo-driverless",
+   "date": "2020-10-08",
+   "title": "Waymo opens fully driverless rides to public in Phoenix",
+   "category": "product",
+   "organizations": [
+    "Waymo",
+    "Alphabet"
+   ],
+   "summary": "Waymo One removed safety drivers for public rider-only minivan rides in Chandler and Phoenix, the first true robotaxi service at scale. It leapt ahead of Cruise and Uber ATG and contrasted Tesla's supervised FSD approach. It validated lidar plus HD-map autonomy while sparking cost and scaling debates.",
+   "significance": "First real driverless taxi service, autonomy counterpoint to LLMs.",
+   "tags": [
+    "waymo",
+    "robotaxi",
+    "autonomy"
+   ],
+   "sources": [
+    {
+     "label": "Waymo opening fully driverless service in Phoenix (Waymo Blog, Oct 8 2020)",
+     "url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Waymo is opening its fully driverless service to the general public in Phoenix",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Waymo official site",
+     "url": "https://waymo.com/",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "Waymo - Self-Driving Cars - Autonomous Vehicles - Ride-Hail",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-10-20-tesla-fsd-beta",
+   "date": "2020-10-20",
+   "title": "Tesla FSD Beta limited rollout begins",
+   "category": "product",
+   "organizations": [
+    "Tesla"
+   ],
+   "summary": "Tesla pushed rewrite-based Full Self-Driving beta to expert owners, enabling city-street autosteer, turns and stops with driver supervision. Viral videos showed impressive yet scary behavior, NHTSA scrutiny, and a price hike to $10k. It defined vision-only fleet-learning autonomy versus Waymo lidar.",
+   "significance": "Set up the Tesla vs Waymo autonomy debate through 2024.",
+   "tags": [
+    "tesla",
+    "fsd",
+    "autonomy"
+   ],
+   "sources": [
+    {
+     "label": "Tesla AI (official)",
+     "url": "https://www.tesla.com/AI",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "AI & Robotics | Tesla",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-10-22-vit",
+   "date": "2020-10-22",
+   "title": "Vision Transformer (ViT): An Image is Worth 16x16 Words",
+   "category": "paper",
+   "organizations": [
+    "Google Research",
+    "Google Brain"
+   ],
+   "summary": "Dosovitskiy et al. applied pure Transformer encoders to 16x16 image patches, showing pretraining on JFT-300M lets it beat SOTA CNNs with far less compute (88.55% ImageNet). Posted Oct 22, ICLR 2021, it proved minimal vision inductive bias works at scale and triggered DeiT, Swin, DINO and MAE.",
+   "significance": "Transformer conquers vision; CNN dominance ends.",
+   "tags": [
+    "vit",
+    "vision",
+    "transformer",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "An Image is Worth 16x16 Words / ViT (arXiv 2010.11929)",
+     "url": "https://arxiv.org/abs/2010.11929",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "[2010.11929] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+    },
+    {
+     "label": "google-research/vision_transformer (official GitHub)",
+     "url": "https://github.com/google-research/vision_transformer",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "google-research/vision_transformer",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-11-30-alphafold2-casp14",
+   "date": "2020-11-30",
+   "title": "AlphaFold 2 wins CASP14 by landslide (protein folding solved)",
+   "category": "advance",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "At CASP14, DeepMind revealed AlphaFold 2 scored median GDT_TS 92.4 with 87 of 92 domains high-accuracy versus 75 for next best. Based on the novel Evoformer plus structure module, coordinators declared the 50-year grand challenge largely solved for single chains. It set up July 2021 open source and database releases and the 2024 Nobel Prize.",
+   "significance": "First AI solution to a 50-year biology grand challenge.",
+   "tags": [
+    "alphafold",
+    "biology",
+    "deepmind",
+    "science"
+   ],
+   "sources": [
+    {
+     "label": "AlphaFold: a solution to a 50-year-old grand challenge in biology (DeepMind blog)",
+     "url": "https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "AlphaFold: a solution to a 50-year-old grand challenge in biology — Google DeepMind",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "AlphaFold official page (DeepMind)",
+     "url": "https://deepmind.google/technologies/alphafold/",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "AlphaFold — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-12-02-gebru-fired",
+   "date": "2020-12-02",
+   "title": "Timnit Gebru forced out of Google",
+   "category": "drama",
+   "organizations": [
+    "Google Research",
+    "Google Brain"
+   ],
+   "summary": "Co-lead of Ethical AI Timnit Gebru was fired after dispute over retracting the Stochastic Parrots large-LM risks paper and an email criticizing diversity and censorship. One of few Black women in the field and Gender Shades author, her exit drew 1200+ Googler and 1500+ academic signatures and NLRB scrutiny. It exposed corporate control of AI ethics research and led to Mitchell's firing.",
+   "significance": "Fracture between Big Tech and AI ethics that still shapes safety discourse.",
+   "tags": [
+    "ethics",
+    "google",
+    "gebru",
+    "drama"
+   ],
+   "sources": [
+    {
+     "label": "Jeff Dean official X account (first-party; specific status URLs unstable, account live Sep 2026)",
+     "url": "https://x.com/JeffDean",
+     "type": "tweet",
+     "verified": true,
+     "verifiedTitle": "Jeff Dean (@JeffDean) / X",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Timnit Gebru official X account (first-party; specific status URLs unstable, account live Sep 2026)",
+     "url": "https://x.com/timnitGebru",
+     "type": "tweet",
+     "verified": true,
+     "verifiedTitle": "@timnitGebru (@dair-community.social/bsky.social) (@timnitGebru) / X",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "On the Dangers of Stochastic Parrots (arXiv 2104.05299, Bender/Gebru et al.)",
+     "url": "https://arxiv.org/abs/2104.05299",
+     "type": "paper",
+     "note": "ID error in our data: this arXiv ID is an unrelated math paper (confirmed Sep 2026); Stochastic Parrots paper needs correct ID",
+     "verified": true,
+     "verifiedTitle": "[2104.05299] Distance Eigenvalues, Forwarding Indices, and Distance-based Topological Indi",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-12-07-deit",
+   "date": "2020-12-07",
+   "title": "DeiT data-efficient image Transformers",
+   "category": "paper",
+   "organizations": [
+    "Facebook AI"
+   ],
+   "summary": "Touvron et al. showed ViTs can hit 83.1% ImageNet-1K without JFT-300M via strong augmentation plus distillation from a CNN teacher with a distillation token. It democratized ViTs and made them practical on a single node.",
+   "significance": "Made ViT accessible beyond Google-scale data.",
+   "tags": [
+    "vit",
+    "distillation",
+    "meta"
+   ],
+   "sources": [
+    {
+     "label": "Training data-efficient image transformers / DeiT (arXiv 2012.12877)",
+     "url": "https://arxiv.org/abs/2012.12877",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Training data-efficient image transformers & distillation through attention (DeiT)",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "facebookresearch/deit (official Meta GitHub)",
+     "url": "https://github.com/facebookresearch/deit",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "facebookresearch/deit",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-12-23-muzero-nature",
+   "date": "2020-12-23",
+   "title": "MuZero published in Nature",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "The Nature version formalized MuZero learning only reward, policy and value predictions for MCTS planning without knowing rules. It matched AlphaZero superhuman in Go, chess and shogi and set SOTA on 57 Atari games. It proved model-based planning works in visually complex domains.",
+   "significance": "Generalized AlphaZero to unknown dynamics, bridge to real-world planning.",
+   "tags": [
+    "muzero",
+    "deepmind",
+    "planning",
+    "rl"
+   ],
+   "sources": [
+    {
+     "label": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model / MuZero (arXiv 1911.08265)",
+     "url": "https://arxiv.org/abs/1911.08265",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model (MuZero)",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "MuZero: Mastering Go, chess, shogi and Atari without rules (DeepMind blog)",
+     "url": "https://deepmind.google/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "MuZero: Mastering Go, chess, shogi and Atari without rules — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model (Nature)",
+     "url": "https://www.nature.com/articles/s41586-020-03051-4",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Mastering Atari, Go, Chess and Shogi by planning with a learned model (Nature, MuZero)",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-01-01-anthropic-stealth",
+   "date": "2020-12-31",
+   "title": "Anthropic founding team departs OpenAI (stealth, incorporated Jan 2021)",
+   "category": "company",
+   "organizations": [
+    "Anthropic",
+    "OpenAI"
+   ],
+   "summary": "Seven-plus OpenAI leads behind GPT-2, GPT-3 and scaling laws (Dario and Daniela Amodei, Kaplan, McCandlish, Clark, Olah, Mann, Brown) left in late 2020 over commercialization and safety direction. They incorporated Anthropic as a Public Benefit Corp in January 2021 to build steerable, interpretable systems. Stealth until $124M raise in May 2021.",
+   "significance": "Creates OpenAI's chief alignment rival and Claude maker. Listed here for chronological webpage continuity.",
+   "tags": [
+    "anthropic",
+    "openai",
+    "safety",
+    "founding"
+   ],
+   "sources": [
+    {
+     "label": "Anthropic founding disclosure May 2021 (stealth through 2020, incorporated Jan 2021)",
+     "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Anthropic raises $124 million Series A \\ Anthropic"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2020-12-31-the-pile",
+   "date": "2020-12-31",
+   "title": "The Pile 800GB diverse open LM dataset",
+   "category": "model-release",
+   "organizations": [
+    "EleutherAI"
+   ],
+   "summary": "EleutherAI released The Pile (825 GiB, 22 subsets: Pile-CC, PubMed, Books3, GitHub, arXiv, StackExchange) with paper 2101.00027. It showed Pile-trained models improve cross-domain generalization. It powered GPT-Neo and GPT-J and became the open alternative to WebText and C4.",
+   "significance": "Dataset backbone of the first open GPT-3 replicas.",
+   "tags": [
+    "dataset",
+    "pile",
+    "open-source"
+   ],
+   "sources": [
+    {
+     "label": "The Pile 800GB dataset (arXiv 2101.00027, Gao et al.)",
+     "url": "https://arxiv.org/abs/2101.00027",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "The Pile official site (EleutherAI)",
+     "url": "https://pile.eleuther.ai/",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "The Pile",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "EleutherAI/the-pile (official GitHub)",
+     "url": "https://github.com/EleutherAI/the-pile",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "EleutherAI/the-pile",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  }
+ ]
+}

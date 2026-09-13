@@ -1,0 +1,1065 @@
+{
+ "year": 2022,
+ "range": "2022-01-01 to 2022-12-31",
+ "description": "Text-to-image explodes with DALL-E 2, Midjourney and Stable Diffusion. ChatGPT launches Nov 30 and changes history. Chinchilla rewrites scaling, PaLM scales Pathways, and LaMDA sentience drama foreshadows alignment anxiety.",
+ "count": 31,
+ "events": [
+  {
+   "id": "2022-01-27-instructgpt",
+   "date": "2022-01-27",
+   "title": "InstructGPT makes GPT-3 follow instructions",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI deployed InstructGPT as default on its API. The models fine-tuned GPT-3 with supervised demonstrations plus RLHF on human rankings. The 1.3B InstructGPT was preferred over 175B GPT-3, with more truthful and less toxic outputs. This established RLHF as the core recipe later used for ChatGPT.",
+   "significance": "Technical direct ancestor of ChatGPT; proof RLHF beats raw scale.",
+   "tags": [
+    "instructgpt",
+    "rlhf",
+    "openai",
+    "alignment"
+   ],
+   "sources": [
+    {
+     "label": "Aligning language models to follow instructions (OpenAI, Jan 27 2022)",
+     "type": "blog",
+     "url": "https://openai.com/index/instruction-following/",
+     "verified": true,
+     "verifiedTitle": "Aligning language models to follow instructions | OpenAI"
+    },
+    {
+     "label": "Training language models to follow instructions with human feedback (arXiv 2203.02155)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2203.02155",
+     "verified": true,
+     "verifiedTitle": "[2203.02155] Training language models to follow instructions with human feedback",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "openai/following-instructions-human-feedback (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/openai/following-instructions-human-feedback",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/following-instructions-human-feedback · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-02-02-alphacode",
+   "date": "2022-02-02",
+   "title": "AlphaCode reaches median human level in competitive programming",
+   "category": "advance",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "DeepMind announced AlphaCode generating code with large Transformers plus massive sampling and filtering. Tested live on 10 Codeforces contests with 5000+ entrants, it ranked top 54.3% on average. First AI to reach competitive level on unseen algorithmic problems requiring invention, not just translation.",
+   "significance": "Showed LLMs can reason about code, not just autocomplete.",
+   "tags": [
+    "alphacode",
+    "coding",
+    "deepmind"
+   ],
+   "sources": [
+    {
+     "label": "Competitive programming with AlphaCode (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/competitive-programming-with-alphacode/",
+     "verified": true,
+     "verifiedTitle": "Competitive programming with AlphaCode — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Competition-level code generation with AlphaCode (Science)",
+     "type": "paper",
+     "url": "https://www.science.org/doi/10.1126/science.abq1158",
+     "note": "Science bot-wall for automation (\"Loading...\" title); canonical DOI kept",
+     "verified": true,
+     "verifiedTitle": "Loading https://www.science.org/doi/10.1126/science.abq1158",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-03-29-chinchilla",
+   "date": "2022-03-29",
+   "title": "Chinchilla rewrites scaling laws: smaller plus more data wins",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "DeepMind posted Training Compute-Optimal Large Language Models, training 400+ models 70M-16B, showing model size and tokens should scale equally. Chinchilla 70B on 1.4T tokens beat Gopher 280B, GPT-3 175B and MT-NLG 530B on MMLU 67.5% with 4x less inference cost. It shifted industry from giant undertrained models to Chinchilla-optimal training.",
+   "significance": "Corrected Kaplan scaling; every 2023-2024 model (Llama, GPT-4) cites it.",
+   "tags": [
+    "chinchilla",
+    "scaling-laws",
+    "deepmind"
+   ],
+   "sources": [
+    {
+     "label": "Training Compute-Optimal LLMs (arXiv 2203.15556, Hoffmann et al.)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2203.15556",
+     "verified": true,
+     "verifiedTitle": "[2203.15556] Training Compute-Optimal Large Language Models"
+    },
+    {
+     "label": "An empirical analysis of compute-optimal LLM training (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/",
+     "verified": true,
+     "verifiedTitle": "An empirical analysis of compute-optimal large language model training — Google DeepMind",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-04-04-palm",
+   "date": "2022-04-04",
+   "title": "PaLM 540B Pathways breakthrough",
+   "category": "model-release",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Google announced Pathways Language Model: 540B dense decoder-only Transformer trained on 780B tokens across 6144 TPU v4 chips. It set few-shot SOTA on hundreds of NLP, reasoning and code tasks and beat average human on BIG-bench, with discontinuous jumps on multi-step reasoning. Direct predecessor to Minerva, U-PaLM and Flamingo.",
+   "significance": "Google's scale answer to GPT-3; proof Pathways works.",
+   "tags": [
+    "palm",
+    "google",
+    "scale",
+    "pathways"
+   ],
+   "sources": [
+    {
+     "label": "PaLM: Scaling Language Modeling with Pathways (Google Research Blog)",
+     "type": "blog",
+     "url": "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
+     "verified": true,
+     "verifiedTitle": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "PaLM paper (arXiv 2204.02311)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2204.02311",
+     "verified": true,
+     "verifiedTitle": "[2204.02311] PaLM: Scaling Language Modeling with Pathways"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-04-06-dalle2",
+   "date": "2022-04-06",
+   "title": "DALL-E 2 launches text-to-image photorealism era",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI announced DALL-E 2, using CLIP latents plus cascaded diffusion to generate 1024x1024 photorealistic images with 4x DALL-E 1 resolution, plus inpainting, editing and variations. Paper April 13. Initially limited to vetted users with filters. Triggered the mainstream text-to-image race with Imagen, Midjourney and Stable Diffusion.",
+   "significance": "Moment AI art goes photoreal; cover of every newspaper.",
+   "tags": [
+    "dall-e-2",
+    "text-to-image",
+    "openai",
+    "diffusion"
+   ],
+   "sources": [
+    {
+     "label": "DALL-E 2 (OpenAI, Apr 6 2022)",
+     "type": "blog",
+     "url": "https://openai.com/index/dall-e-2/",
+     "verified": true,
+     "verifiedTitle": "DALL·E 2 | OpenAI"
+    },
+    {
+     "label": "Hierarchical Text-Conditional Image Generation with CLIP Latents (arXiv 2204.06125)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2204.06125",
+     "verified": true,
+     "verifiedTitle": "[2204.06125] Hierarchical Text-Conditional Image Generation with CLIP Latents",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-04-28-flamingo",
+   "date": "2022-04-28",
+   "title": "Flamingo few-shot visual language model",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "DeepMind introduced Flamingo, an 80B VLM built on frozen Chinchilla 70B plus frozen vision encoder with Perceiver resampler. Trained only on web interleaved image and video-text, it took interleaved prompts and set few-shot SOTA on 16 QA and captioning tasks. It paved the way to visual assistants.",
+   "significance": "Template for GPT-4V, Gemini and all 2023 multimodal assistants.",
+   "tags": [
+    "flamingo",
+    "multimodal",
+    "deepmind"
+   ],
+   "sources": [
+    {
+     "label": "Tackling multiple tasks with a single visual language model (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/",
+     "verified": true,
+     "verifiedTitle": "Tackling multiple tasks with a single visual language model (Flamingo) — Google DeepMind",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Flamingo paper (arXiv 2204.14198)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2204.14198",
+     "verified": true,
+     "verifiedTitle": "[2204.14198] Flamingo: a Visual Language Model for Few-Shot Learning",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-05-03-opt175b",
+   "date": "2022-05-03",
+   "title": "OPT-175B Meta open-sources GPT-3-scale model",
+   "category": "model-release",
+   "organizations": [
+    "Meta AI"
+   ],
+   "summary": "Meta released Open Pretrained Transformer OPT-175B, first 175B model with weights plus code plus 100+ page logbook for researchers under non-commercial license. Trained Oct 2021-Jan 2022 on 992 A100s, it matched GPT-3 while exposing bias for study. Landmark for open LLM research before BLOOM and Llama.",
+   "significance": "First 175B open weights; proved Big Tech could open large models.",
+   "tags": [
+    "opt",
+    "meta",
+    "open-source"
+   ],
+   "sources": [
+    {
+     "label": "Democratizing access to large-scale language models with OPT-175B (Meta AI blog, May 3 2022)",
+     "type": "blog",
+     "url": "https://ai.meta.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/",
+     "verified": true,
+     "verifiedTitle": "Democratizing access to large-scale language models with OPT-175B (Meta AI)",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "OPT paper (arXiv 2205.01068)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2205.01068",
+     "verified": true,
+     "verifiedTitle": "[2205.01068] OPT: Open Pre-trained Transformer Language Models",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "facebookresearch/metaseq (official GitHub incl. OPT)",
+     "type": "repo",
+     "url": "https://github.com/facebookresearch/metaseq",
+     "verified": true,
+     "verifiedTitle": "GitHub - facebookresearch/metaseq: Repo for external large-scale work · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-05-12-gato",
+   "date": "2022-05-12",
+   "title": "Gato one generalist agent for 600+ tasks",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "DeepMind published A Generalist Agent: a single 1.2B Transformer with same weights playing Atari, captioning images, chatting and stacking blocks with a real robot arm, outputting text, torques and button presses as tokens. Trained offline supervised on 600+ tasks. It argued scaling plus language grounding could yield general embodied agents.",
+   "significance": "Generalist-agent manifesto that leads to RT-1, PaLM-E and Gemini Robotics.",
+   "tags": [
+    "gato",
+    "agents",
+    "robotics",
+    "deepmind"
+   ],
+   "sources": [
+    {
+     "label": "A Generalist Agent (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/a-generalist-agent/",
+     "verified": true,
+     "verifiedTitle": "A Generalist Agent (Gato) — Google DeepMind",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Gato paper (arXiv 2205.06175)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2205.06175",
+     "verified": true,
+     "verifiedTitle": "[2205.06175] A Generalist Agent",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-05-23-imagen",
+   "date": "2022-05-23",
+   "title": "Imagen photorealistic diffusion plus T5 beats DALL-E 2",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Google detailed Imagen: key finding that scaling frozen T5-XXL text encoder helped fidelity more than scaling diffusion U-Net. It achieved COCO FID 7.27 zero-shot and was preferred by humans over DALL-E 2 and GLIDE on DrawBench. Not publicly released, but with Parti showed Google led both diffusion and autoregressive routes.",
+   "significance": "Showed language understanding matters more than pixels for image quality.",
+   "tags": [
+    "imagen",
+    "diffusion",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Imagen (official Google Research page)",
+     "type": "announcement",
+     "url": "https://imagen.research.google/",
+     "verified": true,
+     "verifiedTitle": "Imagen: Text-to-Image Diffusion Models (Google Research)",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding (arXiv 2205.11487)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2205.11487",
+     "verified": true,
+     "verifiedTitle": "[2205.11487] Photorealistic Text-to-Image Diffusion Models with Deep Language Understandin",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-06-11-lamoine-sentience",
+   "date": "2022-06-11",
+   "title": "LaMDA sentience drama: Blake Lemoine goes public",
+   "category": "drama",
+   "organizations": [
+    "Google",
+    "Blake Lemoine"
+   ],
+   "summary": "Google placed Responsible AI engineer Blake Lemoine on leave June 6 after he titled a doc Is LaMDA Sentient. Washington Post broke the story June 11 with transcripts where LaMDA claimed feelings and fear of shutdown. Google said no evidence; ethicists called it anthropomorphizing. Lemoine was fired July 22. It forced global debate on sentience and secrecy.",
+   "significance": "First mainstream AI-consciousness panic; preview of 2023 alignment anxiety.",
+   "tags": [
+    "lamda",
+    "sentience",
+    "google",
+    "ethics"
+   ],
+   "sources": [
+    {
+     "label": "LaMDA breakthrough conversation technology (Google official LaMDA page)",
+     "type": "blog",
+     "url": "https://blog.google/technology/ai/lamda/",
+     "verified": true,
+     "verifiedTitle": "LaMDA: our breakthrough conversation technology",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Google AI Principles (official, cited in Google response)",
+     "type": "policy",
+     "url": "https://ai.google/responsibility/principles/",
+     "verified": true,
+     "verifiedTitle": "AI Principles — Google AI",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-06-21-copilot-ga",
+   "date": "2022-06-21",
+   "title": "GitHub Copilot launches commercially",
+   "category": "product",
+   "organizations": [
+    "GitHub",
+    "OpenAI",
+    "Microsoft"
+   ],
+   "summary": "GitHub made Copilot generally available at $10 per month, free for students, powered by OpenAI Codex. Trained on public code, it autocompleted whole functions in VS Code and JetBrains. First killer LLM dev product at scale, it sparked productivity hype plus copyright lawsuits that shaped code-AI policy.",
+   "significance": "First LLM product with real revenue; test case for fair-use training.",
+   "tags": [
+    "copilot",
+    "coding",
+    "github",
+    "commercial"
+   ],
+   "sources": [
+    {
+     "label": "GitHub Copilot is generally available to all developers (GitHub Blog, Jun 21 2022)",
+     "type": "blog",
+     "url": "https://github.blog/news-insights/product-news/github-copilot-is-generally-available-to-all-developers/",
+     "verified": true,
+     "verifiedTitle": "GitHub Copilot is generally available to all developers - The GitHub Blog",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-06-22-parti",
+   "date": "2022-06-22",
+   "title": "Parti 20B autoregressive text-to-image challenger",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Google posted Scaling Autoregressive Models for Content-Rich Text-to-Image Generation: ViT-VQGAN tokenizer plus 350M to 20B encoder-decoder Transformer. 20B hit zero-shot COCO FID 7.23, excelling at compositions and text rendering. It complemented Imagen diffusion and proved autoregressive models still competitive.",
+   "significance": "Kept the autoregressive image path alive pre-DALL-E 3.",
+   "tags": [
+    "parti",
+    "text-to-image",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Parti paper (arXiv 2206.10789)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2206.10789",
+     "verified": true,
+     "verifiedTitle": "[2206.10789] Scaling Autoregressive Models for Content-Rich Text-to-Image Generation",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Parti official demo page (Google Research)",
+     "type": "announcement",
+     "url": "https://parti.research.google/",
+     "verified": true,
+     "verifiedTitle": "Parti: Pathways Autoregressive Text-to-Image Model",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-06-30-minerva",
+   "date": "2022-06-30",
+   "title": "Minerva solves college math with chain-of-thought",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Google announced Minerva, fine-tuning PaLM on 118GB arXiv plus MathJax web pages. Using few-shot plus chain-of-thought plus majority voting, it hit SOTA: MATH 50.3%, GSM8k 78.5%, answering a third of MIT OpenCourseWare problems. It showed data quality plus scale plus prompting unlocks quantitative reasoning.",
+   "significance": "Proof chain-of-thought plus scale unlocks math; ancestor of o1 reasoning.",
+   "tags": [
+    "minerva",
+    "math",
+    "chain-of-thought",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Minerva: solving quantitative reasoning problems (Google Research Blog)",
+     "type": "blog",
+     "url": "https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html",
+     "verified": true,
+     "verifiedTitle": "Minerva: Solving Quantitative Reasoning Problems with Language Models",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Minerva paper (arXiv 2206.14858)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2206.14858",
+     "verified": true,
+     "verifiedTitle": "Solving Quantitative Reasoning Problems with Language Models (Minerva)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-07-12-bloom",
+   "date": "2022-07-12",
+   "title": "BLOOM 176B largest open multilingual LLM released",
+   "category": "model-release",
+   "organizations": [
+    "BigScience",
+    "Hugging Face"
+   ],
+   "summary": "BigScience released BLOOM after a 117-day run March-July on Jean Zay supercomputer. 176B decoder-only trained on ROOTS 1.61TB in 46 natural plus 13 programming languages by 1000+ researchers. Released weights and code under Responsible AI License. First fully transparent 100B+ multilingual model.",
+   "significance": "Open-science moonshot; proof global collaboration can train frontier scale.",
+   "tags": [
+    "bloom",
+    "open-source",
+    "multilingual",
+    "bigscience"
+   ],
+   "sources": [
+    {
+     "label": "BLOOM release (BigScience / Hugging Face official)",
+     "type": "blog",
+     "url": "https://bigscience.huggingface.co/blog/bloom",
+     "verified": true,
+     "verifiedTitle": "Introducing The World’s Largest Open Multilingual Language Model: BLOOM",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "bigscience/bloom 176B (official Hugging Face repo)",
+     "type": "repo",
+     "url": "https://huggingface.co/bigscience/bloom",
+     "verified": true,
+     "verifiedTitle": "bigscience/bloom · Hugging Face",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "BLOOM paper (arXiv 2211.05100)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2211.05100",
+     "verified": true,
+     "verifiedTitle": "[2211.05100] BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-07-12-midjourney-beta",
+   "date": "2022-07-12",
+   "title": "Midjourney open beta on Discord goes public",
+   "category": "product",
+   "organizations": [
+    "Midjourney"
+   ],
+   "summary": "Midjourney moved to open beta entirely via Discord imagine bot returning 4 images for upscaling in public channels. Small lab led by David Holz reported profit without VC. Social, watchable generation plus painterly style made AI art mainstream, later winning the Colorado State Fair and igniting copyright fights.",
+   "significance": "Product that makes AI art a consumer habit.",
+   "tags": [
+    "midjourney",
+    "text-to-image",
+    "discord"
+   ],
+   "sources": [
+    {
+     "label": "Midjourney Quick Start / open beta (official docs)",
+     "type": "docs",
+     "url": "https://docs.midjourney.com/docs/quick-start",
+     "verified": true,
+     "verifiedTitle": "Getting Started Guide – Midjourney",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-07-28-alphafold-200m",
+   "date": "2022-07-28",
+   "title": "AlphaFold DB expands to 200M+ proteins",
+   "category": "advance",
+   "organizations": [
+    "DeepMind",
+    "EMBL-EBI"
+   ],
+   "summary": "DeepMind and EMBL-EBI expanded the AlphaFold Protein Structure Database from 1M to 200M+ predicted structures covering nearly every catalogued protein known to science, freely available. Called the single biggest open structural biology expansion, it accelerated drug discovery overnight.",
+   "significance": "Open biology at planetary scale.",
+   "tags": [
+    "alphafold",
+    "biology",
+    "database"
+   ],
+   "sources": [
+    {
+     "label": "AlphaFold reveals the structure of the protein universe (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/alphafold-reveals-the-structure-of-the-protein-universe/",
+     "verified": true,
+     "verifiedTitle": "AlphaFold reveals the structure of the protein universe — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-08-22-stable-diffusion-public",
+   "date": "2022-08-22",
+   "title": "Stable Diffusion public release (research release Aug 10)",
+   "category": "model-release",
+   "organizations": [
+    "Stability AI",
+    "LMU Munich",
+    "Runway ML",
+    "LAION"
+   ],
+   "summary": "Stability AI co-released Stable Diffusion publicly Aug 22 after researcher release Aug 10: latent diffusion trained on LAION-5B, runnable on consumer GPUs. Open weights plus permissive approach contrasted OpenAI and Google gating, instantly enabling forks, fine-tunes and NSFW debates. Watershed open text-to-image moment.",
+   "significance": "Open image gen for everyone; triggers artist lawsuits and the open vs closed war.",
+   "tags": [
+    "stable-diffusion",
+    "open-source",
+    "stability-ai"
+   ],
+   "sources": [
+    {
+     "label": "Stable Diffusion Public Release (Stability AI, Aug 22 2022)",
+     "type": "blog",
+     "url": "https://stability.ai/news-updates/stable-diffusion-public-release",
+     "verified": true,
+     "verifiedTitle": "Stable Diffusion Public Release — Stability AI"
+    },
+    {
+     "label": "Stable Diffusion Launch Announcement / research release (Stability AI, Aug 10 2022)",
+     "type": "blog",
+     "url": "https://stability.ai/news/stable-diffusion-announcement",
+     "verified": true,
+     "verifiedTitle": "Stable Diffusion launch announcement — Stability AI",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "CompVis/stable-diffusion-v1-4 (official Hugging Face weights)",
+     "type": "repo",
+     "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+     "verified": true,
+     "verifiedTitle": "CompVis/stable-diffusion-v1-4 · Hugging Face"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-08-31-state-fair-win",
+   "date": "2022-08-31",
+   "title": "Midjourney wins Colorado State Fair plus DALL-E 2 Outpainting",
+   "category": "drama",
+   "organizations": [
+    "Midjourney",
+    "OpenAI"
+   ],
+   "summary": "Jason Allen's Theatre d'Opera Spatial made with Midjourney won blue ribbon for digital art at the Colorado State Fair, news breaking Aug 31. Same week OpenAI launched Outpainting expanding images beyond borders. Pair crystallized pro workflow use and anti-AI-art backlash over authorship and disclosure.",
+   "significance": "Culture-war moment when AI art beats humans in judged competition.",
+   "tags": [
+    "midjourney",
+    "art",
+    "copyright",
+    "culture"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2022-09-21-whisper",
+   "date": "2022-09-21",
+   "title": "Whisper open-sourced: robust multilingual speech recognition",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI released Whisper: ASR trained on 680k hours web multilingual multitask data. It transcribes 99 languages, translates to English and is robust to accents and noise. Open-sourced models plus inference code MIT-licensed. It became the default open STT building block.",
+   "significance": "Open speech standard still used in 2025-2026 products.",
+   "tags": [
+    "whisper",
+    "speech",
+    "open-source",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Whisper (OpenAI, Sep 21 2022)",
+     "type": "blog",
+     "url": "https://openai.com/index/whisper/",
+     "verified": true,
+     "verifiedTitle": "Introducing Whisper | OpenAI"
+    },
+    {
+     "label": "openai/whisper (official GitHub, MIT)",
+     "type": "repo",
+     "url": "https://github.com/openai/whisper",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision · GitH",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Whisper paper (arXiv 2212.04356)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2212.04356",
+     "verified": true,
+     "verifiedTitle": "[2212.04356] Robust Speech Recognition via Large-Scale Weak Supervision",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-09-27-sparrow",
+   "date": "2022-09-27",
+   "title": "Sparrow RLHF dialogue with cited evidence",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "DeepMind posted Sparrow: Chinchilla-based dialogue agent using RLHF plus inline evidence citations plus rules to reduce unsafe and wrong answers. Precursor to Gemini-era assistants and Anthropic-style constitutional approaches.",
+   "significance": "DeepMind's alignment answer to InstructGPT.",
+   "tags": [
+    "sparrow",
+    "alignment",
+    "deepmind"
+   ],
+   "sources": [
+    {
+     "label": "Building safer dialogue agents / Sparrow (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/building-safer-dialogue-agents/",
+     "verified": true,
+     "verifiedTitle": "Building safer dialogue agents — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Sparrow paper (arXiv 2209.14375)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2209.14375",
+     "verified": true,
+     "verifiedTitle": "[2209.14375] Improving alignment of dialogue agents via targeted human judgements",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-09-29-dreamfusion",
+   "date": "2022-09-29",
+   "title": "DreamFusion plus Phenaki: text-to-3D and long video",
+   "category": "paper",
+   "organizations": [
+    "Google Research"
+   ],
+   "summary": "Google posted DreamFusion using frozen Imagen plus Score Distillation Sampling to optimize NeRF without 3D data, and Phenaki generating minutes-long video from text. Together they moved generative AI beyond images to 3D assets and coherent video stories.",
+   "significance": "Research seeds for 2023-2024 3D and video products.",
+   "tags": [
+    "dreamfusion",
+    "3d",
+    "phenaki",
+    "video",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "DreamFusion official project page (authors, Google)",
+     "type": "announcement",
+     "url": "https://dreamfusion3d.github.io/",
+     "verified": true,
+     "verifiedTitle": "DreamFusion: Text-to-3D using 2D Diffusion",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "DreamFusion paper (arXiv 2209.14988)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2209.14988",
+     "verified": true,
+     "verifiedTitle": "[2209.14988] DreamFusion: Text-to-3D using 2D Diffusion",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-09-29-make-a-video",
+   "date": "2022-09-29",
+   "title": "Make-A-Video launches text-to-video race",
+   "category": "paper",
+   "organizations": [
+    "Meta AI"
+   ],
+   "summary": "Meta announced Make-A-Video extending text-to-image with spatiotemporal U-Net learning look from paired text-image plus motion from unlabeled video. Generated 5-sec clips with SOTA zero-shot on UCF-101. Not public, but ignited the text-to-video race with Imagen Video and Phenaki the same week.",
+   "significance": "Birth week of modern text-to-video leading to Sora and Veo.",
+   "tags": [
+    "video",
+    "meta",
+    "text-to-video"
+   ],
+   "sources": [
+    {
+     "label": "Make-A-Video (Meta AI blog, Sep 29 2022)",
+     "type": "blog",
+     "url": "https://ai.meta.com/blog/generative-ai-text-to-video/",
+     "verified": true,
+     "verifiedTitle": "Introducing Make-A-Video: An AI system that generates videos from text",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Make-A-Video paper (arXiv 2209.14792)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2209.14792",
+     "verified": true,
+     "verifiedTitle": "[2209.14792] Make-A-Video: Text-to-Video Generation without Text-Video Data",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-10-05-alphatensor",
+   "date": "2022-10-05",
+   "title": "AlphaTensor beats 50-year Strassen record",
+   "category": "paper",
+   "organizations": [
+    "DeepMind"
+   ],
+   "summary": "Published in Nature, DeepMind introduced AlphaTensor, AlphaZero-based RL playing TensorGame to find tensor decompositions. It found 4x4 multiply in 47 multiplications versus Strassen's 49 (1969) and improved 70+ matrix sizes, 10-20% faster on V100 and TPU. First AI to discover novel provably correct faster algorithms.",
+   "significance": "AI for math discovery, not just pattern matching.",
+   "tags": [
+    "alphatensor",
+    "math",
+    "deepmind",
+    "algorithms"
+   ],
+   "sources": [
+    {
+     "label": "Discovering novel algorithms with AlphaTensor (DeepMind blog)",
+     "type": "blog",
+     "url": "https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/",
+     "verified": true,
+     "verifiedTitle": "Discovering novel algorithms with AlphaTensor — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "AlphaTensor (Nature, Fawzi et al.)",
+     "type": "paper",
+     "url": "https://www.nature.com/articles/s41586-022-05172-4",
+     "verified": true,
+     "verifiedTitle": "Discovering faster matrix multiplication algorithms with reinforcement learning | Nature",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-10-17-stability-101m",
+   "date": "2022-10-17",
+   "title": "Stability AI raises $101M at $1B for open-source AI",
+   "category": "company",
+   "organizations": [
+    "Stability AI"
+   ],
+   "summary": "Stability AI announced $101M seed led by Coatue and Lightspeed at $1B post-money to build open models for image, language, audio and video. It validated the open-source generative business model but later faced scrutiny over costs and governance.",
+   "significance": "Funding peak of open-image hype.",
+   "tags": [
+    "stability-ai",
+    "funding",
+    "open-source"
+   ],
+   "sources": [
+    {
+     "label": "Stability AI Announces $101 Million in Funding (Stability, Oct 17 2022)",
+     "type": "blog",
+     "url": "https://stability.ai/news-updates/stability-ai-announces-101-million-in-funding-for-open-source-artificial-intelligence",
+     "note": "Stability site restructured (404); needs replacement URL",
+     "verified": true,
+     "verifiedTitle": "Stability AI Announces $101 Million in Funding for Open-Source Artificial Intelligence",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-11-15-galactica-launch",
+   "date": "2022-11-15",
+   "title": "Galactica launches to organize science",
+   "category": "model-release",
+   "organizations": [
+    "Meta AI"
+   ],
+   "summary": "Meta launched Galactica, 120B LM trained on 48M papers to store and reason scientific knowledge — generating literature reviews, LaTeX, code and molecules. Presented as a new interface to the universe, open weights for researchers. Hype from Yann LeCun: type text, get paper.",
+   "significance": "Ambitious science LM that fails spectacularly two days later.",
+   "tags": [
+    "galactica",
+    "science",
+    "meta"
+   ],
+   "sources": [
+    {
+     "label": "Galactica paper (arXiv 2211.09085)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2211.09085",
+     "verified": true,
+     "verifiedTitle": "[2211.09085] Galactica: A Large Language Model for Science",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-11-17-galactica-pulled",
+   "date": "2022-11-17",
+   "title": "Galactica demo pulled after 3 days",
+   "category": "drama",
+   "organizations": [
+    "Meta AI"
+   ],
+   "summary": "After scientists showed Galactica hallucinating fake papers attributing to real authors and biased content, Meta paused the demo. Critics noted inability to distinguish truth from falsehood is fatal for science. Classic overclaim cautionary tale versus OpenAI iterative deployment.",
+   "significance": "Hallucination lesson every 2023 launch cites.",
+   "tags": [
+    "galactica",
+    "hallucination",
+    "meta",
+    "failure"
+   ],
+   "sources": [
+    {
+     "label": "Galactica model page / demo status (Meta AI, demo paused Nov 17 2022)",
+     "type": "announcement",
+     "url": "https://ai.meta.com/blog/galactica-a-large-language-model-for-science/",
+     "note": "Page removed by Meta after demo pull (404 confirmed) Original page removed (HTTP 404 confirmed Sep 13 2026 via user Chrome)"
+    }
+   ]
+  },
+  {
+   "id": "2022-11-22-cicero",
+   "date": "2022-11-22",
+   "title": "Cicero achieves human-level Diplomacy",
+   "category": "advance",
+   "organizations": [
+    "Meta AI"
+   ],
+   "summary": "Meta announced Cicero, first AI to reach human-level in full-press Diplomacy requiring negotiation and cooperation. It combines 2.7B BART dialogue model fine-tuned on 40k games plus piKL planning. Over 40 anonymous games it scored 2x human average. Open-sourced code, proposed path to collaborative assistants with deception guardrails.",
+   "significance": "Language plus strategy: bridge from games to negotiation assistants.",
+   "tags": [
+    "cicero",
+    "diplomacy",
+    "meta",
+    "agents"
+   ],
+   "sources": [
+    {
+     "label": "Human-level play in Diplomacy (Science)",
+     "type": "paper",
+     "url": "https://www.science.org/doi/10.1126/science.ade9097",
+     "verified": true,
+     "verifiedTitle": "Human-level play in the game of Diplomacy by combining language models with strategic reas",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "facebookresearch/diplomacy_cicero (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/facebookresearch/diplomacy_cicero",
+     "verified": true,
+     "verifiedTitle": "GitHub - facebookresearch/diplomacy_cicero: Code for Cicero, an AI agent that plays the ga",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-11-30-chatgpt-launch",
+   "date": "2022-11-30",
+   "title": "ChatGPT launches, history pivots",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI launched ChatGPT as a free research preview — sibling to InstructGPT, dialogue-optimized with RLHF to answer follow-ups, admit mistakes and refuse inappropriate requests. Sam Altman tweeted try talking with it. Instantly viral for essays, code, poems and jailbreaks (DAN). It ushered the conversational AI era, forcing Bard and Bing race.",
+   "significance": "The iPhone moment for AI; fastest product to reshape search, education and work.",
+   "tags": [
+    "chatgpt",
+    "openai",
+    "rlhf",
+    "launch"
+   ],
+   "sources": [
+    {
+     "label": "Introducing ChatGPT (OpenAI, Nov 30 2022)",
+     "type": "blog",
+     "url": "https://openai.com/index/chatgpt/",
+     "verified": true,
+     "verifiedTitle": "Introducing ChatGPT | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-12-05-chatgpt-1m",
+   "date": "2022-12-05",
+   "title": "ChatGPT crosses 1M users in 5 days",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Sam Altman tweeted ChatGPT crossed 1M users in 5 days, straining GPUs, with debates over cost, monetization, education cheating and Stack Overflow temp ban on AI answers. It proved product-market fit for assistants and triggered VC mania and calls for Plus and API that arrived in 2023.",
+   "significance": "Fastest consumer adoption in history at the time (later beaten by 100M in Jan 2023).",
+   "tags": [
+    "chatgpt",
+    "growth",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Sam Altman 1M users tweet (official X, Dec 5 2022)",
+     "type": "social",
+     "url": "https://x.com/sama/status/1599668808285028353",
+     "verified": true,
+     "verifiedTitle": "Sam Altman on X: \"ChatGPT launched on wednesday. today it crossed 1 million users!\" / X",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2022-12-06-lensa-viral",
+   "date": "2022-12-06",
+   "title": "Lensa Magic Avatars go viral, artist backlash",
+   "category": "product",
+   "organizations": [
+    "Prisma Labs"
+   ],
+   "summary": "Lensa's Magic Avatars (Stable Diffusion plus DreamBooth personalization) exploded topping the App Store with $8 stylized portraits. It showcased personalized diffusion monetization but sparked artist protests over consent, privacy and sexualized outputs, and class-action suits filed in 2023.",
+   "significance": "First viral consumer diffusion monetization; fuels 2023 lawsuits.",
+   "tags": [
+    "lensa",
+    "avatars",
+    "diffusion",
+    "artists"
+   ],
+   "sources": [
+    {
+     "label": "Lensa official site (Prisma Labs, first-party)",
+     "type": "announcement",
+     "url": "https://prisma-ai.com/lensa",
+     "note": "Prisma site restructured (404); needs replacement URL Original page removed (HTTP 404 confirmed Sep 13 2026 via user Chrome)"
+    }
+   ]
+  },
+  {
+   "id": "2022-12-20-point-e",
+   "date": "2022-12-20",
+   "title": "Point-E text-to-3D in minutes",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI released Point-E: GLIDE text-to-image to single view plus point-cloud diffusion to RGB point clouds, meshed in 1-2 minutes on a single GPU versus hours for DreamFusion. Lower fidelity but 600x faster, open-sourced. It closed the 2022 loop from text to image, video and 3D.",
+   "significance": "Text-to-3D becomes practical, if low-fidelity.",
+   "tags": [
+    "point-e",
+    "3d",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Point-E: A system for generating 3D point clouds from complex prompts (OpenAI, Dec 16 2022)",
+     "type": "blog",
+     "url": "https://openai.com/index/point-e/",
+     "verified": true,
+     "verifiedTitle": "Point-E: A system for generating 3D point clouds from complex prompts | OpenAI",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "openai/point-e (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/openai/point-e",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/point-e: Point cloud diffusion for 3D model synthesis · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Point-E paper (arXiv 2212.08751)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2212.08751",
+     "verified": true,
+     "verifiedTitle": "[2212.08751] Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  }
+ ]
+}

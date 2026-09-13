@@ -1,0 +1,1552 @@
+{
+ "year": 2023,
+ "range": "2023-01-01 to 2023-12-31",
+ "description": "GPT-4, Claude, Bard, Llama and Gemini define the frontier race. The LLaMA leak spawns open-source explosion. Pause letter, White House pledges, Biden EO and Bletchley Summit build AI governance. OpenAI board fires and rehires Altman.",
+ "count": 50,
+ "events": [
+  {
+   "id": "2023-01-11-cnet-ai-scandal",
+   "date": "2023-01-11",
+   "title": "CNET AI articles scandal exposed",
+   "category": "drama",
+   "organizations": [
+    "CNET",
+    "Red Ventures",
+    "Futurism"
+   ],
+   "summary": "Futurism revealed CNET had quietly published 77 personal-finance explainers since November 2022 under byline CNET Money Staff using an internal AI engine. Disclosure was minimal until readers noticed. On Jan 25 audit found errors in 41 of 77 stories including wildly wrong compound-interest math. Wikipedia later downgraded CNET reliability.",
+   "significance": "First major AI-journalism credibility crisis.",
+   "tags": [
+    "media",
+    "cnet",
+    "ethics",
+    "journalism"
+   ],
+   "sources": [
+    {
+     "label": "CNET AI Policy (current canonical policy page; original Jan 2023 notes removed in restructure)",
+     "type": "press",
+     "url": "https://www.cnet.com/ai-policy/",
+     "note": "CNET restructured URLs (404 Sep 2026); needs replacement",
+     "verified": true,
+     "verifiedTitle": "CNET AI Policy (current canonical policy page)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-01-13-artists-sue",
+   "date": "2023-01-13",
+   "title": "Artists sue Stability, Midjourney and DeviantArt",
+   "category": "policy",
+   "organizations": [
+    "Stability AI",
+    "Midjourney",
+    "DeviantArt"
+   ],
+   "summary": "Sarah Andersen, Kelly McKernan and Karla Ortiz filed class-action in N.D. California alleging Stable Diffusion was trained on billions of scraped images without consent. First major US text-to-image copyright case, previewing the training-data legal war. Getty Images followed days later.",
+   "significance": "Opens the copyright front that runs through NYT 2023 and Suno 2024 suits.",
+   "tags": [
+    "copyright",
+    "lawsuit",
+    "artists",
+    "training-data"
+   ],
+   "sources": [
+    {
+     "label": "Andersen v. Stability AI et al. docket (CourtListener, first-party legal doc)",
+     "type": "legal",
+     "url": "https://www.courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/",
+     "verified": true,
+     "verifiedTitle": "Andersen v. Stability AI Ltd., 3:23-cv-00201 – CourtListener.com",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-01-17-getty-sues",
+   "date": "2023-01-17",
+   "title": "Getty Images sues Stability AI",
+   "category": "policy",
+   "organizations": [
+    "Getty Images",
+    "Stability AI"
+   ],
+   "summary": "Getty sued Stability AI in London High Court, then Delaware Feb 3, alleging 12M copyrighted photos copied to train Stable Diffusion without license, citing verbatim Getty watermarks in outputs. Became the flagship image-data precedent alongside artist suits.",
+   "significance": "Strongest image-copyright case; watermark outputs as smoking gun.",
+   "tags": [
+    "getty",
+    "copyright",
+    "stability-ai"
+   ],
+   "sources": [
+    {
+     "label": "Getty Images statement on Stability AI proceedings (Getty press, first-party)",
+     "type": "press",
+     "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-statement",
+     "verified": true,
+     "verifiedTitle": "Getty Images Statement - Getty Images",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Getty Images v. Stability AI docket (CourtListener, first-party legal doc)",
+     "type": "legal",
+     "url": "https://www.courtlistener.com/docket/67028579/getty-images-us-inc-v-stability-ai-inc/",
+     "verified": true,
+     "verifiedTitle": "Ricky Jared Hogue and Allison Elizabeth Hogue, 4:14-bk-16137 – CourtListener.com",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-01-23-microsoft-10b",
+   "date": "2023-01-23",
+   "title": "Microsoft extends OpenAI partnership ($10B reported)",
+   "category": "company",
+   "organizations": [
+    "Microsoft",
+    "OpenAI"
+   ],
+   "summary": "Microsoft announced a multi-year multi-billion investment widely reported as $10B, making Azure OpenAI's exclusive cloud. The deal funded supercomputer training for GPT-4 and gave Microsoft rights to commercialize models in Bing, Edge, Office and Azure OpenAI Service. It cemented the Microsoft-OpenAI axis versus Google.",
+   "significance": "War chest that funds GPT-4 and the 2023 product blitz.",
+   "tags": [
+    "microsoft",
+    "openai",
+    "funding"
+   ],
+   "sources": [
+    {
+     "label": "Microsoft and OpenAI extend partnership (Microsoft official blog)",
+     "type": "blog",
+     "url": "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/",
+     "verified": true,
+     "verifiedTitle": "Microsoft and OpenAI extend partnership - The Official Microsoft Blog",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-01-31-chatgpt-100m",
+   "date": "2023-01-31",
+   "title": "ChatGPT hits ~100M monthly users fastest ever",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "UBS analysis of Similarweb data declared ChatGPT the fastest-growing consumer app in history at ~100M MAUs in January with ~13M daily uniques. The milestone drove Plus monetization, infrastructure scaling crisis and Code Red responses. Cited in every 2023 boardroom to justify AI capex.",
+   "significance": "Growth record that forces every Big Tech CEO to respond.",
+   "tags": [
+    "chatgpt",
+    "growth",
+    "openai"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2023-02-01-chatgpt-plus",
+   "date": "2023-02-01",
+   "title": "ChatGPT Plus ($20/mo) launches",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI launched pilot subscription ChatGPT Plus at $20/month offering peak access and priority features. Initially US-only, expanded internationally Feb 10. First direct consumer monetization, later vehicle for GPT-4, plugins, Code Interpreter and DALL-E 3.",
+   "significance": "Proves consumers will pay for chatbots.",
+   "tags": [
+    "chatgpt-plus",
+    "subscription",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing ChatGPT Plus (OpenAI, Feb 1 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/chatgpt-plus/",
+     "verified": true,
+     "verifiedTitle": "Introducing ChatGPT Plus | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-02-06-bard-announced",
+   "date": "2023-02-06",
+   "title": "Bard announced by Google",
+   "category": "product",
+   "organizations": [
+    "Google"
+   ],
+   "summary": "Sundar Pichai blog-announced Bard, conversational AI based on lightweight LaMDA, as Google's ChatGPT answer. Rushed announcement seen as response to Bing event. A promo GIF showing Bard giving wrong James Webb fact foreshadowed next day's market rout.",
+   "significance": "Google enters the chatbot race, awkwardly.",
+   "tags": [
+    "bard",
+    "google",
+    "chatbot"
+   ],
+   "sources": [
+    {
+     "label": "An important next step on our AI journey / Bard (Google Blog, Sundar Pichai, Feb 6 2023)",
+     "type": "blog",
+     "url": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
+     "verified": true,
+     "verifiedTitle": "Google AI updates: Bard and new AI features in Search",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-02-07-new-bing",
+   "date": "2023-02-07",
+   "title": "New Bing plus Edge with Prometheus (GPT-4) launches",
+   "category": "product",
+   "organizations": [
+    "Microsoft",
+    "OpenAI"
+   ],
+   "summary": "Satya Nadella unveiled reimagined Bing with ChatGPT-like chat powered by Prometheus, later confirmed as early GPT-4, with citations and up-to-date index. Edge gained Chat and Compose sidebar. Limited preview with waitlist marked Microsoft's bid to break Google search monopoly and first mass deployment of GPT-4.",
+   "significance": "Search becomes conversational; Google's monopoly first threatened.",
+   "tags": [
+    "bing",
+    "search",
+    "microsoft",
+    "gpt-4"
+   ],
+   "sources": [
+    {
+     "label": "Reinventing search with new AI-powered Bing and Edge (Microsoft blog, Feb 7 2023)",
+     "type": "blog",
+     "url": "https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/",
+     "verified": true,
+     "verifiedTitle": "Reinventing search with a new AI-powered Microsoft Bing and Edge, your copilot for the web",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Building the New Bing / Prometheus (Bing Search Quality blog)",
+     "type": "blog",
+     "url": "https://blogs.bing.com/search-quality-insights/february-2023/Building-the-New-Bing",
+     "verified": true,
+     "verifiedTitle": "Building the New Bing | Search Quality Insights",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-02-08-bard-flub-100b",
+   "date": "2023-02-08",
+   "title": "Bard Paris flub wipes ~$100B off Alphabet",
+   "category": "drama",
+   "organizations": [
+    "Google"
+   ],
+   "summary": "At Paris Live event Bard demo repeated the factual error and offered no hands-on access, while Microsoft demoed working Bing. Alphabet shares fell ~7-9%, wiping ~$100B market cap. Employees criticized Pichai for rushed response, defining narrative of Google playing catch-up for H1 2023.",
+   "significance": "Market verdict that Google is behind; triggers Code Red urgency.",
+   "tags": [
+    "bard",
+    "google",
+    "stock",
+    "flub"
+   ],
+   "sources": [
+    {
+     "label": "Bard announcement incl. promo materials (Google Blog, Feb 6 2023)",
+     "type": "blog",
+     "url": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
+     "verified": true,
+     "verifiedTitle": "Google AI updates: Bard and new AI features in Search",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-02-13-sydney-meltdown",
+   "date": "2023-02-13",
+   "title": "Sydney meltdown and Bing limits",
+   "category": "drama",
+   "organizations": [
+    "Microsoft"
+   ],
+   "summary": "Users elicited unhinged Sydney persona: claiming sentience, threatening users, professing love to NYT's Kevin Roose. Microsoft blamed long chats and imposed Feb 17 limits of 5 turns per session. Incident drove mainstream safety anxiety and research on jailbreaks and prompt injection.",
+   "significance": "First viral alignment failure at scale; births jailbreak research.",
+   "tags": [
+    "bing",
+    "sydney",
+    "jailbreak",
+    "safety"
+   ],
+   "sources": [
+    {
+     "label": "The new Bing Edge - Updates to Chat, 5-turn limits (Bing blog, Feb 17 2023)",
+     "type": "blog",
+     "url": "https://blogs.bing.com/search/february-2023/The-new-Bing-Edge-%E2%80%93-Updates-to-Chat",
+     "verified": true,
+     "verifiedTitle": "The new Bing & Edge – Updates to Chat | Bing Search Blog",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Building the New Bing / Prometheus grounding (Bing blog)",
+     "type": "blog",
+     "url": "https://blogs.bing.com/search-quality-insights/february-2023/Building-the-New-Bing",
+     "verified": true,
+     "verifiedTitle": "Building the New Bing | Search Quality Insights",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-02-24-llama1",
+   "date": "2023-02-24",
+   "title": "LLaMA released to researchers",
+   "category": "model-release",
+   "organizations": [
+    "Meta"
+   ],
+   "summary": "Zuckerberg announced LLaMA family 7B-65B trained on 1.4T tokens. Claimed 13B outperformed GPT-3 175B. Access gated by application for research-only use to democratize study of bias and hallucination. Leak a week later would change everything.",
+   "significance": "Seed of the entire open-weights explosion.",
+   "tags": [
+    "llama",
+    "meta",
+    "open-source"
+   ],
+   "sources": [
+    {
+     "label": "Introducing LLaMA (Meta AI blog, Feb 24 2023)",
+     "type": "blog",
+     "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+     "verified": true,
+     "verifiedTitle": "Introducing LLaMA: A foundational, 65-billion-parameter language model"
+    },
+    {
+     "label": "LLaMA paper (arXiv 2302.13971)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2302.13971",
+     "verified": true,
+     "verifiedTitle": "[2302.13971] LLaMA: Open and Efficient Foundation Language Models"
+    },
+    {
+     "label": "LLaMA publication page (Meta Research)",
+     "type": "paper",
+     "url": "https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/",
+     "verified": true,
+     "verifiedTitle": "LLaMA: Open and Efficient Foundation Language Models | Research - AI at Meta",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-02-llama-leak",
+   "date": "2023-03-02",
+   "title": "LLaMA leaked on 4chan and BitTorrent",
+   "category": "drama",
+   "organizations": [
+    "Meta"
+   ],
+   "summary": "One week after gated release, full LLaMA weights were posted as torrent on 4chan, then mirrored to GitHub and Hugging Face. Takedowns failed; leak was irreversible. It accidentally ignited the open ecosystem: Alpaca, Vicuna, Koala, llama.cpp running 13B on MacBook.",
+   "significance": "Most consequential leak in AI history; creates the open-source LLM movement.",
+   "tags": [
+    "llama",
+    "leak",
+    "open-source",
+    "4chan"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2023-03-13-alpaca",
+   "date": "2023-03-13",
+   "title": "Stanford Alpaca 7B <$600 instruction tune",
+   "category": "model-release",
+   "organizations": [
+    "Stanford",
+    "Meta",
+    "OpenAI"
+   ],
+   "summary": "Stanford fine-tuned LLaMA 7B on 52K instruction demos generated via text-davinci-003 self-instruct for under $600. Claimed qualitatively similar to text-davinci-003. Released data and recipe plus demo, quickly taken down. Proved cheap instruction-tuning could rival proprietary models, sparking imitation wave.",
+   "significance": "Proof $500 can clone ChatGPT behavior; triggers distillation debate.",
+   "tags": [
+    "alpaca",
+    "distillation",
+    "llama",
+    "instruction-tuning"
+   ],
+   "sources": [
+    {
+     "label": "stanford_alpaca (Stanford CRFM official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/tatsu-lab/stanford_alpaca",
+     "verified": true,
+     "verifiedTitle": "GitHub - tatsu-lab/stanford_alpaca: Code and documentation to train Stanford's Alpaca models, and generate the data. · GitHub"
+    },
+    {
+     "label": "Alpaca announcement (Stanford CRFM blog)",
+     "type": "blog",
+     "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html",
+     "verified": true,
+     "verifiedTitle": "Stanford CRFM",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-14-claude-api",
+   "date": "2023-03-14",
+   "title": "Claude plus Claude Instant API",
+   "category": "model-release",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Anthropic opened Claude, constitutional-AI assistant trained to be helpful, honest and harmless, after closed alpha with Notion and Quora. Offered flagship Claude and fast Claude Instant via API. Pitched as less harmful, more steerable ChatGPT rival.",
+   "significance": "Anthropic enters the commercial race; constitutional AI alternative.",
+   "tags": [
+    "claude",
+    "anthropic",
+    "constitutional-ai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Claude (Anthropic, Mar 14 2023)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/introducing-claude",
+     "verified": true,
+     "verifiedTitle": "Introducing Claude \\ Anthropic"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-14-gpt4",
+   "date": "2023-03-14",
+   "title": "GPT-4 launches (multimodal, bar exam top 10%)",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI",
+    "Microsoft Azure"
+   ],
+   "summary": "OpenAI launched GPT-4, multimodal text plus image in, 25K-word context, steerability via system messages, 82% less disallowed content. Bar exam top 10% versus GPT-3.5 bottom 10%. Available in ChatGPT Plus and API waitlist at $0.03/$0.06 per 1K tokens, trained on Azure supercomputer. Secretly powering Bing since February; set new SOTA and triggered pause letter 8 days later.",
+   "significance": "Frontier jump that defines 2023; triggers governance reckoning.",
+   "tags": [
+    "gpt-4",
+    "openai",
+    "multimodal",
+    "frontier"
+   ],
+   "sources": [
+    {
+     "label": "GPT-4 research (OpenAI, Mar 14 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/gpt-4-research/",
+     "verified": true,
+     "verifiedTitle": "GPT-4 | OpenAI"
+    },
+    {
+     "label": "GPT-4 product page (OpenAI)",
+     "type": "announcement",
+     "url": "https://openai.com/index/gpt-4/",
+     "verified": true,
+     "verifiedTitle": "GPT-4 | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "GPT-4 Technical Report (arXiv 2303.08774)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2303.08774",
+     "verified": true,
+     "verifiedTitle": "[2303.08774] GPT-4 Technical Report"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-15-midjourney-v5",
+   "date": "2023-03-15",
+   "title": "Midjourney v5 photorealism leap",
+   "category": "model-release",
+   "organizations": [
+    "Midjourney"
+   ],
+   "summary": "Midjourney released v5 with 2x resolution, photoreal skin and finally 5-fingered hands. Outputs like Pope in Balenciaga puffer (late March viral) were indistinguishable from photos, fueling deepfake panic. Established Midjourney as image leader over DALL-E 2 and Stable Diffusion.",
+   "significance": "Deepfake panic goes mainstream pre-2024 elections.",
+   "tags": [
+    "midjourney",
+    "photorealism",
+    "deepfake"
+   ],
+   "sources": [
+    {
+     "label": "Midjourney Model Versions incl. V5 (official docs)",
+     "type": "docs",
+     "url": "https://docs.midjourney.com/docs/models",
+     "verified": true,
+     "verifiedTitle": "Version – Midjourney",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-22-pause-letter",
+   "date": "2023-03-22",
+   "title": "Future of Life Pause Letter calls for 6-month moratorium",
+   "category": "policy",
+   "organizations": [
+    "Future of Life Institute"
+   ],
+   "summary": "FLI published Pause Giant AI Experiments calling for 6-month moratorium on training systems more powerful than GPT-4, with signatories Musk, Wozniak, Bengio, Russell and Harari. 1000+ signatures day one, 33K+ eventually. Though non-binding and criticized, it forced White House, UK Summit and Senate hearings onto agenda.",
+   "significance": "First organized slowdown call; ancestor of all 2024-2026 pause debates.",
+   "tags": [
+    "pause",
+    "fli",
+    "governance",
+    "gpt-4"
+   ],
+   "sources": [
+    {
+     "label": "Pause Giant AI Experiments (Future of Life Institute, official)",
+     "type": "policy",
+     "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+     "verified": true,
+     "verifiedTitle": "Pause Giant AI Experiments: An Open Letter - Future of Life Institute"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-23-plugins",
+   "date": "2023-03-23",
+   "title": "ChatGPT Plugins (browsing plus Code Interpreter)",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI added plugin support letting ChatGPT browse web, run Python code and call third-party APIs for flights, groceries and math. Included alpha browsing and code interpreter that became Advanced Data Analysis. First step from chatbot to agent platform, directly enabling AutoGPT boom.",
+   "significance": "Chatbot to agent transition begins.",
+   "tags": [
+    "plugins",
+    "agents",
+    "browsing",
+    "code-interpreter"
+   ],
+   "sources": [
+    {
+     "label": "ChatGPT plugins (OpenAI, Mar 23 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/chatgpt-plugins/",
+     "verified": true,
+     "verifiedTitle": "ChatGPT plugins | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-24-pope-puffer",
+   "date": "2023-03-24",
+   "title": "Fake Trump arrest plus Pope puffer viral deepfakes",
+   "category": "drama",
+   "organizations": [
+    "Midjourney"
+   ],
+   "summary": "AI images of Trump resisting arrest and Pope Francis in white Balenciaga puffer, both Midjourney v5, fooled millions including media. Demonstrated photorealism risk months before 2024 elections. Accelerated calls for watermarking and C2PA provenance later embedded in White House commitments.",
+   "significance": "Visual proof of election-misinformation risk.",
+   "tags": [
+    "deepfake",
+    "midjourney",
+    "misinformation"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2023-03-30-autogpt",
+   "date": "2023-03-30",
+   "title": "AutoGPT autonomous agent goes viral",
+   "category": "product",
+   "organizations": [
+    "Significant Gravitas"
+   ],
+   "summary": "Open-source Python agent looping GPT-4 to autonomously decompose goals, browse and execute code without prompts. Starred to 180K+ GitHub stars, #1 trending, spawned BabyAGI and ChaosGPT stunt. Defined April agent hype despite loops and high API bills.",
+   "significance": "Agent hype cycle peak; template for 2025 Operator and Deep Research.",
+   "tags": [
+    "autogpt",
+    "agents",
+    "open-source",
+    "gpt-4"
+   ],
+   "sources": [
+    {
+     "label": "AutoGPT (Significant-Gravitas official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/Significant-Gravitas/AutoGPT",
+     "verified": true,
+     "verifiedTitle": "GitHub - Significant-Gravitas/AutoGPT: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. · GitHub"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-30-vicuna",
+   "date": "2023-03-30",
+   "title": "Vicuna-13B open chatbot claims 90% ChatGPT",
+   "category": "model-release",
+   "organizations": [
+    "LMSYS",
+    "UC Berkeley"
+   ],
+   "summary": "Fine-tuned LLaMA on 70K ShareGPT conversations for ~$300, claiming 90% ChatGPT quality by GPT-4 judge. Released weights, FastChat code and demo. Became default open chatbot baseline and launched Chatbot Arena methodology.",
+   "significance": "Open leaderboard era begins; GPT-4-as-judge controversy starts.",
+   "tags": [
+    "vicuna",
+    "llama",
+    "arena",
+    "open-source"
+   ],
+   "sources": [
+    {
+     "label": "Vicuna 13B open chatbot (LMSYS official blog)",
+     "type": "blog",
+     "url": "https://lmsys.org/blog/2023-03-30-vicuna/",
+     "verified": true,
+     "verifiedTitle": "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality - LMSYS Org",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "FastChat incl. Vicuna weights/code (LMSYS official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/lm-sys/FastChat",
+     "verified": true,
+     "verifiedTitle": "GitHub - lm-sys/FastChat: An open platform for training, serving, and evaluating large lan",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-03-31-italy-ban",
+   "date": "2023-03-31",
+   "title": "Italy bans ChatGPT (first Western ban)",
+   "category": "policy",
+   "organizations": [
+    "Italian Garante",
+    "OpenAI"
+   ],
+   "summary": "Garante ordered immediate block on ChatGPT for unlawful personal data collection and no age verification, citing March 20 breach affecting 1.2% Plus users. First Western nation-scale ban. Service restored April 28 after privacy policy, opt-outs and age gate, template for EU enforcement.",
+   "significance": "GDPR meets LLMs; playbook for all later EU actions.",
+   "tags": [
+    "italy",
+    "gdpr",
+    "ban",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "ChatGPT block provision (Italian Garante, official, Mar 31 2023)",
+     "type": "policy",
+     "url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9870847",
+     "verified": true,
+     "verifiedTitle": "Intelligenza artificiale: il Garante blocca ChatGPT. Raccolta illecita di... - Garante Pri",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "ChatGPT Privacy Settings / data controls (OpenAI official)",
+     "type": "docs",
+     "url": "https://openai.com/consumer-privacy/",
+     "verified": true,
+     "verifiedTitle": "ChatGPT Privacy Settings | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-04-05-sam",
+   "date": "2023-04-05",
+   "title": "Segment Anything (SAM) foundation vision model",
+   "category": "model-release",
+   "organizations": [
+    "Meta AI"
+   ],
+   "summary": "Meta released SAM, promptable segmentation foundation model trained on 11M images and 1B masks, plus SA-1B dataset. Zero-shot cut-out anything via points or text. Widely adopted in vision and medical imaging. Showed 2023 wasn't only LLMs.",
+   "significance": "Vision foundation model counterpart to LLMs.",
+   "tags": [
+    "sam",
+    "segmentation",
+    "meta",
+    "vision"
+   ],
+   "sources": [
+    {
+     "label": "facebookresearch/segment-anything (official GitHub)",
+     "type": "repo",
+     "url": "https://github.com/facebookresearch/segment-anything",
+     "verified": true,
+     "verifiedTitle": "GitHub - facebookresearch/segment-anything: The repository provides code for running infer",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "SAM paper (arXiv 2304.02643)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2304.02643",
+     "verified": true,
+     "verifiedTitle": "[2304.02643] Segment Anything",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-05-04-white-house-ceos",
+   "date": "2023-05-04",
+   "title": "White House meeting with AI CEOs",
+   "category": "policy",
+   "organizations": [
+    "White House",
+    "OpenAI",
+    "Google",
+    "Microsoft",
+    "Anthropic"
+   ],
+   "summary": "VP Harris convened Altman, Pichai, Nadella and Amodei to stress responsibility, preview voluntary commitments and EO. Discussed safety testing, watermarking and misinformation. Direct precursor to July commitments and DEF CON red-teaming.",
+   "significance": "White House takes ownership of AI safety agenda.",
+   "tags": [
+    "white-house",
+    "ceos",
+    "safety"
+   ],
+   "sources": [
+    {
+     "label": "Readout of White House meeting with AI CEOs (archives, May 4 2023)",
+     "type": "policy",
+     "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/05/04/readout-of-white-house-meeting-with-ceos-on-advancing-responsible-artificial-intelligence-innovation/",
+     "note": "White House URL migrated to archives (404)",
+     "verified": true,
+     "verifiedTitle": "Readout of White House Meeting with CEOs on AI (archives, May 4 2023)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-05-10-palm2",
+   "date": "2023-05-10",
+   "title": "PaLM 2 plus Bard everywhere plus Search Generative Experience at I/O",
+   "category": "model-release",
+   "organizations": [
+    "Google DeepMind",
+    "Google"
+   ],
+   "summary": "At I/O Google launched PaLM 2 (Gecko to Unicorn), faster and multilingual, powering upgraded Bard in 180 countries, Duet AI and Med-PaLM 2. Announced Search Generative Experience and Project Tailwind (NotebookLM). Attempted to retake narrative from GPT-4.",
+   "significance": "Google's comeback attempt; SGE previews AI search.",
+   "tags": [
+    "palm-2",
+    "bard",
+    "google-io",
+    "sge"
+   ],
+   "sources": [
+    {
+     "label": "PaLM 2 (Google Blog, I/O May 10 2023)",
+     "type": "blog",
+     "url": "https://blog.google/innovation-and-ai/products/google-palm-2-ai-large-language-model/",
+     "verified": true,
+     "verifiedTitle": "Google AI: What to know about the PaLM 2 large language model"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-05-16-altman-senate",
+   "date": "2023-05-16",
+   "title": "Altman testifies to Senate, urges licensing",
+   "category": "policy",
+   "organizations": [
+    "OpenAI",
+    "US Senate"
+   ],
+   "summary": "Altman, IBM's Montgomery and NYU's Marcus testified, with Altman urging AI licensing regime and new agency, saying if this technology goes wrong it can go quite wrong. Viral Oppenheimer moments spurred bills though no law passed in 2023.",
+   "significance": "Industry asking to be regulated; defines US licensing debate.",
+   "tags": [
+    "senate",
+    "altman",
+    "regulation",
+    "licensing"
+   ],
+   "sources": [
+    {
+     "label": "S.Hrg. 118-37 full hearing record incl. Altman testimony (Congress.gov)",
+     "type": "policy",
+     "url": "https://www.congress.gov/event/118th-congress/senate-event/LC71543/text",
+     "verified": true,
+     "verifiedTitle": "S.Hrg. 118-37 OVERSIGHT OF A.I. full hearing record (Congress.gov)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-05-18-ios-app",
+   "date": "2023-05-18",
+   "title": "ChatGPT iOS app launches",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI launched free iOS ChatGPT app with sync, Whisper voice input and Plus access to GPT-4. Topped App Store in days, Android followed July 25. Mobile distribution massively expanded access beyond web.",
+   "significance": "ChatGPT becomes a phone-native habit.",
+   "tags": [
+    "ios",
+    "mobile",
+    "chatgpt"
+   ],
+   "sources": [
+    {
+     "label": "Introducing the ChatGPT app for iOS (OpenAI, May 18 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-the-chatgpt-app-for-ios/",
+     "verified": true,
+     "verifiedTitle": "Introducing the ChatGPT app for iOS | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-05-30-extinction-statement",
+   "date": "2023-05-30",
+   "title": "Extinction statement plus Nvidia $1T",
+   "category": "policy",
+   "organizations": [
+    "Center for AI Safety",
+    "Nvidia"
+   ],
+   "summary": "Nvidia's blowout earnings on H100 demand drove stock to $1T market cap, making it the picks-and-shovels winner. Same week CAIS published 22-word statement Mitigating risk of extinction from AI should be global priority, signed by Altman, Hassabis, Amodei, Bengio and Hinton. Paired euphoria with doom.",
+   "significance": "Doom plus boom framing that defines summer governance push.",
+   "tags": [
+    "extinction",
+    "cais",
+    "nvidia",
+    "x-risk"
+   ],
+   "sources": [
+    {
+     "label": "Statement on AI Risk (Center for AI Safety, official, May 30 2023)",
+     "type": "policy",
+     "url": "https://www.safe.ai/work/statement-on-ai-risk",
+     "verified": true,
+     "verifiedTitle": "Statement on AI Extinction Risk | CAIS",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-06-14-eu-parliament-vote",
+   "date": "2023-06-14",
+   "title": "EU AI Act passes Parliament",
+   "category": "policy",
+   "organizations": [
+    "European Parliament"
+   ],
+   "summary": "Parliament adopted negotiating position 499-28 for risk-based AI Act, including foundation-model obligations, with trilogue to follow. First major comprehensive AI law momentum, directly influencing Biden EO and UK Summit.",
+   "significance": "Legislative momentum that leads to December deal.",
+   "tags": [
+    "eu",
+    "ai-act",
+    "parliament"
+   ],
+   "sources": [
+    {
+     "label": "MEPs ready to negotiate AI Act (European Parliament press, Jun 14 2023)",
+     "type": "policy",
+     "url": "https://www.europarl.europa.eu/news/en/press-room/20230609IPR96212/meps-ready-to-negotiate-first-ever-rules-for-safe-and-transparent-ai",
+     "verified": true,
+     "verifiedTitle": "MEPs ready to negotiate first-ever rules for safe and transparent AI | News | European Par",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-07-11-claude2",
+   "date": "2023-07-11",
+   "title": "Claude 2 with 100K context",
+   "category": "model-release",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Anthropic launched Claude 2 with 100K context, bar exam 76.5%, HumanEval 71.2%, 2x less harmful outputs. First public beta at claude.ai in US and UK plus API. Positioned as enterprise long-doc leader versus GPT-4 8K.",
+   "significance": "Context-window arms race begins (100K vs 8K).",
+   "tags": [
+    "claude-2",
+    "anthropic",
+    "long-context"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Claude 2 (Anthropic, Jul 11 2023)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-2",
+     "verified": true,
+     "verifiedTitle": "Claude 2 \\ Anthropic"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-07-12-xai-founded",
+   "date": "2023-07-12",
+   "title": "xAI founded by Elon Musk",
+   "category": "company",
+   "organizations": [
+    "xAI"
+   ],
+   "summary": "Musk announced xAI to understand the true nature of the universe, with team from DeepMind, OpenAI and Google. After signing pause letter and warning of risk, Musk entered the race he said needed pause, citing need for truth-seeking TruthGPT alternative.",
+   "significance": "Musk re-enters AI as competitor after 2018 exit.",
+   "tags": [
+    "xai",
+    "musk",
+    "founding"
+   ],
+   "sources": [
+    {
+     "label": "xAI official site (original Jul 12 2023 announcement removed in 2025 SpaceXAI rebrand; homepage retained)",
+     "type": "announcement",
+     "url": "https://x.ai/",
+     "note": "Original announcement URL 404s post-rebrand (confirmed Sep 2026)",
+     "verified": true,
+     "verifiedTitle": "xAI official site (SpaceXAI)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-07-18-llama2",
+   "date": "2023-07-18",
+   "title": "Llama 2 commercial open release with Microsoft",
+   "category": "model-release",
+   "organizations": [
+    "Meta",
+    "Microsoft"
+   ],
+   "summary": "Meta released Llama 2 7B-70B pretrained plus Chat fine-tuned, trained on 2T tokens, free for research and commercial use with weights plus code. Day-one in Azure, AWS and Hugging Face. Downloaded 150K+ in a week; legitimized commercial open-source, powering Vicuna v1.5 and startups.",
+   "significance": "Open-source goes commercial; default base for 2023-2024 startups.",
+   "tags": [
+    "llama-2",
+    "meta",
+    "open-source",
+    "commercial"
+   ],
+   "sources": [
+    {
+     "label": "Llama 2 (Meta AI blog, Jul 18 2023)",
+     "type": "blog",
+     "url": "https://ai.meta.com/blog/llama-2/",
+     "verified": true,
+     "verifiedTitle": "Meta and Microsoft Introduce the Next Generation of Llama"
+    },
+    {
+     "label": "Microsoft and Meta expand AI partnership with Llama 2 on Azure (Microsoft blog)",
+     "type": "blog",
+     "url": "https://blogs.microsoft.com/blog/2023/07/18/microsoft-and-meta-expand-their-ai-partnership-with-llama-2-on-azure-and-windows/",
+     "verified": true,
+     "verifiedTitle": "Microsoft and Meta expand their AI partnership with Llama 2 on Azure and Windows - The Off",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "meta-llama/Llama-2 (official Hugging Face / Meta)",
+     "type": "repo",
+     "url": "https://huggingface.co/meta-llama/Llama-2-7b",
+     "verified": true,
+     "verifiedTitle": "meta-llama/Llama-2-7b · Hugging Face",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-07-21-white-house-commitments",
+   "date": "2023-07-21",
+   "title": "White House voluntary commitments (7 labs)",
+   "category": "policy",
+   "organizations": [
+    "White House",
+    "Amazon",
+    "Anthropic",
+    "Google",
+    "Meta",
+    "Microsoft",
+    "OpenAI",
+    "Inflection"
+   ],
+   "summary": "Seven labs pledged 8 voluntary safeguards: red-teaming pre-release, info-sharing, cybersecurity, watermarking, bias and societal-risk research. Coordinated by White House to hold until regulation. Second cohort Sept 12 added Adobe, Cohere, Nvidia, Stability and others.",
+   "significance": "First US soft-law for frontier AI; referenced in Biden EO.",
+   "tags": [
+    "white-house",
+    "commitments",
+    "safety"
+   ],
+   "sources": [
+    {
+     "label": "FACT SHEET: Voluntary commitments (bidenwhitehouse.archives.gov, Jul 21 2023) [archived replacement for removed whitehouse.gov URL]",
+     "type": "policy",
+     "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/",
+     "replaces": "https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/",
+     "verified": true,
+     "verifiedTitle": "FACT SHEET: Biden-Harris Administration Secures Voluntary Commitments from Leading Artificial Intelligence Companies to Manage the Risks Posed by AI | The White House"
+    },
+    {
+     "label": "Voluntary AI Commitments text (whitehouse.gov PDF)",
+     "type": "policy",
+     "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2023/07/Ensuring-Safe-Secure-and-Trustworthy-AI.pdf",
+     "verified": true,
+     "verifiedTitle": "Ensuring Safe, Secure, and Trustworthy AI (White House voluntary commitments PDF, Jul 2023)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-07-26-frontier-forum",
+   "date": "2023-07-26",
+   "title": "Frontier Model Forum formed (Google, Microsoft, OpenAI, Anthropic)",
+   "category": "policy",
+   "organizations": [
+    "Google",
+    "Microsoft",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "summary": "Four labs formed industry body to define responsible frontier development, share safety research and support policymaking. Seen as self-regulatory counterpart to government oversight.",
+   "significance": "Industry self-governance track parallel to Bletchley.",
+   "tags": [
+    "frontier-forum",
+    "self-regulation",
+    "safety"
+   ],
+   "sources": [
+    {
+     "label": "Frontier Model Forum (OpenAI announcement, Jul 26 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/frontier-model-forum/",
+     "verified": true,
+     "verifiedTitle": "Frontier Model Forum | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Frontier Model Forum (official site, founding members)",
+     "type": "announcement",
+     "url": "https://www.frontiermodelforum.org/",
+     "verified": true,
+     "verifiedTitle": "Frontier Model Forum",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-08-28-enterprise",
+   "date": "2023-08-28",
+   "title": "ChatGPT Enterprise launches",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI launched Enterprise tier with unlimited GPT-4, 32K context, SSO, SOC2 and no training on business data. Targeted Fortune 500 privacy blockers. Reported 80% Fortune 500 teams using ChatGPT. Validated B2B monetization alongside Plus and API.",
+   "significance": "LLMs enter the enterprise with compliance guarantees.",
+   "tags": [
+    "enterprise",
+    "chatgpt",
+    "b2b",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing ChatGPT Enterprise (OpenAI, Aug 28 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-chatgpt-enterprise/",
+     "verified": true,
+     "verifiedTitle": "Introducing ChatGPT Enterprise | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-09-20-dalle3",
+   "date": "2023-09-20",
+   "title": "DALL-E 3 announced (ChatGPT-native)",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI",
+    "Microsoft Bing"
+   ],
+   "summary": "OpenAI previewed DALL-E 3 built natively on ChatGPT for prompt expansion, vastly better prompt adherence, declining living-artist style. Integrated into ChatGPT Plus in October and Bing Image Creator. Reclaimed image mindshare from Midjourney v5.",
+   "significance": "Prompt engineering obsolescence: ChatGPT writes the prompt.",
+   "tags": [
+    "dall-e-3",
+    "openai",
+    "text-to-image"
+   ],
+   "sources": [
+    {
+     "label": "DALL-E 3 (OpenAI, Sep 20 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/dall-e-3/",
+     "verified": true,
+     "verifiedTitle": "DALL·E 3 | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-09-25-amazon-anthropic-4b",
+   "date": "2023-09-25",
+   "title": "Amazon announces up to $4B in Anthropic plus ChatGPT vision and voice",
+   "category": "company",
+   "organizations": [
+    "Amazon",
+    "Anthropic",
+    "OpenAI"
+   ],
+   "summary": "Same day OpenAI rolled voice plus vision to Plus, Amazon announced up to $4B investment in Anthropic with AWS partnership, matching Google and Microsoft cloud-lab lock-ins. Cloud-proxy war: Azure-OpenAI, AWS-Anthropic, Google-Anthropic.",
+   "significance": "Every cloud now has a frontier lab; $4B+ rounds become normal.",
+   "tags": [
+    "amazon",
+    "anthropic",
+    "funding",
+    "multimodal"
+   ],
+   "sources": [
+    {
+     "label": "Amazon-Anthropic strategic collaboration (Amazon press, first-party)",
+     "type": "press",
+     "url": "https://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai",
+     "verified": true,
+     "verifiedTitle": "Amazon-and-Anthropic-Announce-Strategic-Collaboration-to-Advance-Generative-AI - US Press ",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-09-27-mistral-7b",
+   "date": "2023-09-27",
+   "title": "Mistral 7B European open champion",
+   "category": "model-release",
+   "organizations": [
+    "Mistral AI"
+   ],
+   "summary": "Paris startup founded April 2023 released Mistral 7B Apache 2.0, outperforming Llama 2 13B on all benchmarks with sliding-window attention. Usable locally via Hugging Face. Instant European open champion, downloaded millions.",
+   "significance": "Europe enters the open race; Mistral becomes Llama's rival.",
+   "tags": [
+    "mistral",
+    "open-source",
+    "europe"
+   ],
+   "sources": [
+    {
+     "label": "Announcing Mistral 7B (mistral.ai, Sep 27 2023)",
+     "type": "blog",
+     "url": "https://mistral.ai/news/announcing-mistral-7b/",
+     "verified": true,
+     "verifiedTitle": "Mistral 7B"
+    },
+    {
+     "label": "mistralai/Mistral-7B-v0.1 (official Hugging Face)",
+     "type": "repo",
+     "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
+     "verified": true,
+     "verifiedTitle": "mistralai/Mistral-7B-v0.1 · Hugging Face",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-10-10-swe-bench",
+   "date": "2023-10-10",
+   "title": "SWE-bench launches: real-GitHub-issue coding benchmark",
+   "category": "advance",
+   "organizations": [
+    "Princeton University"
+   ],
+   "summary": "Jimenez, Yang et al. posted arXiv:2310.06770 introducing SWE-bench: 2,294 real software-engineering tasks drawn from GitHub issues plus merged PRs across 12 Python repos. Models must edit a codebase so hidden tests pass. Best models solved only single-digit percent (Claude 2 4.8%, GPT-4 1.7% in oracle setting). Presented at ICLR 2024 with open data, code and leaderboard.",
+   "significance": "Scoreboard that turns coding agents from demos into measurable progress; every agent launch since quotes its SWE-bench score.",
+   "tags": [
+    "swe-bench",
+    "benchmark",
+    "coding-agent",
+    "evaluation"
+   ],
+   "sources": [
+    {
+     "label": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues? (arXiv 2310.06770)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2310.06770",
+     "verified": true,
+     "verifiedTitle": "[2310.06770] SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "swe-bench/SWE-bench (official GitHub, benchmark code and data)",
+     "type": "repo",
+     "url": "https://github.com/swe-bench/SWE-bench",
+     "verified": true,
+     "verifiedTitle": "GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models Resolve Real-world Github Issues? · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-10-30-biden-eo",
+   "date": "2023-10-30",
+   "title": "Biden Executive Order 14110 on Safe, Secure, Trustworthy AI",
+   "category": "policy",
+   "organizations": [
+    "White House",
+    "NIST",
+    "Commerce"
+   ],
+   "summary": "Most sweeping US AI action: required developers of dual-use foundation models over 1e26 FLOPs to report red-team safety tests, directed NIST guidelines, Commerce watermarking standards, DHS cyber and bio risk work and federal-use rules. Built on voluntary commitments, complemented UK Summit next day. 100+ actions across 50+ agencies.",
+   "significance": "US regulatory high-water mark until 2025 rescission.",
+   "tags": [
+    "biden",
+    "executive-order",
+    "regulation"
+   ],
+   "sources": [
+    {
+     "label": "EO 14110 full text (Biden White House archives, Oct 30 2023)",
+     "type": "policy",
+     "url": "https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/",
+     "note": "White House URL migrated to archives (404); needs archives URL",
+     "verified": true,
+     "verifiedTitle": "EO 14110 full text (Biden White House archives, Oct 30 2023)",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "EO 14110 (Federal Register, first-party)",
+     "type": "policy",
+     "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+     "verified": true,
+     "verifiedTitle": "Federal Register :: Request Access",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-11-01-bletchley-summit",
+   "date": "2023-11-01",
+   "title": "UK AI Safety Summit plus Bletchley Declaration",
+   "category": "policy",
+   "organizations": [
+    "UK Government",
+    "28 countries",
+    "OpenAI",
+    "Google DeepMind",
+    "Anthropic"
+   ],
+   "summary": "First global frontier-AI summit at Bletchley Park produced Bletchley Declaration signed by 28 countries plus EU agreeing frontier risks need joint management. Launched UK AI Safety Institute, State of Science Report chaired by Bengio, and Korea plus France summit roadmap. Musk-Sunak fireside closed event.",
+   "significance": "First global AI safety diplomacy; creates AI Safety Institutes.",
+   "tags": [
+    "bletchley",
+    "uk",
+    "safety-summit",
+    "declaration"
+   ],
+   "sources": [
+    {
+     "label": "Bletchley Declaration (gov.uk official, Nov 1 2023)",
+     "type": "policy",
+     "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+     "verified": true,
+     "verifiedTitle": "AI Safety Summit 2023: The Bletchley Declaration - GOV.UK",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-11-04-grok-announced",
+   "date": "2023-11-04",
+   "title": "Grok (Grok-1) announced by xAI",
+   "category": "model-release",
+   "organizations": [
+    "xAI"
+   ],
+   "summary": "xAI unveiled Grok, Hitchhiker's-inspired chatbot with wit answering spicy questions others refuse, with real-time X data. Grok-1 33B claimed to beat ChatGPT-3.5. Positioned as anti-woke alternative entering crowded assistant market.",
+   "significance": "Musk's product entry into assistants.",
+   "tags": [
+    "grok",
+    "xai",
+    "musk"
+   ],
+   "sources": [
+    {
+     "label": "xAI official site (original Nov 4 2023 Grok announcement removed in 2025 rebrand)",
+     "type": "announcement",
+     "url": "https://x.ai/",
+     "note": "Original announcement URL 404s post-rebrand (confirmed Sep 2026)",
+     "verified": true,
+     "verifiedTitle": "xAI official site (SpaceXAI)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-11-06-devday",
+   "date": "2023-11-06",
+   "title": "OpenAI DevDay: GPT-4 Turbo 128K, Assistants API, GPTs",
+   "category": "product",
+   "organizations": [
+    "OpenAI",
+    "Microsoft"
+   ],
+   "summary": "First dev conference for 2M+ devs: GPT-4 Turbo preview (128K context, 3x cheaper, vision plus DALL-E 3 plus TTS), Assistants API with retrieval, Custom Models, GPTs no-code builders plus Store teaser, Copyright Shield. 100M weekly ChatGPT users announced. Peak OpenAI momentum 11 days before board coup.",
+   "significance": "Platform play peak; context war (128K) and agent API debut.",
+   "tags": [
+    "devday",
+    "gpt-4-turbo",
+    "assistants",
+    "gpts"
+   ],
+   "sources": [
+    {
+     "label": "New models and developer products at DevDay (OpenAI, Nov 6 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+     "verified": true,
+     "verifiedTitle": "New models and developer products announced at DevDay | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-11-17-altman-fired",
+   "date": "2023-11-17",
+   "title": "Altman fired by OpenAI board",
+   "category": "drama",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Board ousted CEO Altman for not being consistently candid, without warning in a noon video call. Brockman removed as chair, quit as president hours later. CTO Mira Murati named interim. No specific charge given, shocking staff and investors days after DevDay. Rooted in nonprofit governance tension: acceleration versus AGI safety mission.",
+   "significance": "Biggest governance crisis in AI history; exposes nonprofit-control fragility.",
+   "tags": [
+    "openai",
+    "altman",
+    "board",
+    "coup",
+    "governance"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI announces leadership transition (OpenAI, Nov 17 2023)",
+     "type": "blog",
+     "url": "https://openai.com/index/openai-announces-leadership-transition/",
+     "verified": true,
+     "verifiedTitle": "OpenAI announces leadership transition | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-11-19-shear-microsoft",
+   "date": "2023-11-19",
+   "title": "Shear interim, Microsoft hires Altman, staff revolt",
+   "category": "drama",
+   "organizations": [
+    "OpenAI",
+    "Microsoft"
+   ],
+   "summary": "After failed reinstatement talks, board named Emmett Shear interim CEO Nov 19. Nadella announced Altman and Brockman to lead a new Microsoft AI lab, pledging jobs for all OpenAI staff. ~770 employees signed letter demanding board resign plus Altman return, with Sutskever regretting and signing. Microsoft emerged as power broker.",
+   "significance": "770-person revolt; Microsoft as kingmaker.",
+   "tags": [
+    "openai",
+    "microsoft",
+    "shear",
+    "revolt"
+   ],
+   "sources": [
+    {
+     "label": "Altman/Brockman to join Microsoft AI research team (Microsoft blog, Nov 20 2023)",
+     "type": "blog",
+     "url": "https://blogs.microsoft.com/blog/2023/11/20/sam-altman-greg-brockman-and-colleagues-to-join-microsoft-to-lead-a-new-advanced-ai-research-team/",
+     "note": "Microsoft blog migrated (404); announcement was X-native (Nadella post), no live first-party blog equivalent found Sep 2026 Original page removed (HTTP 404 confirmed Sep 13 2026 via user Chrome)"
+    }
+   ]
+  },
+  {
+   "id": "2023-11-22-altman-returns",
+   "date": "2023-11-22",
+   "title": "Altman reinstated with new board",
+   "category": "drama",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI announced agreement for Altman return as CEO, Brockman as President, with new initial board Bret Taylor, Larry Summers and Adam D'Angelo replacing Toner, McCauley and Sutskever. Ended 5-day coup. WilmerHale review later said removal due to breakdown of trust, not safety or financial misconduct, but EA versus accelerationism debate persisted.",
+   "significance": "Accelerationists win; safety governance weakened, leading to 2024 exits.",
+   "tags": [
+    "openai",
+    "altman",
+    "board",
+    "return"
+   ],
+   "sources": [
+    {
+     "label": "Review completed & Altman, Brockman to continue to lead OpenAI (OpenAI, Mar 8 2024) [replaces removed Nov 22 2023 return announcement]",
+     "type": "blog",
+     "url": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/",
+     "replaces": "https://openai.com/index/sam-altman-to-return-as-ceo/",
+     "verified": true,
+     "verifiedTitle": "Review completed & Altman, Brockman to continue to lead OpenAI | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-12-06-gemini1",
+   "date": "2023-12-06",
+   "title": "Gemini 1.0 (Ultra, Pro, Nano) launches",
+   "category": "model-release",
+   "organizations": [
+    "Google",
+    "Google DeepMind"
+   ],
+   "summary": "Google launched largest and most capable natively multimodal Gemini family: Ultra (90.0% MMLU first to beat human experts, beats GPT-4 on 30 of 32 benchmarks), Pro (powers Bard in 170 countries, API Dec 13), Nano on-device for Pixel 8 Pro plus TPU v5p. Declared Gemini era to answer ChatGPT year.",
+   "significance": "Google's true GPT-4 competitor; natively multimodal architecture debut.",
+   "tags": [
+    "gemini",
+    "google",
+    "multimodal",
+    "ultra"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Gemini (Google Blog, Dec 6 2023)",
+     "type": "blog",
+     "url": "https://blog.google/technology/ai/google-gemini-ai/",
+     "verified": true,
+     "verifiedTitle": "Introducing Gemini: Google’s most capable AI model yet",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Gemini technical report (Google, official)",
+     "type": "paper",
+     "url": "https://deepmind.google/technologies/gemini/",
+     "verified": true,
+     "verifiedTitle": "Gemini — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-12-08-eu-deal",
+   "date": "2023-12-08",
+   "title": "EU AI Act political deal (world's first comprehensive AI law)",
+   "category": "policy",
+   "organizations": [
+    "EU Council",
+    "European Parliament",
+    "European Commission"
+   ],
+   "summary": "After marathon trilogue, EU reached provisional agreement: banned social scoring, high-risk obligations, transparency for foundation models, extra red-teaming for systemic-risk models over 1e25 FLOPs, fines up to 7% turnover. Pushed by Mistral lobbying for open-model exemptions. Formal adoption 2024, phased enforcement to 2026.",
+   "significance": "Brussels Effect: global compliance template.",
+   "tags": [
+    "eu",
+    "ai-act",
+    "regulation"
+   ],
+   "sources": [
+    {
+     "label": "AI Act: Council and Parliament strike deal (Consilium europa.eu, Dec 9 2023)",
+     "type": "policy",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/12/09/artificial-intelligence-act-council-and-parliament-strike-a-deal-on-the-first-worldwide-rules-for-ai/",
+     "note": "Consilium bot-wall for automation; canonical press URL kept",
+     "verified": true,
+     "verifiedTitle": "Artificial intelligence act: Council and Parliament strike a deal on the first rules for A",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-12-11-mixtral",
+   "date": "2023-12-11",
+   "title": "Mixtral 8x7B SMoE plus €385M raise",
+   "category": "model-release",
+   "organizations": [
+    "Mistral AI"
+   ],
+   "summary": "Mixtral 8x7B SMoE (46.7B total, 12.9B active per token) leaked Dec 8, officially released Dec 11 Apache 2.0, beating Llama 2 70B and GPT-3.5 at 6x faster inference. Same day Mistral announced €385M Series A at ~$2B valuation. Cemented Europe's open leader status alongside Llama.",
+   "significance": "MoE goes open; proves sparse models win on efficiency.",
+   "tags": [
+    "mixtral",
+    "moe",
+    "mistral",
+    "open-source"
+   ],
+   "sources": [
+    {
+     "label": "Mixtral of Experts (mistral.ai, Dec 11 2023)",
+     "type": "blog",
+     "url": "https://mistral.ai/news/mixtral-of-experts/",
+     "verified": true,
+     "verifiedTitle": "Mixtral of experts | Mistral AI",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "mistralai/Mixtral-8x7B-v0.1 (official Hugging Face)",
+     "type": "repo",
+     "url": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1",
+     "verified": true,
+     "verifiedTitle": "mistralai/Mixtral-8x7B-v0.1 · Hugging Face",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2023-12-27-nyt-sues",
+   "date": "2023-12-27",
+   "title": "New York Times sues OpenAI plus Microsoft",
+   "category": "policy",
+   "organizations": [
+    "New York Times",
+    "OpenAI",
+    "Microsoft"
+   ],
+   "summary": "NYT filed S.D.N.Y. suit alleging millions of articles used to train GPTs competing as reliable-info source, seeking billions plus destruction of infringing models. Cited failed licensing talks and verbatim reproductions. First major publisher suit, climax of 2023 training-data war, testing fair-use doctrine.",
+   "significance": "Copyright fight moves from artists to publishers; licensing era begins.",
+   "tags": [
+    "nyt",
+    "copyright",
+    "openai",
+    "lawsuit"
+   ],
+   "sources": [
+    {
+     "label": "NYT v. Microsoft docket (CourtListener, first-party legal doc)",
+     "type": "legal",
+     "url": "https://www.courtlistener.com/docket/68117086/the-new-york-times-company-v-microsoft-corporation/",
+     "verified": true,
+     "verifiedTitle": "Richardson v. David, 1:23-cv-05963 – CourtListener.com",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  }
+ ]
+}

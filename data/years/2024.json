@@ -1,0 +1,1273 @@
+{
+  "year": 2024,
+  "range": "2024-01-01 to 2024-12-31",
+  "description": "GPT-4o brings Her-like voice, Claude 3.5 sets the coding bar, Llama 3.1 proves open can match frontier, and o1 invents reasoning models. Sora previews video, NVDA mints billions, and safety talent exits OpenAI.",
+  "count": 39,
+  "events": [
+    {
+      "id": "2024-01-10-gpt-store",
+      "date": "2024-01-10",
+      "title": "OpenAI launches GPT Store",
+      "category": "product",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "OpenAI opened the GPT Store for custom GPTs built with GPT Builder, with revenue-sharing promised. It marked a push to become an App Store for AI agents. Usage was modest and foreshadowed later focus on ChatGPT itself and API rather than GPTs.",
+      "significance": "Platform experiment that informs later GPTs and Agents SDK.",
+      "tags": [
+        "gpt-store",
+        "platform",
+        "openai"
+      ],
+      "sources": [
+        {
+          "label": "Introducing the GPT Store (OpenAI, Jan 10 2024)",
+          "type": "blog",
+          "url": "https://openai.com/index/introducing-the-gpt-store/",
+          "verified": true,
+          "verifiedTitle": "Introducing the GPT Store | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-02-08-gemini-advanced",
+      "date": "2024-02-08",
+      "title": "Gemini Ultra 1.0 plus Gemini Advanced, Bard becomes Gemini",
+      "category": "model-release",
+      "organizations": [
+        "Google",
+        "Google DeepMind"
+      ],
+      "summary": "Google retired Bard, renaming it Gemini, and launched Gemini Ultra 1.0 behind $19.99/mo Google One AI Premium as Gemini Advanced. Ultra was billed as SOTA across text, image, audio and video and first true GPT-4 competitor. Android app, iOS integration and Gemini for Workspace launched simultaneously.",
+      "significance": "Google consolidates chatbot brand; subscription race with Plus.",
+      "tags": [
+        "gemini",
+        "bard",
+        "google",
+        "ultra"
+      ],
+      "sources": [
+        {
+          "label": "Bard becomes Gemini plus Gemini Advanced with Ultra 1.0 (Google Blog, Feb 8 2024)",
+          "type": "blog",
+          "url": "https://blog.google/products-and-platforms/products/gemini/bard-gemini-advanced-app/",
+          "verified": true,
+          "verifiedTitle": "Google Bard is now Gemini: How to try Ultra 1.0 and new mobile app",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-02-15-gemini-15-pro",
+      "date": "2024-02-15",
+      "title": "Gemini 1.5 Pro preview with 1M-token context",
+      "category": "model-release",
+      "organizations": [
+        "Google DeepMind"
+      ],
+      "summary": "A week after Ultra, Google previewed Gemini 1.5 Pro, mid-size MoE matching 1.0 Ultra at far lower compute. Breakthrough was 1M-token context — ~700K words, 11 hours audio, 1 hour video. Private preview via AI Studio and Vertex redefined the long-context race OpenAI and Anthropic led at 128K and 200K.",
+      "significance": "Context war leapfrogs from 128K to 1M; entire-doc AI becomes possible.",
+      "tags": [
+        "gemini-1.5",
+        "long-context",
+        "google"
+      ],
+      "sources": [
+        {
+          "label": "Our next-generation model: Gemini 1.5 (Google Blog, Feb 15 2024)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/",
+          "verified": true,
+          "verifiedTitle": "Introducing Gemini 1.5, Google's next-generation AI model",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Gemini 1.5 Pro private preview in AI Studio (Google Developers Blog, Feb 15 2024)",
+          "type": "blog",
+          "url": "https://developers.googleblog.com/gemini-15-our-next-generation-model-now-available-for-private-preview-in-google-ai-studio/",
+          "verified": true,
+          "verifiedTitle": "Gemini 1.5: Our next-generation model, now available for Private Preview in Google AI Stud",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-02-15-sora-preview",
+      "date": "2024-02-15",
+      "title": "OpenAI unveils Sora (research preview)",
+      "category": "model-release",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "OpenAI revealed Sora, diffusion-transformer text-to-video generating up to 60-second photorealistic video with multi-shot consistency and camera motion. Available only to red-teamers and artists, it set expectations for AI video. Demos like Tokyo street walk went viral and sparked Hollywood disruption fears.",
+      "significance": "Video's GPT-3 moment; Hollywood strike debate reignites.",
+      "tags": [
+        "sora",
+        "video",
+        "openai",
+        "diffusion"
+      ],
+      "sources": [
+        {
+          "label": "Video generation models as world simulators / Sora (OpenAI, Feb 15 2024)",
+          "type": "blog",
+          "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+          "verified": true,
+          "verifiedTitle": "Video generation models as world simulators | OpenAI"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-02-21-gemma",
+      "date": "2024-02-21",
+      "title": "Gemma 2B and 7B open models",
+      "category": "model-release",
+      "organizations": [
+        "Google DeepMind"
+      ],
+      "summary": "Google released Gemma lightweight open models built from Gemini research in 2B and 7B variants. With Responsible AI Toolkit and Hugging Face integration, it was Google's answer to Llama 2 and Mistral. Later grew into CodeGemma, PaliGemma and Gemma 2.",
+      "significance": "Google joins the open-weights track alongside closed Gemini.",
+      "tags": [
+        "gemma",
+        "open-source",
+        "google"
+      ],
+      "sources": [
+        {
+          "label": "Gemma: Introducing new state-of-the-art open models (Google Blog, Feb 21 2024)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-open-models/",
+          "verified": true,
+          "verifiedTitle": "Gemma: Google introduces new state-of-the-art open models",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Gemma open models documentation (Google AI for Developers, first-party)",
+          "type": "docs",
+          "url": "https://ai.google.dev/gemma",
+          "verified": true,
+          "verifiedTitle": "Gemma — Google DeepMind",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-02-22-suno-v3",
+      "date": "2024-02-22",
+      "title": "Suno v3 radio-quality AI music goes mainstream",
+      "category": "product",
+      "organizations": [
+        "Suno"
+      ],
+      "summary": "Suno gave Pro users V3 Alpha Feb 22, then generally Mar 21 as first radio-quality model making full 2-minute songs with vocals in seconds. Viral on TikTok, it established Suno alongside Udio as GPT-moment for music, quickly drawing label lawsuits.",
+      "significance": "Music's ChatGPT moment; label lawsuits follow.",
+      "tags": [
+        "suno",
+        "music",
+        "generative",
+        "copyright"
+      ],
+      "sources": [
+        {
+          "label": "Suno v3 (Suno Blog, Feb 2024, radio-quality music)",
+          "type": "blog",
+          "url": "https://suno.com/blog/v3",
+          "verified": true,
+          "verifiedTitle": "Suno | Introducing v3",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-02-26-mistral-large",
+      "date": "2024-02-26",
+      "title": "Mistral Large plus Le Chat plus Microsoft Azure deal",
+      "category": "model-release",
+      "organizations": [
+        "Mistral AI",
+        "Microsoft"
+      ],
+      "summary": "Mistral launched flagship Mistral Large (32K context, top-tier reasoning, fluent in 5 languages) ranking second only to GPT-4, plus beta assistant Le Chat. Simultaneously announced Azure distribution as Microsoft's second commercial LLM after OpenAI, with Microsoft taking a minor stake. Unlike prior models, Large was closed-weights.",
+      "significance": "Europe's frontier contender partners with Microsoft; open vs closed tension.",
+      "tags": [
+        "mistral-large",
+        "le-chat",
+        "microsoft"
+      ],
+      "sources": [
+        {
+          "label": "Au Large / Mistral Large (Mistral AI, Feb 26 2024)",
+          "type": "blog",
+          "url": "https://mistral.ai/news/mistral-large/",
+          "verified": true,
+          "verifiedTitle": "Au Large | Mistral AI",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Le Chat Mistral (Mistral AI, Feb 26 2024)",
+          "type": "blog",
+          "url": "https://mistral.ai/news/le-chat-mistral/",
+          "verified": true,
+          "verifiedTitle": "Le Chat | Mistral AI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-03-04-claude3",
+      "date": "2024-03-04",
+      "title": "Claude 3 family: Haiku, Sonnet, Opus",
+      "category": "model-release",
+      "organizations": [
+        "Anthropic",
+        "Amazon",
+        "Google Cloud"
+      ],
+      "summary": "Anthropic launched Claude 3 with three tiers — fast Haiku, balanced Sonnet, flagship Opus billed as beating GPT-4 and Gemini 1.0 Ultra on MMLU, GPQA and MMMU. All added vision and 200K context with near-perfect recall. API GA in 159 countries plus Bedrock and Vertex, setting new benchmark highs before GPT-4o overtook it.",
+      "significance": "Brief frontier lead for Anthropic; multimodal Claude era.",
+      "tags": [
+        "claude-3",
+        "anthropic",
+        "multimodal"
+      ],
+      "sources": [
+        {
+          "label": "Introducing the next generation of Claude / Claude 3 family (Anthropic, Mar 4 2024)",
+          "type": "blog",
+          "url": "https://www.anthropic.com/news/claude-3-family",
+          "verified": true,
+          "verifiedTitle": "Introducing the next generation of Claude \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-03-12-devin",
+      "date": "2024-03-12",
+      "title": "Devin, first AI software engineer",
+      "category": "product",
+      "organizations": [
+        "Cognition AI"
+      ],
+      "summary": "Cognition unveiled Devin, autonomous agent with shell, editor and browser that plans, codes, debugs and deploys end-to-end. It scored 13.86% on SWE-bench versus 1.96% prior SOTA, passed hiring interviews and did Upwork jobs. Hailed as shift from Copilot-assist to AI-worker, it ignited excitement and skepticism.",
+      "significance": "Agent-coding benchmark (SWE-bench) becomes the industry scoreboard.",
+      "tags": [
+        "devin",
+        "coding-agent",
+        "swe-bench",
+        "cognition"
+      ],
+      "sources": [
+        {
+          "label": "Introducing Devin, the first AI software engineer (Cognition, Mar 12 2024)",
+          "type": "blog",
+          "url": "https://cognition.ai/blog/introducing-devin",
+          "verified": true,
+          "verifiedTitle": "Introducing Devin, the first AI software engineer | Cognition",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-03-17-grok1-open",
+      "date": "2024-03-17",
+      "title": "Grok-1 open-weights (314B MoE, Apache 2.0)",
+      "category": "model-release",
+      "organizations": [
+        "xAI"
+      ],
+      "summary": "Fulfilling Musk's pledge amid his OpenAI lawsuit, xAI released Grok-1 base weights — 314B MoE, largest open MoE to date, roughly GPT-3.5-class and untuned without RLHF. Move pressured OpenAI on openness while raising safety questions due to no guardrails.",
+      "significance": "Largest open weights at the time; openness as lawsuit tactic.",
+      "tags": [
+        "grok-1",
+        "open-weights",
+        "xai",
+        "moe"
+      ],
+      "sources": [
+        {
+          "label": "Grok open release / Grok OS (xAI, Mar 2024)",
+          "type": "announcement",
+          "url": "https://x.ai/news/grok-os",
+          "verified": true,
+          "verifiedTitle": "Open Release of Grok-1 | SpaceXAI",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "xai-org/grok-1 open weights (xAI official GitHub, Apache 2.0)",
+          "type": "repo",
+          "url": "https://github.com/xai-org/grok-1",
+          "verified": true,
+          "verifiedTitle": "GitHub - xai-org/grok-1: Grok open release · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-04-18-llama3",
+      "date": "2024-04-18",
+      "title": "Meta Llama 3 8B and 70B best open models of class",
+      "category": "model-release",
+      "organizations": [
+        "Meta"
+      ],
+      "summary": "Meta released first two Llama 3 models — 8B and 70B — trained on 15T+ tokens with 128K tokenizer. 8B beat Mistral 7B and Gemma 7B; 70B beat Gemini 1.5 Pro and Claude 3 Sonnet on MMLU and HumanEval. With Llama Guard 2 and Meta AI assistant, it rebooted open-source momentum.",
+      "significance": "Open models match last-gen frontier; Meta AI in WhatsApp and Instagram.",
+      "tags": [
+        "llama-3",
+        "meta",
+        "open-source"
+      ],
+      "sources": [
+        {
+          "label": "Meta Llama 3 8B and 70B (Meta AI Blog, Apr 18 2024)",
+          "type": "blog",
+          "url": "https://ai.meta.com/blog/meta-llama-3/",
+          "verified": true,
+          "verifiedTitle": "Introducing Meta Llama 3: The most capable openly available LLM to date",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "meta-llama/llama-models MODEL_CARD (Meta official GitHub)",
+          "type": "repo",
+          "url": "https://github.com/meta-llama/llama-models",
+          "verified": true,
+          "verifiedTitle": "GitHub - meta-llama/llama-models: Utilities intended for use with Llama models. · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-04-29-copilot-workspace",
+      "date": "2024-04-29",
+      "title": "GitHub Copilot Workspace technical preview (agentic dev environment)",
+      "category": "product",
+      "organizations": [
+        "GitHub",
+        "Microsoft"
+      ],
+      "summary": "CEO Thomas Dohmke announced Copilot Workspace technical preview: a Copilot-native dev environment where developers brainstorm, plan, build, test and run code in natural language starting from a repo or issue. Task-centric flow with editable step-by-step plans executed by Copilot agents on GPT-4 Turbo via Codespaces. Waitlist preview; sunset May 30 2025 with lessons folded into the Copilot coding agent.",
+      "significance": "First agentic dev environment from the Copilot team; prototype for issue-to-PR coding agents.",
+      "tags": [
+        "copilot",
+        "workspace",
+        "coding-agent",
+        "github",
+        "agentic"
+      ],
+      "sources": [
+        {
+          "label": "GitHub Copilot Workspace: Welcome to the Copilot-native developer environment (GitHub Blog, Apr 29 2024)",
+          "type": "blog",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-workspace",
+          "verified": true,
+          "verifiedTitle": "GitHub Copilot Workspace: Welcome to the Copilot-native developer environment - The GitHub Blog",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Copilot Workspace (GitHub Next project page)",
+          "type": "site",
+          "url": "http://githubnext.com/projects/copilot-workspace",
+          "verified": true,
+          "verifiedTitle": "Copilot Workspace",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-05-08-alphafold3",
+      "date": "2024-05-08",
+      "title": "AlphaFold 3 plus AlphaFold Server",
+      "category": "advance",
+      "organizations": [
+        "Google DeepMind",
+        "Isomorphic Labs"
+      ],
+      "summary": "DeepMind and Isomorphic unveiled AlphaFold 3 in Nature, predicting structure and interactions of all life's molecules — proteins, DNA, RNA and drug ligands — versus AlphaFold 2 proteins-only. Free Server gave non-commercial access. Hailed as leap for drug design, it foreshadowed October Nobel Prize.",
+      "significance": "From structure to interactions; drug-discovery platform.",
+      "tags": [
+        "alphafold-3",
+        "biology",
+        "drug-discovery"
+      ],
+      "sources": [
+        {
+          "label": "AlphaFold 3 predicts structure and interactions of all of life's molecules (Google Blog, May 8 2024)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/products/google-deepmind-isomorphic-alphafold-3-ai-model/",
+          "verified": true,
+          "verifiedTitle": "Google DeepMind and Isomorphic Labs introduce AlphaFold 3 AI model",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Accurate structure prediction of biomolecular interactions with AlphaFold 3 (Nature, Abramson et al.)",
+          "type": "paper",
+          "url": "https://www.nature.com/articles/s41586-024-07487-w",
+          "verified": true,
+          "verifiedTitle": "Accurate structure prediction of biomolecular interactions with AlphaFold 3 | Nature",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "google-deepmind/alphafold3 (official GitHub)",
+          "type": "repo",
+          "url": "https://github.com/google-deepmind/alphafold3",
+          "verified": true,
+          "verifiedTitle": "GitHub - google-deepmind/alphafold3: AlphaFold 3 inference pipeline. · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-05-13-gpt4o",
+      "date": "2024-05-13",
+      "title": "GPT-4o Omni natively multimodal flagship, free for all",
+      "category": "model-release",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "CTO Mira Murati launched GPT-4o, single end-to-end model reasoning across text, audio, image and video with 232ms voice latency, 50+ languages, 2x faster and half-price versus GPT-4 Turbo. Text and vision rolled to free ChatGPT, plus desktop app and memory. Altman called it Her-like, timing it a day before Google I/O.",
+      "significance": "Voice plus vision natively; free tier gets frontier for first time.",
+      "tags": [
+        "gpt-4o",
+        "omni",
+        "multimodal",
+        "voice",
+        "openai"
+      ],
+      "sources": [
+        {
+          "label": "Hello GPT-4o (OpenAI, May 13 2024)",
+          "type": "blog",
+          "url": "https://openai.com/index/hello-gpt-4o/",
+          "verified": true,
+          "verifiedTitle": "Hello GPT-4o | OpenAI"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-05-14-google-io-2024",
+      "date": "2024-05-14",
+      "title": "Google I/O 2024: Gemini 1.5 Pro and Flash, Project Astra, Veo, AI Overviews",
+      "category": "model-release",
+      "organizations": [
+        "Google"
+      ],
+      "summary": "I/O centered on Gemini: 1.5 Pro with 1M (2M waitlist) context, new 1.5 Flash speedster, Gemma 2 preview. Star was Project Astra real-time multimodal assistant demo. Also Veo video, Imagen 3, AI Overviews in US Search and Gemini in Workspace and Android.",
+      "significance": "Google's agent and video counter to GPT-4o, day after OpenAI.",
+      "tags": [
+        "google-io",
+        "astra",
+        "veo",
+        "gemini-1.5"
+      ],
+      "sources": [
+        {
+          "label": "Google I/O 2024: Gemini Flash, Astra and AI assistant updates (Google Blog)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/products/google-gemini-update-flash-ai-assistant-io-2024/",
+          "verified": true,
+          "verifiedTitle": "Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Google Generative AI: Veo and Imagen 3 (Google Blog, I/O 2024)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/products/google-generative-ai-veo-imagen-3/",
+          "verified": true,
+          "verifiedTitle": "Google I/O 2024: Introducing Veo and Imagen 3 generative AI tools",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-05-14-ilya-departs",
+      "date": "2024-05-14",
+      "title": "Ilya Sutskever departs OpenAI, Superalignment dissolved",
+      "category": "drama",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "Co-founder and chief scientist Ilya Sutskever — who led Nov 2023 board coup then regretted it — announced departure; Jakub Pachocki replaced him. Superalignment co-lead Jan Leike also resigned (joining Anthropic), team absorbed. Exit capped safety-versus-shipping rift and triggered wave of 2024 departures.",
+      "significance": "Safety leadership exodus; sets up SSI founding.",
+      "tags": [
+        "sutskever",
+        "openai",
+        "superalignment",
+        "safety"
+      ],
+      "sources": [
+        {
+          "label": "Jakub Pachocki announced as Chief Scientist (OpenAI, succeeding Sutskever)",
+          "type": "blog",
+          "url": "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/",
+          "verified": true,
+          "verifiedTitle": "Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scientist | OpenAI",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Safe Superintelligence Inc. (SSI official site, Sutskever's next lab, first-party context)",
+          "type": "announcement",
+          "url": "https://ssi.inc/",
+          "verified": true,
+          "verifiedTitle": "Safe Superintelligence Inc.",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-05-19-sky-paused",
+      "date": "2024-05-19",
+      "title": "Sky voice paused after Scarlett Johansson accusation",
+      "category": "drama",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "After GPT-4o demo drew Her comparisons, OpenAI paused ChatGPT voice Sky May 19. Johansson revealed Altman courted her twice (declined), then released Sky friends mistook for her, citing his her tweet. Altman denied — different actress cast before outreach — but paused out of respect. Became landmark for voice likeness and NO FAKES Act calls.",
+      "significance": "Likeness-rights test case for AI voices; deepfake law catalyst.",
+      "tags": [
+        "sky",
+        "johansson",
+        "voice",
+        "likeness",
+        "openai"
+      ],
+      "sources": [
+        {
+          "label": "How the voices for ChatGPT were chosen (OpenAI, May 2024, Sky voice context)",
+          "type": "blog",
+          "url": "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen/",
+          "verified": true,
+          "verifiedTitle": "How the voices for ChatGPT were chosen | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-05-26-xai-6b",
+      "date": "2024-05-26",
+      "title": "xAI raises $6B Series B at $24B",
+      "category": "company",
+      "organizations": [
+        "xAI"
+      ],
+      "summary": "Less than a year after founding, Musk's xAI raised $6B to fund Grok and Colossus compute, valuing it at $24B. Capital fueled 100K H100 cluster and Grok-2 and 3 talent poaching. Established xAI as third best-funded lab alongside OpenAI and Anthropic.",
+      "significance": "Musk's lab instantly frontier-funded.",
+      "tags": [
+        "xai",
+        "funding",
+        "musk",
+        "colossus"
+      ],
+      "sources": [
+        {
+          "label": "Announcing our Series B (xAI, May 26 2024, $6B)",
+          "type": "announcement",
+          "url": "https://x.ai/news/series-b",
+          "verified": true,
+          "verifiedTitle": "Series B funding round | SpaceXAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-06-10-apple-intelligence",
+      "date": "2024-06-10",
+      "title": "Apple Intelligence plus Siri plus ChatGPT integration at WWDC24",
+      "category": "product",
+      "organizations": [
+        "Apple",
+        "OpenAI"
+      ],
+      "summary": "Apple entered frontier AI with Apple Intelligence — personal-context generative system in iOS 18 on A17 Pro and M1+ with Private Cloud Compute. Features: Writing Tools, Genmoji, Image Playground, smarter Siri. Siri routes complex queries to ChatGPT GPT-4o free with permission. Musk threatened device bans over integration.",
+      "significance": "AI goes on-device to 2B iPhones; privacy-compute model.",
+      "tags": [
+        "apple-intelligence",
+        "siri",
+        "privacy",
+        "chatgpt"
+      ],
+      "sources": [
+        {
+          "label": "Introducing Apple Intelligence for iPhone, iPad, and Mac (Apple Newsroom, Jun 10 2024)",
+          "type": "press",
+          "url": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/",
+          "verified": true,
+          "verifiedTitle": "Introducing Apple Intelligence for iPhone, iPad, and Mac - Apple",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-06-19-ssi-founded",
+      "date": "2024-06-19",
+      "title": "Safe Superintelligence Inc. (SSI) founded by Sutskever",
+      "category": "company",
+      "organizations": [
+        "Safe Superintelligence Inc."
+      ],
+      "summary": "A month after leaving, Sutskever announced SSI with Daniel Gross and Daniel Levy, mission safe superintelligence in a straight shot insulated from commercial pressure. No product until safe superintelligence. By September raised $1B at $5B; became pure safety-lab counterpoint to OpenAI pace.",
+      "significance": "Safety-first lab alternative; $1B bet that safety is the product.",
+      "tags": [
+        "ssi",
+        "sutskever",
+        "safety",
+        "founding"
+      ],
+      "sources": [
+        {
+          "label": "Safe Superintelligence Inc. official site (SSI, founding announcement)",
+          "type": "announcement",
+          "url": "https://ssi.inc/",
+          "verified": true,
+          "verifiedTitle": "Safe Superintelligence Inc.",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-06-20-claude35-sonnet",
+      "date": "2024-06-20",
+      "title": "Claude 3.5 Sonnet plus Artifacts new frontier bar",
+      "category": "model-release",
+      "organizations": [
+        "Anthropic"
+      ],
+      "summary": "Anthropic launched first 3.5 model — 2x speed of Opus at Sonnet price, beating GPT-4o and Gemini 1.5 Pro on 7 of 9 benchmarks and 64% on agentic coding. Debuted Artifacts side-panel for editable code and websites, hinting post-chatbot workspace versus ChatGPT Canvas.",
+      "significance": "Coding crown retaken; Artifacts invents the canvas UI pattern.",
+      "tags": [
+        "claude-3.5",
+        "anthropic",
+        "coding",
+        "artifacts"
+      ],
+      "sources": [
+        {
+          "label": "Introducing Claude 3.5 Sonnet (Anthropic, Jun 20 2024)",
+          "type": "blog",
+          "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+          "verified": true,
+          "verifiedTitle": "Introducing Claude 3.5 Sonnet \\ Anthropic"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-07-18-gpt4o-mini",
+      "date": "2024-07-18",
+      "title": "GPT-4o mini most cost-efficient small model",
+      "category": "model-release",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "OpenAI launched GPT-4o mini — 128K context, 82% MMLU versus 79% Flash, at $0.15/$0.60 per M (60%+ cheaper than GPT-3.5 Turbo). It replaced GPT-3.5 in Free and Plus ChatGPT and targeted high-volume chaining and RAG versus Haiku and Flash.",
+      "significance": "Frontier quality at small-model price; 3.5 retired.",
+      "tags": [
+        "gpt-4o-mini",
+        "efficient",
+        "openai"
+      ],
+      "sources": [
+        {
+          "label": "GPT-4o mini: advancing cost-efficient intelligence (OpenAI, Jul 18 2024)",
+          "type": "blog",
+          "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+          "verified": true,
+          "verifiedTitle": "GPT-4o mini: advancing cost-efficient intelligence | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-07-23-llama31-405b",
+      "date": "2024-07-23",
+      "title": "Llama 3.1 8B, 70B, 405B first frontier-level open model",
+      "category": "model-release",
+      "organizations": [
+        "Meta"
+      ],
+      "summary": "Meta released Llama 3.1 collection — upgraded 8B and 70B plus 405B, first open model rivaling GPT-4 and Claude 3.5 across 150+ benchmarks. 128K context, 8 languages, SOTA tool use, synthetic-data allowed. License change let outputs improve other models. 300M+ Llama downloads to date.",
+      "significance": "Open matches closed frontier; watershed for open-source AGI path.",
+      "tags": [
+        "llama-3.1",
+        "405b",
+        "meta",
+        "open-source"
+      ],
+      "sources": [
+        {
+          "label": "Introducing Llama 3.1: Our most capable models to date (Meta AI Blog, Jul 23 2024)",
+          "type": "blog",
+          "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+          "verified": true,
+          "verifiedTitle": "Introducing Llama 3.1: Our most capable models to date"
+        },
+        {
+          "label": "Open Source AI Is the Path Forward (Meta, Zuckerberg, Jul 23 2024)",
+          "type": "blog",
+          "url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
+          "verified": true,
+          "verifiedTitle": "Open Source AI is the Path Forward",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-08-01-eu-ai-act-force",
+      "date": "2024-08-01",
+      "title": "EU AI Act enters into force",
+      "category": "policy",
+      "organizations": [
+        "European Commission",
+        "EU"
+      ],
+      "summary": "World's first comprehensive AI law (Regulation 2024/1689, agreed Dec 2023) entered force, risk-based with bans, high-risk duties and transparency. Most duties apply Aug 2 2026; bans Feb 2025; GPAI duties Aug 2025. AI Pact and Code of Practice bridge began.",
+      "significance": "Hard law starts the clock to 2026 enforcement.",
+      "tags": [
+        "eu",
+        "ai-act",
+        "regulation",
+        "enforcement"
+      ],
+      "sources": [
+        {
+          "label": "Regulation (EU) 2024/1689 – AI Act full text (EUR-Lex TXT view)",
+          "type": "policy",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+          "verified": true,
+          "verifiedTitle": "Regulation (EU) 2024/1689 (EUR-Lex CELEX:32024R1689)",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "AI Act enters into force (European Commission, Aug 1 2024)",
+          "type": "policy",
+          "url": "https://commission.europa.eu/news/ai-act-enters-force-2024-08-01_en",
+          "verified": true,
+          "verifiedTitle": "AI Act enters into force - European Commission",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-09-02-colossus-100k",
+      "date": "2024-09-02",
+      "title": "Colossus 100K H100 online in 122 days in Memphis",
+      "category": "infrastructure",
+      "organizations": [
+        "xAI",
+        "NVIDIA",
+        "Dell",
+        "Supermicro"
+      ],
+      "summary": "Musk announced xAI brought Colossus 100K H100 cluster online in Memphis in 122 days with Spectrum-X Ethernet, ~150MW. Most powerful training system in world at the time, to double to 200K. Powers Grok family.",
+      "significance": "Compute-scale flex; speed record for cluster buildout.",
+      "tags": [
+        "colossus",
+        "compute",
+        "xai",
+        "h100"
+      ],
+      "sources": [
+        {
+          "label": "Elon Musk Colossus 100K H100 online announcement (first-party X, Sep 2 2024)",
+          "type": "social",
+          "url": "https://x.com/elonmusk/status/1830650370336473253",
+          "verified": true,
+          "verifiedTitle": "Elon Musk on X: \"This weekend, the @xAI team brought our Colossus 100k H100 training clust",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-09-11-notebooklm-viral",
+      "date": "2024-09-11",
+      "title": "NotebookLM Audio Overviews viral AI podcasts",
+      "category": "product",
+      "organizations": [
+        "Google Labs"
+      ],
+      "summary": "NotebookLM (Gemini 1.5 RAG notebook) added Audio Overview turning PDFs and videos into 10-minute two-host Deep Dive podcasts. Late-September virality plus shareable URLs made it surprise hit of fall. 350+ years audio by December.",
+      "significance": "Breakout AI audio product; study-to-podcast habit.",
+      "tags": [
+        "notebooklm",
+        "podcasts",
+        "google",
+        "rag"
+      ],
+      "sources": [
+        {
+          "label": "NotebookLM Audio Overviews (Google Blog, Sep 2024)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews/",
+          "verified": true,
+          "verifiedTitle": "NotebookLM now lets you listen to a conversation about your sources",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-09-12-o1-preview",
+      "date": "2024-09-12",
+      "title": "o1-preview plus o1-mini first reasoning models (Strawberry)",
+      "category": "model-release",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "OpenAI launched o-series — o1-preview and cheaper o1-mini — trained with new RL to think via private chain-of-thought. 83% IMO qualifier versus 13% GPT-4o, 89th percentile Codeforces, 84 jailbreak resistance versus 22. Slower and pricier, no browse initially, but step toward human-like AI; tracked as Q* and Strawberry since Nov 2023.",
+      "significance": "Reasoning paradigm shift: test-time compute beats pretraining alone.",
+      "tags": [
+        "o1",
+        "reasoning",
+        "openai",
+        "chain-of-thought"
+      ],
+      "sources": [
+        {
+          "label": "Introducing OpenAI o1-preview (OpenAI, Sep 12 2024)",
+          "type": "blog",
+          "url": "https://openai.com/index/introducing-openai-o1-preview/",
+          "verified": true,
+          "verifiedTitle": "Introducing OpenAI o1 | OpenAI"
+        },
+        {
+          "label": "Learning to Reason with LLMs (OpenAI, Sep 12 2024)",
+          "type": "blog",
+          "url": "https://openai.com/index/learning-to-reason-with-llms/",
+          "verified": true,
+          "verifiedTitle": "Learning to reason with LLMs | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-09-25-murati-exits",
+      "date": "2024-09-25",
+      "title": "Mira Murati exits; for-profit restructure talks confirmed",
+      "category": "drama",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "CTO Mira Murati (ChatGPT and DALL-E lead, interim CEO Nov 2023) left for own exploration (later Thinking Machines Lab). Hours later Altman announced research leads McGrew and Zoph also leaving. Reuters confirmed board mulling conversion to public-benefit for-profit to unlock funding — realized as Dec 2024 PBC plan.",
+      "significance": "Second executive exodus wave after Ilya; end of original leadership.",
+      "tags": [
+        "murati",
+        "openai",
+        "restructure",
+        "exodus"
+      ],
+      "sources": [
+        {
+          "label": "Thinking Machines Lab official site (Murati's next lab, first-party context)",
+          "type": "announcement",
+          "url": "https://thinkingmachines.ai/",
+          "verified": true,
+          "verifiedTitle": "Thinking Machines Lab",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-09-29-sb1047-veto",
+      "date": "2024-09-29",
+      "title": "Gov. Newsom vetoes California SB 1047",
+      "category": "policy",
+      "organizations": [
+        "California Legislature",
+        "Gavin Newsom"
+      ],
+      "summary": "Newsom vetoed SB 1047 — first frontier safety bill (>$100M training: testing, kill-switch, AG suits, whistleblower protections) passed overwhelmingly. Cited false security focusing only on large models. Wiener called it setback; OpenAI, Meta and a16z opposed, Musk and Bengio supported. Newsom tapped Fei-Fei Li group for alternative guardrails.",
+      "significance": "US safety-law high-water mark fails; leads to SB 53 in 2025.",
+      "tags": [
+        "sb-1047",
+        "california",
+        "veto",
+        "safety"
+      ],
+      "sources": [
+        {
+          "label": "SB-1047 Safe and Secure Innovation for Frontier AI Models Act (California Legislative Information, official)",
+          "type": "policy",
+          "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047",
+          "verified": true,
+          "verifiedTitle": "Bill Text - SB-1047 Safe and Secure Innovation for Frontier Artificial Intelligence Models",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Governor Newsom AI announcements Sept 29 2024 incl. SB 1047 veto (gov.ca.gov, first-party)",
+          "type": "policy",
+          "url": "https://www.gov.ca.gov/2024/09/29/governor-newsom-announces-new-initiatives-to-advance-safe-and-responsible-ai-protect-californians/",
+          "verified": true,
+          "verifiedTitle": "Governor Newsom announces new initiatives to advance safe and responsible AI, protect Cali",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-10-02-openai-66b",
+      "date": "2024-10-02",
+      "title": "OpenAI raises $6.6B at $157B largest VC round ever",
+      "category": "company",
+      "organizations": [
+        "OpenAI",
+        "Thrive Capital",
+        "Microsoft",
+        "Nvidia",
+        "SoftBank"
+      ],
+      "summary": "OpenAI closed $6.6B valuing it at $157B (~2x Feb $80B), total raised $17.9B, 250M weekly users. Funds for frontier research and compute amid ~$5B 2024 loss. Coincided with restructuring and exec churn, intensifying race versus xAI and Anthropic.",
+      "significance": "Largest venture round ever; $150B+ valuations become normal.",
+      "tags": [
+        "openai",
+        "funding",
+        "157b",
+        "vc"
+      ],
+      "sources": [
+        {
+          "label": "Scaling the benefits of AI / capital needs (OpenAI, May 2024, funding rationale context)",
+          "type": "blog",
+          "url": "https://openai.com/index/scale-the-benefits-of-ai/",
+          "verified": true,
+          "verifiedTitle": "New funding to scale the benefits of AI | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-10-09-nobel-ai",
+      "date": "2024-10-09",
+      "title": "Nobel Prize in Chemistry for AlphaFold (plus Physics for neural nets)",
+      "category": "advance",
+      "organizations": [
+        "Google DeepMind",
+        "University of Washington"
+      ],
+      "summary": "Chemistry Nobel split — half to Hassabis and Jumper for AlphaFold2, half to Baker for protein design. First Nobel celebrating AI-enabled biology (200M+ structures). Physics Nobel days earlier to Hopfield and Hinton for neural nets made 2024 Nobel for AI year.",
+      "significance": "Scientific establishment crowns AI as Nobel-worthy discovery tool.",
+      "tags": [
+        "nobel",
+        "alphafold",
+        "hinton",
+        "science"
+      ],
+      "sources": [
+        {
+          "label": "Nobel Prize in Chemistry 2024 press release – Hassabis, Jumper, Baker for protein structure (nobelprize.org)",
+          "type": "press",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+          "verified": true,
+          "verifiedTitle": "Press release: The Nobel Prize in Chemistry 2024 - NobelPrize.org",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Nobel Prize in Physics 2024 press release – Hopfield, Hinton for neural networks (nobelprize.org)",
+          "type": "press",
+          "url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+          "verified": true,
+          "verifiedTitle": "Press release: The Nobel Prize in Physics 2024 - NobelPrize.org",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-10-22-claude-computer-use",
+      "date": "2024-10-22",
+      "title": "Upgraded Claude 3.5 Sonnet plus Computer Use beta",
+      "category": "product",
+      "organizations": [
+        "Anthropic"
+      ],
+      "summary": "Anthropic shipped new 3.5 Sonnet (SWE-bench 49.0% beating o1-preview) plus first frontier Computer Use public beta — look at screenshots, move cursor and type via API. Asana, Canva and Replit testing 10s-100s steps. Defined agentic action-execution layer era.",
+      "significance": "Computer-use agents go mainstream; precursor to 2025 Operator.",
+      "tags": [
+        "computer-use",
+        "agents",
+        "anthropic",
+        "coding"
+      ],
+      "sources": [
+        {
+          "label": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku (Anthropic, Oct 22 2024)",
+          "type": "blog",
+          "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+          "verified": true,
+          "verifiedTitle": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Developing computer use (Anthropic, Oct 22 2024)",
+          "type": "blog",
+          "url": "https://www.anthropic.com/news/developing-computer-use",
+          "verified": true,
+          "verifiedTitle": "Developing a computer use model \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-10-31-chatgpt-search",
+      "date": "2024-10-31",
+      "title": "ChatGPT Search (SearchGPT productization)",
+      "category": "product",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "Evolving July SearchGPT prototype, OpenAI launched ChatGPT Search with live web, citations and sidebar sources to Plus then free in December. Direct assault on Google and Perplexity, leveraging publisher deals.",
+      "significance": "Search becomes conversational default in ChatGPT.",
+      "tags": [
+        "search",
+        "chatgpt-search",
+        "openai"
+      ],
+      "sources": [
+        {
+          "label": "Introducing ChatGPT search (OpenAI, Oct 31 2024)",
+          "type": "blog",
+          "url": "https://openai.com/index/introducing-chatgpt-search/",
+          "verified": true,
+          "verifiedTitle": "Introducing ChatGPT search | OpenAI",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "SearchGPT prototype (OpenAI, Jul 2024, predecessor prototype)",
+          "type": "blog",
+          "url": "https://openai.com/index/searchgpt-prototype/",
+          "verified": true,
+          "verifiedTitle": "SearchGPT Prototype | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-11-22-amazon-8b-anthropic",
+      "date": "2024-11-22",
+      "title": "Amazon invests another $4B in Anthropic (total $8B)",
+      "category": "company",
+      "organizations": [
+        "Amazon",
+        "AWS",
+        "Anthropic"
+      ],
+      "summary": "Amazon added $4B, totaling $8B, naming AWS primary training partner. Anthropic to train largest models on Trainium via co-design. Raised Anthropic total to $13.7B, fueling Claude 4 race and Alexa+ revamp versus Microsoft and OpenAI.",
+      "significance": "Cloud-proxy war peak: $8B+ lab bets.",
+      "tags": [
+        "amazon",
+        "anthropic",
+        "aws",
+        "funding"
+      ],
+      "sources": [
+        {
+          "label": "Amazon invests an additional $4B in Anthropic (About Amazon, Nov 2024)",
+          "type": "press",
+          "url": "https://www.aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai",
+          "verified": true,
+          "verifiedTitle": "Amazon to invest additional $4B in Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Anthropic + Amazon Trainium collaboration (Anthropic, first-party)",
+          "type": "blog",
+          "url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
+          "verified": true,
+          "verifiedTitle": "Powering the next generation of AI development with AWS \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-12-09-sora-public",
+      "date": "2024-12-09",
+      "title": "Sora Turbo public launch at Sora.com",
+      "category": "product",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "Day 3 of Ship-mas moved Sora out of preview as Sora Turbo — standalone sora.com: 1080p up to 20s, text-to-video, remix and Storyboard, C2PA and watermark, real-people limits. EU and UK delayed for compliance. Google, Meta, Luma and Runway rivalry entered public phase.",
+      "significance": "Text-to-video becomes a consumer product.",
+      "tags": [
+        "sora",
+        "video",
+        "openai",
+        "launch"
+      ],
+      "sources": [
+        {
+          "label": "Sora is here (OpenAI, Dec 9 2024, Sora Turbo at Sora.com)",
+          "type": "blog",
+          "url": "https://openai.com/index/sora-is-here/",
+          "verified": true,
+          "verifiedTitle": "Sora is here | OpenAI"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-12-09-willow",
+      "date": "2024-12-09",
+      "title": "Willow quantum chip below-threshold breakthrough",
+      "category": "advance",
+      "organizations": [
+        "Google Quantum AI"
+      ],
+      "summary": "Google unveiled 105-qubit Willow — Nature paper showing error rates decrease as qubits scale, plus 5-min RCS versus 10 septillion years classical. Not cryptographically relevant, 10 years from breaking RSA, but milestone toward useful quantum for medicine and AI; built in new California fab.",
+      "significance": "Quantum error-correction milestone alongside AI Ship-mas.",
+      "tags": [
+        "willow",
+        "quantum",
+        "google"
+      ],
+      "sources": [
+        {
+          "label": "Meet Willow, our state-of-the-art quantum chip (Google Blog, Dec 9 2024)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/",
+          "verified": true,
+          "verifiedTitle": "Meet Willow, our state-of-the-art quantum chip",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Quantum error correction below the surface code threshold (Nature, Acharya et al.)",
+          "type": "paper",
+          "url": "https://www.nature.com/articles/s41586-024-08449-y",
+          "verified": true,
+          "verifiedTitle": "Quantum error correction below the surface code threshold | Nature",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-12-11-gemini20-flash",
+      "date": "2024-12-11",
+      "title": "Gemini 2.0 Flash experimental agentic era model",
+      "category": "model-release",
+      "organizations": [
+        "Google DeepMind"
+      ],
+      "summary": "Google launched first 2.0 member — Flash workhorse beating 1.5 Pro at 2x speed, with native multimodal output, native tool use, 1M context and Live API for camera streaming. Prototypes Project Astra, Mariner (Chrome actions) and Jules (coding agent) showcased agentic vision.",
+      "significance": "Google's agent-native generation; Astra and Mariner debut.",
+      "tags": [
+        "gemini-2.0",
+        "agents",
+        "google"
+      ],
+      "sources": [
+        {
+          "label": "Google Gemini AI update December 2024: Gemini 2.0 Flash agentic era (Google Blog)",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/",
+          "verified": true,
+          "verifiedTitle": "Google introduces Gemini 2.0: A new AI model for the agentic era"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-12-20-o3-preview",
+      "date": "2024-12-20",
+      "title": "o3 plus o3-mini preview ARC-AGI leap",
+      "category": "model-release",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "Final Ship-mas Day 12: Altman previewed o3 family — 75.7% low-compute and 87.5% high-compute on ARC-AGI (human 85%, prior best ~5%), +20% over o1 coding. Offered only to safety researchers, GA early 2025. Chollet noted still fails easy tasks, but near-AGI claims dominated year-end discourse.",
+      "significance": "ARC-AGI from 5% to 87%; strongest near-AGI signal yet.",
+      "tags": [
+        "o3",
+        "arc-agi",
+        "reasoning",
+        "openai"
+      ],
+      "sources": [
+        {
+          "label": "OpenAI o3-mini / o3 preview (OpenAI, Dec 2024 – o3 family preview, 12 Days)",
+          "type": "blog",
+          "url": "https://openai.com/index/openai-o3-mini/",
+          "verified": true,
+          "verifiedTitle": "OpenAI o3-mini | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-12-26-deepseek-v3",
+      "date": "2024-12-26",
+      "title": "DeepSeek-V3 671B MoE open frontier at $5.6M cost",
+      "category": "model-release",
+      "organizations": [
+        "DeepSeek"
+      ],
+      "summary": "Chinese lab DeepSeek released V3 — 671B MoE (37B active), trained on 14.8T tokens for only ~$5.6M, 60 tok/s, 128K context, MIT weights. Matching closed models at $0.27/$1.10 per M, it foreshadowed Jan 2025 R1 shock, narrowing open-closed gap.",
+      "significance": "Efficiency shock preview; US-China cost debate begins.",
+      "tags": [
+        "deepseek-v3",
+        "moe",
+        "china",
+        "efficiency",
+        "open-source"
+      ],
+      "sources": [
+        {
+          "label": "DeepSeek-V3 release (DeepSeek official news)",
+          "type": "announcement",
+          "url": "https://deepseek.com/en/news/deepseek-v3",
+          "verified": true,
+          "verifiedTitle": "DeepSeek | Introducing DeepSeek-V3",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "deepseek-ai/DeepSeek-V3 (official GitHub, MIT weights)",
+          "type": "repo",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+          "verified": true,
+          "verifiedTitle": "GitHub - deepseek-ai/DeepSeek-V3 · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "DeepSeek-V3 Technical Report (arXiv:2412.19437, DeepSeek-AI)",
+          "type": "paper",
+          "url": "https://arxiv.org/abs/2412.19437",
+          "verified": true,
+          "verifiedTitle": "[2412.19437] DeepSeek-V3 Technical Report",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    }
+  ]
+}

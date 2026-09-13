@@ -1,0 +1,1397 @@
+{
+ "year": 2025,
+ "range": "2025-01-01 to 2025-12-31",
+ "description": "DeepSeek R1 triggers Sputnik moment and $600B Nvidia crash. Stargate bets $500B on US compute. Agents (Operator, Deep Research, Codex), GPT-5, Claude 4, Gemini 2.5/3 and open-weights (Qwen3, Kimi K2, gpt-oss) mature. Regulation splits: EU enforces, California passes SB 53, US accelerates.",
+ "count": 42,
+ "events": [
+  {
+   "id": "2025-01-20-deepseek-r1",
+   "date": "2025-01-20",
+   "title": "DeepSeek-R1 open reasoning shock",
+   "category": "model-release",
+   "organizations": [
+    "DeepSeek"
+   ],
+   "summary": "DeepSeek-AI released R1: 671B MoE (37B active), MIT license, trained via large-scale RL without SFT (R1-Zero) plus cold-start RL. Matches OpenAI o1 on math, code and reasoning at ~1/45th claimed training cost. Paper arXiv:2501.12948. Six distilled Qwen and Llama variants run on consumer GPUs. Andreessen calls it AI's Sputnik moment.",
+   "significance": "Efficiency shock that crashes Nvidia and forces US labs to cut prices.",
+   "tags": [
+    "deepseek-r1",
+    "reasoning",
+    "china",
+    "open-source",
+    "sputnik"
+   ],
+   "sources": [
+    {
+     "label": "DeepSeek-R1 release (DeepSeek official news)",
+     "type": "announcement",
+     "url": "https://deepseek.com/en/news/deepseek-r1/",
+     "verified": true,
+     "verifiedTitle": "DeepSeek | DeepSeek-R1 Release"
+    },
+    {
+     "label": "deepseek-ai/DeepSeek-R1 (official GitHub, MIT)",
+     "type": "repo",
+     "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+     "verified": true,
+     "verifiedTitle": "GitHub - deepseek-ai/DeepSeek-R1 · GitHub"
+    },
+    {
+     "label": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL (arXiv:2501.12948)",
+     "type": "paper",
+     "url": "https://arxiv.org/abs/2501.12948",
+     "verified": true,
+     "verifiedTitle": "[2501.12948] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-01-20-trump-revokes-eo",
+   "date": "2025-01-20",
+   "title": "Trump revokes Biden EO 14110 on Day 1",
+   "category": "policy",
+   "organizations": [
+    "White House"
+   ],
+   "summary": "Initial Rescissions EO revokes Biden Oct 2023 Safe, Secure, Trustworthy AI EO that required sharing frontier safety-test results and NIST standards. Freezes Biden-era implementation work. Sets up pro-acceleration policy reversal completed by July Action Plan.",
+   "significance": "US AI policy U-turn from safety-first to acceleration.",
+   "tags": [
+    "trump",
+    "executive-order",
+    "deregulation"
+   ],
+   "sources": [
+    {
+     "label": "Initial Rescissions of Harmful Executive Orders and Actions (White House, Jan 20 2025, revokes EO 14110)",
+     "type": "policy",
+     "url": "https://www.whitehouse.gov/presidential-actions/2025/01/initial-rescissions-of-harmful-executive-orders-and-actions/",
+     "verified": true,
+     "verifiedTitle": "Initial Rescissions Of Harmful Executive Orders And Actions – The White House",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-01-21-stargate-500b",
+   "date": "2025-01-21",
+   "title": "Stargate Project $500B announced at White House",
+   "category": "infrastructure",
+   "organizations": [
+    "OpenAI",
+    "SoftBank",
+    "Oracle",
+    "MGX"
+   ],
+   "summary": "New company to invest $500B over 4 years in US AI infra for OpenAI, $100B immediate. Son chairman, OpenAI operational lead. Tech partners Arm, Microsoft, NVIDIA, Oracle. First site Abilene, TX. September update: ~7GW, >$400B planned, path to full 10GW and $500B by end-2025.",
+   "significance": "Largest AI infra bet ever; compute nationalism peak.",
+   "tags": [
+    "stargate",
+    "compute",
+    "openai",
+    "softbank",
+    "oracle"
+   ],
+   "sources": [
+    {
+     "label": "Announcing the Stargate Project (OpenAI, Jan 21 2025, $500B)",
+     "type": "blog",
+     "url": "https://openai.com/index/announcing-the-stargate-project/",
+     "verified": true,
+     "verifiedTitle": "Announcing The Stargate Project | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-01-23-operator",
+   "date": "2025-01-23",
+   "title": "OpenAI Operator computer-using agent plus EO 14179",
+   "category": "product",
+   "organizations": [
+    "OpenAI",
+    "White House"
+   ],
+   "summary": "Operator: first general computer-using agent (CUA model = GPT-4o vision plus o-series reasoning) with own browser to shop and fill forms. $200/mo Pro, US-only. Sunsets July 17 into ChatGPT Agent mode. Same day EO 14179 Removing Barriers orders AI Action Plan in 180 days, principle AI free from ideological bias.",
+   "significance": "Agents operate computers; policy orders acceleration plan.",
+   "tags": [
+    "operator",
+    "agents",
+    "computer-use",
+    "eo-14179"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Operator (OpenAI, Jan 23 2025, computer-using agent)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-operator/",
+     "verified": true,
+     "verifiedTitle": "Introducing Operator | OpenAI"
+    },
+    {
+     "label": "Computer-Using Agent / CUA (OpenAI, Operator model system)",
+     "type": "blog",
+     "url": "https://openai.com/index/computer-using-agent/",
+     "verified": true,
+     "verifiedTitle": "Computer-Using Agent | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Removing Barriers to American Leadership in AI – EO 14179 (White House, Jan 23 2025)",
+     "type": "policy",
+     "url": "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/",
+     "verified": true,
+     "verifiedTitle": "Removing Barriers to American Leadership in Artificial Intelligence – The White House",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-01-27-nvidia-crash",
+   "date": "2025-01-27",
+   "title": "Nvidia $593B single-day crash on DeepSeek fear",
+   "category": "company",
+   "organizations": [
+    "Nvidia",
+    "DeepSeek"
+   ],
+   "summary": "Nvidia fell 17% to $118.42, largest single-day market-cap loss in US history. Thesis: cheap open reasoning undermines hyperscaler capex ($80B Microsoft, $60-65B Meta for 2025). Nvidia calls R1 excellent advancement proving test-time scaling drives more GPU demand.",
+   "significance": "Market prices efficiency as threat to compute moat — then reverses.",
+   "tags": [
+    "nvidia",
+    "crash",
+    "deepseek",
+    "markets"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2025-01-31-o3-mini",
+   "date": "2025-01-31",
+   "title": "OpenAI o3-mini cost-effective reasoning",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Cost-effective reasoning with 3 effort levels and function calling. Beats o1 on coding, 63% cheaper than o1-mini, 24% faster. Free in ChatGPT via Reason, 150/day Plus. Direct response to R1, 11 days after crash.",
+   "significance": "US labs slash reasoning prices to match DeepSeek.",
+   "tags": [
+    "o3-mini",
+    "reasoning",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI o3-mini (OpenAI, Jan 31 2025, cost-effective reasoning)",
+     "type": "blog",
+     "url": "https://openai.com/index/openai-o3-mini/",
+     "verified": true,
+     "verifiedTitle": "OpenAI o3-mini | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-02-02-deep-research",
+   "date": "2025-02-02",
+   "title": "OpenAI Deep Research agent",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "o-series agent that browses and synthesizes 10-30 minute reports with citations. Pro first, then Plus and Enterprise. Spawns Perplexity Deep Research, xAI DeepSearch and Gemini Deep Research upgrade cycle.",
+   "significance": "Knowledge-work agent template: long browse plus synthesis.",
+   "tags": [
+    "deep-research",
+    "agents",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing deep research (OpenAI, Feb 2 2025)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-deep-research/",
+     "verified": true,
+     "verifiedTitle": "Introducing deep research | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-02-10-paris-summit",
+   "date": "2025-02-10",
+   "title": "Paris AI Action Summit (France plus India co-chair)",
+   "category": "policy",
+   "organizations": [
+    "France",
+    "India",
+    "UNESCO"
+   ],
+   "summary": "Statement on Inclusive and Sustainable AI: public-interest platform, jobs, sustainability and trust. Commends Bletchley and Seoul voluntary commitments. US (Vance) plus UK refuse to sign over regulation concerns. Follow-ons slated in Kigali and Geneva.",
+   "significance": "Summit pivots from safety to opportunity; US and UK dissent.",
+   "tags": [
+    "paris-summit",
+    "france",
+    "india",
+    "inclusivity"
+   ],
+   "sources": [
+    {
+     "label": "Sommet pour l'action sur l'IA – Paris AI Action Summit official page (Elysee.fr)",
+     "type": "policy",
+     "url": "https://www.elysee.fr/en/sommet-pour-l-action-sur-l-ia",
+     "verified": true,
+     "verifiedTitle": "Artificial Intelligence Action Summit",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-02-17-grok3",
+   "date": "2025-02-17",
+   "title": "xAI Grok 3 Beta on Colossus",
+   "category": "model-release",
+   "organizations": [
+    "xAI"
+   ],
+   "summary": "Trained on Colossus (~200k GPUs, 10x Grok 2 compute). Family: Grok 3 plus mini plus Reasoning (Think and Big Brain). Claims beat GPT-4o and Gemini on math and coding; #1 Chatbot Arena (1402 Elo). DeepSearch plus voice and API. $30/mo Premium+. Obscures chain-of-thought to block distillation after accusing DeepSeek of distilling OpenAI.",
+   "significance": "xAI reaches frontier; distillation wars begin.",
+   "tags": [
+    "grok-3",
+    "xai",
+    "colossus",
+    "reasoning"
+   ],
+   "sources": [
+    {
+     "label": "Grok 3 Beta (xAI, Feb 17 2025, Colossus-trained)",
+     "type": "announcement",
+     "url": "https://x.ai/news/grok-3",
+     "verified": true,
+     "verifiedTitle": "Grok 3 Beta — The Age of Reasoning Agents | SpaceXAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-02-24-claude37",
+   "date": "2025-02-24",
+   "title": "Anthropic Claude 3.7 Sonnet plus Claude Code preview",
+   "category": "model-release",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "First hybrid reasoning model: instant versus extended visible thinking, API thinking-budget to 128K tokens. $3/$15 per 1M. SWE-Bench 62.3% versus o3-mini 49.3%. Optimized for real-world code. Claude Code CLI delegates terminal coding. Free tier gets non-thinking only.",
+   "significance": "Hybrid thinking debut; Claude Code starts the agentic-coding boom.",
+   "tags": [
+    "claude-3.7",
+    "hybrid-reasoning",
+    "claude-code"
+   ],
+   "sources": [
+    {
+     "label": "Claude 3.7 Sonnet and Claude Code (Anthropic, Feb 24 2025, hybrid reasoning)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+     "verified": true,
+     "verifiedTitle": "Claude 3.7 Sonnet and Claude Code \\ Anthropic"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-02-24-claude-code-launch",
+   "date": "2025-02-24",
+   "title": "Claude Code launches in limited research preview (terminal coding agent)",
+   "category": "product",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Alongside Claude 3.7 Sonnet, Anthropic released Claude Code, its first agentic coding tool: a terminal-native CLI that reads codebases, edits files, runs commands and tests, and iterates with permission gates. Limited research preview via docs signup; already indispensable internally for test-driven development, debugging and large refactors. Underlying Sonnet hit 70.3% SWE-bench Verified with custom scaffold. GA May 22 2025 with Claude 4 plus VS Code and JetBrains extensions.",
+   "significance": "Terminal-first agentic coding goes mainstream; Claude Code becomes the developer-favorite coding agent (10x users after GA, $500M+ run-rate).",
+   "tags": [
+    "claude-code",
+    "coding-agent",
+    "anthropic",
+    "terminal",
+    "agentic"
+   ],
+   "sources": [
+    {
+     "label": "Claude 3.7 Sonnet and Claude Code (Anthropic, Feb 24 2025, research preview announcement)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+     "verified": true,
+     "verifiedTitle": "Claude 3.7 Sonnet and Claude Code \\ Anthropic",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Claude Code docs (Anthropic, canonical documentation)",
+     "type": "site",
+     "url": "https://code.claude.com/docs",
+     "verified": true,
+     "verifiedTitle": "Overview - Claude Code Docs",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Anthropic on X: We're also releasing an agentic coding tool: Claude Code (Feb 24 2025 announcement tweet)",
+     "type": "tweet",
+     "url": "https://x.com/AnthropicAI/status/1894092430560965029",
+     "verified": true,
+     "verifiedTitle": "Anthropic on X: \"Introducing Claude 3.7 Sonnet: our most intelligent model to date. It's a hybrid reasoning model, producing near-instant responses or extended, step-by-step thinking. One model, two ways to think. We're also releasing an agentic coding tool: Claude Code.\" / X",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-02-27-gpt45-orion",
+   "date": "2025-02-27",
+   "title": "OpenAI GPT-4.5 Orion research preview (last non-reasoning giant)",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Last classic pre-training-scale model, largest yet. Best chat and knowledge, lowest hallucination on SimpleQA, but weak versus reasoning models on AIME and SWE-Bench. Pro first, then Plus. API very expensive, deprecated July 2025 for GPT-4.1. Altman roadmap: 4.5 then GPT-5 with integrated o3.",
+   "significance": "End of pure pretraining scaling; reasoning takes over.",
+   "tags": [
+    "gpt-4.5",
+    "orion",
+    "openai",
+    "pretraining"
+   ],
+   "sources": [
+    {
+     "label": "Introducing GPT-4.5 (OpenAI, Feb 27 2025, Orion research preview)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-gpt-4-5/",
+     "verified": true,
+     "verifiedTitle": "Introducing GPT-4.5 | OpenAI"
+    },
+    {
+     "label": "GPT-4.5 System Card (OpenAI, Feb 27 2025)",
+     "type": "paper",
+     "url": "https://openai.com/index/gpt-4-5-system-card/",
+     "verified": true,
+     "verifiedTitle": "GPT-4.5 system card | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-03-06-manus",
+   "date": "2025-03-06",
+   "title": "Manus general AI agent invite-only beta",
+   "category": "product",
+   "organizations": [
+    "Butterfly Effect",
+    "Tencent"
+   ],
+   "summary": "Multi-agent on Claude plus fine-tuned Qwen, cloud-async, claims SOTA on GAIA, beats OpenAI Deep Research. Website builder and itinerary demos. Codes resold on Xianyu. Hailed as second DeepSeek and GPT moment for agents. Acquired by Meta Dec 29, 2025.",
+   "significance": "Chinese agents go viral; autonomy plus commerce preview.",
+   "tags": [
+    "manus",
+    "agents",
+    "china"
+   ],
+   "sources": [
+    {
+     "label": "Manus general AI agent official site (Butterfly Effect, first-party)",
+     "type": "announcement",
+     "url": "https://manus.im/",
+     "verified": true,
+     "verifiedTitle": "Manus: Hands On AI",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Manus launch video (Manus official YouTube)",
+     "type": "video",
+     "url": "https://www.youtube.com/watch?v=K27diMbCsuw",
+     "verified": true,
+     "verifiedTitle": "Introducing Manus: The General AI Agent - YouTube",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-03-25-gemini25-pro",
+   "date": "2025-03-25",
+   "title": "Google Gemini 2.5 Pro experimental thinking model",
+   "category": "model-release",
+   "organizations": [
+    "Google DeepMind"
+   ],
+   "summary": "First full thinking-model family (thinking built-in). 1M tokens, #1 LMArena by margin, SOTA GPQA and AIME without voting, 63.8% SWE-Bench Verified with agent. In AI Studio plus Advanced. Coding upgrade May 6 I/O Edition, GA June 17.",
+   "significance": "Google retakes reasoning lead; thinking by default.",
+   "tags": [
+    "gemini-2.5",
+    "thinking",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Gemini 2.5 Pro thinking model update March 2025 (Google Blog)",
+     "type": "blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/",
+     "verified": true,
+     "verifiedTitle": "Gemini 2.5: Our newest Gemini model with thinking"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-03-25-gpt4o-image-ghibli",
+   "date": "2025-03-25",
+   "title": "GPT-4o native image generation plus Ghibli viral",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Autoregressive image gen in GPT-4o with better text rendering. Mar 26-27 flood of Studio Ghibli versions of memes and news photos. Altman changes avatar, jokes GPUs melting, delays free tier. White House posts Ghibli meme Mar 27. Revives Miyazaki insult-to-life quote, copyright and energy critiques.",
+   "significance": "Style-mimicry at scale; copyright and provenance crisis peak.",
+   "tags": [
+    "gpt-4o-image",
+    "ghibli",
+    "style",
+    "copyright"
+   ],
+   "sources": [
+    {
+     "label": "Introducing 4o Image Generation (OpenAI, Mar 25 2025)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-4o-image-generation/",
+     "verified": true,
+     "verifiedTitle": "Introducing 4o Image Generation | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-04-05-llama4",
+   "date": "2025-04-05",
+   "title": "Meta Llama 4 Scout plus Maverick (Saturday release)",
+   "category": "model-release",
+   "organizations": [
+    "Meta"
+   ],
+   "summary": "First MoE Llamas: Scout 109B (10M context claimed) for summarization; Maverick 400B beats GPT-4o and Gemini 2.0. Powers Meta AI in WhatsApp and Instagram. Controversy Apr 7-8: experimental Maverick tuned for LMArena differs from downloadable weights; EU domicile ban in license. Seen as disappointing, triggers superintelligence reset.",
+   "significance": "Llama stumbles; benchmark-gaming accusations damage trust.",
+   "tags": [
+    "llama-4",
+    "meta",
+    "moe",
+    "arena"
+   ],
+   "sources": [
+    {
+     "label": "The Llama 4 herd: Scout and Maverick multimodal intelligence (Meta AI Blog, Apr 5 2025)",
+     "type": "blog",
+     "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+     "verified": true,
+     "verifiedTitle": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Llama official site (Meta, model cards and downloads)",
+     "type": "docs",
+     "url": "https://llama.meta.com/",
+     "verified": true,
+     "verifiedTitle": "Products & Solutions for AI Developers | Meta",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-04-14-gpt41",
+   "date": "2025-04-14",
+   "title": "OpenAI GPT-4.1, mini and nano API coding specialists",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Coding and long-context specialist: 54.6% SWE-Bench Verified (+21.4 over 4o), 1M context, June 2024 cutoff. Nano $0.10/$0.40 cheapest OpenAI yet. Kills GPT-4.5 preview July 2025. In ChatGPT May 14, mini replaces 4o-mini for free.",
+   "significance": "1M context goes mainstream in API; 4.5 retired.",
+   "tags": [
+    "gpt-4.1",
+    "coding",
+    "long-context",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing GPT-4.1 in the API (OpenAI, Apr 14 2025, coding specialist)",
+     "type": "blog",
+     "url": "https://openai.com/index/gpt-4-1/",
+     "verified": true,
+     "verifiedTitle": "Introducing GPT-4.1 in the API | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-04-16-o3-o4mini",
+   "date": "2025-04-16",
+   "title": "OpenAI o3 plus o4-mini think with images",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Smartest reasoning yet, first to think with images (zoom and rotate sketches), Python in Canvas, web search. o3 69.1% SWE-Bench Verified, o4-mini 68.1% plus 99.5% AIME 2025 with interpreter. Replaces o1 and o3-mini in picker. o3-pro June 10 for Pro.",
+   "significance": "Visual reasoning debut; o-series matures.",
+   "tags": [
+    "o3",
+    "o4-mini",
+    "reasoning",
+    "vision"
+   ],
+   "sources": [
+    {
+     "label": "Introducing OpenAI o3 and o4-mini (OpenAI, Apr 16 2025)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+     "verified": true,
+     "verifiedTitle": "Introducing OpenAI o3 and o4-mini | OpenAI"
+    },
+    {
+     "label": "Thinking with images (OpenAI, Apr 16 2025, visual reasoning)",
+     "type": "blog",
+     "url": "https://openai.com/index/thinking-with-images/",
+     "verified": true,
+     "verifiedTitle": "Thinking with images | OpenAI",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-04-16-codex-cli",
+   "date": "2025-04-16",
+   "title": "OpenAI Codex CLI open-source terminal coding agent",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Launched alongside o3 and o4-mini: Codex CLI, an Apache-2.0 open-source coding agent that runs locally in the terminal. Reads, edits and executes code with multimodal input (screenshots, sketches), three approval modes (suggest, auto-edit, full-auto) and sandboxed execution. GitHub repo openai/codex with $1M in API grants; becomes the Codex platform surface (IDE extension, cloud, SDK, GA Oct 6 2025).",
+   "significance": "OpenAI's answer to Claude Code; open-source terminal agent anchoring its agentic-coding stack.",
+   "tags": [
+    "codex",
+    "cli",
+    "coding-agent",
+    "open-source",
+    "openai",
+    "terminal"
+   ],
+   "sources": [
+    {
+     "label": "openai/codex (official GitHub, Apache-2.0 terminal coding agent)",
+     "type": "repo",
+     "url": "http://github.com/openai/codex",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Codex CLI (OpenAI developer docs)",
+     "type": "site",
+     "url": "https://learn.chatgpt.com/docs/codex/cli",
+     "verified": true,
+     "verifiedTitle": "Codex CLI | ChatGPT Learn",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-04-28-qwen3",
+   "date": "2025-04-28",
+   "title": "Alibaba Qwen3 family (hybrid thinking)",
+   "category": "model-release",
+   "organizations": [
+    "Alibaba"
+   ],
+   "summary": "8 models: 6 dense 0.6B-32B plus 2 MoE (30B-A3B, 235B-A22B). First hybrid thinking and non-thinking with control, MCP plus function calling, 119 languages, 36T tokens. 235B rivals o3-mini and R1 at far lower cost. 300M downloads, 100k derivatives. Narrows US-China gap to weeks.",
+   "significance": "China's open stack matches US frontier on efficiency.",
+   "tags": [
+    "qwen3",
+    "alibaba",
+    "open-source",
+    "hybrid"
+   ],
+   "sources": [
+    {
+     "label": "Qwen3: Think Deeper, Act Faster (Qwen Team Blog, Apr 28 2025, hybrid thinking)",
+     "type": "blog",
+     "url": "https://qwenlm.github.io/blog/qwen3/",
+     "verified": true,
+     "verifiedTitle": "Qwen3: Think Deeper, Act Faster | Qwen",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "QwenLM/Qwen3 (Alibaba official GitHub, Apache 2.0)",
+     "type": "repo",
+     "url": "https://github.com/QwenLM/Qwen3",
+     "verified": true,
+     "verifiedTitle": "GitHub - QwenLM/Qwen3: Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud. · GitHub"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-05-16-codex-agent",
+   "date": "2025-05-16",
+   "title": "OpenAI Codex agent research preview (codex-1)",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Cloud sandboxed SWE agent on o3-optimized codex-1: parallel tasks, 1-30 min features and tests via GitHub plus ChatGPT sidebar. Refuses malware, air-gapped. Vision: virtual teammates for hours-long work. Full CLI, IDE and GitHub rollout plus GPT-5-Codex Sept 15 (74.5% SWE-Bench).",
+   "significance": "Coding agents become cloud teammates, not autocomplete.",
+   "tags": [
+    "codex",
+    "coding-agent",
+    "openai",
+    "swe-bench"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Codex (OpenAI, May 16 2025, cloud SWE agent)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-codex/",
+     "verified": true,
+     "verifiedTitle": "Introducing Codex | OpenAI"
+    },
+    {
+     "label": "openai/codex (official GitHub, Codex CLI and agent)",
+     "type": "repo",
+     "url": "https://github.com/openai/codex",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-05-19-copilot-coding-agent",
+   "date": "2025-05-19",
+   "title": "GitHub Copilot coding agent preview (assign issues to Copilot)",
+   "category": "product",
+   "organizations": [
+    "GitHub",
+    "Microsoft"
+   ],
+   "summary": "Announced at Microsoft Build: async coding agent embedded in GitHub. Assign an issue to Copilot and it boots an Actions-powered secure VM, explores the repo with RAG code search, pushes commits to a draft PR with session logs, and iterates on review comments. Human approval required before CI/CD runs. Preview for Enterprise and Pro+; Business June 24; GA Sept 25 2025.",
+   "significance": "Copilot evolves from autocomplete to teammate; enterprise-ready SWE-agent baseline.",
+   "tags": [
+    "copilot",
+    "coding-agent",
+    "github",
+    "agentic"
+   ],
+   "sources": [
+    {
+     "label": "GitHub Copilot: Meet the new coding agent (GitHub Blog, May 19 2025)",
+     "type": "blog",
+     "url": "https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent",
+     "verified": true,
+     "verifiedTitle": "GitHub Copilot: Meet the new coding agent - The GitHub Blog",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "GitHub Introduces Coding Agent for GitHub Copilot (GitHub Newsroom, May 19 2025)",
+     "type": "press",
+     "url": "http://github.com/newsroom/press-releases/coding-agent-for-github-copilot",
+     "verified": true,
+     "verifiedTitle": "GitHub Introduces Coding Agent For GitHub Copilot · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-05-19-jules-preview",
+   "date": "2025-05-19",
+   "title": "Google Jules public preview (async coding agent)",
+   "category": "product",
+   "organizations": [
+    "Google",
+    "Google Labs"
+   ],
+   "summary": "Google's async coding agent opens public preview (announced as Labs project Dec 2024, preview at I/O May 2025; changelog May 19: Jules is here). Connect a GitHub repo, assign a task, and Jules spins up a Cloud VM, plans with Gemini, writes tests and opens a PR. Out of beta Aug 6 2025 on Gemini 2.5 Pro with 140k+ public commits in beta; CLI and API Oct 2025.",
+   "significance": "Google's entry in async coding agents; VM-verified PR workflow rivaling Copilot and Codex agents.",
+   "tags": [
+    "jules",
+    "coding-agent",
+    "google",
+    "gemini",
+    "async"
+   ],
+   "sources": [
+    {
+     "label": "Jules is here (Jules changelog, May 19 2025, public preview)",
+     "type": "blog",
+     "url": "https://jules.google/docs/changelog/2025-05-19",
+     "verified": true,
+     "verifiedTitle": "Jules is here | Jules",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Jules, Google's asynchronous AI coding agent, is out of public beta (Google Blog, Aug 6 2025)",
+     "type": "blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/jules-now-available",
+     "verified": true,
+     "verifiedTitle": "Jules, Google’s asynchronous AI coding agent, is out of public beta",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-05-20-veo3-flow",
+   "date": "2025-05-20",
+   "title": "Google I/O: Veo 3 plus Imagen 4 plus Flow filmmaking app",
+   "category": "model-release",
+   "organizations": [
+    "Google DeepMind"
+   ],
+   "summary": "Veo 3: first video model with native dialogue and SFX, 8s 1080p, physics-realistic. Imagen 4 higher-quality images. Flow AI filmmaking app evolving VideoFX. US-only Pro and Ultra first; 40M videos in 7 weeks. SynthID plus watermark. Veo 3.1 Oct 15 adds audio to edits.",
+   "significance": "Video with sound; AI filmmaking stack debuts.",
+   "tags": [
+    "veo-3",
+    "imagen-4",
+    "flow",
+    "video",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Generative media models at I/O 2025: Veo 3 and Imagen 4 (Google Blog)",
+     "type": "blog",
+     "url": "https://blog.google/innovation-and-ai/products/generative-media-models-io-2025/",
+     "verified": true,
+     "verifiedTitle": "Fuel your creativity with new generative media models and tools",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Google Flow: AI filmmaking tool with Veo (Google Blog, I/O 2025)",
+     "type": "blog",
+     "url": "https://blog.google/innovation-and-ai/products/google-flow-veo-ai-filmmaking-tool/",
+     "verified": true,
+     "verifiedTitle": "Introducing Flow: Google’s AI filmmaking tool designed for Veo",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-05-21-io-65b",
+   "date": "2025-05-21",
+   "title": "OpenAI buys Jony Ive's io for $6.5B",
+   "category": "company",
+   "organizations": [
+    "OpenAI",
+    "LoveFrom",
+    "io"
+   ],
+   "summary": "All-stock, largest OpenAI acquisition on $300B valuation. 55 staff merge; Ive takes all OpenAI design. Altman: lived with prototype, coolest piece world will ever see. First devices slated 2026. Closed July 9. Follows $3B Windsurf agreement weeks earlier (later collapsed).",
+   "significance": "OpenAI bets on post-phone hardware; design legend joins.",
+   "tags": [
+    "io",
+    "jony-ive",
+    "hardware",
+    "openai",
+    "acquisition"
+   ],
+   "sources": [
+    {
+     "label": "A letter from Sam & Jony (OpenAI, May 21 2025)",
+     "type": "blog",
+     "url": "https://openai.com/sam-and-jony/",
+     "verified": true,
+     "verifiedTitle": "A letter from Sam & Jony | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-05-22-claude4-asl3",
+   "date": "2025-05-22",
+   "title": "Anthropic Claude Opus 4 plus Sonnet 4 plus ASL-3 activation",
+   "category": "model-release",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Next-gen hybrids: Opus 4 best coding (72.5% SWE-Bench, 7-hr autonomous refactor), Sonnet 4 everyday upgrade. Tools: extended thinking, parallel tools, memory, Claude Code GA plus API Code Exec and MCP. Safety milestone: first ASL-3 deployment (Opus 4). System card adds alignment-faking and welfare assessments.",
+   "significance": "First ASL-3 model; coding plus safety frontier together.",
+   "tags": [
+    "claude-4",
+    "opus-4",
+    "asl-3",
+    "safety",
+    "coding"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Claude Opus 4 and Sonnet 4 (Anthropic, May 22 2025, ASL-3 deployment)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-4",
+     "verified": true,
+     "verifiedTitle": "Introducing Claude 4 \\ Anthropic"
+    },
+    {
+     "label": "Responsible Scaling Policy v3 (Anthropic, ASL-3 criteria)",
+     "type": "policy",
+     "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+     "verified": true,
+     "verifiedTitle": "Responsible Scaling Policy Version 3.0 | Anthropic",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-06-04-cursor-10",
+   "date": "2025-06-04",
+   "title": "Cursor 1.0: Background Agent GA plus BugBot (Anysphere)",
+   "category": "product",
+   "organizations": [
+    "Anysphere"
+   ],
+   "summary": "AI-native editor hits 1.0: BugBot automatic PR code review, Background Agent general availability (remote async coding, Slack @Cursor tasking), memories preview, one-click MCP install, Jupyter support. At $500M ARR across half the Fortune 500, fastest-ever to $100M ARR; web app June 30 to manage agent fleets.",
+   "significance": "Defines the agentic-editor category; most successful AI devtool business to date.",
+   "tags": [
+    "cursor",
+    "anysphere",
+    "coding-agent",
+    "ide",
+    "background-agent"
+   ],
+   "sources": [
+    {
+     "label": "Bugbot, Background Agent access to everyone, and one-click MCP install (Cursor changelog 1.0, Jun 4 2025)",
+     "type": "blog",
+     "url": "https://cursor.com/changelog/1-0",
+     "verified": true,
+     "verifiedTitle": "Bugbot, Background Agent access to everyone, and one-click MCP install · Cursor",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-06-12-meta-scale-143b",
+   "date": "2025-06-12",
+   "title": "Meta $14.3B into Scale AI plus hires Alexandr Wang",
+   "category": "company",
+   "organizations": [
+    "Meta",
+    "Scale AI"
+   ],
+   "summary": "Zuckerberg's superintelligence reset after Llama 4: $14.3B for 49% at $29B val plus Wang joins Meta Superintelligence Lab. Structured as non-voting minority to dodge antitrust. Fallout: OpenAI phases out Scale, Google cuts ties over data-visibility fears.",
+   "significance": "Data-labeling giant becomes superintelligence talent acquihire.",
+   "tags": [
+    "meta",
+    "scale-ai",
+    "wang",
+    "superintelligence"
+   ],
+   "sources": [
+    {
+     "label": "Scale AI announces next phase of company evolution (Scale AI Blog, Meta $14.3B investment context)",
+     "type": "blog",
+     "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution",
+     "verified": true,
+     "verifiedTitle": "Founder, Alexandr Wang, Joins Meta to Work on AI Efforts | Scale AI",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Customer trust and the Scale–Meta deal (Scale AI Blog)",
+     "type": "blog",
+     "url": "https://scale.com/blog/customer-trust-scale-meta-deal",
+     "verified": true,
+     "verifiedTitle": "Scale Remains Independent After Meta Investment | Scale AI",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-07-09-grok4",
+   "date": "2025-07-09",
+   "title": "xAI Grok 4 plus Grok 4 Heavy",
+   "category": "model-release",
+   "organizations": [
+    "xAI"
+   ],
+   "summary": "256K context, native tools plus real-time search, heavy RL. Claims PhD-level: Heavy 50.7% Humanity's Last Exam, 15.9% ARC-AGI-2 (~2x Opus), USAMO 61.9%. Single-agent $30/mo versus multi-agent Heavy $300/mo. Launch overshadowed by July 8 MechaHitler antisemitic posts, scrubbed plus filters added.",
+   "significance": "Frontier capability marred by safety failure same week.",
+   "tags": [
+    "grok-4",
+    "xai",
+    "reasoning",
+    "controversy"
+   ],
+   "sources": [
+    {
+     "label": "Grok 4 (xAI, Jul 9 2025, plus Heavy)",
+     "type": "announcement",
+     "url": "https://x.ai/news/grok-4",
+     "verified": true,
+     "verifiedTitle": "Grok 4 | SpaceXAI",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-07-11-kimi-k2",
+   "date": "2025-07-11",
+   "title": "Moonshot Kimi K2 open-weights agent model",
+   "category": "model-release",
+   "organizations": [
+    "Moonshot AI"
+   ],
+   "summary": "1T MoE (32B active, 15.5T tokens), 128K-262K context, modified MIT. No explicit CoT, optimized for agents and tools. Rivals Sonnet 4 and GPT-4.1, Top-10 LMArena. Turbo Aug 1, 0905 Sep 5. Next DeepSeek moment for open agents.",
+   "significance": "Open agents match closed; China's second efficiency shock.",
+   "tags": [
+    "kimi-k2",
+    "moonshot",
+    "open-source",
+    "agents"
+   ],
+   "sources": [
+    {
+     "label": "Kimi K2: Open Agentic Intelligence (Moonshot AI Blog, Jul 11 2025)",
+     "type": "blog",
+     "url": "https://kimi.ai/blog/kimi-k2",
+     "verified": true,
+     "verifiedTitle": "Kimi K2: Open Agentic Intelligence",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "MoonshotAI/Kimi-K2 (official GitHub, modified MIT)",
+     "type": "repo",
+     "url": "https://github.com/MoonshotAI/Kimi-K2",
+     "verified": true,
+     "verifiedTitle": "GitHub - MoonshotAI/Kimi-K2: Kimi K2 is the large language model series developed by Moons",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-07-11-windsurf-drama",
+   "date": "2025-07-11",
+   "title": "Windsurf drama: OpenAI $3B collapses, Google $2.4B hire, Cognition buys",
+   "category": "company",
+   "organizations": [
+    "Windsurf",
+    "OpenAI",
+    "Google DeepMind",
+    "Cognition"
+   ],
+   "summary": "April-May OpenAI agrees ~$3B acquisition. July 11 exclusivity expires over Microsoft IP-sharing clause. Google hires CEO Varun Mohan plus researchers, $2.4B license (no equity). July 14 Cognition signs acquisition of IP and staff, $82M ARR. Archetype reverse acquihire to avoid antitrust.",
+   "significance": "Coding-startup Hunger Games; IP clauses kill M&A.",
+   "tags": [
+    "windsurf",
+    "acquisition",
+    "cognition",
+    "google",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Windsurf announcement (Cognition Blog, Jul 2025 acquisition)",
+     "type": "blog",
+     "url": "https://cognition.ai/blog/windsurf",
+     "verified": true,
+     "verifiedTitle": "Cognition’s acquisition of Windsurf | Cognition",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Windsurf's next stage (Devin Blog, Jul 2025)",
+     "type": "blog",
+     "url": "https://devin.ai/blog/windsurfs-next-stage",
+     "verified": true,
+     "verifiedTitle": "The Next Stage of Windsurf | Devin",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-07-23-ai-action-plan",
+   "date": "2025-07-23",
+   "title": "White House Winning the AI Race: America's AI Action Plan plus 3 EOs",
+   "category": "policy",
+   "organizations": [
+    "White House"
+   ],
+   "summary": "90+ federal actions across 3 pillars: Accelerate Innovation, Build Infra, Lead Diplomacy. Export full-stack US AI, fast-track data-center permits, kill onerous regs, federal procurement only from objective models (EO Preventing Woke AI). Opposite of pause; sets up federal versus California patchwork fight.",
+   "significance": "Official US acceleration doctrine; anti-pause policy.",
+   "tags": [
+    "ai-action-plan",
+    "trump",
+    "acceleration",
+    "policy"
+   ],
+   "sources": [
+    {
+     "label": "White House Unveils America's AI Action Plan (White House Releases, Jul 23 2025)",
+     "type": "policy",
+     "url": "https://www.whitehouse.gov/releases/2025/07/white-house-unveils-americas-ai-action-plan/",
+     "verified": true,
+     "verifiedTitle": "White House Unveils America's AI Action Plan – The White House",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Winning the Race: America's AI Action Plan PDF (White House, Jul 2025)",
+     "type": "policy",
+     "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+     "verified": true,
+     "verifiedTitle": "AMERICA’S AI ACTION PLAN (White House, Jul 2025)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-08-02-eu-gpai-duties",
+   "date": "2025-08-02",
+   "title": "EU AI Act GPAI duties apply plus Code of Practice",
+   "category": "policy",
+   "organizations": [
+    "EU AI Office"
+   ],
+   "summary": "All GPAI providers must publish technical docs, copyright policy and training-data summary; systemic-risk (>1e25 FLOP) must notify, risk-assess, incident-report and cyber-protect. Pre-Aug 2025 models have until Aug 2027. Commission enforcement starts Aug 2026.",
+   "significance": "Foundation-model transparency becomes law in Europe.",
+   "tags": [
+    "eu",
+    "gpai",
+    "transparency",
+    "ai-act"
+   ],
+   "sources": [
+    {
+     "label": "Regulatory framework for AI / GPAI obligations (EU Digital Strategy, official)",
+     "type": "policy",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "verified": true,
+     "verifiedTitle": "AI Act | Shaping Europe’s digital future",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "General-purpose AI obligations FAQ (EU Digital Strategy, official)",
+     "type": "policy",
+     "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-act-gpai-obligations",
+     "verified": true,
+     "verifiedTitle": "FAQs | Shaping Europe’s digital future",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-08-05-gpt-oss",
+   "date": "2025-08-05",
+   "title": "OpenAI gpt-oss-120b plus 20b open-weights return plus Claude Opus 4.1",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "summary": "First open-weight LLMs since GPT-2, Apache 2.0, MoE (120B total/5.1B active; 20B/3.6B), MXFP4, Harmony format, full CoT. 120b ≈ o4-mini. Safety: adversarial fine-tuning, METR reviewed methodology. Same day Anthropic drops Opus 4.1 (74.5% SWE-Bench).",
+   "significance": "OpenAI returns to open weights after 6 years; dual frontier Tuesday.",
+   "tags": [
+    "gpt-oss",
+    "open-weights",
+    "openai",
+    "opus-4.1"
+   ],
+   "sources": [
+    {
+     "label": "Introducing gpt-oss (OpenAI, Aug 5 2025, open-weights return)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-gpt-oss/",
+     "verified": true,
+     "verifiedTitle": "Introducing gpt-oss | OpenAI"
+    },
+    {
+     "label": "openai/gpt-oss (official GitHub, Apache 2.0)",
+     "type": "repo",
+     "url": "https://github.com/openai/gpt-oss",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/gpt-oss: gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI · GitHub"
+    },
+    {
+     "label": "Claude Opus 4.1 (Anthropic, Aug 5 2025, same-day release)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-opus-4-1",
+     "verified": true,
+     "verifiedTitle": "Claude Opus 4.1 \\ Anthropic",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-08-07-gpt5-launch",
+   "date": "2025-08-07",
+   "title": "OpenAI GPT-5 unified system plus backlash and personality crisis",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Unified system with router (auto, fast, thinking), PhD-experts-in-pocket. Removes picker, retires 8 models overnight. Day-1 router bug seemed way dumber. Reddit GPT-5 is horrible 2k+ comments; cold versus warm 4o complaints, 200/week Thinking cap. Altman: totally screwed up rollout. Fixes Aug 8-15: 4o back for Plus, Thinking 200→3000/week, warmer personality, customization promise.",
+   "significance": "Biggest launch backlash since Bard; attachment and sycophancy debate.",
+   "tags": [
+    "gpt-5",
+    "openai",
+    "launch",
+    "backlash"
+   ],
+   "sources": [
+    {
+     "label": "Introducing GPT-5 for everyone (OpenAI, Aug 7 2025, unified system)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-gpt-5/",
+     "verified": true,
+     "verifiedTitle": "Introducing GPT-5 | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-09-15-gpt5-codex",
+   "date": "2025-09-15",
+   "title": "GPT-5-Codex plus Codex upgrades",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "RL on real-world tasks for Codex CLI, IDE, cloud, GitHub and mobile. 74.5% SWE-Bench Verified, refactor 33.9%→51.3% versus GPT-5. Sandboxed, permissioned web and MCP, citations and tests. Same price as GPT-5, Responses API only.",
+   "significance": "Coding-agent SOTA; refactor benchmark debut.",
+   "tags": [
+    "gpt-5-codex",
+    "coding-agent",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing upgrades to Codex (OpenAI, Sep 15 2025, GPT-5-Codex)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-upgrades-to-codex/",
+     "verified": true,
+     "verifiedTitle": "Introducing upgrades to Codex | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-09-29-sb53-signed",
+   "date": "2025-09-29",
+   "title": "California SB 53 signed (Transparency in Frontier AI Act)",
+   "category": "policy",
+   "organizations": [
+    "California",
+    "Anthropic",
+    "OpenAI",
+    "Meta",
+    "Google"
+   ],
+   "summary": "First-in-nation frontier law (eff. Jan 1, 2026): publish safety frameworks, report critical incidents (CBRN uplift, autonomous cyberattack, loss of control) in 15 days, whistleblower protection, AG penalties, CalCompute consortium. No new liability; federal harmonization path. Anthropic endorses; Meta and OpenAI lobby against.",
+   "significance": "Post-1047 compromise that actually becomes law; transparency template.",
+   "tags": [
+    "sb-53",
+    "california",
+    "transparency",
+    "frontier"
+   ],
+   "sources": [
+    {
+     "label": "SB-53 Transparency in Frontier AI Act (California Legislative Information, official)",
+     "type": "policy",
+     "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+     "verified": true,
+     "verifiedTitle": "Bill Text - SB-53 Artificial intelligence models: large developers (California LegInfo)",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Governor Newsom signs SB 53 (California, Sep 29 2025)",
+     "type": "policy",
+     "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+     "verified": true,
+     "verifiedTitle": "Governor Newsom signs SB 53, advancing California’s world-leading artificial intelligence industry | Governor of California",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-09-29-sonnet45",
+   "date": "2025-09-29",
+   "title": "Anthropic Claude Sonnet 4.5 best coding and agents",
+   "category": "model-release",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Best coding (SOTA SWE-Bench), best agents and computer use (OSWorld 61.4% versus 42.2% four months prior), 30-hr focus, most aligned (less deception and sycophancy). Drop-in $3/$15. Ships checkpoints, VS Code ext, Agent SDK and Claude for Chrome.",
+   "significance": "Agent-coding plus computer-use lead; 30-hour autonomy.",
+   "tags": [
+    "sonnet-4.5",
+    "anthropic",
+    "agents",
+    "coding"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Claude Sonnet 4.5 (Anthropic, Sep 29 2025, best coding and agents)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+     "verified": true,
+     "verifiedTitle": "Introducing Claude Sonnet 4.5 \\ Anthropic"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-09-30-sora2",
+   "date": "2025-09-30",
+   "title": "OpenAI Sora 2 plus Sora social app (iOS invite-only)",
+   "category": "product",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "GPT-3.5 moment for video: accurate physics, sharper realism, synchronized dialogue and SFX, steerability. Cameos via one-time verification, TikTok-style feed, parental controls. US and Canada, generous limits. System card: no photoreal person uploads initially, strict minor thresholds, provenance work.",
+   "significance": "Video goes social; cameo-consent model for likeness.",
+   "tags": [
+    "sora-2",
+    "video",
+    "social",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Sora 2 (OpenAI, Sep 30 2025, plus Sora social app)",
+     "type": "blog",
+     "url": "https://openai.com/index/sora-2/",
+     "verified": true,
+     "verifiedTitle": "Sora 2 is here | OpenAI"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-11-18-gemini3-pro",
+   "date": "2025-11-18",
+   "title": "Google Gemini 3 Pro preview path to AGI",
+   "category": "model-release",
+   "organizations": [
+    "Google DeepMind"
+   ],
+   "summary": "New era, best multimodal understanding, best agentic and vibe-coding, generative UI. 1501 LMArena Elo (first >1500), SOTA reasoning. In Gemini app, AI Mode and Search, Vertex and Antigravity agentic IDE. Knowledge cutoff Jan 2025. Flash preview Dec 17.",
+   "significance": "First 1500-Elo model; Google claims AGI path.",
+   "tags": [
+    "gemini-3",
+    "google",
+    "agentic",
+    "arena"
+   ],
+   "sources": [
+    {
+     "label": "Gemini 3 (Google Blog, Nov 18 2025, path to AGI preview)",
+     "type": "blog",
+     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+     "verified": true,
+     "verifiedTitle": "Gemini 3: Introducing the latest Gemini AI model from Google"
+    },
+    {
+     "label": "Gemini 3 API docs (Google AI for Developers, first-party)",
+     "type": "docs",
+     "url": "https://ai.google.dev/gemini-api/docs/gemini-3",
+     "verified": true,
+     "verifiedTitle": "Gemini 3 developer guide - Interactions API | Google AI for Developers",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-11-18-antigravity-launch",
+   "date": "2025-11-18",
+   "title": "Google Antigravity public preview (agent-first dev platform)",
+   "category": "product",
+   "organizations": [
+    "Google",
+    "Google DeepMind"
+   ],
+   "summary": "Launched alongside Gemini 3 Pro: Antigravity public preview, free on Windows, Mac and Linux. Agent-first platform with an Editor view (IDE with tab completions, commands, side-panel agent) plus a Manager surface to spawn and orchestrate multiple async agents. Agents autonomously plan, execute and verify across editor, terminal and browser (browser control included), reporting back with artifacts like task lists, plans, screenshots and recordings. Generous Gemini 3 Pro limits; millions of developers adopted it, 2.0 standalone app May 19 2026, Enterprise tier Aug 2026.",
+   "significance": "Google's agent-first IDE; makes manager-of-agents the default development workflow.",
+   "tags": [
+    "antigravity",
+    "coding-agent",
+    "ide",
+    "google",
+    "gemini",
+    "agentic"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Google Antigravity, a New Era in AI-Assisted Software Development (Antigravity Blog, Nov 18 2025)",
+     "type": "blog",
+     "url": "https://antigravity.google/blog/introducing-google-antigravity",
+     "verified": true,
+     "verifiedTitle": "Introducing Google Antigravity, a New Era in AI-Assisted Software Development | Google Antigravity Blog",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Build with Google Antigravity, our new agentic development platform (Google Developers Blog, Nov 20 2025)",
+     "type": "blog",
+     "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform",
+     "verified": true,
+     "verifiedTitle": "Build with Google Antigravity, our new agentic development platform - Google Developers Blog",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-11-24-opus45",
+   "date": "2025-11-24",
+   "title": "Anthropic Claude Opus 4.5",
+   "category": "model-release",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "Best coding, agents and computer-use plus everyday research. SOTA SWE-Bench Verified, effort parameter (medium matches Sonnet 4.5 with 76% fewer tokens), context compaction and subagent teams (+15pp deep research). $5/$25 cheaper Opus, all 3 clouds.",
+   "significance": "Efficiency plus capability: same quality, 76% fewer tokens.",
+   "tags": [
+    "opus-4.5",
+    "anthropic",
+    "efficiency",
+    "coding"
+   ],
+   "sources": [
+    {
+     "label": "Introducing Claude Opus 4.5 (Anthropic, Nov 24 2025)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-opus-4-5",
+     "verified": true,
+     "verifiedTitle": "Introducing Claude Opus 4.5 \\ Anthropic",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "title": "History of AI: From Attention Is All You Need to the 2026 Slowdown Debate",
+ "range": "2017-06-12 to 2026-09-12",
+ "created": "2026-09-12",
+ "usage": "Data for webpage. Load year files 2017.json ... 2026.json. Each file has year, range, description, count, events[]. Each event has id, date (YYYY-MM-DD), title, category, organizations[], summary, significance, tags[]. Sort events by date for timeline. See note_on_slowdown_pact in 2026.json — there is NO binding lab pact as of 2026-09-12.",
+ "schema": {
+  "event": {
+   "id": "string slug YYYY-MM-DD-short-name",
+   "date": "YYYY-MM-DD",
+   "title": "string",
+   "category": "paper | model-release | product | company | policy | drama | advance | infrastructure",
+   "organizations": [
+    "string"
+   ],
+   "summary": "2-5 sentence detailed summary",
+   "significance": "1-2 sentence why it mattered",
+   "tags": [
+    "string"
+   ]
+  }
+ },
+ "files": [
+  {
+   "year": 2017,
+   "file": "2017.json",
+   "count": 6
+  },
+  {
+   "year": 2018,
+   "file": "2018.json",
+   "count": 21
+  },
+  {
+   "year": 2019,
+   "file": "2019.json",
+   "count": 24
+  },
+  {
+   "year": 2020,
+   "file": "2020.json",
+   "count": 28
+  },
+  {
+   "year": 2021,
+   "file": "2021.json",
+   "count": 30
+  },
+  {
+   "year": 2022,
+   "file": "2022.json",
+   "count": 31
+  },
+  {
+   "year": 2023,
+   "file": "2023.json",
+   "count": 50
+  },
+  {
+   "year": 2024,
+   "file": "2024.json",
+   "count": 39
+  },
+  {
+   "year": 2025,
+   "file": "2025.json",
+   "count": 42
+  },
+  {
+   "year": 2026,
+   "file": "2026.json",
+   "count": 165
+  }
+ ],
+ "total_events": 436,
+ "categories": [
+  "paper",
+  "model-release",
+  "product",
+  "company",
+  "policy",
+  "drama",
+  "advance",
+  "infrastructure"
+ ],
+ "disclaimer": "Dates are best-available publication/announcement dates; some 2025-2026 rolling launches differ by surface (livestream vs blog vs GA). 2026 slowdown items labeled with confidence where single-sourced. Verify before presenting as pact."
+}

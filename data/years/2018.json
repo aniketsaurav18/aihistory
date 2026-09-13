@@ -1,0 +1,718 @@
+{
+  "year": 2018,
+  "range": "2018-01-01 to 2018-12-31",
+  "description": "Transfer learning comes to NLP with ULMFiT, ELMo, GPT-1 and BERT. OpenAI restructures after Musk leaves. BigGAN, StyleGAN and AlphaFold preview the generative and science revolutions.",
+  "count": 21,
+  "events": [
+    {
+      "id": "2018-01-23-ulmfit",
+      "date": "2018-01-23",
+      "title": "ULMFiT enables NLP transfer learning",
+      "category": "paper",
+      "organizations": [
+        "fast.ai",
+        "University of San Francisco"
+      ],
+      "summary": "Jeremy Howard and Sebastian Ruder posted arXiv:1801.06146 proposing Universal Language Model Fine-tuning with discriminative fine-tuning, slanted triangular rates and gradual unfreezing of a 3-layer AWD-LSTM. It cut error 18-24% on six text classification tasks and matched 100x data with only 100 labels. It established the ImageNet-like pretrain-then-finetune paradigm for NLP.",
+      "significance": "Direct template for GPT-1, ELMo and BERT scaling.",
+      "tags": [
+        "nlp",
+        "transfer-learning",
+        "pretraining"
+      ],
+      "sources": [
+        {
+          "label": "Universal Language Model Fine-tuning (arXiv 1801.06146, Howard/Ruder)",
+          "url": "https://arxiv.org/abs/1801.06146",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Universal Language Model Fine-tuning for Text Classification (ULMFiT)",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "fastai/fastai (official fast.ai GitHub, ULMFiT code)",
+          "url": "https://github.com/fastai/fastai",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - fastai/fastai: The fastai deep learning library · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-02-15-elmo",
+      "date": "2018-02-15",
+      "title": "ELMo deep contextualized word representations",
+      "category": "paper",
+      "organizations": [
+        "Allen Institute for AI",
+        "University of Washington"
+      ],
+      "summary": "Matthew Peters et al. posted arXiv:1802.05365 introducing ELMo, vectors as learned functions of internal states of a deep bidirectional LM trained on the 1B Word Benchmark. Adding ELMo improved SOTA on six tasks including QA, entailment, SRL and sentiment. It proved deep contextual polysemy beats static word2vec and GloVe.",
+      "significance": "Set up the GPT vs BERT race by proving context matters.",
+      "tags": [
+        "nlp",
+        "embeddings",
+        "ai2"
+      ],
+      "sources": [
+        {
+          "label": "Deep contextualized word representations / ELMo (arXiv 1802.05365)",
+          "url": "https://arxiv.org/abs/1802.05365",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Deep contextualized word representations (ELMo)",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "allenai/bilm-tf (official AllenAI GitHub)",
+          "url": "https://github.com/allenai/bilm-tf",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - allenai/bilm-tf: Tensorflow implementation of contextualized word representations",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-02-20-malicious-use-of-ai",
+      "date": "2018-02-20",
+      "title": "The Malicious Use of AI report",
+      "category": "policy",
+      "organizations": [
+        "OpenAI",
+        "Future of Humanity Institute",
+        "Cambridge CSER",
+        "EFF"
+      ],
+      "summary": "26 authors released a 100-page report on forecasting, prevention and mitigation after a 2017 Oxford workshop, plus OpenAI blog on preparing for malicious uses. It warned AI would expand cyber, physical (drone swarms) and political (fake news, spear-phishing) attacks within 5 years. It called for pre-publication risk assessment and selective sharing.",
+      "significance": "Framed OpenAI's later GPT-2 staged release and the whole publication-norms debate.",
+      "tags": [
+        "safety",
+        "policy",
+        "misuse"
+      ],
+      "sources": [
+        {
+          "label": "Preparing for malicious uses of AI (OpenAI blog)",
+          "url": "https://openai.com/index/preparing-for-malicious-uses-of-ai/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Preparing for malicious uses of AI | OpenAI",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Malicious AI Report official site",
+          "url": "https://www.maliciousaireport.com/",
+          "type": "site",
+          "verified": true,
+          "verifiedTitle": "Attention Required! | Cloudflare",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-02-20-musk-leaves-openai",
+      "date": "2018-02-20",
+      "title": "Elon Musk leaves OpenAI board",
+      "category": "company",
+      "organizations": [
+        "OpenAI",
+        "Tesla",
+        "SpaceX"
+      ],
+      "summary": "OpenAI announced co-founder Elon Musk departed the board to avoid future conflict as Tesla focused on AI for autonomy, continuing as donor and advisor. Later reporting (Semafor 2023, OpenAI 2024 emails) revealed Musk sought majority equity and CEO control to compete with Google DeepMind, withheld funding, and left claiming 0% success chance. The split forced OpenAI to seek billions elsewhere.",
+      "significance": "Trigger for the capped-profit restructuring and Microsoft deal. Origin of the Musk vs Altman feud litigated through 2024-2026.",
+      "tags": [
+        "openai",
+        "musk",
+        "drama",
+        "governance"
+      ],
+      "sources": [
+        {
+          "label": "OpenAI Supporters announcement incl. Musk departure (OpenAI, Feb 20 2018)",
+          "url": "https://openai.com/index/openai-supporters/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "OpenAI supporters | OpenAI",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "OpenAI and Elon Musk retrospective with 2018 emails (OpenAI)",
+          "url": "https://openai.com/index/openai-elon-musk/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "OpenAI and Elon Musk | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-04-09-openai-charter",
+      "date": "2018-04-09",
+      "title": "OpenAI Charter published",
+      "category": "policy",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "OpenAI published its Charter defining its mission to ensure AGI — highly autonomous systems outperforming humans at most economically valuable work — benefits all humanity. It committed to broadly distributed benefits, long-term safety, technical leadership and cooperative orientation, with fiduciary duty to humanity. The Charter governed later LP restructuring and non-release decisions.",
+      "significance": "Constitutional document cited in the 2023 board coup and every later safety fight.",
+      "tags": [
+        "openai",
+        "charter",
+        "agi",
+        "governance"
+      ],
+      "sources": [
+        {
+          "label": "OpenAI Charter (official charter page)",
+          "url": "https://openai.com/charter/",
+          "type": "site",
+          "verified": true,
+          "verifiedTitle": "OpenAI Charter | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-04-20-glue-benchmark",
+      "date": "2018-04-20",
+      "title": "GLUE benchmark launches",
+      "category": "advance",
+      "organizations": [
+        "NYU",
+        "University of Washington",
+        "DeepMind"
+      ],
+      "summary": "Alex Wang et al. posted arXiv:1804.07461 introducing General Language Understanding Evaluation of nine NLU tasks with a public leaderboard. Baselines showed large headroom, incentivizing transfer learning. GLUE scores became the standard metric that GPT, BERT, XLNet and RoBERTa successively smashed, leading to SuperGLUE in 2019.",
+      "significance": "Created the scoreboard that drove the 2018-2019 pretraining race.",
+      "tags": [
+        "benchmark",
+        "nlp",
+        "evaluation"
+      ],
+      "sources": [
+        {
+          "label": "GLUE: A Multi-Task Benchmark (arXiv 1804.07461, Wang et al.)",
+          "url": "https://arxiv.org/abs/1804.07461",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "GLUE Benchmark official site",
+          "url": "https://gluebenchmark.com/",
+          "type": "site",
+          "verified": true,
+          "verifiedTitle": "GLUE Benchmark",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "nyu-mll/GLUE-baselines (official GitHub)",
+          "url": "https://github.com/nyu-mll/GLUE-baselines",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - nyu-mll/GLUE-baselines: [DEPRECATED] Repo for exploring multi-task learning appro",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-05-08-google-duplex",
+      "date": "2018-05-08",
+      "title": "Google Duplex stuns at I/O with human-like phone calls",
+      "category": "product",
+      "organizations": [
+        "Google"
+      ],
+      "summary": "CEO Sundar Pichai demoed Google Duplex at I/O 2018: Assistant making real phone calls to book haircuts and restaurants with human-like ums and prosody via WaveNet plus RNN and ASR. Backlash over deception forced Google on May 10 to promise disclosure that the caller is the Google Assistant. It ignited the first mainstream AI impersonation ethics debate.",
+      "significance": "First viral moment for deceptive realism in AI assistants, precursor to voice-cloning fights in 2024.",
+      "tags": [
+        "assistant",
+        "voice",
+        "google",
+        "ethics"
+      ],
+      "sources": [
+        {
+          "label": "Google Duplex: An AI System for Real-World Tasks Over the Phone (Google Research Blog)",
+          "url": "https://research.google/blog/google-duplex-an-ai-system-for-accomplishing-real-world-tasks-over-the-phone/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Google Duplex: An AI System for Accomplishing Real-World Tasks Over the Phone",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-05-21-sagan",
+      "date": "2018-05-21",
+      "title": "Self-Attention GAN (SAGAN)",
+      "category": "paper",
+      "organizations": [
+        "Google Brain",
+        "Imperial College London"
+      ],
+      "summary": "Han Zhang et al. posted arXiv:1805.08318 adding self-attention to GANs to model long-range dependencies plus spectral normalization. It improved ImageNet IS and FID and enabled coherent global structure. Techniques were directly adopted by BigGAN and StyleGAN.",
+      "significance": "Brought attention into vision generation, bridging Transformer and GAN lines.",
+      "tags": [
+        "gan",
+        "attention",
+        "vision"
+      ],
+      "sources": [
+        {
+          "label": "Self-Attention GAN / SAGAN (arXiv 1805.08318)",
+          "url": "https://arxiv.org/abs/1805.08318",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Self-Attention Generative Adversarial Networks (SAGAN)",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-05-25-gdpr",
+      "date": "2018-05-25",
+      "title": "GDPR takes effect, reshaping AI data practices",
+      "category": "policy",
+      "organizations": [
+        "European Union"
+      ],
+      "summary": "The General Data Protection Regulation was enforced, imposing consent, data minimization, right to explanation and erasure on AI training data scraping. It forced labs to audit BooksCorpus, Common Crawl and face datasets. It shaped later debates on WebText, LAION and the right to be forgotten for LLMs.",
+      "significance": "Regulatory backdrop for every later data lawsuit from 2023 onward.",
+      "tags": [
+        "gdpr",
+        "privacy",
+        "eu",
+        "data"
+      ],
+      "sources": [
+        {
+          "label": "Regulation (EU) 2016/679 GDPR (EUR-Lex official)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "type": "policy",
+          "verified": true,
+          "verifiedTitle": "Regulation - 2016/679 - EN - gdpr - EUR-Lex",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "EU Data Protection (European Commission official)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+          "type": "policy",
+          "verified": true,
+          "verifiedTitle": "Data protection - European Commission",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-06-11-gpt-1",
+      "date": "2018-06-11",
+      "title": "GPT-1: Improving Language Understanding by Generative Pre-Training",
+      "category": "model-release",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "Alec Radford et al. released GPT-1: 12-layer decoder-only Transformer, 117M parameters, BooksCorpus pretraining then task-specific fine-tuning. Trained on 8x P600 GPUs for 30 days, it set SOTA on 9 of 12 NLU tasks. It coined GPT and proved unsupervised pretraining plus Transformer scales.",
+      "significance": "Birth of the GPT lineage that leads directly to ChatGPT and GPT-5.",
+      "tags": [
+        "gpt",
+        "openai",
+        "transformer",
+        "pretraining"
+      ],
+      "sources": [
+        {
+          "label": "Improving Language Understanding by Generative Pre-Training / GPT-1 (OpenAI blog: Language Unsupervised)",
+          "url": "https://openai.com/index/language-unsupervised/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Improving language understanding with unsupervised learning | OpenAI",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Improving Language Understanding by Generative Pre-Training paper PDF (OpenAI authors)",
+          "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Improving Language Understanding by Generative Pre-Training (GPT-1 paper, OpenAI)",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-06-25-openai-five",
+      "date": "2018-06-25",
+      "title": "OpenAI Five 5v5 beats amateurs in Dota",
+      "category": "advance",
+      "organizations": [
+        "OpenAI",
+        "Valve"
+      ],
+      "summary": "OpenAI announced a team of five LSTMs trained with PPO self-play (180 years per day) beat top 1% amateurs in restricted 5-hero Dota 5v5. It demonstrated coordination and long horizons (45-minute games, 20k-dim observations). Set up the August loss at The International and the 2019 comeback against world champions OG.",
+      "significance": "Showed RL scales to messy team cooperation, not just 1v1.",
+      "tags": [
+        "openai-five",
+        "dota",
+        "rl"
+      ],
+      "sources": [
+        {
+          "label": "OpenAI Five 5v5 Dota (OpenAI, Jun 25 2018)",
+          "url": "https://openai.com/index/openai-five/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "OpenAI Five | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-07-10-universal-transformer",
+      "date": "2018-07-10",
+      "title": "Universal Transformer recurrent-in-depth",
+      "category": "paper",
+      "organizations": [
+        "Google Brain",
+        "DeepMind",
+        "University of Amsterdam"
+      ],
+      "summary": "Mostafa Dehghani et al. posted arXiv:1807.03819 proposing a Universal Transformer with tied weights plus Adaptive Computation Time halting, Turing-complete under assumptions. It beat vanilla Transformer by 0.9 BLEU on WMT14 En-De and set SOTA on bAbI and LAMBADA. It showed recurrence plus attention fixes length generalization, influencing Transformer-XL.",
+      "significance": "Early attempt to fix the Transformer's length and reasoning limits.",
+      "tags": [
+        "transformer",
+        "reasoning",
+        "google"
+      ],
+      "sources": [
+        {
+          "label": "Universal Transformers (arXiv 1807.03819)",
+          "url": "https://arxiv.org/abs/1807.03819",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Universal Transformers",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-07-30-openai-dactyl",
+      "date": "2018-07-30",
+      "title": "OpenAI Dactyl dexterous robot hand",
+      "category": "advance",
+      "organizations": [
+        "OpenAI"
+      ],
+      "summary": "OpenAI published Learning Dexterity showing a Shadow Hand with PPO plus domain randomization in MuJoCo solving Rubik's cube one-handed and block manipulation. Trained with the same code as OpenAI Five, it proved large-scale RL transfers from games to real robotics. It highlighted the need for massive compute that motivated the capped-profit LP.",
+      "significance": "Peak of OpenAI's robotics era before the pivot to language.",
+      "tags": [
+        "robotics",
+        "rl",
+        "openai"
+      ],
+      "sources": [
+        {
+          "label": "Learning Dexterity (OpenAI blog, Jul 30 2018)",
+          "url": "https://openai.com/index/learning-dexterity/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Learning dexterity | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Learning Dexterous In-Hand Manipulation (arXiv 1808.00177)",
+          "url": "https://arxiv.org/abs/1808.00177",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Learning Dexterous In-Hand Manipulation (Dactyl)",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-08-22-openai-five-ti8-loss",
+      "date": "2018-08-22",
+      "title": "OpenAI Five loses at The International 2018",
+      "category": "advance",
+      "organizations": [
+        "OpenAI",
+        "Valve"
+      ],
+      "summary": "At TI8 in Vancouver, OpenAI Five lost 0-2 to paiN Gaming and a Chinese all-star mix despite leading early, due to rule changes and a new patch. Coverage framed the loss as a win, showing RL near human pro level in a complex MOBA. The team resumed continuous training, enabling the 2019 victory.",
+      "significance": "Honest failure that clarified the generalization gap in RL.",
+      "tags": [
+        "openai-five",
+        "dota",
+        "rl"
+      ],
+      "sources": [
+        {
+          "label": "OpenAI Five Benchmark Results at TI8 (OpenAI, Aug 22 2018)",
+          "url": "https://openai.com/index/openai-five-benchmark-results/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "OpenAI Five Benchmark: Results | OpenAI",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-09-28-biggan",
+      "date": "2018-09-28",
+      "title": "BigGAN large-scale GAN training",
+      "category": "paper",
+      "organizations": [
+        "DeepMind",
+        "Heriot-Watt University"
+      ],
+      "summary": "Andrew Brock, Jeff Donahue and Karen Simonyan posted arXiv:1809.11096 training class-conditional GANs at unprecedented scale: 2-4x parameters, 8x batch size (2048), orthogonal regularization plus truncation trick. It achieved Inception Score 166.5 and FID 7.4 on 128px ImageNet versus prior 52.5 and 18.65. Presented at ICLR 2019, it set the fidelity bar.",
+      "significance": "Showed scaling laws apply to generative vision, peak of the GAN era before diffusion.",
+      "tags": [
+        "gan",
+        "vision",
+        "scaling",
+        "deepmind"
+      ],
+      "sources": [
+        {
+          "label": "Large Scale GAN Training for High Fidelity Natural Image Synthesis / BigGAN (arXiv 1809.11096)",
+          "url": "https://arxiv.org/abs/1809.11096",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "Large Scale GAN Training for High Fidelity Natural Image Synthesis (BigGAN)",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-10-08-waymo-note",
+      "date": "2018-10-08",
+      "title": "Waymo context: self-driving as parallel AI bet (background)",
+      "category": "advance",
+      "organizations": [
+        "Waymo",
+        "Alphabet"
+      ],
+      "summary": "While language dominated research, Waymo continued scaling self-driving tests in 2018 toward the later 2020 driverless launch. Included here for webpage continuity to show AI progress was not only language. The autonomy track (Waymo vs Tesla vision-only) runs in parallel to the LLM story through 2024 Robotaxi launches.",
+      "significance": "Context that AI history in this period spans robotics and autonomy too.",
+      "tags": [
+        "waymo",
+        "autonomy",
+        "context"
+      ],
+      "sources": [
+        {
+          "label": "Waymo official site (background context; autonomy track parallel to LLMs)",
+          "url": "https://waymo.com/",
+          "type": "site",
+          "verified": true,
+          "verifiedTitle": "Waymo - Self-Driving Cars - Autonomous Vehicles - Ride-Hail",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Waymo Blog index (2018 self-driving updates)",
+          "url": "https://waymo.com/blog/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Waypoint - The official Waymo blog",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-10-11-bert-paper",
+      "date": "2018-10-11",
+      "title": "BERT paper: Pre-training of Deep Bidirectional Transformers",
+      "category": "paper",
+      "organizations": [
+        "Google AI Language"
+      ],
+      "summary": "Jacob Devlin et al. posted arXiv:1810.04805 introducing Bidirectional Encoder Representations from Transformers with masked LM plus next-sentence prediction, pretraining Base (110M) and Large (340M) on BooksCorpus plus Wikipedia (3.3B words) on 16 TPUs. Fine-tuned with one extra layer it pushed GLUE to 80.5 (+7.7), MultiNLI to 86.7% and SQuAD F1 to 93.2, beating humans on SQuAD. It made bidirectional pretraining dominant.",
+      "significance": "Most influential NLP paper of 2018; briefly overtook GPT as the dominant paradigm.",
+      "tags": [
+        "bert",
+        "google",
+        "nlp",
+        "pretraining"
+      ],
+      "sources": [
+        {
+          "label": "BERT: Pre-training of Deep Bidirectional Transformers (arXiv 1810.04805)",
+          "url": "https://arxiv.org/abs/1810.04805",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+        },
+        {
+          "label": "google-research/bert (official GitHub)",
+          "url": "https://github.com/google-research/bert",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - google-research/bert: TensorFlow code and pre-trained models for BERT · GitHub"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-10-31-bert-open-source",
+      "date": "2018-10-31",
+      "title": "BERT open-source release sparks explosion",
+      "category": "model-release",
+      "organizations": [
+        "Google Research",
+        "Hugging Face"
+      ],
+      "summary": "Google released TensorFlow code plus Base and Large checkpoints under Apache 2.0. One-hour TPU fine-tuning replicated the paper, sparking an explosion of BERT-as-service, Hugging Face's pytorch-pretrained-BERT port in December 2018, and thousands of derivatives. It cemented the open-weight LLM norm later broken by GPT-2.",
+      "significance": "Made Hugging Face the GitHub of models and proved open release accelerates adoption.",
+      "tags": [
+        "bert",
+        "open-source",
+        "huggingface"
+      ],
+      "sources": [
+        {
+          "label": "Open Sourcing BERT (Google Research Blog)",
+          "url": "https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Open Sourcing BERT: State-of-the-Art Pre-training for Natural Language Processin",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "google-research/bert (official GitHub, Apache-2.0)",
+          "url": "https://github.com/google-research/bert",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - google-research/bert: TensorFlow code and pre-trained models for BERT · GitHub"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-12-02-alphafold-casp13",
+      "date": "2018-12-02",
+      "title": "AlphaFold wins CASP13 protein-folding competition",
+      "category": "advance",
+      "organizations": [
+        "DeepMind"
+      ],
+      "summary": "At CASP13 in Cancun, AlphaFold placed first in free modeling, predicting 25 of 43 proteins with z-score 68.3 versus 48.2 for second place, using CNN distance distributions plus fragment assembly and gradient descent. First decisive deep-learning win on the 50-year protein-folding grand challenge, forerunner to AlphaFold 2 and the 2024 Nobel Prize.",
+      "significance": "First sign AI could solve grand scientific challenges, not just games and language.",
+      "tags": [
+        "alphafold",
+        "biology",
+        "deepmind",
+        "science"
+      ],
+      "sources": [
+        {
+          "label": "AlphaFold: Using AI for scientific discovery (DeepMind blog, Dec 2018)",
+          "url": "https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "AlphaFold: Using AI for scientific discovery — Google DeepMind",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "deepmind-research alphafold_casp13 (official DeepMind GitHub)",
+          "url": "https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "deepmind-research/alphafold_casp13 at master · google-deepmind/deepmind-research · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-12-06-alphazero-science",
+      "date": "2018-12-06",
+      "title": "AlphaZero Science paper and chess analysis",
+      "category": "paper",
+      "organizations": [
+        "DeepMind"
+      ],
+      "summary": "Science published A general RL algorithm that masters chess, shogi and Go through self-play with expanded 1000-game matches: 155 wins and 6 losses versus Stockfish, 91.2% versus Elmo. DeepMind's blog plus GM analysis showed human-like positional sacrifices. It proved generality and influenced MuZero.",
+      "significance": "Peer-reviewed capstone of the 2017-2018 game-AI era.",
+      "tags": [
+        "alphazero",
+        "science",
+        "deepmind"
+      ],
+      "sources": [
+        {
+          "label": "A general RL algorithm that masters chess, shogi, and Go (Science)",
+          "url": "https://www.science.org/doi/10.1126/science.aar6404",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play | Science",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "AlphaZero: Shedding new light on chess, shogi, and Go (DeepMind blog, full evaluation)",
+          "url": "https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "AlphaZero: Shedding new light on chess, shogi, and Go — Google DeepMind",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2018-12-12-stylegan",
+      "date": "2018-12-12",
+      "title": "StyleGAN style-based generator",
+      "category": "paper",
+      "organizations": [
+        "NVIDIA"
+      ],
+      "summary": "Tero Karras, Samuli Laine and Timo Aila posted arXiv:1812.04948 proposing a style-based generator mapping z to intermediate W controlling AdaIN at each convolution plus stochastic noise for freckles and hair. Trained on FFHQ, it disentangled pose and identity and enabled scale-specific control. Code in February 2019 powered ThisPersonDoesNotExist and the deepfake boom.",
+      "significance": "Defined controllable image synthesis; aesthetic standard until diffusion took over in 2022.",
+      "tags": [
+        "gan",
+        "stylegan",
+        "nvidia",
+        "faces"
+      ],
+      "sources": [
+        {
+          "label": "A Style-Based Generator Architecture for GANs / StyleGAN (arXiv 1812.04948)",
+          "url": "https://arxiv.org/abs/1812.04948",
+          "type": "paper",
+          "verified": true,
+          "verifiedTitle": "A Style-Based Generator Architecture for Generative Adversarial Networks (StyleGAN)",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "NVlabs/stylegan (official NVIDIA GitHub)",
+          "url": "https://github.com/NVlabs/stylegan",
+          "type": "release",
+          "verified": true,
+          "verifiedTitle": "GitHub - NVlabs/stylegan: StyleGAN - Official TensorFlow Implementation · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "verified": true
+    }
+  ]
+}

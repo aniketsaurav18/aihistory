@@ -1,0 +1,825 @@
+{
+ "year": 2019,
+ "range": "2019-01-01 to 2019-12-31",
+ "description": "GPT-2 is withheld as too dangerous, sparking the openness vs safety war. OpenAI becomes capped-profit and takes $1B from Microsoft. XLNet, RoBERTa, T5 and AlphaStar close the pre-GPT-3 era.",
+ "count": 24,
+ "events": [
+  {
+   "id": "2019-01-09-transformer-xl",
+   "date": "2019-01-09",
+   "title": "Transformer-XL breaks fixed context",
+   "category": "paper",
+   "organizations": [
+    "Carnegie Mellon University",
+    "Google Brain"
+   ],
+   "summary": "Zihang Dai et al. posted arXiv:1901.02860 introducing segment-level recurrence plus relative positional encodings to cache hidden states, learning dependencies 80% longer than RNNs and 450% longer than vanilla Transformers. It set SOTA perplexity on enwiki8, text8 and WikiText-103. Backbone for XLNet and long-context LLMs.",
+   "significance": "First credible fix for the 512-token limit that constrained GPT-1 and BERT.",
+   "tags": [
+    "transformer",
+    "long-context",
+    "google"
+   ],
+   "sources": [
+    {
+     "label": "Transformer-XL (arXiv 1901.02860, Dai et al.)",
+     "url": "https://arxiv.org/abs/1901.02860",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "kimiyoung/transformer-xl (official author GitHub)",
+     "url": "https://github.com/kimiyoung/transformer-xl",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - kimiyoung/transformer-xl · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-01-24-alphastar-beats-pros",
+   "date": "2019-01-24",
+   "title": "AlphaStar beats StarCraft II pros",
+   "category": "advance",
+   "organizations": [
+    "DeepMind",
+    "Blizzard Entertainment"
+   ],
+   "summary": "DeepMind revealed in a January 24 livestream (games played December 2018) that AlphaStar — transformer torso plus LSTM core trained by imitation plus league self-play on 16 TPUs for 14 days — beat Team Liquid's MaNa 5-0 and TLO, 10-1 overall. First AI to beat pros in a full real-time strategy game with imperfect information and 10^26 possible actions.",
+   "significance": "Hardest game-AI milestone to date; Grandmaster version followed in October.",
+   "tags": [
+    "alphastar",
+    "starcraft",
+    "deepmind",
+    "rl"
+   ],
+   "sources": [
+    {
+     "label": "AlphaStar: Mastering StarCraft II (DeepMind blog, Jan 24 2019)",
+     "url": "https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "AlphaStar: Mastering the real-time strategy game StarCraft II — Google DeepMind",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-02-11-us-ai-initiative",
+   "date": "2019-02-11",
+   "title": "US Executive Order on Maintaining American Leadership in AI",
+   "category": "policy",
+   "organizations": [
+    "White House",
+    "OSTP"
+   ],
+   "summary": "President Trump signed EO 13859 launching the American AI Initiative directing federal agencies to prioritize AI R&D funding, data and cloud access, NIST standards, workforce training and international norms. First US national AI strategy, responding to China's 2017 plan. Led to increased DoD and NSF budgets labs relied on.",
+   "significance": "Start of US industrial policy for AI that runs through the 2023 EO and 2025 Action Plan.",
+   "tags": [
+    "policy",
+    "usa",
+    "strategy"
+   ],
+   "sources": [
+    {
+     "label": "EO 13859 Maintaining American Leadership in AI (Trump White House archives)",
+     "url": "https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-maintaining-american-leadership-artificial-intelligence/",
+     "type": "policy",
+     "verified": true,
+     "verifiedTitle": "Executive Order on Maintaining American Leadership in Artificial Intelligence – The White ",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "EO 13859 Federal Register (official)",
+     "url": "https://www.federalregister.gov/documents/2019/02/14/2019-02544/maintaining-american-leadership-in-artificial-intelligence",
+     "type": "policy",
+     "verified": true,
+     "verifiedTitle": "Federal Register :: Request Access",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-02-14-gpt2-withheld",
+   "date": "2019-02-14",
+   "title": "GPT-2 announced but withheld as too dangerous",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI unveiled GPT-2: 1.5B-parameter decoder Transformer, 10x GPT-1, trained on 40GB WebText to predict next word, SOTA on 7 of 8 zero-shot language tasks. Citing misuse for fake news, spam and impersonation, it released only the 124M small model, launching a staged-release experiment and a global safety vs openness debate.",
+   "significance": "Founding drama of AI safety publishing norms; every later gated release cites this.",
+   "tags": [
+    "gpt-2",
+    "openai",
+    "safety",
+    "staged-release"
+   ],
+   "sources": [
+    {
+     "label": "Better Language Models / GPT-2 announcement (OpenAI, Feb 14 2019)",
+     "url": "https://openai.com/index/better-language-models/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Better language models and their implications | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Language Models are Unsupervised Multitask Learners paper PDF (OpenAI authors)",
+     "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Language Models are Unsupervised Multitask Learners (GPT-2 paper, OpenAI)",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-03-11-openai-lp",
+   "date": "2019-03-11",
+   "title": "OpenAI creates capped-profit OpenAI LP",
+   "category": "company",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI announced a shift from nonprofit to capped-profit LP controlled by the nonprofit board, capping first investors at 100x with excess to the nonprofit, with Sam Altman as CEO. Citing need for billions in Azure compute and talent, it enabled equity fundraising while claiming mission primacy. Critics saw the end of openness.",
+   "significance": "Legal structure that enabled the Microsoft deal and caused the 2023 board crisis.",
+   "tags": [
+    "openai",
+    "governance",
+    "capped-profit"
+   ],
+   "sources": [
+    {
+     "label": "Introducing OpenAI LP capped-profit structure (OpenAI, Mar 11 2019)",
+     "url": "https://openai.com/index/openai-lp/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "OpenAI LP | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-04-08-eu-ethics",
+   "date": "2019-04-08",
+   "title": "EU Ethics Guidelines for Trustworthy AI",
+   "category": "policy",
+   "organizations": [
+    "European Commission"
+   ],
+   "summary": "The EU High-Level Expert Group published Ethics Guidelines defining 7 requirements: human agency, robustness, privacy, transparency, diversity, societal well-being and accountability. It framed human-centric trustworthy AI versus US and China approaches, influencing the later AI Act.",
+   "significance": "Philosophical blueprint for the EU AI Act agreed in 2023.",
+   "tags": [
+    "eu",
+    "ethics",
+    "trustworthy-ai"
+   ],
+   "sources": [
+    {
+     "label": "Ethics Guidelines for Trustworthy AI (EU Digital Strategy, official)",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai",
+     "type": "policy",
+     "verified": true,
+     "verifiedTitle": "Ethics guidelines for trustworthy AI | Shaping Europe’s digital future",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "High-Level Expert Group on AI (European Commission, official)",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/expert-group-ai",
+     "type": "policy",
+     "verified": true,
+     "verifiedTitle": "High-level expert group on artificial intelligence | Shaping Europe’s digital future",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-04-13-five-beats-og",
+   "date": "2019-04-13",
+   "title": "OpenAI Five defeats world champions OG",
+   "category": "advance",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "At the OpenAI Five Finals in San Francisco, Five — training continuously since June 2018, 45,000 years of self-play — beat reigning TI8 champions OG 2-0 live on stream, the first AI to beat esports world champions live. It showed transfer across patches and drafting. OpenAI then opened Five Arena to the public.",
+   "significance": "Redemption for the 2018 loss; peak of game-RL before the pivot to language.",
+   "tags": [
+    "openai-five",
+    "dota",
+    "rl"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI Five defeats Dota 2 world champions OG (OpenAI, Apr 15 2019)",
+     "url": "https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "OpenAI Five defeats Dota 2 world champions | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-04-16-sparse-transformer",
+   "date": "2019-04-16",
+   "title": "Sparse Transformer for million-length sequences",
+   "category": "paper",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Rewon Child et al. posted arXiv:1904.10080 factorizing attention with sparse patterns to handle sequences up to 1M tokens in O(n sqrt n). It set SOTA on CIFAR-10, Enwik8 and ImageNet64. It showed a path to long-context scaling later used in GPT-3 and Longformer.",
+   "significance": "Conceptual ancestor of all long-context work culminating in 1M-token Gemini.",
+   "tags": [
+    "sparse-attention",
+    "long-context",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Generating Long Sequences with Sparse Transformers (arXiv 1904.10080)",
+     "url": "https://arxiv.org/abs/1904.10080",
+     "type": "paper",
+     "note": "Removed Sep 2026: URL points to wrong paper (ID error in our data); flagged for replacement",
+     "verified": true,
+     "verifiedTitle": "[1904.10080] The trace form over cyclic number fields",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Sparse Transformer (OpenAI blog, Apr 16 2019)",
+     "url": "https://openai.com/index/sparse-transformer/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Generative modeling with sparse transformers | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-04-18-five-arena",
+   "date": "2019-04-18",
+   "title": "OpenAI Five Arena beats public 99.4%",
+   "category": "product",
+   "organizations": [
+    "OpenAI",
+    "Valve"
+   ],
+   "summary": "OpenAI opened Five Arena April 18-21 for anyone to play versus Five; results April 22: 7,215 wins and 42 losses (99.4%), 35,466 co-op games, 30,937 players, 10.7 years of play in 3 days. It revealed robustness with few exploits. Announced as the final public Dota demo to refocus on general RL and language.",
+   "significance": "Largest human-vs-AI experiment to date at the time.",
+   "tags": [
+    "openai-five",
+    "arena",
+    "human-ai"
+   ],
+   "sources": []
+  },
+  {
+   "id": "2019-05-01-talk-to-transformer",
+   "date": "2019-05-01",
+   "title": "Talk to Transformer goes viral",
+   "category": "product",
+   "organizations": [
+    "Independent",
+    "OpenAI"
+   ],
+   "summary": "Developer Adam King launched TalkToTransformer.com giving a free web UI to GPT-2 355M generation. Millions experimented, memes and fake-news demos proliferated, pressuring OpenAI's staged narrative. It demonstrated demand for accessible LLM demos, precursor to ChatGPT.",
+   "significance": "Proof that demos drive adoption more than papers.",
+   "tags": [
+    "demo",
+    "gpt-2",
+    "virality"
+   ],
+   "sources": [
+    {
+     "label": "Talk to Transformer demo (third-party demo by Adam King using GPT-2 355M; no first-party)",
+     "url": "https://talktotransformer.com/",
+     "type": "site",
+     "note": "Domain repurposed since 2019 (now InferKit, confirmed Sep 2026); kept as historical reference",
+     "verified": true,
+     "verifiedTitle": "InferKit",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-05-20-gpt2-355m",
+   "date": "2019-05-20",
+   "title": "GPT-2 355M medium release",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI",
+    "Partnership on AI"
+   ],
+   "summary": "OpenAI released the 355M model as stage two, after a Partnership on AI dinner and Congressional testimony on synthetic media. It included a dataset of outputs plus detection baseline. Hugging Face chose not to release a large variant in its demo; UW and AllenAI released GROVER but withheld large weights too, endorsing staged norms.",
+   "significance": "Showed partnership-based sharing could work as a middle path.",
+   "tags": [
+    "gpt-2",
+    "staged-release",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "Better Language Models staged release note (OpenAI)",
+     "url": "https://openai.com/index/better-language-models/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Better language models and their implications | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "openai/gpt-2 (official GitHub, 355M weights)",
+     "url": "https://github.com/openai/gpt-2",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/gpt-2: Code for the paper \"Language Models are Unsupervised Multitask Lear",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-06-05-grover",
+   "date": "2019-06-05",
+   "title": "GROVER neural fake news defense",
+   "category": "paper",
+   "organizations": [
+    "University of Washington",
+    "Allen Institute for AI"
+   ],
+   "summary": "Rowan Zellers et al. posted Defending Against Neural Fake News training a 1.5B GROVER generator plus detector, finding the best defense is the generator itself (92% detection). Like GPT-2, large weights were withheld. It validated OpenAI's concerns and pushed detection research.",
+   "significance": "ाएकेडमिक counterpart to GPT-2's misuse analysis.",
+   "tags": [
+    "fake-news",
+    "detection",
+    "safety"
+   ],
+   "sources": [
+    {
+     "label": "Defending Against Neural Fake News / GROVER (arXiv 1905.12616)",
+     "url": "https://arxiv.org/abs/1905.12616",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Defending Against Neural Fake News (GROVER)",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "rowanz/grover (official author GitHub)",
+     "url": "https://github.com/rowanz/grover",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - rowanz/grover: Code for Defending Against Neural Fake News, https://rowanzellers.",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-06-19-xlnet",
+   "date": "2019-06-19",
+   "title": "XLNet generalized autoregressive pretraining",
+   "category": "model-release",
+   "organizations": [
+    "Carnegie Mellon University",
+    "Google Brain"
+   ],
+   "summary": "Zhilin Yang et al. released XLNet-Large (340M) combining permutation LM plus Transformer-XL to learn bidirectional context without BERT's mask discrepancy, trained on 33B words. It outperformed BERT-Large on 20 tasks and set SOTA on 18 including SQuAD 2.0 and RACE. It reignited the autoregressive vs autoencoding debate.",
+   "significance": "Brief SOTA that proved autoregression could match BERT, paving the way for GPT-2 acceptance.",
+   "tags": [
+    "xlnet",
+    "nlp",
+    "pretraining"
+   ],
+   "sources": [
+    {
+     "label": "XLNet: Generalized Autoregressive Pretraining (arXiv 1906.08237)",
+     "url": "https://arxiv.org/abs/1906.08237",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "zihangdai/xlnet (official author GitHub)",
+     "url": "https://github.com/zihangdai/xlnet",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - zihangdai/xlnet: XLNet: Generalized Autoregressive Pretraining for Language Under",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-07-22-microsoft-1b",
+   "date": "2019-07-22",
+   "title": "Microsoft invests $1B in OpenAI",
+   "category": "company",
+   "organizations": [
+    "Microsoft",
+    "OpenAI"
+   ],
+   "summary": "Microsoft and OpenAI announced a multiyear exclusive: $1B into OpenAI LP, Azure as exclusive cloud plus a joint supercomputer, Microsoft as preferred commercialization partner licensing pre-AGI tech. Framed on shared ethics to build AGI for climate, health and education. It gave OpenAI compute to train GPT-3 and anchored the Big Tech-lab alignment era.",
+   "significance": "Most consequential cloud-lab deal; basis for Copilot, Bing Chat and the 2023-2025 race.",
+   "tags": [
+    "microsoft",
+    "openai",
+    "funding",
+    "azure"
+   ],
+   "sources": [
+    {
+     "label": "OpenAI forms exclusive computing partnership with Microsoft (Microsoft News, Jul 22 2019)",
+     "url": "https://news.microsoft.com/2019/07/22/openai-forms-exclusive-computing-partnership-with-microsoft-to-build-new-azure-ai-supercomputing-technologies/",
+     "type": "site",
+     "verified": true,
+     "verifiedTitle": "OpenAI forms exclusive computing partnership with Microsoft to build new Azure AI supercom",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Microsoft invests in and partners with OpenAI (OpenAI, Jul 22 2019)",
+     "url": "https://openai.com/index/microsoft-invests-in-and-partners-with-openai/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Microsoft invests in and partners with OpenAI to support us building beneficial AGI | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-07-26-roberta",
+   "date": "2019-07-26",
+   "title": "RoBERTa robustly optimized BERT",
+   "category": "paper",
+   "organizations": [
+    "Facebook AI",
+    "University of Washington"
+   ],
+   "summary": "Yinhan Liu et al. posted arXiv:1907.11692 replicating BERT with dynamic masking, removing next-sentence prediction, larger batches (8k), more data (160GB) and longer training on 1024 V100s. It found BERT significantly undertrained; RoBERTa matched or exceeded XLNet on GLUE, SQuAD 2.0 and RACE. It showed training recipe matters more than architecture.",
+   "significance": "Shifted focus from novel architectures to data and training at scale.",
+   "tags": [
+    "roberta",
+    "bert",
+    "meta",
+    "training"
+   ],
+   "sources": [
+    {
+     "label": "RoBERTa: Robustly Optimized BERT (arXiv 1907.11692)",
+     "url": "https://arxiv.org/abs/1907.11692",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "facebookresearch/fairseq (official Meta GitHub incl. RoBERTa)",
+     "url": "https://github.com/facebookresearch/fairseq",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "facebookresearch/fairseq",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-08-20-gpt2-774m",
+   "date": "2019-08-20",
+   "title": "GPT-2 774M release plus staged-release report",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI released the 774M model with a 6-month follow-up blog and whitepaper on publication norms. It noted no strong misuse yet, but credible fake NYT generations and replicas like NVIDIA's 8.3B model. It argued staged plus partnership sharing should be the norm for powerful generative models.",
+   "significance": "Penultimate step before full release; template for later system cards.",
+   "tags": [
+    "gpt-2",
+    "safety",
+    "release"
+   ],
+   "sources": [
+    {
+     "label": "GPT-2 6-month follow-up and 774M release (OpenAI, Aug 20 2019)",
+     "url": "https://openai.com/index/gpt-2-6-month-follow-up/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "GPT-2: 6-month follow-up | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "openai/gpt-2 (official GitHub)",
+     "url": "https://github.com/openai/gpt-2",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/gpt-2: Code for the paper \"Language Models are Unsupervised Multitask Lear",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-09-12-ctrl",
+   "date": "2019-09-12",
+   "title": "CTRL conditional Transformer",
+   "category": "model-release",
+   "organizations": [
+    "Salesforce Research"
+   ],
+   "summary": "Salesforce released CTRL: 1.63B conditional LM with 50 control codes (domain, style, date, URLs) trained on 140GB. It enabled controllable generation without fine-tuning. First large open controllable LLM, foreshadowing instruction-tuning and system prompts.",
+   "significance": "Ancestor of system prompts and instruction following.",
+   "tags": [
+    "controllable",
+    " salesforce",
+    "lm"
+   ],
+   "sources": [
+    {
+     "label": "CTRL Conditional Transformer LM (arXiv 1909.05858)",
+     "url": "https://arxiv.org/abs/1909.05858",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "CTRL: A Conditional Transformer Language Model for Controllable Generation",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "salesforce/ctrl (official Salesforce GitHub)",
+     "url": "https://github.com/salesforce/ctrl",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "salesforce/ctrl",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-09-26-albert",
+   "date": "2019-09-26",
+   "title": "ALBERT lite BERT with parameter sharing",
+   "category": "paper",
+   "organizations": [
+    "Google Research",
+    "Toyota Technological Institute at Chicago"
+   ],
+   "summary": "Zhenzhong Lan et al. posted arXiv:1909.11942 introducing factorized embeddings plus cross-layer sharing plus sentence-order loss, cutting BERT-Large 334M to 18M while allowing 233M xxlarge scaling. It set SOTA on GLUE, RACE and SQuAD with fewer parameters. It pushed parameter-efficiency that enabled later scaling.",
+   "significance": "Showed bigger is not the only path; efficiency matters.",
+   "tags": [
+    "albert",
+    "efficiency",
+    "bert"
+   ],
+   "sources": [
+    {
+     "label": "ALBERT: A Lite BERT (arXiv 1909.11942)",
+     "url": "https://arxiv.org/abs/1909.11942",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "google-research/albert (official GitHub)",
+     "url": "https://github.com/google-research/albert",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - google-research/albert: ALBERT: A Lite BERT for Self-supervised Learning of Langu",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-10-02-distilbert",
+   "date": "2019-10-02",
+   "title": "DistilBERT distilled BERT",
+   "category": "model-release",
+   "organizations": [
+    "Hugging Face"
+   ],
+   "summary": "Victor Sanh et al. posted arXiv:1910.01108 distilling BERT-Base via triple loss during pretraining into a 6-layer 66M model — 40% smaller, 60% faster, retaining 97% of performance. It showed on-device NLP viable with cheaper pretraining and became the default efficient baseline.",
+   "significance": "Popularized knowledge distillation for LLMs; Hugging Face's breakout research contribution.",
+   "tags": [
+    "distillation",
+    "huggingface",
+    "efficiency"
+   ],
+   "sources": [
+    {
+     "label": "DistilBERT distilled (arXiv 1910.01108, Sanh et al.)",
+     "url": "https://arxiv.org/abs/1910.01108",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "huggingface/transformers (official GitHub)",
+     "url": "https://github.com/huggingface/transformers",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - huggingface/transformers: 🤗 Transformers: the model-definition framework for sta",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-10-23-t5",
+   "date": "2019-10-23",
+   "title": "T5 Text-to-Text Transfer Transformer and C4",
+   "category": "paper",
+   "organizations": [
+    "Google"
+   ],
+   "summary": "Colin Raffel et al. posted arXiv:1910.10683 unifying all NLP as text-to-text with a systematic study of objectives and architectures, plus the Colossal Clean Crawled Corpus (C4). T5-11B achieved SOTA on GLUE, SuperGLUE, SQuAD, summarization and translation. Released dataset, models and code, framing the pretrain-then-finetune scaling that culminated in GPT-3.",
+   "significance": "Dataset (C4) and text-to-text framing underpin FLAN, T0 and instruction tuning.",
+   "tags": [
+    "t5",
+    "google",
+    "c4",
+    "nlp"
+   ],
+   "sources": [
+    {
+     "label": "Exploring Transfer Learning with T5 (arXiv 1910.10683, Raffel et al.)",
+     "url": "https://arxiv.org/abs/1910.10683",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Exploring Transfer Learning with T5 (Google Research Blog)",
+     "url": "https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Exploring Transfer Learning with T5: the Text-To-Text Transfer Transformer",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "google-research/text-to-text-transfer-transformer (official GitHub)",
+     "url": "https://github.com/google-research/text-to-text-transfer-transformer",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - google-research/text-to-text-transfer-transformer: Code for the paper \"Exploring ",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-10-30-alphastar-grandmaster",
+   "date": "2019-10-30",
+   "title": "AlphaStar Grandmaster level on Battle.net ladder",
+   "category": "paper",
+   "organizations": [
+    "DeepMind",
+    "Blizzard"
+   ],
+   "summary": "DeepMind published a Nature paper showing a new AlphaStar with camera input and APM limits, playing all three races on the Battle.net ladder and reaching Grandmaster (top 0.2%). It used automated league plus supervised plus multi-agent RL with released replays. It proved human-constrained superhuman RTS play.",
+   "significance": "Closed the StarCraft chapter with a fair, constrained evaluation.",
+   "tags": [
+    "alphastar",
+    "deepmind",
+    "starcraft"
+   ],
+   "sources": [
+    {
+     "label": "AlphaStar: Grandmaster level in StarCraft II (DeepMind blog, Oct 30 2019)",
+     "url": "https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning — Go",
+     "verifiedVia": "playwright-user-chrome"
+    },
+    {
+     "label": "Grandmaster level in StarCraft II using multi-agent RL (Nature)",
+     "url": "https://www.nature.com/articles/s41586-019-1724-z",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Grandmaster level in StarCraft II using multi-agent reinforcement learning | Nature",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-11-05-gpt2-full",
+   "date": "2019-11-05",
+   "title": "GPT-2 1.5B full release",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI released full 1.5B GPT-2 weights, code and detector plus model card as the final staged step, citing no strong misuse evidence and larger models existing elsewhere. It closed the responsible-disclosure experiment, sparking subreddit bots and creative uses, while shifting debate to GPT-3 API gating in 2020.",
+   "significance": "End of the staged-release saga; pivot to API-only for GPT-3.",
+   "tags": [
+    "gpt-2",
+    "open-weights",
+    "openai"
+   ],
+   "sources": [
+    {
+     "label": "GPT-2 1.5B full release (OpenAI, Nov 5 2019)",
+     "url": "https://openai.com/index/gpt-2-1-5b-release/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "GPT-2: 1.5B release | OpenAI",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "openai/gpt-2 (official GitHub, full weights)",
+     "url": "https://github.com/openai/gpt-2",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - openai/gpt-2: Code for the paper \"Language Models are Unsupervised Multitask Lear",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-12-03-stylegan2",
+   "date": "2019-12-03",
+   "title": "StyleGAN2 improved quality and invertibility",
+   "category": "paper",
+   "organizations": [
+    "NVIDIA"
+   ],
+   "summary": "Karras et al. posted arXiv:1912.04958 analyzing StyleGAN droplet artifacts, redesigning normalization and progressive growing plus path-length regularization for invertibility. It improved FID and eased editing and inversion. It cemented the StyleGAN family as SOTA unconditional image model before the diffusion era.",
+   "significance": "Last GAN peak before DDPM and diffusion overtake in 2020-2022.",
+   "tags": [
+    "stylegan",
+    "gan",
+    "nvidia"
+   ],
+   "sources": [
+    {
+     "label": "Analyzing and Improving the Image Quality of StyleGAN / StyleGAN2 (arXiv 1912.04958)",
+     "url": "https://arxiv.org/abs/1912.04958",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Analyzing and Improving the Image Quality of StyleGAN",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "NVlabs/stylegan2 (official NVIDIA GitHub)",
+     "url": "https://github.com/NVlabs/stylegan2",
+     "type": "release",
+     "verified": true,
+     "verifiedTitle": "GitHub - NVlabs/stylegan2: StyleGAN2 - Official TensorFlow Implementation · GitHub",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2019-12-13-dota-paper-retirement",
+   "date": "2019-12-13",
+   "title": "Dota large-scale RL paper plus OpenAI Five retirement",
+   "category": "paper",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "OpenAI posted arXiv:1912.06680 formalizing Five: distributed PPO, Rapid, surgery for transfer across a 10-month run beating OG. It announced retirement of public Dota to focus on AGI, robotics and language. With AlphaStar Nature, it closed the 2017-19 game-AI era proving self-play scales.",
+   "significance": "Symbolic handoff from games to language as the main bet.",
+   "tags": [
+    "openai-five",
+    "rl",
+    "retirement"
+   ],
+   "sources": [
+    {
+     "label": "Dota 2 with Large-Scale Deep RL (arXiv 1912.06680, OpenAI Five paper)",
+     "url": "https://arxiv.org/abs/1912.06680",
+     "type": "paper",
+     "verified": true,
+     "verifiedTitle": "Dota 2 with Large Scale Deep Reinforcement Learning",
+     "verifiedVia": "exa"
+    },
+    {
+     "label": "Dota 2 with large-scale deep RL (OpenAI blog, Dec 13 2019)",
+     "url": "https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/",
+     "type": "blog",
+     "verified": true,
+     "verifiedTitle": "Dota 2 with large scale deep reinforcement learning | OpenAI",
+     "verifiedVia": "exa"
+    }
+   ],
+   "verified": true
+  }
+ ]
+}
