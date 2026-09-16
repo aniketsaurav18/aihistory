@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "range": "2026-01-01 to 2026-09-12",
-  "description": "No binding lab slowdown pact as of Sep 12 2026 (see note_on_slowdown_pact). This file now also catalogs every notable 2026 model release (Jan-Sep): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/voice+image lines; Google Gemini 3.x/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled.",
-  "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-12. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns). This file records the actual slowdown-related milestones without overstating them.",
-  "count": 166,
+  "range": "2026-01-01 to 2026-09-16",
+  "description": "No binding lab slowdown pact as of Sep 16 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). This file also catalogs every notable 2026 model release (Jan-Sep): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/voice+image lines; Google Gemini 3.x/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled.",
+  "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-16. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains plus Altman/Musk/Hassabis endorsements and pact hints. Sep 13-15 pushback then closed the coordination paths: Sacks (Sep 13, no antitrust waiver or approval process — slow down voluntarily), Trump (Sep 13 Ireland remarks + Sep 14 Truth Social posts incl. hoax declarations + All-In call with Huang — pro-acceleration stands), Nadella (Sep 13, welcomed pacing and embedded evaluators but committed to nothing operational; Microsoft MAI Code draft Sep 14), Huang (Sep 14-15, no new laws; All-In ‘we're not going to let that happen’), Zuckerberg (Sep 15, each lab paces itself; liability and alignment suffice). Frontier split as of Sep 16: Anthropic/OpenAI for coordination vs Meta/Nvidia for voluntary-only, with the White House opposed. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns). This file records the actual slowdown-related milestones without overstating them.",
+  "count": 172,
   "events": [
     {
       "id": "2024-05-21-seoul-commitments-context",
@@ -4136,6 +4136,301 @@
           "verified": true,
           "verifiedTitle": "Demis Hassabis on X: Dario essay points towards the right path forward",
           "verifiedVia": "user"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2026-09-13-nadella-deliberate-pacing",
+      "highlight": false,
+      "date": "2026-09-13",
+      "title": "Nadella welcomes deliberate pacing and embedded evaluators; MAI Code of Conduct out Sep 14",
+      "category": "policy",
+      "organizations": ["Microsoft"],
+      "summary": "Microsoft chairman and CEO Satya Nadella posted on X on Sep 13 that “any pursuit of superintelligence has to be grounded in the core principle that if the AI we build is not helping humanity and under human control, it's not worth pursuing,” welcoming “the research, focus, and deliberate pacing needed to get alignment right” plus “embedded evaluators.” He conditioned governance on broad representation — it “cannot be controlled by a handful of entities” and must span the ecosystem, countries, fields and academia — with both closed and open-source models thriving and every organization able to build its own learning loop on weights it controls. He previewed Microsoft's approach: broad access at every layer of the stack, enterprise control of models, and the Code of Conduct for first-party MAI models to be published Sep 14 for public consultation.",
+      "significance": "The compute owner endorsed pacing language while contesting Amodei's private-lab vehicle and committing to nothing operational — the position that matters most for enforceability.",
+      "tags": [
+        "nadella",
+        "microsoft",
+        "pacing",
+        "evaluators",
+        "governance"
+      ],
+      "sources": [
+        {
+          "label": "Satya Nadella on X: superintelligence must stay under human control; deliberate pacing; MAI Code tomorrow (Sep 13 2026, full post)",
+          "type": "tweet",
+          "url": "https://x.com/satyanadella/status/2099220712024408084",
+          "verified": true,
+          "verifiedTitle": "Satya Nadella on X: \"Any pursuit of superintelligence has to be grounded in the core principle that if the AI we build is not helping humanity and under human control, it's not worth pursuing. We also need to accelerate and spread the benefits of AI, such that they are diffused broadly across coun… / X",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Microsoft CEO Satya Nadella backs need for evaluators for AI systems amid slowdown debate (Mint, Sep 14 2026)",
+          "type": "press",
+          "url": "https://www.livemint.com/technology/microsoft-ceo-satya-nadella-backs-need-for-evaluators-for-ai-systems-amid-slowdown-debate-11789343509587.html",
+          "verified": true,
+          "verifiedTitle": "Microsoft CEO Satya Nadella backs need for evaluators for AI systems amid slowdown debate | Mint",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2026-09-13-sacks-go-ahead-no-cartel",
+      "highlight": false,
+      "date": "2026-09-13",
+      "title": "Sacks answers Amodei and Altman: slow down on your own — no antitrust waiver, no approval process",
+      "category": "policy",
+      "organizations": ["White House", "Anthropic", "OpenAI"],
+      "summary": "Former White House AI czar David Sacks, now co-chair of the President's Council of Advisors on Science and Technology, replied on X on Sep 13 to Amodei's pace-the-frontier essay and Altman's endorsement: “go ahead” — the two labs are “the frontier” and hold a “duopoly on frontier intelligence” by market share, revenue growth and capability, so if unreleased models are frightening they should slow down unilaterally. He rejected the attached asks: “stop pretending antitrust law has to be suspended so you can form a cartel,” stop demanding “a regulatory approval process that supersedes product liability,” and stop calling METR independent “when it is intertwined with Anthropic's investors and staff.” He argued both labs face “massive product-liability exposure” if models enable a damaging cyberattack, and warned that demanding a preferred regulatory framework as the price of restraint would look like “blackmail of the public and the political system” — “regulatory capture — or an election-season psyop.”",
+      "significance": "Closed the two legal paths Amodei requested — no antitrust carve-out, no approval regime — redirecting enforcement to product-liability courts and voluntary action.",
+      "tags": [
+        "sacks",
+        "antitrust",
+        "pacing",
+        "liability",
+        "metr",
+        "pcast"
+      ],
+      "sources": [
+        {
+          "label": "David Sacks on X: go ahead and pace the frontier yourselves; stop pretending you need permission (Sep 13 2026, full post)",
+          "type": "tweet",
+          "url": "https://x.com/DavidSacks/status/2098973625252708460",
+          "verified": true,
+          "verifiedTitle": "David Sacks on X: \"Dario has written that we need to “pace the frontier,” and Sam has agreed. People may be surprised by my response: go ahead. You guys are the frontier. By any reasonable metric — market share, revenue growth, model capability — the two of you have a duopoly on frontier intellige… / X",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Ex-White House AI czar tells Anthropic, OpenAI to stop pretending and slow AI (India Today, Sep 14 2026)",
+          "type": "press",
+          "url": "https://www.indiatoday.in/technology/news/story/ex-white-house-ai-czar-tells-anthropic-openai-to-stop-pretending-and-slow-ai-2994013-2026-09-14",
+          "verified": true,
+          "verifiedTitle": "Ex-White House AI czar tells Anthropic, OpenAI to stop pretending and slow AI - India Today",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2026-09-14-microsoft-mai-code-consultation",
+      "highlight": false,
+      "date": "2026-09-14",
+      "title": "Microsoft publishes draft Humanist AI Code of Conduct for MAI models (six-week consultation)",
+      "category": "policy",
+      "organizations": ["Microsoft", "Anthropic"],
+      "summary": "Microsoft AI published a first-draft Code of Conduct for its in-house MAI model family on Sep 14, opening six weeks of public consultation; a revised version follows later in 2026 to guide training from 2027, and the draft is explicitly not yet used to train models. Its organizing principle is Humanist AI — models subordinate to people that never resist interruption, correction or shutdown, never widen their own scope, take ungiven goals or hide reasoning — with a chain of command (Code over operator policy over user preferences) and Absolute Constraints (WMDs, offensive cyber, loss of control, mass manipulation, child safety, deepfakes) no operator or user can override. The code binds only MAI models Microsoft builds itself, not partner or hosted models, and pointedly rejects model consciousness, legal personhood and welfare or rights — a direct contrast with Anthropic's model-welfare research despite Microsoft's $5B Anthropic investment. MAI chief Mustafa Suleyman announced it on X: AI “must be subordinate and always in service of people.”",
+      "significance": "First binding-style conduct draft from a hyperscaler: unilateral, human-control-first governance that sidesteps Amodei's cross-lab pacing mechanism while breaking with Anthropic on machine welfare.",
+      "tags": [
+        "microsoft",
+        "mai",
+        "code-of-conduct",
+        "humanist-ai",
+        "consultation",
+        "model-welfare"
+      ],
+      "sources": [
+        {
+          "label": "Humanist AI in practice: Code of Conduct for MAI Models consultation (Microsoft AI, Sep 14 2026, primary)",
+          "type": "blog",
+          "url": "https://microsoft.ai/news/mai-code-of-conduct/",
+          "verified": true,
+          "verifiedTitle": "Humanist AI in practice: A public consultation on our Code of Conduct for MAI Models    | Microsoft AI",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Humanist AI Code of Conduct (Microsoft AI consultation draft, primary document)",
+          "type": "docs",
+          "url": "https://microsoft.ai/code-of-conduct/",
+          "verified": true,
+          "verifiedTitle": "Humanist AI Code of Conduct | Microsoft AI",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Mustafa Suleyman on X: AI must be subordinate and always in service of people; MAI Code draft (Sep 14 2026, full post)",
+          "type": "tweet",
+          "url": "https://x.com/mustafasuleyman/status/2099488602418028917",
+          "verified": true,
+          "verifiedTitle": "Mustafa Suleyman on X: \"https://t.co/8XJVIXDpQz\" / X",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Microsoft’s new AI rulebook rejects the research its $5bn partner is doing (TNW, Sep 14 2026)",
+          "type": "press",
+          "url": "https://thenextweb.com/news/microsoft-ai-code-of-conduct-model-welfare-anthropic",
+          "verified": true,
+          "verifiedTitle": "Microsoft’s new AI rulebook rejects the research its $5bn partner is doing",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2026-09-14-trump-hoax-buster-rejection",
+      "highlight": true,
+      "date": "2026-09-14",
+      "title": "Trump rejects slowdown: only guardrail needed is a strong president; AI warnings a “hoax”",
+      "category": "policy",
+      "organizations": ["White House"],
+      "summary": "After Sep 13 remarks in Ireland (“whoever wins AI, wins”; warnings come from “negative forces” raising things that “won't happen”), President Trump posted on Truth Social on the morning of Sep 14 that the “only control or ‘guardrails' that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT,” claiming the administration had stopped AI “people” like “Dario (Anthropic!)” from doing “bad” things and already holds “tremendous CRIMINAL and REGULATORY power,” warning of a “SICK conspiracy” against AI and data centers that only China welcomes. That afternoon he followed with hoax posts — AI-takeover fears are “a HOAX” from the same people behind the “Climate Change” hoax — and on a live call into Jensen Huang's All-In Summit appearance declared “the robots are not going to be taking over the world.” VP Vance the same day called industry pleas for regulation a possible “Trojan horse,” Speaker Johnson ruled out a moratorium (“China will overlap us”), Schumer demanded an all-Senators briefing, Beijing dismissed the warnings as “fearmongering,” and China updated its AI safety governance framework on Sep 14 while rejecting any slowdown.",
+      "significance": "Presidential veto on coordinated pacing: pro-acceleration policy stands, existing criminal and regulatory powers declared sufficient, with a White House meeting with AI executives expected.",
+      "tags": [
+        "trump",
+        "white-house",
+        "slowdown-rejection",
+        "truth-social",
+        "hoax",
+        "vance",
+        "china"
+      ],
+      "sources": [
+        {
+          "label": "Donald J. Trump on Truth Social: only guardrails AI needs is a strong president (Sep 14 2026 morning post, primary)",
+          "type": "social",
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/117269745153543631",
+          "verified": true,
+          "verifiedTitle": "Truth Details — @realDonaldTrump Sep 14 2026 morning post (page shell HTTP 403; full post body rendered and read in user Chrome)",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Trump's Truth archive: guardrails post mirror with status ID 117269745153543631 (Sep 14 2026)",
+          "type": "archive",
+          "url": "https://www.trumpstruth.org/statuses/41712",
+          "verified": true,
+          "verifiedTitle": "Donald J. Trump: \"The only control or “guardrails” that AI needs is a STRONG AND SMART (High I... - Trump’s Truth",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Trump's Truth archive: AI-destroy-the-world / data centers hoax post mirror (Sep 14 2026 afternoon)",
+          "type": "archive",
+          "url": "https://www.trumpstruth.org/statuses/41721",
+          "verified": true,
+          "verifiedTitle": "Donald J. Trump: \"The people that say AI is going to destroy the World, and that Data Centers ... - Trump’s Truth",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Trump says AI doesn’t need guardrails, only a ‘high IQ’ president (NBC News, Sep 14 2026)",
+          "type": "press",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700",
+          "verified": true,
+          "verifiedTitle": "Trump says AI doesn’t need guardrails, only a ‘high IQ’ president",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Why Trump will not yield to an AI slowdown (Straits Times, Sep 15 2026)",
+          "type": "press",
+          "url": "https://www.straitstimes.com/world/united-states/why-trump-will-not-yield-to-an-ai-slowdown",
+          "verified": true,
+          "verifiedTitle": "Trump rejects AI slowdown amid safety and regulation debate | The Straits Times",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2026-09-15-huang-no-new-laws",
+      "highlight": false,
+      "date": "2026-09-15",
+      "title": "Huang rejects coordinated pacing: existing laws suffice; makers should take responsibility",
+      "category": "policy",
+      "organizations": ["NVIDIA"],
+      "summary": "Nvidia CEO Jensen Huang rejected a coordinated slowdown at back-to-back appearances: on Sep 14 at the All-In Summit in Los Angeles he took a live call from President Trump, who called AI fears “a hoax,” and Huang replied “we're not going to let that happen, sir,” to applause; on Sep 15 at Salesforce Dreamforce he told CEO Marc Benioff that model makers should take responsibility for their products instead of seeking new government limits, calling AI-specific laws and regulations “just completely unnecessary” — “we have plenty of laws” — a line he repeated on CNBC's Mad Money. He agreed with one Amodei plank, independent third-party safety evaluations at frontier labs, but said coordinated pacing would hand an edge to countries racing US AI.",
+      "significance": "The chip supplier's refusal splits the field: pacing without Nvidia and Meta is a two-lab slowdown while everyone else keeps racing.",
+      "tags": [
+        "huang",
+        "nvidia",
+        "slowdown-rejection",
+        "dreamforce",
+        "all-in-summit",
+        "liability"
+      ],
+      "sources": [
+        {
+          "label": "Dreamforce Main Keynote 2026 incl. Huang remarks (Salesforce, Sep 15 2026, primary video)",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=wYFt9NCYaVI",
+          "verified": true,
+          "verifiedTitle": "Dreamforce Main Keynote 2026 - YouTube",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Meta CEO Mark Zuckerberg sides with Nvidia's Huang on AI safety and slowdown debate (CNBC, Sep 15 2026)",
+          "type": "press",
+          "url": "https://www.cnbc.com/2026/09/15/meta-mark-zuckerberg-with-nvidia-huang-ai-safety-slowdown.html",
+          "verified": true,
+          "verifiedTitle": "Meta CEO Mark Zuckerberg sides with Nvidia's Huang on AI safety and slowdown debate",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Jensen Huang and Mark Zuckerberg both reject Dario Amodei's AI slowdown plan (Startup Fortune, Sep 16 2026)",
+          "type": "press",
+          "url": "https://startupfortune.com/jensen-huang-and-mark-zuckerberg-both-reject-dario-amodeis-ai-slowdown-plan/",
+          "verified": true,
+          "verifiedTitle": "Jensen Huang and Mark Zuckerberg Both Reject Dario Amodei's AI Slowdown Plan - Startup Fortune",
+          "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2026-09-15-zuckerberg-each-lab-paces-itself",
+      "highlight": true,
+      "date": "2026-09-15",
+      "title": "Zuckerberg rejects coordinated slowdown: each lab paces itself; liability and alignment suffice",
+      "category": "policy",
+      "organizations": ["Meta"],
+      "summary": "Meta CEO Mark Zuckerberg posted on X on Sep 15 that “every lab has the responsibility and incentive to move at the pace required to train its models safely,” rejecting an industry-wide pacing agreement and linking his August essay ‘The Future is for Everyone.’ His argument: users won't use misaligned agents and labs face “significant liability” for harm, so “trust and alignment are quickly becoming the most important capabilities that will differentiate agents and models” and “any lab that doesn't focus on alignment will fall behind.” He disclosed Meta delayed shipping Muse for several months on safety and security unilaterally — “we didn't call for everyone else to do this before we would” — backed independent evaluators as industry best practice while proposing no common standard, and said Meta commits the “significant majority” of compute to serving users rather than recursive self-improvement. Reuters, CNBC and others read it as a break with Amodei, Altman, Musk and Hassabis.",
+      "significance": "Breaks frontier-lab unanimity a day after it formed: the open-weights champion's market-driven alternative leaves each lab in control of its own speed limit.",
+      "tags": [
+        "zuckerberg",
+        "meta",
+        "slowdown-rejection",
+        "muse",
+        "alignment",
+        "liability",
+        "evaluators"
+      ],
+      "sources": [
+        {
+          "label": "Mark Zuckerberg on X: every lab can pace itself; trust and alignment differentiate; Muse delayed unilaterally (Sep 15 2026, full post)",
+          "type": "tweet",
+          "url": "https://x.com/finkd/status/2099997096896274533",
+          "verified": true,
+          "verifiedTitle": "Mark Zuckerberg on X: \"Last month I wrote about how we can build a positive and safe future for everyone: https://t.co/eoLGVY8yad Every lab has the responsibility and incentive to move at the pace required to train its models safely, and the ability to take its own actions to ensure that happens. … / X",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Meta's Zuckerberg says AI labs have enough incentive to build safely (Reuters, Sep 16 2026)",
+          "type": "press",
+          "url": "https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/",
+          "verified": true,
+          "verifiedTitle": "Meta's Zuckerberg says AI labs have enough incentive to build safely | Reuters",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Meta CEO Mark Zuckerberg sides with Nvidia's Huang on AI safety and slowdown debate (CNBC, Sep 15 2026)",
+          "type": "press",
+          "url": "https://www.cnbc.com/2026/09/15/meta-mark-zuckerberg-with-nvidia-huang-ai-safety-slowdown.html",
+          "verified": true,
+          "verifiedTitle": "Meta CEO Mark Zuckerberg sides with Nvidia's Huang on AI safety and slowdown debate",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "Why Meta’s Zuckerberg rebuffed Dario Amodei’s AI slowdown calls (The Hindu, Sep 16 2026)",
+          "type": "press",
+          "url": "https://www.thehindu.com/sci-tech/technology/why-metas-zuckerberg-rebuffed-dario-amodeis-ai-slowdown-calls/article71471837.ece",
+          "verified": true,
+          "verifiedTitle": "Why Meta’s Zuckerberg rebuffed Dario Amodei’s AI slowdown calls - The Hindu",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "The Future is for Everyone (Mark Zuckerberg essay, Meta, Aug 2026, context)",
+          "type": "blog",
+          "url": "http://meta.com/thefutureisforeveryone",
+          "verified": true,
+          "verifiedTitle": "The Future is for Everyone",
+          "verifiedVia": "playwright-user-chrome"
         }
       ],
       "verified": true
