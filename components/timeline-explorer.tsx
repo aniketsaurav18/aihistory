@@ -44,6 +44,7 @@ export default function TimelineExplorer({ events, years }: Props) {
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
   const [visibleCount, setVisibleCount] = useState(28);
   const [isCompact, setIsCompact] = useState(false);
+  const [expandedSummaries, setExpandedSummaries] = useState<Set<string>>(new Set());
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const compactStateRef = useRef(false);
   const viewModeRef = useRef<HTMLDivElement>(null);
@@ -207,6 +208,18 @@ export default function TimelineExplorer({ events, years }: Props) {
     );
   }
 
+  function toggleSummary(id: string) {
+    setExpandedSummaries((current) => {
+      const next = new Set(current);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
+  }
+
   function resetFilters() {
     setQuery("");
     setSelectedYear("all");
@@ -327,6 +340,8 @@ export default function TimelineExplorer({ events, years }: Props) {
 
                       <div className="event-list">
                         {yearEvents.map((event) => {
+                          const summaryExpanded = expandedSummaries.has(event.id);
+                          const summaryLong = event.summary.length > 140;
                           return (
                             <article
                               className={`event cat-${event.category}`}
@@ -348,7 +363,22 @@ export default function TimelineExplorer({ events, years }: Props) {
                                   </span>
                                 </span>
                                 <h4 id={`title-${event.id}`}>{event.title}</h4>
-                                <p className="event-summary">{event.summary}</p>
+                                <p
+                                  className={`event-summary ${summaryLong && !summaryExpanded ? "clamped" : ""}`}
+                                  id={`summary-${event.id}`}
+                                >
+                                  {event.summary}
+                                </p>
+                                {summaryLong && (
+                                  <button
+                                    className="summary-toggle"
+                                    onClick={() => toggleSummary(event.id)}
+                                    aria-expanded={summaryExpanded}
+                                    aria-controls={`summary-${event.id}`}
+                                  >
+                                    {summaryExpanded ? "Show less" : "Read more"}
+                                  </button>
+                                )}
                                 <span className="event-orgs">
                                   {event.organizations.slice(0, 4).map((organization) => (
                                     <span key={organization}>{organization}</span>
@@ -356,10 +386,12 @@ export default function TimelineExplorer({ events, years }: Props) {
                                   {event.organizations.length > 4 && <span>+{event.organizations.length - 4}</span>}
                                 </span>
                                 <div className="event-detail">
-                                  <div className="why-it-matters">
-                                    <span>Why it matters</span>
+                                  <details className="why-details">
+                                    <summary>
+                                      <span>Why it matters</span>
+                                    </summary>
                                     <p>{event.significance}</p>
-                                  </div>
+                                  </details>
                                   <details className="event-more">
                                     <summary>
                                       <span>View sources &amp; tags</span>

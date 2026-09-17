@@ -4374,45 +4374,6 @@
       "verified": true
     },
     {
-      "confidence": "high",
-      "date": "2026-09-15",
-      "id": "2026-09-15-typesafe-jev-system-one",
-      "highlight": true,
-      "organizations": ["TypeSafe AI"],
-      "significance": "New model class outside the chat-LLM paradigm: frontier-level decision intelligence with type-safe, hallucination-free structured outputs at ~100x speed/cost, aimed at real-time automation and agent reliability.",
-      "sources": [
-        {
-          "label": "Introducing System One Models and Jev (TypeSafe AI blog, Diogo Almeida, Sep 2026, primary)",
-          "type": "blog",
-          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-          "verified": true,
-          "verifiedTitle": "Introducing System One Models and Jev",
-          "verifiedVia": "exa"
-        },
-        {
-          "label": "TypeSafe AI debuts model for machines that plays Doom (The Register, Sep 16 2026)",
-          "type": "press",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
-          "verified": true,
-          "verifiedTitle": "TypeSafe AI debuts model for machines that plays Doom",
-          "verifiedVia": "exa"
-        }
-      ],
-      "summary": "TypeSafe AI exited two years of stealth with System One Models, a new frontier-model class for fast structured decisions, and its first public model Jev in early access. Founder Diogo Almeida (ex-OpenAI, RLHF/ChatGPT lineage) positions Jev as a frontier-intelligence function call — unstructured state in, typed probabilistic decisions out — built on a new architecture, parallel sampler, and Reinforcement Learning for Calibrated Decisions (RLCD), giving up string generation for guaranteed schema-matching outputs with calibrated confidence. TypeSafe claims Jev matches frontier LLMs on System One tasks at two orders of magnitude better speed/cost: 70-500ms end-to-end (40-200x faster), $0.042/MTok input with free output, and workflow-eval highs of 193.6x faster / 444.6x cheaper vs GPT-6 Astra + Fable 5.1 reference averages. Pitched for AI workflows/smart if-statements, map-reduce over big data, real-time apps, and LLM verification/guardrails; launch demos include real-time Doom play and Wikiracing.",
-      "tags": [
-        "jev",
-        "system-one",
-        "typesafe",
-        "structured-outputs",
-        "rlcd",
-        "early-access",
-        "automation"
-      ],
-      "title": "TypeSafe AI launches Jev, first System One Model (structured decisions, early access)",
-      "category": "model-release",
-      "verified": true
-    },
-    {
       "id": "2026-09-15-zuckerberg-each-lab-paces-itself",
       "highlight": true,
       "date": "2026-09-15",
@@ -4472,6 +4433,45 @@
           "verifiedVia": "playwright-user-chrome"
         }
       ],
+      "verified": true
+    },
+    {
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "2026-09-15-typesafe-jev-system-one",
+      "highlight": true,
+      "organizations": ["TypeSafe AI"],
+      "significance": "New model class outside the chat-LLM paradigm: frontier-level decision intelligence with type-safe, hallucination-free structured outputs at ~100x speed/cost, aimed at real-time automation and agent reliability.",
+      "sources": [
+        {
+          "label": "Introducing System One Models and Jev (TypeSafe AI blog, Diogo Almeida, Sep 2026, primary)",
+          "type": "blog",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "verified": true,
+          "verifiedTitle": "Introducing System One Models and Jev",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "TypeSafe AI debuts model for machines that plays Doom (The Register, Sep 16 2026)",
+          "type": "press",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+          "verified": true,
+          "verifiedTitle": "TypeSafe AI debuts model for machines that plays Doom",
+          "verifiedVia": "exa"
+        }
+      ],
+      "summary": "TypeSafe AI exited two years of stealth with System One Models, a new frontier-model class for fast structured decisions, and its first public model Jev in early access. Founder Diogo Almeida (ex-OpenAI, RLHF/ChatGPT lineage) positions Jev as a frontier-intelligence function call — unstructured state in, typed probabilistic decisions out — built on a new architecture, parallel sampler, and Reinforcement Learning for Calibrated Decisions (RLCD), giving up string generation for guaranteed schema-matching outputs with calibrated confidence. TypeSafe claims Jev matches frontier LLMs on System One tasks at two orders of magnitude better speed/cost: 70-500ms end-to-end (40-200x faster), $0.042/MTok input with free output, and workflow-eval highs of 193.6x faster / 444.6x cheaper vs GPT-6 Astra + Fable 5.1 reference averages. Pitched for AI workflows/smart if-statements, map-reduce over big data, real-time apps, and LLM verification/guardrails; launch demos include real-time Doom play and Wikiracing.",
+      "tags": [
+        "jev",
+        "system-one",
+        "typesafe",
+        "structured-outputs",
+        "rlcd",
+        "early-access",
+        "automation"
+      ],
+      "title": "TypeSafe AI launches Jev, first System One Model (structured decisions, early access)",
+      "category": "model-release",
       "verified": true
     }
   ]
