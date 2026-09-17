@@ -3,7 +3,7 @@
   "range": "2026-01-01 to 2026-09-16",
   "description": "No binding lab slowdown pact as of Sep 16 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). This file also catalogs every notable 2026 model release (Jan-Sep): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/voice+image lines; Google Gemini 3.x/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled.",
   "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-16. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains plus Altman/Musk/Hassabis endorsements and pact hints. Sep 13-15 pushback then closed the coordination paths: Sacks (Sep 13, no antitrust waiver or approval process — slow down voluntarily), Trump (Sep 13 Ireland remarks + Sep 14 Truth Social posts incl. hoax declarations + All-In call with Huang — pro-acceleration stands), Nadella (Sep 13, welcomed pacing and embedded evaluators but committed to nothing operational; Microsoft MAI Code draft Sep 14), Huang (Sep 14-15, no new laws; All-In ‘we're not going to let that happen’), Zuckerberg (Sep 15, each lab paces itself; liability and alignment suffice). Frontier split as of Sep 16: Anthropic/OpenAI for coordination vs Meta/Nvidia for voluntary-only, with the White House opposed. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns). This file records the actual slowdown-related milestones without overstating them.",
-  "count": 172,
+  "count": 173,
   "events": [
     {
       "id": "2024-05-21-seoul-commitments-context",
@@ -4371,6 +4371,45 @@
           "verifiedVia": "exa"
         }
       ],
+      "verified": true
+    },
+    {
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "2026-09-15-typesafe-jev-system-one",
+      "highlight": true,
+      "organizations": ["TypeSafe AI"],
+      "significance": "New model class outside the chat-LLM paradigm: frontier-level decision intelligence with type-safe, hallucination-free structured outputs at ~100x speed/cost, aimed at real-time automation and agent reliability.",
+      "sources": [
+        {
+          "label": "Introducing System One Models and Jev (TypeSafe AI blog, Diogo Almeida, Sep 2026, primary)",
+          "type": "blog",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "verified": true,
+          "verifiedTitle": "Introducing System One Models and Jev",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "TypeSafe AI debuts model for machines that plays Doom (The Register, Sep 16 2026)",
+          "type": "press",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+          "verified": true,
+          "verifiedTitle": "TypeSafe AI debuts model for machines that plays Doom",
+          "verifiedVia": "exa"
+        }
+      ],
+      "summary": "TypeSafe AI exited two years of stealth with System One Models, a new frontier-model class for fast structured decisions, and its first public model Jev in early access. Founder Diogo Almeida (ex-OpenAI, RLHF/ChatGPT lineage) positions Jev as a frontier-intelligence function call — unstructured state in, typed probabilistic decisions out — built on a new architecture, parallel sampler, and Reinforcement Learning for Calibrated Decisions (RLCD), giving up string generation for guaranteed schema-matching outputs with calibrated confidence. TypeSafe claims Jev matches frontier LLMs on System One tasks at two orders of magnitude better speed/cost: 70-500ms end-to-end (40-200x faster), $0.042/MTok input with free output, and workflow-eval highs of 193.6x faster / 444.6x cheaper vs GPT-6 Astra + Fable 5.1 reference averages. Pitched for AI workflows/smart if-statements, map-reduce over big data, real-time apps, and LLM verification/guardrails; launch demos include real-time Doom play and Wikiracing.",
+      "tags": [
+        "jev",
+        "system-one",
+        "typesafe",
+        "structured-outputs",
+        "rlcd",
+        "early-access",
+        "automation"
+      ],
+      "title": "TypeSafe AI launches Jev, first System One Model (structured decisions, early access)",
+      "category": "model-release",
       "verified": true
     },
     {
