@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://aihistory.live"),
   openGraph: {
     title: "AI History — A visual history of modern AI",
+    siteName: "AI History",
     description:
       "A sourced, searchable field guide to the decade that remade intelligence.",
     type: "website",
