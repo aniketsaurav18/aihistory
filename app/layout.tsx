@@ -23,10 +23,16 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "AI History — A visual history of modern AI",
     description:
       "A sourced, searchable field guide to the decade that remade intelligence.",
+    images: [
+      {
+        url: "/opengraph-image.jpg",
+        alt: "AI History: a visual history of modern AI, spanning 2017 to 2026.",
+      },
+    ],
   },
 };
 
