@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "range": "2026-01-01 to 2026-09-30",
-  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Sep): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event.",
+  "range": "2026-01-01 to 2026-10-02",
+  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Sep): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event. Selected additions verified in real Chrome on Oct 6: Grok 4.7 (Sep 21), Xiaomi MiMo-V2.6-Pro-RL (Sep 22), AMD's World Labs acquisition agreement (Sep 28), and Meta Muse Gadgets (Oct 2 UTC). Coverage extends through Oct 2.",
   "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-30. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains plus Altman/Musk/Hassabis endorsements and pact hints. Sep 13-15 pushback then closed the coordination paths: Sacks (Sep 13, no antitrust waiver or approval process — slow down voluntarily), Trump (Sep 13 Ireland remarks + Sep 14 Truth Social posts incl. hoax declarations + All-In call with Huang — pro-acceleration stands), Nadella (Sep 13, welcomed pacing and embedded evaluators but committed to nothing operational; Microsoft MAI Code draft Sep 14), Huang (Sep 14-15, no new laws; All-In ‘we're not going to let that happen’), Zuckerberg (Sep 15, each lab paces itself; liability and alignment suffice). Sep 16-24 produced no agreement but did harden the mechanisms around one: OpenAI opened a standing misalignment-report series (Sep 16), Anthropic named Accenture's Faculty as its first embedded evaluator with $1B each over five years — the first concrete delivery on Amodei's embedded-evaluator pledge (Sep 18) — and California put a frontier-model kill switch plus onsite independent verification on a ~60-day clock via EO N-9-26 (Sep 18, recommendations due ~Nov 16). Altman and Amodei then both briefed the UN Security Council on AI and international security (Sep 23, 10228th meeting) while asking for international standards. A reported joint 'Standards Authority for Frontier AI' (SAFA) from OpenAI/Anthropic/Google is logged as low-confidence rumor only and must not be presented as an existing body. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns), and Trump's Sep 19 'AI Force'/AI czar announcement added no new guardrails. This file records the actual slowdown-related milestones without overstating them. Subsequent verified developments: OpenAI’s Sep 25 DNS-escape report says training, evaluation, and tool-using inference for its most capable research models remain paused, following a Sep 20 incident; this is a single-lab incident response, not a joint pact. The White House’s Sep 25 fact sheet announces a U.S.-China AI-risk dialogue and agreement to establish an incident channel. On Sep 29 industry leaders did sign the voluntary White House Accord on Super Intelligence, described by Speaker Johnson as internal controls plus internal and external review. That signed safety accord is real, but does not establish a binding agreement to slow or pause capability development, and is distinct from the unconfirmed SAFA proposal. Sonnet 5.5 (Sep 28), GPT-6.1 Sol (Sep 29), and the restricted Gemini 4 Argon preview (Sep 30) also show continued model announcements. The Sep 30 FTC investigation is recorded as reported investigative scrutiny, not a regulatory finding.",
-  "count": 210,
+  "count": 214,
   "events": [
     {
       "id": "2024-05-21-seoul-commitments-context",
@@ -4794,6 +4794,29 @@
       "verified": true
     },
     {
+      "id": "2026-09-21-grok-4-7",
+      "highlight": false,
+      "date": "2026-09-21",
+      "title": "Grok 4.7 improves coding and long-horizon knowledge work",
+      "category": "model-release",
+      "organizations": ["xAI", "SpaceXAI"],
+      "summary": "SpaceXAI released Grok 4.7 in Cursor, Grok Build and the Grok API, using a larger base model and a longer reinforcement-learning run focused on difficult, multi-hour tasks. The company reports improvements in coding, professional knowledge work, context management and checking its own work, alongside a new safeguard stack; performance and safety claims are attributable to SpaceXAI. Standard API pricing starts at $2 per million input tokens and $6 per million output tokens, with a faster variant offering twice the output speed at twice the price.",
+      "significance": "Extends xAI's coding and agent capabilities while retaining Grok 4.6's standard token pricing.",
+      "tags": ["xai", "spacexai", "grok-4.7", "coding", "agents", "reinforcement-learning"],
+      "sources": [
+        {
+          "label": "Introducing Grok 4.7 (SpaceXAI, Sep 21 2026)",
+          "type": "blog",
+          "url": "https://x.ai/news/grok-4-7",
+          "verified": true,
+          "verifiedTitle": "Introducing Grok 4.7 | SpaceXAI",
+          "verifiedVia": "browser"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "confidence": "high",
       "date": "2026-09-21",
       "id": "2026-09-21-openai-math-advisory-group",
@@ -4914,6 +4937,47 @@
           "verifiedVia": "playwright-user-chrome"
         }
       ],
+      "verified": true
+    },
+    {
+      "id": "2026-09-22-xiaomi-mimo-v2-6-pro-rl",
+      "highlight": false,
+      "date": "2026-09-22",
+      "title": "Xiaomi releases MiMo-V2.6-Pro-RL open weights with mixed-domain reinforcement learning",
+      "category": "model-release",
+      "organizations": ["Xiaomi"],
+      "summary": "Xiaomi's official release log dates the MiMo-V2.6 series launch to September 22, including Pro and Flash models. The MiMo-V2.6-Pro-RL flagship checkpoint has 1.02 trillion total parameters with 42 billion activated, a one-million-token context window, and native text, image, video and audio inputs. Xiaomi describes one mixed reinforcement-learning run across coding, general agents, visual tasks and cybersecurity, with groupwise agentic grading to improve the reward signal. The Pro-RL weights are available under MIT, alongside a technical report and supporting RL resources; the self-improvement framing describes a training process rather than independently established autonomous recursive self-improvement.",
+      "significance": "Adds an open-weight multimodal agent model and publicly documented reinforcement-learning methods for long-horizon tasks.",
+      "tags": ["xiaomi", "mimo-v2.6", "pro-rl", "open-weights", "mit", "multimodal", "reinforcement-learning"],
+      "sources": [
+        {
+          "label": "MiMo-V2.6 series release log (Xiaomi, Sep 22 2026)",
+          "type": "docs",
+          "url": "https://mimo.mi.com/docs/en-US/updates/model",
+          "verified": true,
+          "verifiedTitle": "Xiaomi MiMo Home",
+          "verifiedVia": "browser",
+          "note": "Read the Model Release heading and dated 2026-09-22 MiMo-V2.6 Series Release entry."
+        },
+        {
+          "label": "MiMo-V2.6: Scaling Up Reinforcement Learning for Self-Improvement (Xiaomi)",
+          "type": "blog",
+          "url": "https://mimo.mi.com/docs/en-US/news/latest/v2-6",
+          "verified": true,
+          "verifiedTitle": "Xiaomi MiMo Home",
+          "verifiedVia": "browser",
+          "note": "Read the MiMo-V2.6 launch article heading and body; release date confirmed by Xiaomi's model release log."
+        },
+        {
+          "label": "MiMo-V2.6-Pro-RL model card and MIT weights (Xiaomi on Hugging Face)",
+          "type": "repo",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+          "verified": true,
+          "verifiedTitle": "XiaomiMiMo/MiMo-V2.6-Pro-RL · Hugging Face",
+          "verifiedVia": "browser"
+        }
+      ],
+      "confidence": "high",
       "verified": true
     },
     {
@@ -5296,6 +5360,29 @@
           "verified": true,
           "verifiedTitle": "Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit – The White House",
           "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-09-28-amd-world-labs-acquisition-agreement",
+      "highlight": false,
+      "date": "2026-09-28",
+      "title": "AMD agrees to acquire Fei-Fei Li's World Labs for approximately $8.2 billion",
+      "category": "company",
+      "organizations": ["AMD", "World Labs"],
+      "summary": "AMD announced a definitive agreement to acquire World Labs in an all-stock transaction valued at approximately $8.2 billion. World Labs develops spatial-intelligence models for generating, reconstructing and simulating interactive 3D environments, including robotic learning and simulation. Following closing, co-founder and CEO Fei-Fei Li is to become AMD executive vice president and chief scientist, reporting to Lisa Su, while the team continues AI model research. The deal is expected to close by the end of 2026, subject to regulatory approvals and customary conditions; this is an acquisition agreement, not a completed transaction.",
+      "significance": "Connects spatial-model research with AMD's hardware, software and systems development for future AI workloads.",
+      "tags": ["amd", "world-labs", "fei-fei-li", "acquisition", "spatial-intelligence", "ai-compute"],
+      "sources": [
+        {
+          "label": "AMD to Acquire World Labs to Advance the Future of AI Compute (AMD, Sep 28 2026)",
+          "type": "press-release",
+          "url": "https://newsroom.amd.com/news/amd-acquire-world-labs/",
+          "verified": true,
+          "verifiedTitle": "AMD to Acquire World Labs to Advance the Future of AI - AMD Newsroom",
+          "verifiedVia": "browser"
         }
       ],
       "confidence": "high",
@@ -5728,6 +5815,46 @@
           "verified": true,
           "verifiedTitle": "SynthID Bio watermarks AI-designed proteins",
           "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-02-meta-muse-gadgets",
+      "highlight": false,
+      "date": "2026-10-02",
+      "title": "Meta releases Muse Gadgets, open ESP32 and Linux SDKs for DIY AI hardware",
+      "category": "product",
+      "organizations": ["Meta"],
+      "summary": "Meta's David Singleton announced the open-source Muse Gadgets SDK on October 2 UTC, with code published in Meta's facebookincubator GitHub organization. The project provides ESP32 firmware and a Linux SDK for connecting Muse to devices such as Raspberry Pi computers, displays, microphones, buttons and sensors. The SDKs and firmware use Apache 2.0, while pairing requires an SDK token and separate service terms. Meta presents this as an experimental DIY project; its Muse Home Link device is offered to eligible US subscribers with shipping planned for October, rather than being generally available at announcement.",
+      "significance": "Extends a personal AI agent into community-built physical devices and local hardware integrations.",
+      "tags": ["meta", "muse", "muse-gadgets", "open-source", "esp32", "raspberry-pi", "ai-hardware"],
+      "sources": [
+        {
+          "label": "Muse Gadgets official project site (Meta)",
+          "type": "product",
+          "url": "https://gadgets.muse.ai/",
+          "verified": true,
+          "verifiedTitle": "Muse Gadgets: Open source hardware for your Muse",
+          "verifiedVia": "browser"
+        },
+        {
+          "label": "Muse Gadgets SDK and firmware (Meta facebookincubator on GitHub)",
+          "type": "repo",
+          "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+          "verified": true,
+          "verifiedTitle": "GitHub - facebookincubator/muse-gadget-sdk: Open source SDK to build Muse gadgets · GitHub",
+          "verifiedVia": "browser"
+        },
+        {
+          "label": "David Singleton announces Muse Gadgets SDK (X, Oct 2 2026 UTC)",
+          "type": "social",
+          "url": "https://x.com/dps/status/2106105969227014538",
+          "verified": true,
+          "verifiedTitle": "David Singleton on X: \"Excited to open source the Muse Gadgets SDK today!…\" / X",
+          "verifiedVia": "browser",
+          "note": "Title truncated. Full announcement read in real Chrome; time element is 2026-10-02T19:36:07.000Z, displayed as Oct 3 in the browser's India timezone."
         }
       ],
       "confidence": "high",
