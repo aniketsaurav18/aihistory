@@ -1,8 +1,8 @@
 {
  "title": "History of AI: From Attention Is All You Need to the 2026 Slowdown Debate",
- "range": "2017-06-12 to 2026-10-02",
+ "range": "2017-06-12 to 2026-10-07",
  "created": "2026-09-12",
- "usage": "Data for webpage. Load year files 2017.json ... 2026.json. Each file has year, range, description, count, events[]. Each event has id, highlight, date (YYYY-MM-DD), title, category, organizations[], summary, significance, tags[]. Sort events by date for timeline. See note_on_slowdown_pact in 2026.json — there is NO binding lab pact as of 2026-09-30. Coverage researched through Oct 6; latest added event date is Oct 2. The Sep 29 White House safety accord is signed and voluntary, not a binding slowdown pact; Gemini 4 Argon remains a restricted preview. Selected additions include Grok 4.7, Xiaomi MiMo-V2.6-Pro-RL, AMD's World Labs acquisition agreement and Meta Muse Gadgets.",
+ "usage": "Data for webpage. Load year files 2017.json ... 2026.json. Each file has year, range, description, count, events[]. Each event has id, highlight, date (YYYY-MM-DD), title, category, organizations[], summary, significance, tags[]. Sort events by date for timeline. See note_on_slowdown_pact in 2026.json — there is NO binding lab pact as of 2026-09-30. Coverage researched through Oct 8; latest added event date is Oct 7. The Sep 29 White House safety accord is signed and voluntary, not a binding slowdown pact; Gemini 4 Argon remains a restricted preview. Selected additions include Grok 4.7, Xiaomi MiMo-V2.6-Pro-RL, AMD's World Labs acquisition agreement and Meta Muse Gadgets. October 8 review applied 18 selected events, including 8 user-selected highlights. Pending access, previews and research limitations remain qualified; the two date-held candidates were excluded.",
  "schema": {
   "event": {
    "id": "string slug YYYY-MM-DD-short-name",
@@ -69,10 +69,10 @@
   {
    "year": 2026,
    "file": "2026.json",
-   "count": 214
+   "count": 232
   }
  ],
- "total_events": 485,
+ "total_events": 503,
  "categories": [
   "paper",
   "model-release",

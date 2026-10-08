@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Mono, DM_Sans, Newsreader } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import archive from "@/data/index.json";
 
 const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
 const dmMono = DM_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-dm-mono" });
@@ -14,7 +15,7 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: "AI History — A visual history of modern AI",
   description:
-    "Explore 437 defining moments in artificial intelligence, from the Transformer to the frontier-model era.",
+    `Explore ${archive.total_events} defining moments in artificial intelligence, from the Transformer to the frontier-model era.`,
   metadataBase: new URL("https://aihistory.live"),
   openGraph: {
     title: "AI History — A visual history of modern AI",

@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "range": "2026-01-01 to 2026-10-02",
-  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Sep): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event. Selected additions verified in real Chrome on Oct 6: Grok 4.7 (Sep 21), Xiaomi MiMo-V2.6-Pro-RL (Sep 22), AMD's World Labs acquisition agreement (Sep 28), and Meta Muse Gadgets (Oct 2 UTC). Coverage extends through Oct 2.",
+  "range": "2026-01-01 to 2026-10-07",
+  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Oct): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event. Selected additions verified in real Chrome on Oct 6: Grok 4.7 (Sep 21), Xiaomi MiMo-V2.6-Pro-RL (Sep 22), AMD's World Labs acquisition agreement (Sep 28), and Meta Muse Gadgets (Oct 2 UTC). October 8 research selections add Atlas, decision-model/API releases, Guided Vision, Claude Frontier Academy, text provenance and advertising updates, expanded CVP access, nuclear uprates, EmbeddingGemma 2, Mistral Large 4 API preview, OpenAI mathematics artifacts, Haiku 5.5, ChatGPT Intelligent UI and public SynthID Detector. Source evidence retains its original real-Chrome verification tier. Preview availability, planned rollouts and formalization limits are qualified in each event. Coverage extends through Oct 7.",
   "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-30. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains plus Altman/Musk/Hassabis endorsements and pact hints. Sep 13-15 pushback then closed the coordination paths: Sacks (Sep 13, no antitrust waiver or approval process — slow down voluntarily), Trump (Sep 13 Ireland remarks + Sep 14 Truth Social posts incl. hoax declarations + All-In call with Huang — pro-acceleration stands), Nadella (Sep 13, welcomed pacing and embedded evaluators but committed to nothing operational; Microsoft MAI Code draft Sep 14), Huang (Sep 14-15, no new laws; All-In ‘we're not going to let that happen’), Zuckerberg (Sep 15, each lab paces itself; liability and alignment suffice). Sep 16-24 produced no agreement but did harden the mechanisms around one: OpenAI opened a standing misalignment-report series (Sep 16), Anthropic named Accenture's Faculty as its first embedded evaluator with $1B each over five years — the first concrete delivery on Amodei's embedded-evaluator pledge (Sep 18) — and California put a frontier-model kill switch plus onsite independent verification on a ~60-day clock via EO N-9-26 (Sep 18, recommendations due ~Nov 16). Altman and Amodei then both briefed the UN Security Council on AI and international security (Sep 23, 10228th meeting) while asking for international standards. A reported joint 'Standards Authority for Frontier AI' (SAFA) from OpenAI/Anthropic/Google is logged as low-confidence rumor only and must not be presented as an existing body. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns), and Trump's Sep 19 'AI Force'/AI czar announcement added no new guardrails. This file records the actual slowdown-related milestones without overstating them. Subsequent verified developments: OpenAI’s Sep 25 DNS-escape report says training, evaluation, and tool-using inference for its most capable research models remain paused, following a Sep 20 incident; this is a single-lab incident response, not a joint pact. The White House’s Sep 25 fact sheet announces a U.S.-China AI-risk dialogue and agreement to establish an incident channel. On Sep 29 industry leaders did sign the voluntary White House Accord on Super Intelligence, described by Speaker Johnson as internal controls plus internal and external review. That signed safety accord is real, but does not establish a binding agreement to slow or pause capability development, and is distinct from the unconfirmed SAFA proposal. Sonnet 5.5 (Sep 28), GPT-6.1 Sol (Sep 29), and the restricted Gemini 4 Argon preview (Sep 30) also show continued model announcements. The Sep 30 FTC investigation is recorded as reported investigative scrutiny, not a regulatory finding.",
-  "count": 214,
+  "count": 232,
   "events": [
     {
       "id": "2024-05-21-seoul-commitments-context",
@@ -2909,29 +2909,6 @@
       "category": "model-release"
     },
     {
-      "confidence": "high",
-      "date": "2026-07-21",
-      "id": "2026-07-21-poolside-laguna-s21",
-      "highlight": false,
-      "organizations": ["Poolside"],
-      "significance": "West's most capable open coder per active-param; answer to DeepSeek/Qwen with full trajectories published.",
-      "sources": [
-        {
-          "label": "Laguna S 2.1 announcement",
-          "type": "blog",
-          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-          "verified": true,
-          "verifiedTitle": "Introducing Laguna S 2.1 — Poolside",
-          "verifiedVia": "playwright-user-chrome"
-        }
-      ],
-      "summary": "Poolside released Laguna S 2.1, 118B/8B MoE with 1M context and off/max thinking, trained in-house on 30T tokens in <9 weeks. Reports 70.2% Terminal-Bench 2.1, 78.5% SWE-Bench Multilingual at $0.10/$0.20. OpenMDW-1.1 on Hugging Face, runnable on single DGX Spark.",
-      "tags": ["open-weights", "coding", "moe", "long-context"],
-      "title": "Poolside Laguna S 2.1 (118B-A8B)",
-      "category": "model-release",
-      "verified": true
-    },
-    {
       "id": "2026-07-21-openai-hf-breach",
       "highlight": true,
       "date": "2026-07-21",
@@ -2982,6 +2959,29 @@
           "verifiedVia": "playwright-user-chrome"
         }
       ],
+      "verified": true
+    },
+    {
+      "confidence": "high",
+      "date": "2026-07-21",
+      "id": "2026-07-21-poolside-laguna-s21",
+      "highlight": false,
+      "organizations": ["Poolside"],
+      "significance": "West's most capable open coder per active-param; answer to DeepSeek/Qwen with full trajectories published.",
+      "sources": [
+        {
+          "label": "Laguna S 2.1 announcement",
+          "type": "blog",
+          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+          "verified": true,
+          "verifiedTitle": "Introducing Laguna S 2.1 — Poolside",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "summary": "Poolside released Laguna S 2.1, 118B/8B MoE with 1M context and off/max thinking, trained in-house on 30T tokens in <9 weeks. Reports 70.2% Terminal-Bench 2.1, 78.5% SWE-Bench Multilingual at $0.10/$0.20. OpenMDW-1.1 on Hugging Face, runnable on single DGX Spark.",
+      "tags": ["open-weights", "coding", "moe", "long-context"],
+      "title": "Poolside Laguna S 2.1 (118B-A8B)",
+      "category": "model-release",
       "verified": true
     },
     {
@@ -3668,6 +3668,29 @@
       "verified": true
     },
     {
+      "id": "2026-09-01-world-labs-atlas",
+      "highlight": false,
+      "date": "2026-09-01",
+      "title": "World Labs introduces Atlas, a world model for spatial intelligence",
+      "category": "model-release",
+      "organizations": ["World Labs"],
+      "summary": "World Labs announced Atlas, a world model spanning text, images, video and 3D environments. It supports camera control, reconstruction and robotics simulation, with selective early access rather than general availability. Reported benchmark advantages are World Labs’ results, not independently established comparisons.",
+      "significance": "Expands world-model capabilities for controllable spatial environments and physical-AI simulation.",
+      "tags": ["world-labs", "atlas", "world-model", "spatial-intelligence", "robotics", "early-access"],
+      "sources": [
+        {
+          "label": "Atlas: A World Model for Spatial Intelligence | World Labs",
+          "type": "blog",
+          "url": "https://www.worldlabs.ai/blog/atlas",
+          "verified": true,
+          "verifiedTitle": "Atlas: A World Model for Spatial Intelligence | World Labs",
+          "verifiedVia": "browser"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "confidence": "high",
       "date": "2026-09-02",
       "id": "2026-09-02-gemini-3-8-flash-cyber",
@@ -3806,29 +3829,6 @@
       "category": "model-release"
     },
     {
-      "confidence": "high",
-      "date": "2026-09-08",
-      "id": "2026-09-08-images-2-5",
-      "highlight": false,
-      "organizations": ["OpenAI"],
-      "significance": "Production visual stack for Adobe/Firefly, Manus, Runway; transparent-background + editing-precision path from GPT-Image-2 reasoning lineage.",
-      "sources": [
-        {
-          "label": "Introducing ChatGPT Images 2.5",
-          "type": "blog",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-          "verified": true,
-          "verifiedTitle": "Introducing ChatGPT Images 2.5 | OpenAI",
-          "verifiedVia": "playwright-user-chrome"
-        }
-      ],
-      "summary": "Released 2026-09-08 to ChatGPT/Work/Codex all tiers + API. 3B images/week baseline; sharper lighting/textures, identity preservation, multi-turn edit consistency, -50% latency vs 2.0; Sketch, Templates, comment-on-image. API: Flare default fast, Sunburst premium precise; C2PA + invisible watermark.",
-      "tags": ["image", "multimodal", "flare", "sunburst"],
-      "title": "ChatGPT Images 2.5 + GPT-Image-2.5 Flare / Sunburst",
-      "category": "model-release",
-      "verified": true
-    },
-    {
       "id": "2026-09-08-coxon-resigns",
       "highlight": true,
       "date": "2026-09-08",
@@ -3863,6 +3863,29 @@
           "verifiedVia": "playwright-user-chrome"
         }
       ],
+      "verified": true
+    },
+    {
+      "confidence": "high",
+      "date": "2026-09-08",
+      "id": "2026-09-08-images-2-5",
+      "highlight": true,
+      "organizations": ["OpenAI"],
+      "significance": "Production visual stack for Adobe/Firefly, Manus, Runway; transparent-background + editing-precision path from GPT-Image-2 reasoning lineage.",
+      "sources": [
+        {
+          "label": "Introducing ChatGPT Images 2.5",
+          "type": "blog",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "verified": true,
+          "verifiedTitle": "Introducing ChatGPT Images 2.5 | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "summary": "Released 2026-09-08 to ChatGPT/Work/Codex all tiers + API. 3B images/week baseline; sharper lighting/textures, identity preservation, multi-turn edit consistency, -50% latency vs 2.0; Sketch, Templates, comment-on-image. API: Flare default fast, Sunburst premium precise; C2PA + invisible watermark.",
+      "tags": ["image", "multimodal", "flare", "sunburst"],
+      "title": "ChatGPT Images 2.5 + GPT-Image-2.5 Flare / Sunburst",
+      "category": "model-release",
       "verified": true
     },
     {
@@ -4374,6 +4397,45 @@
       "verified": true
     },
     {
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "2026-09-15-typesafe-jev-system-one",
+      "highlight": true,
+      "organizations": ["TypeSafe AI"],
+      "significance": "New model class outside the chat-LLM paradigm: frontier-level decision intelligence with type-safe, hallucination-free structured outputs at ~100x speed/cost, aimed at real-time automation and agent reliability.",
+      "sources": [
+        {
+          "label": "Introducing System One Models and Jev (TypeSafe AI blog, Diogo Almeida, Sep 2026, primary)",
+          "type": "blog",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "verified": true,
+          "verifiedTitle": "Introducing System One Models and Jev",
+          "verifiedVia": "exa"
+        },
+        {
+          "label": "TypeSafe AI debuts model for machines that plays Doom (The Register, Sep 16 2026)",
+          "type": "press",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+          "verified": true,
+          "verifiedTitle": "TypeSafe AI debuts model for machines that plays Doom",
+          "verifiedVia": "exa"
+        }
+      ],
+      "summary": "TypeSafe AI exited two years of stealth with System One Models, a new frontier-model class for fast structured decisions, and its first public model Jev in early access. Founder Diogo Almeida (ex-OpenAI, RLHF/ChatGPT lineage) positions Jev as a frontier-intelligence function call — unstructured state in, typed probabilistic decisions out — built on a new architecture, parallel sampler, and Reinforcement Learning for Calibrated Decisions (RLCD), giving up string generation for guaranteed schema-matching outputs with calibrated confidence. TypeSafe claims Jev matches frontier LLMs on System One tasks at two orders of magnitude better speed/cost: 70-500ms end-to-end (40-200x faster), $0.042/MTok input with free output, and workflow-eval highs of 193.6x faster / 444.6x cheaper vs GPT-6 Astra + Fable 5.1 reference averages. Pitched for AI workflows/smart if-statements, map-reduce over big data, real-time apps, and LLM verification/guardrails; launch demos include real-time Doom play and Wikiracing.",
+      "tags": [
+        "jev",
+        "system-one",
+        "typesafe",
+        "structured-outputs",
+        "rlcd",
+        "early-access",
+        "automation"
+      ],
+      "title": "TypeSafe AI launches Jev, first System One Model (structured decisions, early access)",
+      "category": "model-release",
+      "verified": true
+    },
+    {
       "id": "2026-09-15-zuckerberg-each-lab-paces-itself",
       "highlight": true,
       "date": "2026-09-15",
@@ -4433,45 +4495,6 @@
           "verifiedVia": "playwright-user-chrome"
         }
       ],
-      "verified": true
-    },
-    {
-      "confidence": "high",
-      "date": "2026-09-15",
-      "id": "2026-09-15-typesafe-jev-system-one",
-      "highlight": true,
-      "organizations": ["TypeSafe AI"],
-      "significance": "New model class outside the chat-LLM paradigm: frontier-level decision intelligence with type-safe, hallucination-free structured outputs at ~100x speed/cost, aimed at real-time automation and agent reliability.",
-      "sources": [
-        {
-          "label": "Introducing System One Models and Jev (TypeSafe AI blog, Diogo Almeida, Sep 2026, primary)",
-          "type": "blog",
-          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-          "verified": true,
-          "verifiedTitle": "Introducing System One Models and Jev",
-          "verifiedVia": "exa"
-        },
-        {
-          "label": "TypeSafe AI debuts model for machines that plays Doom (The Register, Sep 16 2026)",
-          "type": "press",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
-          "verified": true,
-          "verifiedTitle": "TypeSafe AI debuts model for machines that plays Doom",
-          "verifiedVia": "exa"
-        }
-      ],
-      "summary": "TypeSafe AI exited two years of stealth with System One Models, a new frontier-model class for fast structured decisions, and its first public model Jev in early access. Founder Diogo Almeida (ex-OpenAI, RLHF/ChatGPT lineage) positions Jev as a frontier-intelligence function call — unstructured state in, typed probabilistic decisions out — built on a new architecture, parallel sampler, and Reinforcement Learning for Calibrated Decisions (RLCD), giving up string generation for guaranteed schema-matching outputs with calibrated confidence. TypeSafe claims Jev matches frontier LLMs on System One tasks at two orders of magnitude better speed/cost: 70-500ms end-to-end (40-200x faster), $0.042/MTok input with free output, and workflow-eval highs of 193.6x faster / 444.6x cheaper vs GPT-6 Astra + Fable 5.1 reference averages. Pitched for AI workflows/smart if-statements, map-reduce over big data, real-time apps, and LLM verification/guardrails; launch demos include real-time Doom play and Wikiracing.",
-      "tags": [
-        "jev",
-        "system-one",
-        "typesafe",
-        "structured-outputs",
-        "rlcd",
-        "early-access",
-        "automation"
-      ],
-      "title": "TypeSafe AI launches Jev, first System One Model (structured decisions, early access)",
-      "category": "model-release",
       "verified": true
     },
     {
@@ -5821,6 +5844,121 @@
       "verified": true
     },
     {
+      "id": "2026-10-01-amazon-strands-decider-2b",
+      "highlight": false,
+      "date": "2026-10-01",
+      "title": "Amazon Strands releases Decider 2B",
+      "category": "model-release",
+      "organizations": ["Amazon", "Strands Agents"],
+      "summary": "Amazon’s Strands Agents team released Decider 2B, an open decision model derived from Qwen3.5-2B that scores predefined options and can run locally on CPU or GPU. The release includes weights, code, training data and training scripts. The team reports approximately 115 milliseconds of latency on an RTX 3090 for its measured workload; this is not a universal latency guarantee.",
+      "significance": "Makes a small decision model and its training pipeline available for local agent routing and structured choices.",
+      "tags": ["amazon", "strands", "decider", "decision-model", "open-weights", "local-inference"],
+      "sources": [
+        {
+          "label": "Introducing Strands Decider 2B: a small, open source, decision model | Strands Agents",
+          "type": "blog",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+          "verified": true,
+          "verifiedTitle": "Introducing Strands Decider 2B: a small, open source, decision model | Strands Agents",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-01-california-openai-cyber-subpoena",
+      "highlight": false,
+      "date": "2026-10-01",
+      "title": "California announces an investigative subpoena on OpenAI",
+      "category": "policy",
+      "organizations": ["California Department of Justice", "OpenAI"],
+      "summary": "California Attorney General Rob Bonta announced an investigative subpoena seeking information from OpenAI about cybersecurity incidents and risks involving the company and its models. The release is dated October 1 and says the subpoena was served the previous day, September 30. This is an investigative step, not a finding of wrongdoing or liability.",
+      "significance": "Adds a state investigative demand concerning frontier-model cybersecurity risks, distinct from the reported federal safety probe.",
+      "tags": ["california", "openai", "cybersecurity", "subpoena", "investigation"],
+      "sources": [
+        {
+          "label": "As Part of Ongoing Investigation, Attorney General Bonta Serves Investigative Subpoena on OpenAI | State of California - Department of Justice - Office of the Attorney General",
+          "type": "policy",
+          "url": "https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena",
+          "verified": true,
+          "verifiedTitle": "As Part of Ongoing Investigation, Attorney General Bonta Serves Investigative Subpoena on OpenAI | State of California - Department of Justice - Office of the Attorney General",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-01-cloudflare-clef-decision-models",
+      "highlight": true,
+      "date": "2026-10-01",
+      "title": "Cloudflare launches Clef and Clef-flash",
+      "category": "model-release",
+      "organizations": ["Cloudflare"],
+      "summary": "Cloudflare released Clef and Clef-flash, Apache 2.0 decision models available on Workers AI and as downloadable weights. They support vision and a 64K context window, returning schema-bound probabilities rather than generated prose, with a Jev-compatible API. Cloudflare also offers hands-on reinforcement-learning fine-tuning; its self-service fine-tuning platform remains future work.",
+      "significance": "Brings open decision models to Cloudflare’s deployment platform and extends the ecosystem around structured probability outputs.",
+      "tags": ["cloudflare", "clef", "clef-flash", "decision-model", "vision", "open-weights", "workers-ai"],
+      "sources": [
+        {
+          "label": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform | Cloudflare Blog",
+          "type": "blog",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "verified": true,
+          "verifiedTitle": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform | Cloudflare Blog",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-01-gemini-live-guided-vision",
+      "highlight": false,
+      "date": "2026-10-01",
+      "title": "Guided Vision launches in Gemini Live",
+      "category": "product",
+      "organizations": ["Google", "Aira"],
+      "summary": "Google launched Guided Vision in Gemini Live for camera-based spoken descriptions, follow-up questions and verbal reframing cues. Developed with blind and low-vision users and Aira, it is available on Android 9 and later where Gemini Live is supported, subject to supported languages and regions. Google states that the feature is not intended for navigation or obstacle detection.",
+      "significance": "Adds an accessibility-focused visual assistance mode to a widely distributed conversational AI product.",
+      "tags": ["google", "gemini-live", "guided-vision", "accessibility", "vision", "android"],
+      "sources": [
+        {
+          "label": "Guided Vision launches in Gemini Live for Android",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+          "verified": true,
+          "verifiedTitle": "Guided Vision launches in Gemini Live for Android",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-02-anthropic-claude-frontier-academy",
+      "highlight": true,
+      "date": "2026-10-02",
+      "title": "Anthropic launches Claude Frontier Academy",
+      "category": "company",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic announced Claude Frontier Academy and a $100 million commitment to train 10,000 Frontier Deployed Engineers by the end of 2027. Initial cohorts are already running, with training that includes a practical assessment and a 12-week enterprise deployment residency. The 10,000-graduate figure is a target, not an achieved count.",
+      "significance": "Commits substantial funding to training engineers who deploy AI systems inside enterprises.",
+      "tags": ["anthropic", "claude", "frontier-academy", "engineer-training", "enterprise", "workforce"],
+      "sources": [
+        {
+          "label": "Claude Frontier Academy: $100M to train 10,000 engineers \\ Anthropic",
+          "type": "blog",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy",
+          "verified": true,
+          "verifiedTitle": "Claude Frontier Academy: $100M to train 10,000 engineers \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-02-meta-muse-gadgets",
       "highlight": false,
       "date": "2026-10-02",
@@ -5855,6 +5993,290 @@
           "verifiedTitle": "David Singleton on X: \"Excited to open source the Muse Gadgets SDK today!…\" / X",
           "verifiedVia": "browser",
           "note": "Title truncated. Full announcement read in real Chrome; time element is 2026-10-02T19:36:07.000Z, displayed as Oct 3 in the browser's India timezone."
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-05-chatgpt-visual-ads-measurement",
+      "highlight": false,
+      "date": "2026-10-05",
+      "title": "OpenAI announces visual ChatGPT ads and expanded measurement",
+      "category": "product",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI announced a visual ChatGPT ad format planned for testing later in October in the United States during image generation on Free and Go. The announcement also expands attribution integrations and brand-suitability pilots. This is an expansion of advertising rather than its initial introduction; October 5 is the displayed publication date despite earlier embedded metadata.",
+      "significance": "Broadens ChatGPT’s advertising format and measurement infrastructure while leaving the visual format’s rollout pending.",
+      "tags": ["openai", "chatgpt", "advertising", "image-generation", "measurement", "planned-rollout"],
+      "sources": [
+        {
+          "label": "Building advertising for the way people use AI | OpenAI",
+          "type": "blog",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+          "verified": true,
+          "verifiedTitle": "Building advertising for the way people use AI | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-05-liquid-ai-d1-vision",
+      "highlight": false,
+      "date": "2026-10-05",
+      "title": "Liquid AI adds vision to d1",
+      "category": "model-release",
+      "organizations": ["Liquid AI"],
+      "summary": "Liquid AI introduced d1 with vision, a decision model that accepts text and images and returns probabilities in a single pass. It is available through Liquid’s API, while Vercel and OpenRouter access is text-only at announcement. The announced methodology uses $0.04 per million input tokens and bills each question separately. Open weights are planned for upcoming models, rather than confirmed for this release.",
+      "significance": "Extends Liquid’s decision-model offering to visual inputs and API-based structured scoring.",
+      "tags": ["liquid-ai", "d1", "decision-model", "vision", "api"],
+      "sources": [
+        {
+          "label": "Introducing d1: The most capable decision model, now with vision | Blog | Liquid AI",
+          "type": "blog",
+          "url": "https://www.liquid.ai/blog/d1-decision-model",
+          "verified": true,
+          "verifiedTitle": "Introducing d1: The most capable decision model, now with vision | Blog | Liquid AI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-05-openai-text-watermarking-eu",
+      "highlight": true,
+      "date": "2026-10-05",
+      "title": "OpenAI announces phased text watermarking",
+      "category": "policy",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI announced a phased approach to text watermarking, with global API opt-in for selected models beginning at announcement and eligible ChatGPT and Codex text in the EU to follow in coming weeks. Its text detector initially requires approval for researchers and experts. OpenAI notes that detection is affected by text length, editing and translation, and that a missing watermark does not establish human authorship. October 5 is the page’s visible publication date despite earlier embedded metadata.",
+      "significance": "Introduces a staged provenance mechanism for generated text across API and consumer surfaces, with restricted initial detector access.",
+      "tags": ["openai", "text-watermarking", "provenance", "eu", "chatgpt", "codex"],
+      "sources": [
+        {
+          "label": "Our approach to EU text provenance rules | OpenAI",
+          "type": "blog",
+          "url": "https://openai.com/index/eu-text-provenance/",
+          "verified": true,
+          "verifiedTitle": "Our approach to EU text provenance rules | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-06-anthropic-cyber-verification-expansion",
+      "highlight": false,
+      "date": "2026-10-06",
+      "title": "Anthropic expands the Cyber Verification Program",
+      "category": "policy",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic expanded the Cyber Verification Program, consolidating CVP and Project Glasswing access into Defense, Red Team and Specialized tiers. The tiers have different verification requirements and cyber safeguards, with Mythos 5.1, Opus 5.5 and Sonnet 5.5 included. Specialized access remains limited, so the expansion should not be described as unrestricted public access to advanced cyber capabilities.",
+      "significance": "Reorganizes controlled access to Anthropic’s cyber-capable models through explicit verification and safeguard tiers.",
+      "tags": ["anthropic", "cyber-verification-program", "glasswing", "cybersecurity", "restricted-access", "safeguards"],
+      "sources": [
+        {
+          "label": "Expanding the Cyber Verification Program \\ Anthropic",
+          "type": "blog",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "verified": true,
+          "verifiedTitle": "Expanding the Cyber Verification Program \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-06-google-constellation-nuclear-uprates",
+      "highlight": false,
+      "date": "2026-10-06",
+      "title": "Google and Constellation announce 890 MW of nuclear uprates",
+      "category": "infrastructure",
+      "organizations": ["Google", "Constellation"],
+      "summary": "Google and Constellation announced a power purchase agreement supporting 890 MW of additional capacity through upgrades at 11 reactors across six operating nuclear plants. Driven by Google’s data-center growth, the additional capacity is planned before the end of 2032 and is not online at announcement. Constellation will also use Gemini Enterprise workflows for planning and operations.",
+      "significance": "Links AI data-center power demand to planned expansion of existing nuclear generation rather than only new reactor construction.",
+      "tags": ["google", "constellation", "nuclear", "data-centers", "energy", "power-purchase-agreement"],
+      "sources": [
+        {
+          "label": "Why we're backing America's existing nuclear plants",
+          "type": "blog",
+          "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+          "verified": true,
+          "verifiedTitle": "Why we're backing America's existing nuclear plants",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-06-google-embeddinggemma-2",
+      "highlight": false,
+      "date": "2026-10-06",
+      "title": "Google releases EmbeddingGemma 2",
+      "category": "model-release",
+      "organizations": ["Google"],
+      "summary": "Google released EmbeddingGemma 2, an Apache 2.0 multimodal embedding model with 740 million parameters that maps text, code, images, video and audio into a shared space. It supports modular encoders, an 8K context and local retrieval on consumer hardware. Weights are downloadable at announcement, while Google’s enterprise Model Garden availability is coming soon.",
+      "significance": "Makes a compact open multimodal retrieval model available for local use across text and media inputs.",
+      "tags": ["google", "embeddinggemma-2", "embeddings", "multimodal", "open-weights", "local-retrieval"],
+      "sources": [
+        {
+          "label": "EmbeddingGemma 2 is a best-in-class open model for natively multimodal embeddings",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+          "verified": true,
+          "verifiedTitle": "EmbeddingGemma 2 is a best-in-class open model for natively multimodal embeddings",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-06-mistral-large-4-api-preview",
+      "highlight": true,
+      "date": "2026-10-06",
+      "title": "Mistral Large 4 launches in API preview",
+      "category": "model-release",
+      "organizations": ["Mistral AI"],
+      "summary": "Mistral introduced Large 4, an approximately trillion-parameter multimodal model available through Mistral Studio’s preview API. Weights are promised by the end of October, with reinforcement learning and red-teaming still ongoing. Performance comparisons in the announcement are Mistral’s claims, and the launch is an API preview rather than an open-weight release.",
+      "significance": "Introduces Mistral’s next large multimodal model through a preview API while deferring weights and broader readiness claims.",
+      "tags": ["mistral", "mistral-large-4", "multimodal", "api-preview", "frontier-model"],
+      "sources": [
+        {
+          "label": "Introducing Mistral Large 4 | Mistral",
+          "type": "blog",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "verified": true,
+          "verifiedTitle": "Introducing Mistral Large 4 | Mistral",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-06-openai-decisions-api-beta",
+      "highlight": true,
+      "date": "2026-10-06",
+      "title": "OpenAI opens the Decisions API public beta",
+      "category": "product",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI opened the Decisions API in public beta, using GPT-6 Luna to evaluate text and image predicates, choices and numeric scores. Announcement pricing is $0.10 per million input tokens, with no output or cache charges. OpenAI claims up to ten times faster decisions than using Luna through the Responses API. This is a new structured decision interface, distinct from the earlier Luna model launch and TypeSafe’s Jev release.",
+      "significance": "Adds a dedicated API for structured decisions and scoring without requiring generated prose.",
+      "tags": ["openai", "decisions-api", "gpt-6-luna", "decision-model", "public-beta", "api"],
+      "sources": [
+        {
+          "label": "Decisions API is now available in Public Beta - Announcements - OpenAI Developer Community",
+          "type": "blog",
+          "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
+          "verified": true,
+          "verifiedTitle": "Decisions API is now available in Public Beta - Announcements - OpenAI Developer Community",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-06-openai-mathematics-proof-artifacts",
+      "highlight": true,
+      "date": "2026-10-06",
+      "title": "OpenAI publishes AI-generated mathematics and proof artifacts",
+      "category": "advance",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI published manuscripts, proof artifacts and reasoning summaries produced with an unreleased internal frontier model. As read on October 8, its official repository lists 719 manuscripts in 372 families and approximately 42% of top-line results formalized in Lean. The repository explicitly warns that unformalized results may contain issues, so the release does not establish that every manuscript is independently proved. This artifact publication follows the earlier mathematics advisory-group announcement.",
+      "significance": "Provides public mathematical artifacts and formalization status for evaluating AI-assisted research claims.",
+      "tags": ["openai", "mathematics", "proofs", "lean", "formal-verification", "research-artifacts"],
+      "sources": [
+        {
+          "label": "Sharing AI progress in mathematics | OpenAI",
+          "type": "blog",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+          "verified": true,
+          "verifiedTitle": "Sharing AI progress in mathematics | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "GitHub - openai/math · GitHub",
+          "type": "repo",
+          "url": "https://github.com/openai/math",
+          "verified": true,
+          "verifiedTitle": "GitHub - openai/math · GitHub",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-07-chatgpt-gpt-6-intelligent-ui",
+      "highlight": true,
+      "date": "2026-10-07",
+      "title": "ChatGPT rolls out GPT-6 with Intelligent UI",
+      "category": "product",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI began rolling out GPT-6 in ChatGPT with Intelligent UI, adding interactive charts, forms, diagrams and tools inside responses along with progressive answering while reasoning continues. Paid-tier rollout begins October 7, with Free and Go following October 8 and enterprise access depending on administrator settings. Chat uses Sol for paid tiers and Luna for Free and Go; the announcement does not change Work or Codex models.",
+      "significance": "Expands ChatGPT’s interaction format and GPT-6 availability beyond the earlier model and API announcements.",
+      "tags": ["openai", "chatgpt", "gpt-6", "intelligent-ui", "interactive-responses", "rollout"],
+      "sources": [
+        {
+          "label": "GPT-6 and Intelligent UI for everyone | OpenAI",
+          "type": "blog",
+          "url": "https://openai.com/index/gpt-6-for-everyone/",
+          "verified": true,
+          "verifiedTitle": "GPT-6 and Intelligent UI for everyone | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-07-claude-haiku-5-5",
+      "highlight": true,
+      "date": "2026-10-07",
+      "title": "Anthropic releases Claude Haiku 5.5",
+      "category": "model-release",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic released Claude Haiku 5.5, a high-volume small model with adjustable effort and availability through Claude, AWS, Google Cloud and Azure. Announced pricing is $0.10 input and $0.50 output per million tokens for prompts up to 100K, rising to $0.50 and $2.50 above 100K. The announcement also halves Sonnet 5.5 cache-read pricing to $0.10 per million tokens. The first-party page is dated October 7.",
+      "significance": "Completes the announced Claude 5.5 family with a lower-cost model and reduced Sonnet cache pricing.",
+      "tags": ["anthropic", "claude", "haiku-5-5", "model-release", "pricing", "adjustable-effort"],
+      "sources": [
+        {
+          "label": "Introducing Claude Haiku 5.5 \\ Anthropic",
+          "type": "blog",
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "verified": true,
+          "verifiedTitle": "Introducing Claude Haiku 5.5 \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-07-synthid-detector-public-access",
+      "highlight": false,
+      "date": "2026-10-07",
+      "title": "Google opens SynthID Detector globally in English",
+      "category": "product",
+      "organizations": ["Google", "Google DeepMind"],
+      "summary": "Google expanded SynthID Detector from an earlier media-professional preview to public access globally in English. It checks supported watermarked images, video and audio from Google and listed partners, with Apple support described as coming soon. The detector checks watermark-based provenance rather than universally identifying all AI-generated media.",
+      "significance": "Broadens public access to a media provenance tool while preserving the limits of watermark-based detection.",
+      "tags": ["google", "deepmind", "synthid", "provenance", "watermarking", "public-access"],
+      "sources": [
+        {
+          "label": "Google expands SynthID Detector for AI content",
+          "type": "blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+          "verified": true,
+          "verifiedTitle": "Google expands SynthID Detector for AI content",
+          "verifiedVia": "playwright-user-chrome"
         }
       ],
       "confidence": "high",

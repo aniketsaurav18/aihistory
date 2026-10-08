@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Hand Picking"
+  short_description: "Review researched data with keep/delete/highlight"
+  default_prompt: "Use $data-hand-picking to research and deduplicate candidate events, create an HTML review, and apply my selections."

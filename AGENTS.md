@@ -73,3 +73,7 @@ Every link and source added to the timeline MUST be validated before commit:
   committing inspect `git status`, `git diff`, `git log --oneline -10`; stage
   only intended files. Concise commit messages matching repo style
   (e.g. `Add TypeSafe Jev System One model launch (highlighted, Sep 15)`).
+
+## Manual research review
+
+For AI-news research and user-selected timeline additions, use the repository-local [data-hand-picking skill](.agents/skills/data-hand-picking/SKILL.md). It covers source verification, deduplication, the HTML picker, retrieving user selections from Chrome, and applying them to the canonical data.
