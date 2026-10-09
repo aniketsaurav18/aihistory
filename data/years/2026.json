@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "range": "2026-01-01 to 2026-10-07",
-  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Oct): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event. Selected additions verified in real Chrome on Oct 6: Grok 4.7 (Sep 21), Xiaomi MiMo-V2.6-Pro-RL (Sep 22), AMD's World Labs acquisition agreement (Sep 28), and Meta Muse Gadgets (Oct 2 UTC). October 8 research selections add Atlas, decision-model/API releases, Guided Vision, Claude Frontier Academy, text provenance and advertising updates, expanded CVP access, nuclear uprates, EmbeddingGemma 2, Mistral Large 4 API preview, OpenAI mathematics artifacts, Haiku 5.5, ChatGPT Intelligent UI and public SynthID Detector. Source evidence retains its original real-Chrome verification tier. Preview availability, planned rollouts and formalization limits are qualified in each event. Coverage extends through Oct 7.",
+  "range": "2026-01-01 to 2026-10-09",
+  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Oct): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event. Selected additions verified in real Chrome on Oct 6: Grok 4.7 (Sep 21), Xiaomi MiMo-V2.6-Pro-RL (Sep 22), AMD's World Labs acquisition agreement (Sep 28), and Meta Muse Gadgets (Oct 2 UTC). October 8 research selections add Atlas, decision-model/API releases, Guided Vision, Claude Frontier Academy, text provenance and advertising updates, expanded CVP access, nuclear uprates, EmbeddingGemma 2, Mistral Large 4 API preview, OpenAI mathematics artifacts, Haiku 5.5, ChatGPT Intelligent UI and public SynthID Detector. Source evidence retains its original real-Chrome verification tier. Preview availability, planned rollouts and formalization limits are qualified in each event. October 10 selections add Whistle, Beam early access, Nano Banana 2.1, open d1 models, teen college planning, Anthropic Cyber Mission, Genesis funding and usage rules, and OpenAI influence-operation disclosures and the safety-researcher letter. Planned availability and disputed claims remain qualified. Microsoft-Decision-1 (Oct 9) is added by user request, available in Foundry with OpenRouter access forthcoming. Coverage extends through Oct 9.",
   "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-30. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains plus Altman/Musk/Hassabis endorsements and pact hints. Sep 13-15 pushback then closed the coordination paths: Sacks (Sep 13, no antitrust waiver or approval process — slow down voluntarily), Trump (Sep 13 Ireland remarks + Sep 14 Truth Social posts incl. hoax declarations + All-In call with Huang — pro-acceleration stands), Nadella (Sep 13, welcomed pacing and embedded evaluators but committed to nothing operational; Microsoft MAI Code draft Sep 14), Huang (Sep 14-15, no new laws; All-In ‘we're not going to let that happen’), Zuckerberg (Sep 15, each lab paces itself; liability and alignment suffice). Sep 16-24 produced no agreement but did harden the mechanisms around one: OpenAI opened a standing misalignment-report series (Sep 16), Anthropic named Accenture's Faculty as its first embedded evaluator with $1B each over five years — the first concrete delivery on Amodei's embedded-evaluator pledge (Sep 18) — and California put a frontier-model kill switch plus onsite independent verification on a ~60-day clock via EO N-9-26 (Sep 18, recommendations due ~Nov 16). Altman and Amodei then both briefed the UN Security Council on AI and international security (Sep 23, 10228th meeting) while asking for international standards. A reported joint 'Standards Authority for Frontier AI' (SAFA) from OpenAI/Anthropic/Google is logged as low-confidence rumor only and must not be presented as an existing body. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns), and Trump's Sep 19 'AI Force'/AI czar announcement added no new guardrails. This file records the actual slowdown-related milestones without overstating them. Subsequent verified developments: OpenAI’s Sep 25 DNS-escape report says training, evaluation, and tool-using inference for its most capable research models remain paused, following a Sep 20 incident; this is a single-lab incident response, not a joint pact. The White House’s Sep 25 fact sheet announces a U.S.-China AI-risk dialogue and agreement to establish an incident channel. On Sep 29 industry leaders did sign the voluntary White House Accord on Super Intelligence, described by Speaker Johnson as internal controls plus internal and external review. That signed safety accord is real, but does not establish a binding agreement to slow or pause capability development, and is distinct from the unconfirmed SAFA proposal. Sonnet 5.5 (Sep 28), GPT-6.1 Sol (Sep 29), and the restricted Gemini 4 Argon preview (Sep 30) also show continued model announcements. The Sep 30 FTC investigation is recorded as reported investigative scrutiny, not a regulatory finding.",
-  "count": 232,
+  "count": 243,
   "events": [
     {
       "id": "2024-05-21-seoul-commitments-context",
@@ -5959,6 +5959,29 @@
       "verified": true
     },
     {
+      "id": "2026-10-02-cactus-whistle",
+      "highlight": false,
+      "date": "2026-10-02",
+      "title": "Cactus releases Whistle, a 16.9 MB on-device speech recognizer",
+      "category": "model-release",
+      "organizations": ["Cactus Compute"],
+      "summary": "Cactus releases Whistle, a CPU speech-recognition model packaged as a 16.9 MB file and sharing the Needle C++ runtime. It transcribes up to 30 seconds of 16 kHz mono audio in seven languages, with word timestamps and speech embeddings. Cactus’s tests on an Apple M4 Pro report an 11.1 ms time to first token; accuracy comparisons are mixed, with Whisper base ahead on several datasets.",
+      "significance": "A small local speech model makes transcription practical for constrained devices without sending audio to a cloud service.",
+      "tags": ["speech-recognition", "on-device", "edge-ai"],
+      "sources": [
+        {
+          "label": "Cactus release",
+          "url": "https://cactuscompute.com/blog/whistle",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Whistle: Speech to Text in 16.9 MB | Cactus",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-02-meta-muse-gadgets",
       "highlight": false,
       "date": "2026-10-02",
@@ -6068,6 +6091,29 @@
       "verified": true
     },
     {
+      "id": "2026-10-05-reflection-beam-early-access",
+      "highlight": true,
+      "date": "2026-10-05",
+      "title": "Reflection introduces Beam and opens early-access signup",
+      "category": "model-release",
+      "organizations": ["Reflection AI"],
+      "summary": "Reflection introduces Beam, a sparse model with 501B total and 23B active parameters, focused on coding, reasoning and agents. It reports a large reinforcement-learning campaign and adjustable reasoning effort. Beam is undergoing final red-teaming and evaluation; early-access signup is available, while weights, the technical report and developer artifacts are promised later in October. The October 8 benchmark update is bundled into the October 5 introduction.",
+      "significance": "A new lab enters the large-model field with an intended open-weight release; published efficiency comparisons remain vendor estimates.",
+      "tags": ["coding", "mixture-of-experts", "early-access"],
+      "sources": [
+        {
+          "label": "Reflection introduction",
+          "url": "https://reflection.ai/blog/introducing-beam",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Introducing Beam: Reflection’s 501B open-weight model — Reflection",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-06-anthropic-cyber-verification-expansion",
       "highlight": false,
       "date": "2026-10-06",
@@ -6160,6 +6206,37 @@
       "verified": true
     },
     {
+      "id": "2026-10-06-nano-banana-2-1",
+      "highlight": false,
+      "date": "2026-10-06",
+      "title": "Google releases Nano Banana 2.1 for image generation and editing",
+      "category": "model-release",
+      "organizations": ["Google", "Google DeepMind"],
+      "summary": "Google makes Nano Banana 2.1 generally available in the Gemini API on October 6. Its model card describes a Gemini 3.6 Flash-based model for image generation and editing, with distribution through Gemini, AI Studio, the API, Search AI Mode, Ads, Flow and Stitch. Google reports improvements in visual quality, prompt adherence, multi-turn character consistency and text rendering, with panoramic aspect ratios across 1K, 2K and 4K resolutions. The prior Gemini 3.1 Flash Image model is deprecated without a shutdown date announced.",
+      "significance": "The update expands fast image generation and conversational editing while providing an API migration path for the previous Nano Banana 2 model.",
+      "tags": ["image-generation", "multimodal"],
+      "sources": [
+        {
+          "label": "Google model card",
+          "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+          "type": "model-card",
+          "verified": true,
+          "verifiedTitle": "Nano Banana 2.1 - Model Card — Google DeepMind",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Google Gemini API release notes (October 6)",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "type": "docs",
+          "verified": true,
+          "verifiedTitle": "Release notes  |  Gemini API  |  Google AI for Developers",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-06-openai-decisions-api-beta",
       "highlight": true,
       "date": "2026-10-06",
@@ -6237,6 +6314,29 @@
       "verified": true
     },
     {
+      "id": "2026-10-07-chatgpt-teen-college-planner",
+      "highlight": false,
+      "date": "2026-10-07",
+      "title": "OpenAI announces College Planner and expanded teen learning tools",
+      "category": "product",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI announces College Planner for ChatGPT for Teens, designed to track applications, deadlines and financial-aid steps. The initial US experience is planned for grades 10–12 applying to four-year colleges; it is described as coming soon. The same announcement expands learning support and backs advising and teen-participation programs, with adoption figures reported by OpenAI.",
+      "significance": "The announcement extends age-specific AI assistance from studying to managing college applications, with human advisers still part of the process.",
+      "tags": ["education", "teens", "chatgpt"],
+      "sources": [
+        {
+          "label": "OpenAI announcement",
+          "url": "https://openai.com/index/teens-learn-and-plan/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Helping teens learn, plan, and shape the future of AI | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-07-claude-haiku-5-5",
       "highlight": true,
       "date": "2026-10-07",
@@ -6260,6 +6360,29 @@
       "verified": true
     },
     {
+      "id": "2026-10-07-liquid-open-d1-models",
+      "highlight": false,
+      "date": "2026-10-07",
+      "title": "Liquid AI releases open d1-3B and experimental d1-omni-600M",
+      "category": "model-release",
+      "organizations": ["Liquid AI"],
+      "summary": "Liquid AI releases downloadable d1-3B and d1-omni-600M decision models on Hugging Face. Both return decisions in a single forward pass; d1-3B accepts text and images, while the experimental 600M model accepts text with either images or audio. Liquid reports an 8 ms single-question result for d1-3B on an RTX 4090 under its measured workload, and does not publish inference figures for the experimental omni checkpoint.",
+      "significance": "This is the open-weight follow-through to Liquid’s hosted decision-model launch, bringing structured multimodal decisions to local hardware.",
+      "tags": ["decision-models", "open-weights", "edge-ai", "audio"],
+      "sources": [
+        {
+          "label": "Liquid AI open release",
+          "url": "https://www.liquid.ai/blog/d1-open",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Open d1: Edge decision models for text, vision, and audio | Blog | Liquid AI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-07-synthid-detector-public-access",
       "highlight": false,
       "date": "2026-10-07",
@@ -6276,6 +6399,152 @@
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
           "verified": true,
           "verifiedTitle": "Google expands SynthID Detector for AI content",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-08-anthropic-cyber-mission",
+      "highlight": true,
+      "date": "2026-10-08",
+      "title": "Anthropic launches Cyber Mission with free OSS Scanner and infrastructure defense",
+      "category": "policy",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic launches its Cyber Mission, combining a Critical Infrastructure Defense Program with a free, opt-in OSS Scanner service. The program supplies models, engineering support and research to infrastructure-security providers; enrolled open-source projects receive periodic model-generated findings and suggested fixes. Scanner reports are sent without human review, and the claimed true-positive rate above 90% is an expectation. Funding and maintainer support are part of the same initiative.",
+      "significance": "The program adds deployment and remediation support beyond granting defenders model access, while leaving triage responsibility and false-positive risks explicit.",
+      "tags": ["cybersecurity", "open-source", "critical-infrastructure"],
+      "sources": [
+        {
+          "label": "Anthropic Cyber Mission",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Introducing the Anthropic Cyber Mission \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-08-anthropic-genesis-150m",
+      "highlight": false,
+      "date": "2026-10-08",
+      "title": "Anthropic commits $150 million over three years to the Genesis Mission",
+      "category": "company",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic commits $150 million over three years to expand Claude access across more than 15 federal agencies participating in the Genesis Mission, including NASA, NIH and NSF. The plan includes Claude, Claude Code and API credits for hundreds of projects, plus training and technical support. It builds on the prior Department of Energy partnership; earlier Claude Science, academic seats and hardware-standard programs are cited as background rather than new launches.",
+      "significance": "The commitment broadens AI support for federally organized scientific research, with delivery and spending still planned over three years.",
+      "tags": ["science", "government", "genesis-mission"],
+      "sources": [
+        {
+          "label": "Anthropic commitment",
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Building on our commitment to American scientific discovery \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-08-anthropic-usage-policy-update",
+      "highlight": false,
+      "date": "2026-10-08",
+      "title": "Anthropic updates usage rules for autonomous hardware, elections and model abuse",
+      "category": "policy",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic publishes its annual Usage Policy update, effective November 12. It adds operator oversight and a safe-state fallback for potentially injurious autonomous hardware, consolidates deceptive-activity rules, clarifies weapons and surveillance restrictions, and removes the blanket prohibition on personalized vote and campaign targeting while retaining deception and privacy restrictions. It also prohibits extreme sustained, purposeless abuse toward models. Existing human-review requirements for high-risk advice are clarified rather than newly introduced.",
+      "significance": "The policy addresses more autonomous AI behavior while distinguishing new restrictions from clarifications of existing enforcement.",
+      "tags": ["usage-policy", "physical-ai", "elections", "model-welfare"],
+      "sources": [
+        {
+          "label": "Anthropic policy announcement",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "2026 Usage Policy update \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-08-openai-false-front-operations",
+      "highlight": false,
+      "date": "2026-10-08",
+      "title": "OpenAI discloses disruption of Russian and Iranian false-front influence operations",
+      "category": "drama",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI reports banning accounts tied to two covert influence operations that combined AI assistance with fabricated personas, fake documents and real-world distribution. It attributes Dark Clark to Russia-origin actors and Bogus Bylines to Iran-origin actors. OpenAI rates the former at Category 5 on the IO Breakout Scale, its first disclosed disruption at that level; attribution and reach assessments remain OpenAI’s findings. The October 8 visible date is used despite conflicting older page metadata.",
+      "significance": "The disclosure documents AI assistance within complex influence campaigns and the difficulty of tracing the true sponsors of apparently independent media.",
+      "tags": ["influence-operations", "misuse", "disinformation"],
+      "sources": [
+        {
+          "label": "OpenAI disclosure",
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Disrupting AI-enabled “false front” operations | OpenAI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-08-openai-safety-researchers-open-letter",
+      "highlight": true,
+      "date": "2026-10-08",
+      "title": "Fired OpenAI safety researchers publish an open letter; OpenAI disputes retaliation claims",
+      "category": "drama",
+      "organizations": ["OpenAI", "METR"],
+      "summary": "Tomek Korbak, Jasmine Wang and Mikita Balesni publicly challenge their dismissals in an October 8 letter and social posts, arguing that unclear rules and fear weaken outside safety collaboration. They urge OpenAI to preserve third-party auditing and frontier-model monitorability. OpenAI responds on October 9 that the dismissals followed sensitive-information policy violations and were unrelated to raising safety concerns. The reasons for the firings remain disputed; this event dates the public letter rather than the earlier dismissals.",
+      "significance": "The dispute raises concrete questions about employee dissent, external evaluation access and transparency within a frontier lab.",
+      "tags": ["ai-safety", "governance", "external-audits"],
+      "sources": [
+        {
+          "label": "Jasmine Wang’s dated public thread",
+          "url": "https://x.com/j_asminewang/status/2108263312291180680",
+          "type": "social",
+          "verified": true,
+          "verifiedTitle": "Jasmine Wang on X: \"OpenAI fired me last week, along with two of my safety colleagues.\" / X (title excerpt)",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "AP on the letter and OpenAI response",
+          "url": "https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41",
+          "type": "news",
+          "verified": true,
+          "verifiedTitle": "OpenAI fires 3 safety researchers in a 'breach of trust' dispute | AP News",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "medium",
+      "verified": true
+    },
+    {
+      "id": "2026-10-09-microsoft-decision-1",
+      "highlight": false,
+      "date": "2026-10-09",
+      "title": "Microsoft releases Decision-1 for fast structured decision scoring",
+      "category": "model-release",
+      "organizations": ["Microsoft"],
+      "summary": "Microsoft releases Microsoft-Decision-1 in Microsoft Foundry, with OpenRouter access announced as coming soon. Post-trained from Qwen3.5-9B, it assigns calibrated probabilities to predefined choices in a single pass for routing, classification, grading and agent workflow control. Microsoft reports leading accuracy across its 36-benchmark comparison and lower latency than the compared models; these results are vendor evaluations. The announced price is $0.042 per million input tokens, with no charge for output tokens.",
+      "significance": "The release brings a specialized decision model into Microsoft’s model platform, giving developers a low-cost tool for selecting and evaluating agent actions.",
+      "tags": ["decision-models", "agent-routing", "classification", "microsoft-foundry"],
+      "sources": [
+        {
+          "label": "Microsoft announcement",
+          "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+          "type": "blog",
+          "verified": true,
+          "verifiedTitle": "Microsoft-Decision-1: Our model for fast decision-making",
           "verifiedVia": "playwright-user-chrome"
         }
       ],
