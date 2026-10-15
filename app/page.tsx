@@ -16,7 +16,7 @@ const yearFiles = [y2017, y2018, y2019, y2020, y2021, y2022, y2023, y2024, y2025
 export default function Home() {
   const events = yearFiles
     .flatMap((file) => file.events as TimelineEvent[])
-    .sort((a, b) => a.date.localeCompare(b.date));
+    .sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
 
   const years: YearMeta[] = yearFiles.map((file) => ({
     year: file.year,

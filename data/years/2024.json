@@ -2,7 +2,7 @@
   "year": 2024,
   "range": "2024-01-01 to 2024-12-31",
   "description": "GPT-4o brings Her-like voice, Claude 3.5 sets the coding bar, Llama 3.1 proves open can match frontier, and o1 invents reasoning models. Sora previews video, NVDA mints billions, and safety talent exits OpenAI.",
-  "count": 39,
+  "count": 40,
   "events": [
     {
    "id": "2024-01-10-gpt-store",
@@ -573,6 +573,45 @@
           "verified": true,
           "verifiedTitle": "How the voices for ChatGPT were chosen | OpenAI",
           "verifiedVia": "exa"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "2024-05-21-seoul-commitments-context",
+      "highlight": false,
+      "date": "2024-05-21",
+      "title": "Context: Seoul Frontier AI Safety Commitments (2024, voluntary, precursor cited in 2026)",
+      "category": "policy",
+      "organizations": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Microsoft",
+        "NVIDIA",
+        "xAI",
+        "Zhipu"
+      ],
+      "summary": "Included for webpage continuity: 16 companies pledged to publish safety frameworks, set intolerable-risk thresholds and not develop or deploy if risks unmitigated. Voluntary, no enforcement. Cited in Paris 2025 statement and July 2026 letter as prior voluntary baseline that proved insufficient, motivating pacing-tools ask.",
+      "significance": "Baseline voluntary commitment that 2026 letter says needs teeth.",
+      "tags": ["seoul", "commitments", "safety", "context"],
+      "sources": [
+        {
+          "label": "Frontier AI Safety Commitments, AI Seoul Summit 2024 (GOV.UK, official)",
+          "type": "policy",
+          "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "verified": true,
+          "verifiedTitle": "Frontier AI Safety Commitments, AI Seoul Summit 2024 - GOV.UK",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Historic first: companies agree safety commitments (GOV.UK news, Seoul 2024)",
+          "type": "policy",
+          "url": "https://www.gov.uk/government/news/historic-first-as-companies-spanning-north-america-asia-europe-and-middle-east-agree-safety-commitments-on-development-of-ai",
+          "verified": true,
+          "verifiedTitle": "Historic first as companies spanning North America, Asia, Europe and Middle East agree saf",
+          "verifiedVia": "playwright-user-chrome"
         }
       ],
       "verified": true

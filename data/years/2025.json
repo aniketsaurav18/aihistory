@@ -287,33 +287,6 @@
    "verified": true
   },
   {
-   "id": "2025-02-24-claude37",
-   "highlight": true,
-   "date": "2025-02-24",
-   "title": "Anthropic Claude 3.7 Sonnet plus Claude Code preview",
-   "category": "model-release",
-   "organizations": [
-    "Anthropic"
-   ],
-   "summary": "First hybrid reasoning model: instant versus extended visible thinking, API thinking-budget to 128K tokens. $3/$15 per 1M. SWE-Bench 62.3% versus o3-mini 49.3%. Optimized for real-world code. Claude Code CLI delegates terminal coding. Free tier gets non-thinking only.",
-   "significance": "Hybrid thinking debut; Claude Code starts the agentic-coding boom.",
-   "tags": [
-    "claude-3.7",
-    "hybrid-reasoning",
-    "claude-code"
-   ],
-   "sources": [
-    {
-     "label": "Claude 3.7 Sonnet and Claude Code (Anthropic, Feb 24 2025, hybrid reasoning)",
-     "type": "blog",
-     "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
-     "verified": true,
-     "verifiedTitle": "Claude 3.7 Sonnet and Claude Code \\ Anthropic"
-    }
-   ],
-   "verified": true
-  },
-  {
    "id": "2025-02-24-claude-code-launch",
    "highlight": true,
    "date": "2025-02-24",
@@ -355,6 +328,33 @@
      "verified": true,
      "verifiedTitle": "Anthropic on X: \"Introducing Claude 3.7 Sonnet: our most intelligent model to date. It's a hybrid reasoning model, producing near-instant responses or extended, step-by-step thinking. One model, two ways to think. We're also releasing an agentic coding tool: Claude Code.\" / X",
      "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-02-24-claude37",
+   "highlight": true,
+   "date": "2025-02-24",
+   "title": "Anthropic Claude 3.7 Sonnet plus Claude Code preview",
+   "category": "model-release",
+   "organizations": [
+    "Anthropic"
+   ],
+   "summary": "First hybrid reasoning model: instant versus extended visible thinking, API thinking-budget to 128K tokens. $3/$15 per 1M. SWE-Bench 62.3% versus o3-mini 49.3%. Optimized for real-world code. Claude Code CLI delegates terminal coding. Free tier gets non-thinking only.",
+   "significance": "Hybrid thinking debut; Claude Code starts the agentic-coding boom.",
+   "tags": [
+    "claude-3.7",
+    "hybrid-reasoning",
+    "claude-code"
+   ],
+   "sources": [
+    {
+     "label": "Claude 3.7 Sonnet and Claude Code (Anthropic, Feb 24 2025, hybrid reasoning)",
+     "type": "blog",
+     "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+     "verified": true,
+     "verifiedTitle": "Claude 3.7 Sonnet and Claude Code \\ Anthropic"
     }
    ],
    "verified": true
@@ -554,42 +554,6 @@
    "verified": true
   },
   {
-   "id": "2025-04-16-o3-o4mini",
-   "highlight": false,
-   "date": "2025-04-16",
-   "title": "OpenAI o3 plus o4-mini think with images",
-   "category": "model-release",
-   "organizations": [
-    "OpenAI"
-   ],
-   "summary": "Smartest reasoning yet, first to think with images (zoom and rotate sketches), Python in Canvas, web search. o3 69.1% SWE-Bench Verified, o4-mini 68.1% plus 99.5% AIME 2025 with interpreter. Replaces o1 and o3-mini in picker. o3-pro June 10 for Pro.",
-   "significance": "Visual reasoning debut; o-series matures.",
-   "tags": [
-    "o3",
-    "o4-mini",
-    "reasoning",
-    "vision"
-   ],
-   "sources": [
-    {
-     "label": "Introducing OpenAI o3 and o4-mini (OpenAI, Apr 16 2025)",
-     "type": "blog",
-     "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
-     "verified": true,
-     "verifiedTitle": "Introducing OpenAI o3 and o4-mini | OpenAI"
-    },
-    {
-     "label": "Thinking with images (OpenAI, Apr 16 2025, visual reasoning)",
-     "type": "blog",
-     "url": "https://openai.com/index/thinking-with-images/",
-     "verified": true,
-     "verifiedTitle": "Thinking with images | OpenAI",
-     "verifiedVia": "playwright-user-chrome"
-    }
-   ],
-   "verified": true
-  },
-  {
    "id": "2025-04-16-codex-cli",
    "highlight": true,
    "date": "2025-04-16",
@@ -623,6 +587,42 @@
      "url": "https://learn.chatgpt.com/docs/codex/cli",
      "verified": true,
      "verifiedTitle": "Codex CLI | ChatGPT Learn",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-04-16-o3-o4mini",
+   "highlight": false,
+   "date": "2025-04-16",
+   "title": "OpenAI o3 plus o4-mini think with images",
+   "category": "model-release",
+   "organizations": [
+    "OpenAI"
+   ],
+   "summary": "Smartest reasoning yet, first to think with images (zoom and rotate sketches), Python in Canvas, web search. o3 69.1% SWE-Bench Verified, o4-mini 68.1% plus 99.5% AIME 2025 with interpreter. Replaces o1 and o3-mini in picker. o3-pro June 10 for Pro.",
+   "significance": "Visual reasoning debut; o-series matures.",
+   "tags": [
+    "o3",
+    "o4-mini",
+    "reasoning",
+    "vision"
+   ],
+   "sources": [
+    {
+     "label": "Introducing OpenAI o3 and o4-mini (OpenAI, Apr 16 2025)",
+     "type": "blog",
+     "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+     "verified": true,
+     "verifiedTitle": "Introducing OpenAI o3 and o4-mini | OpenAI"
+    },
+    {
+     "label": "Thinking with images (OpenAI, Apr 16 2025, visual reasoning)",
+     "type": "blog",
+     "url": "https://openai.com/index/thinking-with-images/",
+     "verified": true,
+     "verifiedTitle": "Thinking with images | OpenAI",
      "verifiedVia": "playwright-user-chrome"
     }
    ],
@@ -1331,42 +1331,6 @@
    "verified": true
   },
   {
-   "id": "2025-11-18-gemini3-pro",
-   "highlight": true,
-   "date": "2025-11-18",
-   "title": "Google Gemini 3 Pro preview path to AGI",
-   "category": "model-release",
-   "organizations": [
-    "Google DeepMind"
-   ],
-   "summary": "New era, best multimodal understanding, best agentic and vibe-coding, generative UI. 1501 LMArena Elo (first >1500), SOTA reasoning. In Gemini app, AI Mode and Search, Vertex and Antigravity agentic IDE. Knowledge cutoff Jan 2025. Flash preview Dec 17.",
-   "significance": "First 1500-Elo model; Google claims AGI path.",
-   "tags": [
-    "gemini-3",
-    "google",
-    "agentic",
-    "arena"
-   ],
-   "sources": [
-    {
-     "label": "Gemini 3 (Google Blog, Nov 18 2025, path to AGI preview)",
-     "type": "blog",
-     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
-     "verified": true,
-     "verifiedTitle": "Gemini 3: Introducing the latest Gemini AI model from Google"
-    },
-    {
-     "label": "Gemini 3 API docs (Google AI for Developers, first-party)",
-     "type": "docs",
-     "url": "https://ai.google.dev/gemini-api/docs/gemini-3",
-     "verified": true,
-     "verifiedTitle": "Gemini 3 developer guide - Interactions API | Google AI for Developers",
-     "verifiedVia": "playwright-user-chrome"
-    }
-   ],
-   "verified": true
-  },
-  {
    "id": "2025-11-18-antigravity-launch",
    "highlight": true,
    "date": "2025-11-18",
@@ -1401,6 +1365,42 @@
      "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform",
      "verified": true,
      "verifiedTitle": "Build with Google Antigravity, our new agentic development platform - Google Developers Blog",
+     "verifiedVia": "playwright-user-chrome"
+    }
+   ],
+   "verified": true
+  },
+  {
+   "id": "2025-11-18-gemini3-pro",
+   "highlight": true,
+   "date": "2025-11-18",
+   "title": "Google Gemini 3 Pro preview path to AGI",
+   "category": "model-release",
+   "organizations": [
+    "Google DeepMind"
+   ],
+   "summary": "New era, best multimodal understanding, best agentic and vibe-coding, generative UI. 1501 LMArena Elo (first >1500), SOTA reasoning. In Gemini app, AI Mode and Search, Vertex and Antigravity agentic IDE. Knowledge cutoff Jan 2025. Flash preview Dec 17.",
+   "significance": "First 1500-Elo model; Google claims AGI path.",
+   "tags": [
+    "gemini-3",
+    "google",
+    "agentic",
+    "arena"
+   ],
+   "sources": [
+    {
+     "label": "Gemini 3 (Google Blog, Nov 18 2025, path to AGI preview)",
+     "type": "blog",
+     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+     "verified": true,
+     "verifiedTitle": "Gemini 3: Introducing the latest Gemini AI model from Google"
+    },
+    {
+     "label": "Gemini 3 API docs (Google AI for Developers, first-party)",
+     "type": "docs",
+     "url": "https://ai.google.dev/gemini-api/docs/gemini-3",
+     "verified": true,
+     "verifiedTitle": "Gemini 3 developer guide - Interactions API | Google AI for Developers",
      "verifiedVia": "playwright-user-chrome"
     }
    ],
