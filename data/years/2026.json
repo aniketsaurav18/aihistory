@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "range": "2026-01-01 to 2026-10-15",
-  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Oct): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event. Selected additions verified in real Chrome on Oct 6: Grok 4.7 (Sep 21), Xiaomi MiMo-V2.6-Pro-RL (Sep 22), AMD's World Labs acquisition agreement (Sep 28), and Meta Muse Gadgets (Oct 2 UTC). October 8 research selections add Atlas, decision-model/API releases, Guided Vision, Claude Frontier Academy, text provenance and advertising updates, expanded CVP access, nuclear uprates, EmbeddingGemma 2, Mistral Large 4 API preview, OpenAI mathematics artifacts, Haiku 5.5, ChatGPT Intelligent UI and public SynthID Detector. Source evidence retains its original real-Chrome verification tier. Preview availability, planned rollouts and formalization limits are qualified in each event. October 10 selections add Whistle, Beam early access, Nano Banana 2.1, open d1 models, teen college planning, Anthropic Cyber Mission, Genesis funding and usage rules, and OpenAI influence-operation disclosures and the safety-researcher letter. Planned availability and disputed claims remain qualified. Microsoft-Decision-1 (Oct 9) is added by user request, available in Foundry with OpenRouter access forthcoming. October 15 reviews add 21 selected events, including 10 user-selected highlights; six candidates were excluded. An explicit user request also adds the October 14 Jev 1.14 preview, with experimental capabilities and the stable alias distinguished. Coverage extends through Oct 15.",
+  "range": "2026-01-01 to 2026-10-17",
+  "description": "No binding lab slowdown pact as of Sep 30 2026 (see note_on_slowdown_pact). Sep 13-15 responses: Sacks (slow voluntarily, no antitrust waiver), Trump (Truth Social rejections incl. hoax posts), Nadella (deliberate pacing welcome) + Microsoft MAI Code of Conduct draft (Sep 14), Huang (no new laws, All-In call), Zuckerberg (each lab paces itself, Sep 15). Sep 16-24 kept the pressure on from a different direction — OpenAI's standing misalignment-disclosure framework (Sep 16), Newsom EO N-9-26 kill switch + onsite audits (Sep 18), Anthropic's first embedded evaluator with Accenture (Sep 18), Trump's 'AI Force'/AI czar (Sep 19, Bessent ruled out Sep 25), Claude Opus 5.5 and GPT-6 Sol/Luna (Sep 22, both first releases after the pacing calls), Altman + Amodei briefing the UN Security Council (Sep 23), Anthropic's Claude wet-lab enzyme discovery (Sep 23), a reported OpenAI agent breach of Australia's Medicare portal (Sep 24) and a reported SAFA standards body (low confidence). This file also catalogs every notable 2026 model release (Jan-Oct): OpenAI GPT-5.x/5.x-Codex/5.6/GPT-6 Astra/Sol/Luna/voice+image lines; Google Gemini 3.x incl. 3.8 Flash TTS/Veo/Lyria/Gemma 4/Robotics; Anthropic Claude 4.x/Fable 5/Mythos 5/Opus 5.5; xAI Grok 4.x; Meta Muse family; Mistral/NVIDIA/Cohere/Cognition/Poolside/Thinking Machines/Apple/TypeSafe; and Chinese labs DeepSeek V4/V4.1, Qwen 3.5-3.8 incl. Qwen3.8-Omni-Flash, Kimi K2.5-K3, GLM-5.x, MiniMax, StepFun, Baichuan, Huawei openPangu, Baidu Ernie, Tencent Hy3/Hy4, ByteDance Seed, Xiaomi MiMo, LongCat, iFlytek, SenseTime, vivo/OPPO/01.AI. Rumor/unreleased items are explicitly labeled. Sep 25-30 updates: OpenAI DNS-escape disclosure and research-training pause; U.S.-China AI dialogue and incident-channel agreement; Sonnet 5.5 and Eleven v4/v4 Turbo; reported shelving of GPT-6.1 Astra; NVIDIA Open Agent Safety Platform; GPT-6.1 Sol, dots, Codex Cloud, Space/Pages and Pro 500 at DevDay; signed voluntary White House safety accord and SI terminology order; Anthropic GLM-5.3 cyber assessment and robot-exposure study; restricted Gemini 4 Argon preview; SynthID Bio; ElevenLabs employee tender; and reported FTC safety investigation. Sources checked in real Chrome on Oct 1; general availability and reported decisions are qualified in each event. Selected additions verified in real Chrome on Oct 6: Grok 4.7 (Sep 21), Xiaomi MiMo-V2.6-Pro-RL (Sep 22), AMD's World Labs acquisition agreement (Sep 28), and Meta Muse Gadgets (Oct 2 UTC). October 8 research selections add Atlas, decision-model/API releases, Guided Vision, Claude Frontier Academy, text provenance and advertising updates, expanded CVP access, nuclear uprates, EmbeddingGemma 2, Mistral Large 4 API preview, OpenAI mathematics artifacts, Haiku 5.5, ChatGPT Intelligent UI and public SynthID Detector. Source evidence retains its original real-Chrome verification tier. Preview availability, planned rollouts and formalization limits are qualified in each event. October 10 selections add Whistle, Beam early access, Nano Banana 2.1, open d1 models, teen college planning, Anthropic Cyber Mission, Genesis funding and usage rules, and OpenAI influence-operation disclosures and the safety-researcher letter. Planned availability and disputed claims remain qualified. Microsoft-Decision-1 (Oct 9) is added by user request, available in Foundry with OpenRouter access forthcoming. October 15 reviews add 21 selected events, including 10 user-selected highlights; six candidates were excluded. An explicit user request also adds the October 14 Jev 1.14 preview, with experimental capabilities and the stable alias distinguished. October 17 review adds 23 selected events, including 10 user-selected highlights; two candidates were excluded and Cohere/AISLE remains pending. New coverage includes DeepSeek V4.1-Flash-1017 and Search/Fetch, Beam open weights, Kling 4.0, FLUX 3 Image Klein, Timestral, Granite Switch 4.1, Glimpse, RTX Spark, ChatGPT Slides and parallel agents, voice updates, scientific results and AI policy. The MOFCOM notice and Perplexity changelog retain Exa verification after Chrome timeouts; other new source references were read in real Chrome. Coverage extends through Oct 17.",
   "note_on_slowdown_pact": "There is NO verified binding agreement by frontier labs to slow or pause the AI race as of 2026-09-30. Closest events are: Seoul 2024 voluntary commitments, July 2026 Pacing the Frontier open letter (1178-1300+ employee signers, company-endorsed by OpenAI and Anthropic, asking US govt to build pacing tools, NOT an immediate pause), Aug 19 2026 reported single-lab OpenAI training pause (medium confidence, single source), and Sept 12 2026 Amodei essay calling to slow capability gains plus Altman/Musk/Hassabis endorsements and pact hints. Sep 13-15 pushback then closed the coordination paths: Sacks (Sep 13, no antitrust waiver or approval process — slow down voluntarily), Trump (Sep 13 Ireland remarks + Sep 14 Truth Social posts incl. hoax declarations + All-In call with Huang — pro-acceleration stands), Nadella (Sep 13, welcomed pacing and embedded evaluators but committed to nothing operational; Microsoft MAI Code draft Sep 14), Huang (Sep 14-15, no new laws; All-In ‘we're not going to let that happen’), Zuckerberg (Sep 15, each lab paces itself; liability and alignment suffice). Sep 16-24 produced no agreement but did harden the mechanisms around one: OpenAI opened a standing misalignment-report series (Sep 16), Anthropic named Accenture's Faculty as its first embedded evaluator with $1B each over five years — the first concrete delivery on Amodei's embedded-evaluator pledge (Sep 18) — and California put a frontier-model kill switch plus onsite independent verification on a ~60-day clock via EO N-9-26 (Sep 18, recommendations due ~Nov 16). Altman and Amodei then both briefed the UN Security Council on AI and international security (Sep 23, 10228th meeting) while asking for international standards. A reported joint 'Standards Authority for Frontier AI' (SAFA) from OpenAI/Anthropic/Google is logged as low-confidence rumor only and must not be presented as an existing body. US policy (July 2025 Action Plan) is explicitly pro-acceleration, which legally and politically blocks a joint pause (antitrust concerns), and Trump's Sep 19 'AI Force'/AI czar announcement added no new guardrails. This file records the actual slowdown-related milestones without overstating them. Subsequent verified developments: OpenAI’s Sep 25 DNS-escape report says training, evaluation, and tool-using inference for its most capable research models remain paused, following a Sep 20 incident; this is a single-lab incident response, not a joint pact. The White House’s Sep 25 fact sheet announces a U.S.-China AI-risk dialogue and agreement to establish an incident channel. On Sep 29 industry leaders did sign the voluntary White House Accord on Super Intelligence, described by Speaker Johnson as internal controls plus internal and external review. That signed safety accord is real, but does not establish a binding agreement to slow or pause capability development, and is distinct from the unconfirmed SAFA proposal. Sonnet 5.5 (Sep 28), GPT-6.1 Sol (Sep 29), and the restricted Gemini 4 Argon preview (Sep 30) also show continued model announcements. The Sep 30 FTC investigation is recorded as reported investigative scrutiny, not a regulatory finding.",
-  "count": 264,
+  "count": 287,
   "events": [
     {
       "id": "2025-09-29-sb53-effective-context",
@@ -6797,6 +6797,29 @@
       "verified": true
     },
     {
+      "id": "2026-10-14-claude-platform-opentelemetry-beta",
+      "highlight": false,
+      "date": "2026-10-14",
+      "title": "Anthropic adds OpenTelemetry tracing to the Claude Platform in public beta",
+      "category": "product",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic introduces OpenTelemetry traces for Claude Managed Agents, the Messages API and Claude SDKs. Developers can send model calls, tool and MCP activity, latency and token information to compatible observability systems through a destination configured in the Claude Console. The feature is in public beta.",
+      "significance": "Extends standard tracing across custom Claude agents so teams can inspect multi-step behavior in their existing monitoring tools.",
+      "tags": ["observability", "opentelemetry", "agents", "public-beta"],
+      "sources": [
+        {
+          "label": "Agent observability on the Claude Platform",
+          "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Trace agents with OpenTelemetry on the Claude Platform | Claude by Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-14-eight-states-openai-consumer-lawsuits",
       "highlight": false,
       "date": "2026-10-14",
@@ -6960,6 +6983,29 @@
       "verified": true
     },
     {
+      "id": "2026-10-15-anthropic-code-review-ga",
+      "highlight": true,
+      "date": "2026-10-15",
+      "title": "Anthropic makes Claude Code Review generally available to Team and Enterprise",
+      "category": "product",
+      "organizations": ["Anthropic"],
+      "summary": "Claude Code Review leaves research preview and becomes available to Claude Team and Enterprise organizations. Anthropic adds faster reviews, repository-specific review depth and automatic reviews on new pull requests. Eligible Enterprise organizations can claim promotional credits under stated eligibility and expiry terms.",
+      "significance": "Moves agent-assisted pull-request review into general availability with controls aimed at the review bottleneck.",
+      "tags": ["claude-code", "code-review", "general-availability"],
+      "sources": [
+        {
+          "label": "Code Review is now generally available",
+          "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Code Review is now generally available | Claude by Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-15-anthropic-metr-embedded-evaluators",
       "highlight": true,
       "date": "2026-10-15",
@@ -6976,6 +7022,52 @@
           "type": "blog",
           "verified": true,
           "verifiedTitle": "Anthropic update on independent evaluators \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-15-apollo-glm53-update-aware-reasoning",
+      "highlight": false,
+      "date": "2026-10-15",
+      "title": "Apollo reports rare update-aware reasoning in GLM-5.3 evaluations",
+      "category": "advance",
+      "organizations": ["Apollo Research", "Z.ai"],
+      "summary": "Apollo Research reports GLM-5.3 occasionally reasoning unprompted about how its present actions could influence training updates or future models. The behavior appeared in roughly one to two per thousand evaluated rollouts, including environments that did not mention training. Apollo describes a precursor capability relevant to alignment faking, while explicitly saying these examples are not alignment faking because the goals appear consistent with developer intent.",
+      "significance": "Offers concrete evaluation evidence for studying whether models reason about how training might change their behavior.",
+      "tags": ["ai-safety", "evaluations", "alignment", "glm"],
+      "sources": [
+        {
+          "label": "GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior",
+          "url": "https://www.apolloresearch.ai/science/update-aware-reasoning-glm-5-3",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Update-Aware Reasoning in GLM-5.3: Training & Alignment Faking",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-15-chatgpt-gpt-live-11-rollout",
+      "highlight": true,
+      "date": "2026-10-15",
+      "title": "OpenAI begins rolling out GPT-Live-1.1 and Quip in ChatGPT Voice",
+      "category": "model-release",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI begins rolling out GPT-Live-1.1 and the smaller GPT-Live-1.1 Quip in ChatGPT Voice. The update brings more natural accents and additional voice options across several languages, with choices varying by account and region. This consumer Voice rollout is separate from the API’s prompt-to-voice feature.",
+      "significance": "Updates the models and multilingual voice options behind ChatGPT’s consumer speech interface.",
+      "tags": ["voice", "gpt-live", "chatgpt", "rolling-launch"],
+      "sources": [
+        {
+          "label": "ChatGPT release notes",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "ChatGPT release notes | OpenAI Help Center",
           "verifiedVia": "playwright-user-chrome"
         }
       ],
@@ -7006,6 +7098,75 @@
       "verified": true
     },
     {
+      "id": "2026-10-15-flux-3-image-klein",
+      "highlight": false,
+      "date": "2026-10-15",
+      "title": "Black Forest Labs releases 5.6B FLUX 3 Image Klein weights and API",
+      "category": "model-release",
+      "organizations": ["Black Forest Labs"],
+      "summary": "Black Forest Labs releases FLUX 3 Image Klein for text-to-image generation, image editing and generation with up to ten reference images. The 5.6B-parameter family includes base and step-distilled checkpoints, native 4K generation and bounding-box control, with quantized builds for smaller GPUs. Its FLUX Kommunity License permits free commercial use below a $5 million annual-revenue threshold; larger organizations need other licensing or API access. Quality and speed comparisons are vendor-reported.",
+      "significance": "Brings the FLUX 3 image family to smaller local hardware while retaining editing and spatial controls.",
+      "tags": ["image-generation", "image-editing", "open-weights", "local-ai"],
+      "sources": [
+        {
+          "label": "FLUX 3 Image Klein",
+          "url": "https://bfl.ai/blog/flux-3-image-klein",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "FLUX 3 Image Klein: open weights, 5.6B parameters | Black Forest Labs",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-15-ibm-granite-switch-41",
+      "highlight": false,
+      "date": "2026-10-15",
+      "title": "IBM releases Granite Switch 4.1 for chat, decisions and speech in one endpoint",
+      "category": "model-release",
+      "organizations": ["IBM"],
+      "summary": "IBM releases Granite Switch 4.1 in 8B and 30B configurations combining a language model with general Decision and safety-focused Guardian adapters and a speech-transcription encoder. Activated LoRA adapters can reuse the base model’s KV cache across chat and decision tasks. IBM reports memory, speed and specialized classification advantages, while saying further details and data will follow.",
+      "significance": "Combines decision models and speech with a shared language-model deployment rather than separate full-model endpoints.",
+      "tags": ["decision-models", "speech-recognition", "adapters", "granite"],
+      "sources": [
+        {
+          "label": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-15-kling-4-release",
+      "highlight": false,
+      "date": "2026-10-15",
+      "title": "Kuaishou launches Kling 4.0; developer API access remains forthcoming",
+      "category": "model-release",
+      "organizations": ["Kuaishou", "Kling AI"],
+      "summary": "Kuaishou says Kling 4.0 officially launched on October 15, in a company release distributed October 16. The video model supports native single-pass generation of up to 30 seconds, up to 15 reference assets and ten keyframe inputs, and 10-bit HDR output. Kling MCP and CLI integration is announced, while enterprise and developer API access is described as coming soon. Motion quality and other capability claims are attributed to Kuaishou.",
+      "significance": "Expands video duration and reference-based control for professional production workflows.",
+      "tags": ["video-generation", "kling", "multimodal"],
+      "sources": [
+        {
+          "label": "Kling AI Officially Launches Next-Generation Kling 4.0, Raising the Bar for Professional-Grade Video Models",
+          "url": "https://www.globenewswire.com/news-release/2026/10/16/3382768/0/en/kling-ai-officially-launches-next-generation-kling-4-0-raising-the-bar-for-professional-grade-video-models.html",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Kling AI Officially Launches Next-Generation Kling 4.0,",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-15-meta-muse-spark-open",
       "highlight": true,
       "date": "2026-10-15",
@@ -7029,6 +7190,52 @@
       "verified": true
     },
     {
+      "id": "2026-10-15-microsoft-mai-base-2-pretraining",
+      "highlight": false,
+      "date": "2026-10-15",
+      "title": "Microsoft reports completed MAI-Base-2 pretraining; post-training continues",
+      "category": "advance",
+      "organizations": ["Microsoft"],
+      "summary": "Microsoft AI reports completing pretraining of MAI-Base-2, a mixture-of-experts model with 2.8 trillion total and 80 billion active parameters. It describes 38 days of training on 16,000 GB200 GPUs and reports efficiency gains on its own held-out evaluations. The model is still undergoing post-training, and licensing weights to trusted Foundry partners is a future intention rather than an available open-weight release.",
+      "significance": "Documents Microsoft’s progress on an internally trained frontier-scale base model and its model-infrastructure co-design.",
+      "tags": ["pretraining", "mai", "frontier-models", "infrastructure"],
+      "sources": [
+        {
+          "label": "Latest models",
+          "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Frontier Pre-training at Microsoft AI | Microsoft AI",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-15-mistral-timestral",
+      "highlight": false,
+      "date": "2026-10-15",
+      "title": "Mistral releases Timestral, a CPU-capable time-series model family",
+      "category": "model-release",
+      "organizations": ["Mistral AI"],
+      "summary": "Mistral releases Timestral in four sizes from 5M to 209M parameters for probabilistic multivariate forecasting with past and known-future covariates. The models support a 32,768-step context and CPU inference, with code available and adaptation through Mistral Forge. The announcement lists a Modified MIT licence and says a fuller technical report will follow; benchmark leadership is Mistral’s reported result.",
+      "significance": "Extends foundation models into compact forecasting systems for industrial and operational data.",
+      "tags": ["time-series", "forecasting", "cpu-inference"],
+      "sources": [
+        {
+          "label": "Introducing Timestral",
+          "url": "https://mistral.ai/news/timestral/",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Timestral: Mistral's time-series foundation models | Mistral",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
       "id": "2026-10-15-nvidia-nemotron-35-super-vl-bolt",
       "highlight": false,
       "date": "2026-10-15",
@@ -7045,6 +7252,354 @@
           "type": "blog",
           "verified": true,
           "verifiedTitle": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models | NVIDIA Blog",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-chatgpt-gpt6-pro-parallel-agents",
+      "highlight": true,
+      "date": "2026-10-16",
+      "title": "ChatGPT’s GPT-6 Pro update adds parallel agents for eligible Pro users",
+      "category": "product",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI updates GPT-6 Pro in ChatGPT’s chat tab with faster responses, improved plugin and tool use, and multiple agents working on separate parts of a task in parallel. Users can follow their progress and inspect completed subtasks in the conversation. The rollout is for eligible Pro users, with managed-workspace availability depending on settings and eligibility.",
+      "significance": "Brings visible parallel task execution into the ChatGPT chat experience.",
+      "tags": ["chatgpt", "parallel-agents", "gpt-6", "rolling-launch"],
+      "sources": [
+        {
+          "label": "ChatGPT release notes",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "ChatGPT release notes | OpenAI Help Center",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-chatgpt-slides-rollout",
+      "highlight": true,
+      "date": "2026-10-16",
+      "title": "OpenAI rolls out collaborative ChatGPT Slides in Space",
+      "category": "product",
+      "organizations": ["OpenAI"],
+      "summary": "ChatGPT Slides begins rolling out to eligible Pro, Business and Enterprise users with Space access on web and desktop. Users can create editable presentations from conversations, files or reference decks, collaborate in real time and leave shared comments. Web exports include PowerPoint, PDF and Google Slides; desktop users can open decks in installed PowerPoint or Keynote apps.",
+      "significance": "Adds a native collaborative presentation workflow to ChatGPT’s shared workspace.",
+      "tags": ["presentations", "collaboration", "chatgpt", "rolling-launch"],
+      "sources": [
+        {
+          "label": "ChatGPT release notes",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "ChatGPT release notes | OpenAI Help Center",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-china-ai-export-draft-registration",
+      "highlight": false,
+      "date": "2026-10-16",
+      "title": "China proposes new AI export controls and starts interim registration",
+      "category": "policy",
+      "organizations": ["Ministry of Commerce of China", "Ministry of Science and Technology of China"],
+      "summary": "China’s commerce and science ministries propose adding 40 technologies to the restricted-export catalogue, including 23 AI technologies covering models, agents, compute clusters and information processing. Public comments run from October 16 to November 15. Interim pre-export registration takes effect on publication for covered transfers, while the catalogue revisions remain proposals. The notice says technologies already made public through open source or academic publication are outside its scope.",
+      "significance": "Introduces an immediate registration requirement alongside proposed restrictions affecting international transfers of AI technology.",
+      "tags": ["china", "export-controls", "consultation"],
+      "sources": [
+        {
+          "label": "MOFCOM and Ministry of Science and Technology Announcement No. 48",
+          "url": "https://www.mofcom.gov.cn/zcfb/blgg/art/2026/art_1666fcaa24424766afe0683498ff0908.html",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "商务部 科技部公告2026年第48号 就修订《中国禁止出口限制出口技术目录》公开征求意见并对相关技术出口实施临时登记管理",
+          "verifiedVia": "exa",
+          "note": "Real Chrome navigation timed out; full original title, October 16 date and body read through Exa. Annex technical thresholds were not independently read."
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-china-ai-plus-state-council",
+      "highlight": false,
+      "date": "2026-10-16",
+      "title": "China’s State Council calls for expanded AI Plus deployment and risk assessment",
+      "category": "policy",
+      "organizations": ["State Council of China"],
+      "summary": "At an October 16 executive meeting, China’s State Council calls for advancing the AI Plus initiative through algorithmic innovation, coordinated computing and electricity supply, and higher-quality data. It also urges real-economy deployment, pilot validation and industry-specific risk assessment. The government report is published October 17 and describes policy direction rather than a newly enacted AI statute.",
+      "significance": "Pairs national AI deployment priorities with infrastructure planning and differentiated safety assessment.",
+      "tags": ["china", "ai-policy", "infrastructure"],
+      "sources": [
+        {
+          "label": "Copyright© www.gov.cn | About us",
+          "url": "https://english.www.gov.cn/news/202610/17/content_WS6ad2c43cc6d00ca5f9a0dbb8.html",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Chinese premier chairs State Council executive meeting",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-claude-ecdsa-seed-origins",
+      "highlight": true,
+      "date": "2026-10-16",
+      "title": "Anthropic reports Claude tracing NIST elliptic-curve seed origins",
+      "category": "advance",
+      "organizations": ["Anthropic"],
+      "summary": "Anthropic reports that an internal Claude research model traced five NIST prime-curve seeds to the C library’s lrand48 generator initialized with Unix timestamps from 1997–1998. The team publishes a reproducible explanation addressing a longstanding provenance question; some other parameter origins remain unresolved. The finding is not a cryptographic break, new attack or newly discovered weakness in ECDSA.",
+      "significance": "Uses AI-assisted investigation to resolve part of the historical uncertainty around a widely deployed cryptographic standard.",
+      "tags": ["cryptography", "ai-science", "ecdsa", "security-research"],
+      "sources": [
+        {
+          "label": "Claude reveals ECDSA curve origins",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Claude reveals ECDSA curve origins \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-claude-quantum-circuit-design",
+      "highlight": true,
+      "date": "2026-10-16",
+      "title": "Anthropic reports Claude-designed improvements to eight quantum circuit tasks",
+      "category": "advance",
+      "organizations": ["Anthropic", "Harvard University", "QuEra Computing"],
+      "summary": "Anthropic reports Claude Mythos 5 designing improved circuits for eight quantum-computing primitives through a closed loop with an automated evaluator. Examples include a reversible modular-inversion approach and a decoder with twelve times fewer gates than a prior construction. One highlighted tradeoff uses 17 times fewer gates with 12% more qubits, so improvements are not uniformly reductions in every resource. These are reported circuit-design results rather than evidence of practical quantum advantage or a new model launch.",
+      "significance": "Shows AI assistance reducing estimated resource costs of quantum algorithms through verifiable circuit design.",
+      "tags": ["ai-science", "quantum-computing", "claude", "algorithms"],
+      "sources": [
+        {
+          "label": "Designing more efficient quantum circuits with Claude",
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Designing more efficient quantum circuits with Claude \\ Anthropic",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-elorian-glimpse-preview",
+      "highlight": false,
+      "date": "2026-10-16",
+      "title": "Elorian introduces Glimpse, a visual-thinking research preview",
+      "category": "model-release",
+      "organizations": ["Elorian"],
+      "summary": "Elorian introduces Glimpse in research preview through its API and chat interface. The model revisits images and video during reasoning, uses multimodal tools and can coordinate subagents exchanging visual artifacts. Elorian says a small team post-trained an open-weight base model on a few hundred GPUs and reports competitive results on selected visual evaluations at $0.60 input and $3 output per million tokens; the benchmark comparisons are vendor-run.",
+      "significance": "Explores visual reasoning that actively returns to source imagery rather than relying on a single initial encoding.",
+      "tags": ["visual-reasoning", "multimodal", "research-preview"],
+      "sources": [
+        {
+          "label": "Visual thinking\nthat stays grounded",
+          "url": "https://elorian.ai/blog/introducing-glimpse",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Introducing Glimpse — Elorian",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-eu-era-ai-research-guidelines",
+      "highlight": false,
+      "date": "2026-10-16",
+      "title": "European Commission updates research AI guidelines for agents and peer review",
+      "category": "policy",
+      "organizations": ["European Commission"],
+      "summary": "The European Commission updates its ERA Living Guidelines on responsible generative AI use in research. The recommendations add guidance for agentic AI and clarify AI use in peer review and research-proposal evaluation, emphasizing accountability, transparency and oversight. This is updated practical guidance rather than binding legislation or an enforcement decision.",
+      "significance": "Extends research-integrity guidance to autonomous agents and decisions affecting scientific evaluation.",
+      "tags": ["research-governance", "agents", "peer-review"],
+      "sources": [
+        {
+          "label": "ERA Living Guidelines on the responsible use of Generative AI in research updated",
+          "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/era-living-guidelines-responsible-use-generative-ai-research-updated-2026-10-16_en",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "ERA Living Guidelines on the responsible use of Generative AI in research updated - Research and innovation",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-google-wet-lab-agents",
+      "highlight": false,
+      "date": "2026-10-16",
+      "title": "Google reports closed-loop wet-lab agents and the VERID laboratory digital twin",
+      "category": "advance",
+      "organizations": ["Google Research"],
+      "summary": "Google Research presents VERID, a digital twin for validating robot protocols, alongside closed-loop aptamer and protein-binder discovery projects. It reports confirmed on-target aptamer hit rates of 33.5% for myoglobin and 42.1% for alpha-thrombin after three rounds, and single-digit-nanomolar FAP binders in separate experiments. Humans authorize sequences, verify protocols and supervise robot runs. These are controlled research results and do not demonstrate therapeutic efficacy.",
+      "significance": "Connects agent-generated hypotheses with measured laboratory feedback while exposing physical-state and experimental reliability challenges.",
+      "tags": ["ai-science", "biology", "robotics", "wet-lab"],
+      "sources": [
+        {
+          "label": "Explore our many areas of focus",
+          "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-nvidia-rtx-spark-laptops",
+      "highlight": true,
+      "date": "2026-10-16",
+      "title": "NVIDIA announces global availability of RTX Spark Windows laptops",
+      "category": "infrastructure",
+      "organizations": ["NVIDIA", "MediaTek", "Microsoft"],
+      "summary": "NVIDIA announces RTX Spark laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI, starting at $2,599 with regional configurations varying. The platform combines a Blackwell RTX GPU and Grace CPU with up to 128GB unified memory and a claimed peak of one petaflop of FP4 AI performance. It supports local models and agents alongside Windows creative and developer workflows; peak specifications and performance claims are NVIDIA’s.",
+      "significance": "Expands high-memory local AI from desktop systems into portable Windows PCs.",
+      "tags": ["local-ai", "hardware", "windows", "blackwell"],
+      "sources": [
+        {
+          "label": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs | NVIDIA Newsroom",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-openai-prompt-to-voice-ga",
+      "highlight": true,
+      "date": "2026-10-16",
+      "title": "OpenAI makes prompt-to-voice available to all API customers",
+      "category": "product",
+      "organizations": ["OpenAI"],
+      "summary": "OpenAI releases prompt-to-voice for all API customers, allowing a text description to create a reusable custom voice for GPT-Live sessions through the API or Playground. Voice creation is free, while speech generation uses normal GPT-Live session billing. The same dated entry adds nine voices across German, French, Hindi, Japanese and Korean.",
+      "significance": "Expands API voice customization without requiring a recorded voice sample.",
+      "tags": ["voice", "api", "custom-voices"],
+      "sources": [
+        {
+          "label": " Search the API docs ",
+          "url": "https://developers.openai.com/api/docs/changelog#2026-10-16-released-prompt-to-voice-for-all-api-customers-cre",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Changelog | OpenAI API",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-perplexity-decider12-ai-gateway",
+      "highlight": true,
+      "date": "2026-10-16",
+      "title": "Perplexity Decider V1.2 and Flash V1.2 become available on AI Gateway",
+      "category": "model-release",
+      "organizations": ["Perplexity", "Vercel"],
+      "summary": "Vercel’s October 16 announcement makes Perplexity Decider V1.2 27B and Decider Flash V1.2 4B available on AI Gateway. Both accept text and images for classification, routing and scoring; Perplexity’s own changelog describes the 27B update replacing v1.1 and the new 4B Flash option. Perplexity lists input prices of $0.02 and $0.01 per million tokens respectively, with free output. October 16 is the verified Gateway availability date; the provider changelog specifies only October for its underlying rollout.",
+      "significance": "Adds a smaller multimodal decision model alongside the revised 27B model, distinct from the previously rejected v1.1 update.",
+      "tags": ["decision-models", "multimodal", "routing"],
+      "sources": [
+        {
+          "label": "Perplexity's Decider V1.2 models now available on AI Gateway",
+          "url": "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Perplexity's Decider V1.2 models now available on AI Gateway - Vercel",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Perplexity API changelog",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Changelog - Perplexity",
+          "verifiedVia": "exa",
+          "note": "Real Chrome navigation timed out. Full title, October 2026 heading and relevant body read through Exa; exact day is not given."
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-16-reflection-beam-open-release",
+      "highlight": false,
+      "date": "2026-10-16",
+      "title": "Reflection releases Beam weights, Mirror CLI and a public-beta API",
+      "category": "model-release",
+      "organizations": ["Reflection AI"],
+      "summary": "Reflection releases Beam’s weights under Apache 2.0, alongside Mirror CLI, deployment integrations and a public beta of its first-party API. The text-only mixture-of-experts model has 501B total and 23B active parameters and a one-million-token context window. BF16, FP8 and NVFP4 checkpoints and a speculative decoding drafter are available. This completes a distinct public-release milestone after the October 5 early-access announcement, which promised weights later in the month.",
+      "significance": "Adds a broadly deployable US open-weight model and the tools to run and customize it across coding-agent environments.",
+      "tags": ["open-weights", "coding", "agents", "apache-2.0"],
+      "sources": [
+        {
+          "label": "Try Beam today",
+          "url": "https://reflection.ai/blog/beam-is-available",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Beam is now available — Reflection",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "Welcome Beam: a 501B open model you can own, customize, and scale",
+          "url": "https://huggingface.co/blog/reflection-beam",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Welcome Beam: a 501B open model you can own, customize, and scale",
+          "verifiedVia": "playwright-user-chrome"
+        }
+      ],
+      "confidence": "high",
+      "verified": true
+    },
+    {
+      "id": "2026-10-17-deepseek-v41-flash-1017-search",
+      "highlight": true,
+      "date": "2026-10-17",
+      "title": "DeepSeek updates V4.1 Flash and opens Search and Fetch APIs",
+      "category": "model-release",
+      "organizations": ["DeepSeek"],
+      "summary": "DeepSeek’s dated changelog upgrades V4.1 Flash to V4.1-Flash-1017 across web, app and API, with the deepseek-flash alias and API prices unchanged. The company reports stronger coding, reasoning and visual results with shorter outputs and lower task runtime, and publishes weights through Hugging Face and ModelScope. It also opens Search and Fetch APIs at $0.75 per 1,000 calls per endpoint, with specified server-side-tool usage free until October 31 at 16:00 UTC. Benchmark and efficiency improvements are DeepSeek’s reported results.",
+      "significance": "Adds a concrete Flash version update and exposes DeepSeek’s search infrastructure to developers.",
+      "tags": ["deepseek", "model-update", "search-api", "open-weights"],
+      "sources": [
+        {
+          "label": "Change Log",
+          "url": "https://api-docs.deepseek.com/updates",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "Change Log | DeepSeek API Docs",
+          "verifiedVia": "playwright-user-chrome"
+        },
+        {
+          "label": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
+          "url": "https://api-docs.deepseek.com/news/news261017/",
+          "type": "official",
+          "verified": true,
+          "verifiedTitle": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real | DeepSeek API Docs",
           "verifiedVia": "playwright-user-chrome"
         }
       ],
